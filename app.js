@@ -82,7 +82,7 @@ function freq(c) {
   const r = c.k && c.k[state.target];
   const lit = !r ? 0 : r <= 50 ? 5 : r <= 200 ? 4 : r <= 500 ? 3 : r <= 1000 ? 2 : 1;
   const bars = [0, 1, 2, 3, 4].map(i => `<span class="w-0.5 rounded-full ${i < lit ? 'bg-amber-400' : 'bg-zinc-700'}" style="height:${4 + i * 2}px"></span>`).join('');
-  return `<span class="absolute top-2 left-2 flex items-end gap-1 text-xs text-zinc-500" title="${r ? '#' + r : ''}"><span class="flex items-end gap-px">${bars}</span>${r ? '#' + r : '–'}</span>`;
+  return `<span class="absolute top-2 left-2 flex items-end gap-px" title="${r ? '#' + r : ''}">${bars}</span>`;
 }
 
 function columns() {
