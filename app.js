@@ -75,6 +75,7 @@ function badge(c) {
 
 const COPY_ICON = '<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>';
 const CHECK_ICON = '<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
+const TRANSLATE_ICON = '<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg>';
 const HEIGHTS = [208, 224, 240];   // px of h-52 / h-56 / h-60
 
 // how common the word is: rank in the frequency list of the deck language (1 = most common)
@@ -97,6 +98,7 @@ function cardHTML(c, h) {
   return `<article class="card ${height} relative overflow-hidden bg-zinc-900 p-4 flex flex-col items-center justify-center text-center cursor-pointer select-none" data-e="${esc(c.e)}">
       ${freq(c)}
       <button type="button" class="copy absolute top-1.5 right-1.5 flex items-center justify-center w-6 h-6 rounded-full border border-zinc-700 text-zinc-500 hover:text-amber-400 hover:border-amber-400 cursor-pointer" aria-label="Copy" data-w="${esc(word)}">${COPY_ICON}</button>
+      <a class="gt absolute top-1.5 right-9 flex items-center justify-center w-6 h-6 rounded-full border border-zinc-700 text-zinc-500 hover:text-amber-400 hover:border-amber-400" aria-label="Google Translate" target="_blank" rel="noopener" href="https://translate.google.com/?sl=${state.target}&tl=${state.base}&text=${encodeURIComponent(word)}&op=translate">${TRANSLATE_ICON}</a>
       <div class="text-amber-400 flex justify-center shrink-0">${c.g ? `<svg class="${size}"><use href="#i-${c.g}"/></svg>` : badge(c)}</div>
       <div class="mt-2 font-semibold ${state.target === 'th' ? 'text-xl' : 'text-lg'} leading-snug">${esc(word)}</div>
       <div class="h-4 text-xs text-zinc-500 mt-0.5">${esc(transcription(c))}</div>
@@ -127,6 +129,7 @@ function render() {
   });
   $('grid').innerHTML = cols.map(c => `<div class="flex-1 min-w-0 flex flex-col gap-px">${c.html}</div>`).join('');
   $('grid').querySelectorAll('.card').forEach(el => el.onclick = () => el.classList.toggle('open'));
+  $('grid').querySelectorAll('.gt').forEach(a => a.onclick = e => e.stopPropagation());
   $('grid').querySelectorAll('.copy').forEach(b => b.onclick = e => {
     e.stopPropagation();
     copyText(b.dataset.w).then(() => {
