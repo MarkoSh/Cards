@@ -100,7 +100,7 @@ function cardHTML(c, h) {
       <button type="button" class="copy absolute top-1.5 right-1.5 flex items-center justify-center w-6 h-6 rounded-full border border-zinc-700 text-zinc-500 hover:text-amber-400 hover:border-amber-400 cursor-pointer" aria-label="Copy" data-w="${esc(word)}">${COPY_ICON}</button>
       <a class="gt absolute top-1.5 right-9 flex items-center justify-center w-6 h-6 rounded-full border border-zinc-700 text-zinc-500 hover:text-amber-400 hover:border-amber-400" aria-label="Google Translate" target="_blank" rel="noopener" href="https://translate.google.com/?sl=${state.target}&tl=${state.base}&text=${encodeURIComponent(word)}&op=translate">${TRANSLATE_ICON}</a>
       <div class="text-amber-400 flex justify-center shrink-0">${c.g ? `<svg class="${size}"><use href="#i-${c.g}"/></svg>` : badge(c)}</div>
-      <div class="mt-2 font-semibold ${state.target === 'th' ? 'text-xl' : 'text-lg'} leading-snug">${esc(word)}</div>
+      <div class="word mt-2 font-semibold ${state.target === 'th' ? 'text-xl' : 'text-lg'} leading-snug">${esc(word)}</div>
       <div class="h-4 text-xs text-zinc-500 mt-0.5">${esc(transcription(c))}</div>
       <div class="translation h-10 mt-2 pt-2 border-t border-zinc-800 text-sm text-zinc-400">${esc(c[FIELD[state.base]])}</div>
     </article>`;

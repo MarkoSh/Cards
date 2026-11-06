@@ -8,3 +8,4 @@
 .card.open .translation { opacity: 1; }
 .card.open { outline-color: var(--color-amber-400); }
 @media (prefers-reduced-motion: reduce) { .card, .card .translation { transition: none; } }
+.word { font-family: 'Google Sans', var(--font-sans); }
