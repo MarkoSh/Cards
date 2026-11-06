@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cards — слова в карточках: English · Русский · ไทย</title>
+<meta name="description" content="1000 самых частых существительных и 1000 глаголов английского, русского и тайского в карточках с иконками, транскрипцией и переводом.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="app.css">
+</head>
+<body class="bg-zinc-950 text-zinc-100 font-sans antialiased">
+
+<header class="sticky top-0 z-10 bg-zinc-950/95 backdrop-blur border-b border-zinc-800">
+  <div class="flex flex-wrap items-center gap-x-3 gap-y-2 px-3 py-2">
+    <a href="./" class="flex items-center gap-2 font-bold text-lg tracking-tight">
+      <svg class="w-7 h-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a2 2 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/></svg>
+      Cards
+    </a>
+    <div class="flex items-center gap-1.5">
+      <div id="base" class="flex gap-0.5 rounded-xl bg-zinc-900 p-0.5 text-sm" role="group" aria-label="Base language"></div>
+      <svg class="w-4 h-4 text-zinc-600 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      <div id="targets" class="flex gap-0.5 rounded-xl bg-zinc-900 p-0.5 text-sm" role="group" aria-label="Deck language"></div>
+    </div>
+    <div class="flex w-full sm:w-auto sm:ml-auto items-center gap-2">
+      <div id="pos" class="flex gap-0.5 rounded-xl bg-zinc-900 p-0.5 text-sm" role="group"></div>
+      <input id="q" type="search" placeholder="Поиск…" class="min-w-0 flex-1 sm:flex-none sm:w-44 rounded-xl bg-zinc-900 border border-zinc-800 px-3 py-1.5 text-sm text-zinc-100 outline-none focus:border-amber-400">
+    </div>
+  </div>
+</header>
+
+<main id="grid" class="flex items-start gap-px p-px"></main>
+<div id="empty" class="hidden py-20 text-center text-zinc-500">Ничего не найдено</div>
+
+<footer class="mt-4 border-t border-zinc-800 px-3 py-6 text-xs text-zinc-500 space-y-2">
+  <p id="footer-note">Иконки: <a class="underline" href="https://openmoji.org" rel="noopener" target="_blank">OpenMoji</a> (CC BY-SA 4.0). Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.</p>
+  <p class="flex flex-wrap gap-x-3 gap-y-1"><span id="projects-label">Другие проекты:</span>
+    <a class="underline" href="https://thai.dateonymous.com">ThaiFast</a>
+    <a class="underline" href="https://eng.dateonymous.com">EngFast</a>
+    <a class="underline" href="https://sumer.dateonymous.com">SumerFast</a>
+    <a class="underline" href="https://brain.dateonymous.com">BrainFast</a>
+    <a class="underline" href="https://meditatio.dateonymous.com">Meditat.io</a>
+  </p>
+</footer>
+
+<div id="sprite" class="hidden" aria-hidden="true"></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

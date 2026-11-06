@@ -1,0 +1,17 @@
+{
+  "name": "cards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "css": "tailwindcss -i src.css -o app.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.4",
+    "tailwindcss": "^4.3.4"
+  }
+}

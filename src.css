@@ -1,0 +1,10 @@
+@import "tailwindcss" source(none);
+@source "./index.html";
+@source "./app.js";
+
+
+.card { outline: 1px solid transparent; outline-offset: -1px; transition: outline-color .1s ease-in-out; }
+.card .translation { opacity: 0; transition: opacity .1s ease-in-out; }
+.card.open .translation { opacity: 1; }
+.card.open { outline-color: var(--color-amber-400); }
+@media (prefers-reduced-motion: reduce) { .card, .card .translation { transition: none; } }
