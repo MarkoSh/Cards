@@ -96,7 +96,7 @@ function cardHTML(c, h) {
   const word = c[FIELD[state.target]];
   return `<article class="card ${height} relative overflow-hidden bg-zinc-900 p-4 flex flex-col items-center justify-center text-center cursor-pointer select-none" data-e="${esc(c.e)}">
       ${freq(c)}
-      <button type="button" class="copy absolute top-1.5 right-1.5 flex items-center rounded-full border border-zinc-700 px-2 py-0.5 text-zinc-500 hover:text-amber-400 hover:border-amber-400 cursor-pointer" aria-label="Copy" data-w="${esc(word)}">${COPY_ICON}</button>
+      <button type="button" class="copy absolute top-1.5 right-1.5 flex items-center justify-center w-6 h-6 rounded-full border border-zinc-700 text-zinc-500 hover:text-amber-400 hover:border-amber-400 cursor-pointer" aria-label="Copy" data-w="${esc(word)}">${COPY_ICON}</button>
       <div class="text-amber-400 flex justify-center shrink-0">${c.g ? `<svg class="${size}"><use href="#i-${c.g}"/></svg>` : badge(c)}</div>
       <div class="mt-2 font-semibold ${state.target === 'th' ? 'text-xl' : 'text-lg'} leading-snug">${esc(word)}</div>
       <div class="h-4 text-xs text-zinc-500 mt-0.5">${esc(transcription(c))}</div>
