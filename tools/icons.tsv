@@ -1757,3 +1757,50 @@ spin	v	~	1F300
 wear	v	~	1F455
 wash	v	=	1F9FC
 yell	v	~	1F4E3
+worker	n	=	1F9D1-200D-1F3ED
+chest	n	-	
+degree	n	=	1F393
+right	n	-	
+gold	n	~	1F947
+instrument	n	-	
+keyboard	n	=	2328
+mirror	n	=	1FA9E
+nail	n	=	1F528
+needle	n	=	1FAA1
+note	n	=	1F4DD
+nut	n	=	1F330
+pool	n	=	1F3CA
+post	n	-	
+rocket	n	=	1F680
+rubber	n	-	
+ruin	n	-	
+speaker	n	=	1F5E3
+square	n	-	
+steam	n	=	2668
+tablet	n	=	1F48A
+vehicle	n	=	1F697
+warning	n	=	26A0
+wheel	n	=	1F6DE
+planet	n	=	1FA90
+science	n	=	1F9EA
+bow	v	=	1F647
+drive	v	=	1F697
+exercise	v	=	1F3CB
+fall	v	-	
+find	v	=	1F50E
+fold	v	-	
+forbid	v	=	26D4
+knock	v	=	270A
+know	v	=	1F9E0
+play	v	=	1F3AE
+post	v	-	
+print	v	=	1F5A8
+program	v	=	1F4BB
+pump	v	=	26FD
+ruin	v	-	
+shut	v	-	
+smoke	v	=	1F6AC
+stretch	v	-	
+tear	v	-	
+wave	v	=	1F44B
+whisper	v	=	1F92B
