@@ -163,9 +163,8 @@ function renderAll() {
   render();
 }
 
-fetch('icons/sprite.svg').then(r => r.text()).then(t => {
-  $('sprite').innerHTML = t;
-}).catch(() => {}).finally(renderAll);
+$('sprite').innerHTML = SPRITE;
+renderAll();
 $('q').oninput = render;
 let cols = columns();
 window.addEventListener('resize', () => { if (columns() !== cols) { cols = columns(); render(); } });

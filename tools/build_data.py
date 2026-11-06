@@ -1,4 +1,4 @@
-"""Build data.js + icons/sprite.svg for Cards.
+"""Build data.js + icons/sprite.js for Cards.
 
 Reads tools/concepts.tsv (en<TAB>ru<TAB>th<TAB>n|v), tools/freq.json,
 tools/openmoji.json. Adds en IPA (eng_to_ipa), th romanization (pythainlp royin),
@@ -214,8 +214,10 @@ def build_sprite(hexcodes):
         inner = re.sub(r'stroke="#[0-9a-fA-F]{3,6}"', 'stroke="currentColor"', inner)
         parts.append(f'<symbol id="i-{hc}" viewBox="0 0 72 72">{inner}</symbol>')
     os.makedirs(os.path.join(ROOT, 'icons'), exist_ok=True)
-    with open(os.path.join(ROOT, 'icons', 'sprite.svg'), 'w', encoding='utf8') as f:
-        f.write('<svg xmlns="http://www.w3.org/2000/svg">' + ''.join(parts) + '</svg>')
+    # a script, not a fetched .svg: works when index.html is opened from file://
+    svg = '<svg xmlns="http://www.w3.org/2000/svg">' + ''.join(parts) + '</svg>'
+    with open(os.path.join(ROOT, 'icons', 'sprite.js'), 'w', encoding='utf8') as f:
+        f.write('const SPRITE=' + json.dumps(svg) + ';\n')
     print('sprite:', len(parts), 'icons')
 
 def main():

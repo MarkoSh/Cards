@@ -2,7 +2,7 @@
 
 Галерея карточек: 1000 самых частых существительных и 1000 глаголов английского,
 русского и тайского. Иконки OpenMoji (CC BY-SA 4.0), транскрипция, перевод по клику, частотность слова (ранг и шкала), кнопка «копировать».
-Без озвучки: карточки для чтения. Карточки идут от частого к редкому слева направо, затем вниз; слова без ранга (их нет в частотном списке) стоят в конце в авторском порядке. Статический сайт: `index.html` + `app.js` + `data.js` + `icons/sprite.svg`.
+Без озвучки: карточки для чтения. Карточки идут от частого к редкому слева направо, затем вниз; слова без ранга (их нет в частотном списке) стоят в конце в авторском порядке. Статический сайт: `index.html` + `app.js` + `data.js` + `icons/sprite.js`.
 
 ## Сборка
 
@@ -13,7 +13,7 @@
   --with https://github.com/explosion/spacy-models/releases/download/ru_core_news_sm-3.8.0/ru_core_news_sm-3.8.0-py3-none-any.whl \
   --with pythainlp tools/dump_freq.py
 
-# данные и иконки -> data.js + icons/sprite.svg (нужен tools/openmoji.json:
+# данные и иконки -> data.js + icons/sprite.js (нужен tools/openmoji.json:
 # curl -LO https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/data/openmoji.json)
 ~/.venv/bin/uv run --with tltk --with 'numpy<2' --with 'pandas<2.3' --with requests --with nltk \
   --with python-crfsuite --with scikit-learn --with eng-to-ipa python -W ignore tools/build_data.py
