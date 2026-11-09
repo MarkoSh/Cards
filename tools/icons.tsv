@@ -1,1806 +1,2516 @@
-# curated icons: en<TAB>pos<TAB>flag<TAB>hex. flag: = exact, ~ approximate, - none (letter badge). Not listed = keep keyword pick.
-way	n	-	
-life	n	~	1F331
-group	n	-	
-problem	n	-	
-part	n	~	1F9E9
-place	n	~	1F4CD
-case	n	-	
-week	n	~	1F5D3
-month	n	~	1F4C6
-system	n	~	2699
-program	n	~	2328
-point	n	~	1F4CC
-room	n	~	1F6CB
-area	n	-	
-story	n	~	1F4D5
-word	n	~	1F524
-side	n	~	2194
-kind	n	-	
-head	n	~	1F5E3
-service	n	~	1F6CE
-power	n	~	26A1
-line	n	-	
-member	n	~	1FAAA
-team	n	~	1F9D1-200D-1F91D-200D-1F9D1
-body	n	~	1F9CD
-back	n	~	2B05
-level	n	~	1F39A
-result	n	~	2705
-change	n	-	
-reason	n	~	1F914
-research	n	-	
-guy	n	~	1F468
-moment	n	~	23F1
-air	n	~	1F32C
-force	n	~	1F4AA
-education	n	~	1F393
-age	n	~	231B
-policy	n	~	1F4DC
-process	n	-	
-argument	n	~	1F5E8
-sense	n	-	
-market	n	~	1F3EC
-community	n	~	1F3D8
-list	n	~	1F4CB
-effect	n	~	2728
-use	n	~	1F527
-report	n	~	1F4C4
-difference	n	-	
-evidence	n	~	1F50E
-freedom	n	~	1F54A
-god	n	-	
-ground	n	-	
-image	n	-	
-interest	n	~	2B50
-light	n	=	1F526
-matter	n	-	
-middle	n	-	
-model	n	-	
-opinion	n	-	
-order	n	~	1F4CB
-pain	n	~	1FA79
-plan	n	~	1F4DD
-practice	n	~	1F501
-president	n	-	
-press	n	~	1F4F0
-project	n	-	
-rate	n	~	1F4C8
-record	n	~	1F399
-region	n	~	1F5FA
-road	n	=	1F6E3
-rule	n	~	1F4D0
-safety	n	~	1F6E1
-scene	n	~	1F3AC
-season	n	~	1F343
-security	n	~	1F512
-series	n	-	
-share	n	~	E253
-sign	n	~	1FAA7
-size	n	~	1F4CF
-skill	n	-	
-society	n	~	1F465
-soldier	n	~	1FA96
-source	n	-	
-space	n	~	1FA90
-speech	n	~	1F5E3
-spring	n	~	1F331
-staff	n	-	
-state	n	~	1F3DB
-step	n	~	1F463
-stock	n	-	
-street	n	~	1F6E3
-subject	n	~	1F4D5
-table	n	-	
-talk	n	-	
-task	n	-	
-tax	n	~	1F4B0
-technology	n	~	1F4BB
-term	n	~	1F4C5
-theory	n	-	
-thing	n	~	1F4E6
-trade	n	-	
-training	n	~	1F3CB
-treatment	n	~	1F489
-trial	n	-	
-truth	n	-	
-type	n	~	2328
-unit	n	-	
-value	n	~	1F48E
-view	n	~	1F441
-voice	n	-	
-watch	n	=	231A
-weight	n	-	
-window	n	~	1FA9F
-witness	n	-	
-advantage	n	-	
-advice	n	~	1F4A1
-affair	n	-	
-aid	n	-	
-amount	n	~	1F9EE
-analysis	n	-	
-answer	n	-	
-appearance	n	-	
-association	n	-	
-attack	n	~	2694
-attention	n	-	
-audience	n	~	1F44F
-author	n	~	270D
-authority	n	-	
-band	n	~	1F3B8
-bar	n	~	1F378
-base	n	-	
-basis	n	~	1F9F1
-battle	n	~	2694
-beginning	n	~	25B6
-belief	n	-	
-bell	n	=	1F514
-benefit	n	~	1F44D
-birth	n	~	1F476
-bit	n	~	1F90F
-bone	n	=	1F9B4
-border	n	-	
-bottom	n	~	1F53D
-branch	n	~	1F33F
-break	n	~	2615
-budget	n	-	
-bush	n	~	1F33F
-button	n	~	1F518
-buyer	n	-	
-cable	n	~	1F50C
-cake	n	=	1F382
-call	n	~	1F4DE
-campaign	n	-	
-cancer	n	~	1F397
-candidate	n	-	
-capital	n	-	
-captain	n	~	2693
-care	n	-	
-career	n	-	
-carpet	n	-	
-category	n	~	1F5C2
-cause	n	-	
-ceiling	n	~	2B06
-cell	n	~	1F9A0
-cent	n	~	1FA99
-center	n	-	
-century	n	~	231B
-ceremony	n	~	1F389
-chain	n	=	26D3
-chairman	n	-	
-challenge	n	-	
-champion	n	~	1F947
-channel	n	~	1F4FA
-chapter	n	~	1F516
-character	n	-	
-charity	n	-	
-chart	n	=	1F4C8
-chat	n	~	1F4AC
-cheek	n	-	
-cheese	n	=	1F9C0
-chief	n	~	1F451
-childhood	n	~	1F9F8
-chip	n	~	1F35F
-chocolate	n	=	1F36B
-choice	n	~	1F914
-church	n	=	26EA
-citizen	n	-	
-claim	n	-	
-class	n	~	1F3EB
-classroom	n	~	1F3EB
-client	n	-	
-climate	n	~	26C5
-cloth	n	~	1F9F5
-club	n	~	2663
-clue	n	-	
-coach	n	~	1F4E3
-coal	n	-	
-coast	n	~	1F3D6
-code	n	~	1F4BB
-cold	n	~	1F976
-colleague	n	-	
-collection	n	~	1F5C3
-college	n	~	1F393
-column	n	-	
-combination	n	-	
-comfort	n	~	1FAC2
-commission	n	~	1F4B0
-commitment	n	-	
-committee	n	-	
-communication	n	-	
-comparison	n	-	
-competition	n	-	
-complaint	n	-	
-component	n	-	
-concentration	n	-	
-concept	n	-	
-concern	n	~	1F61F
-concert	n	~	1F39F
-conference	n	-	
-confidence	n	-	
-conflict	n	-	
-congress	n	-	
-connection	n	~	1F517
-consequence	n	-	
-consideration	n	-	
-consumer	n	-	
-contact	n	~	1F4DE
-content	n	-	
-context	n	-	
-contract	n	-	
-contrast	n	~	25D0
-control	n	~	1F39B
-copy	n	-	
-corner	n	-	
-cost	n	~	1F4B2
-cotton	n	~	2601
-council	n	~	1F465
-counter	n	~	1F9EE
-courage	n	-	
-course	n	-	
-court	n	~	2696
-cousin	n	-	
-cover	n	~	1F4D4
-crack	n	-	
-craft	n	-	
-crash	n	-	
-cream	n	~	1F366
-creation	n	~	2728
-credit	n	~	1F4B3
-crew	n	-	
-crime	n	~	1FAC6
-crisis	n	-	
-criticism	n	-	
-cross	n	=	271D
-crowd	n	-	
-culture	n	~	1F3AD
-curve	n	-	
-customer	n	~	1F6D2
-damage	n	-	
-data	n	~	1F4CA
-deal	n	~	1F91D
-dealer	n	-	
-debate	n	-	
-debt	n	~	1F4B8
-decade	n	-	
-decision	n	~	2705
-deck	n	-	
-definition	n	-	
-delay	n	-	
-demand	n	-	
-democracy	n	~	1F5F3
-department	n	~	1F3E2
-depression	n	~	1F614
-depth	n	~	1F53D
-description	n	-	
-detail	n	-	
-diet	n	~	1F34E
-director	n	~	1F3AC
-dirt	n	-	
-disaster	n	-	
-discipline	n	-	
-discount	n	-	
-discussion	n	-	
-display	n	-	
-distance	n	~	1F4CF
-distribution	n	-	
-district	n	~	1F3D8
-domain	n	~	1F310
-donation	n	-	
-doubt	n	-	
-draft	n	-	
-drive	n	~	1F697
-drop	n	~	1F4A7
-dust	n	-	
-duty	n	-	
-east	n	~	27A1
-edge	n	~	1F4CF
-editor	n	-	
-effort	n	-	
-emotion	n	-	
-emphasis	n	-	
-empire	n	-	
-employee	n	~	1F464
-employer	n	-	
-employment	n	-	
-enemy	n	-	
-entrance	n	-	
-entry	n	-	
-environment	n	~	1F333
-equipment	n	-	
-essay	n	-	
-estate	n	~	1F3E1
-event	n	~	1F389
-exam	n	-	
-example	n	-	
-excitement	n	-	
-existence	n	-	
-expansion	n	~	2194
-expense	n	~	1F4B8
-experience	n	~	1F393
-expert	n	~	1F913
-explanation	n	-	
-expression	n	~	1F610
-extension	n	-	
-extent	n	-	
-fact	n	~	2139
-faith	n	-	
-farm	n	~	1F69C
-fashion	n	~	1F457
-fat	n	-	
-fault	n	-	
-feature	n	-	
-fee	n	-	
-feeling	n	-	
-figure	n	~	1F4CA
-finding	n	-	
-flight	n	~	2708
-floor	n	-	
-flow	n	-	
-focus	n	-	
-folk	n	-	
-form	n	~	1F4DD
-format	n	-	
-foundation	n	~	1F3D7
-frequency	n	-	
-front	n	-	
-fun	n	~	1F3AA
-function	n	-	
-fund	n	-	
-gate	n	-	
-generation	n	~	1F46A
-genius	n	-	
-gentleman	n	~	1F574
-gesture	n	~	1F44B
-giant	n	-	
-glue	n	-	
-government	n	~	1F3DB
-governor	n	-	
-grade	n	-	
-grammar	n	-	
-growth	n	-	
-guard	n	~	1F482
-guest	n	-	
-guide	n	-	
-guilt	n	~	1F614
-habit	n	-	
-half	n	~	1F313
-hall	n	-	
-handle	n	-	
-happiness	n	-	
-headache	n	~	1F623
-headline	n	-	
-hearing	n	~	1F442
-heat	n	-	
-heaven	n	~	1FABD
-height	n	-	
-hell	n	-	
-help	n	~	1F6DF
-hint	n	-	
-hip	n	-	
-hobby	n	-	
-homework	n	-	
-honor	n	~	1F396
-hope	n	-	
-horizon	n	~	1F305
-horn	n	~	1F3BA
-host	n	-	
-household	n	-	
-housing	n	~	1F3D8
-humor	n	~	1F602
-hunger	n	~	1F374
-hunting	n	-	
-identity	n	~	1FAAA
-illness	n	~	1F912
-imagination	n	-	
-immigration	n	~	1F6C2
-impact	n	~	1F4A5
-import	n	-	
-importance	n	-	
-impression	n	-	
-improvement	n	-	
-incident	n	~	26A0
-income	n	~	1F4E8
-increase	n	-	
-independence	n	-	
-index	n	~	1F516
-individual	n	~	1F464
-infection	n	-	
-inflation	n	-	
-influence	n	-	
-initiative	n	~	1F680
-injury	n	~	1F915
-input	n	~	1F524
-insight	n	-	
-inspection	n	-	
-instance	n	~	1F4CC
-instinct	n	~	1F43E
-instruction	n	-	
-instructor	n	~	1F9D1-200D-1F3EB
-insurance	n	-	
-intelligence	n	-	
-intention	n	-	
-interaction	n	-	
-interior	n	~	1F6CB
-introduction	n	~	1F44B
-investment	n	-	
-invitation	n	~	2709
-iron	n	-	
-issue	n	-	
-item	n	~	1F4E6
-jail	n	~	26D3
-jam	n	~	1FAD9
-jaw	n	~	1F9B7
-jazz	n	~	1F3B7
-joint	n	~	1F9B4
-joke	n	~	1F61C
-journalist	n	~	1F4F0
-journey	n	~	1F9F3
-joy	n	-	
-judgment	n	-	
-jungle	n	-	
-jury	n	-	
-justice	n	-	
-knowledge	n	-	
-lab	n	~	2697
-labor	n	-	
-lake	n	-	
-land	n	~	1F5FA
-landlord	n	-	
-lane	n	~	1F6E3
-language	n	~	1F4AC
-lap	n	-	
-laser	n	~	1F534
-laughter	n	~	1F602
-lawyer	n	-	
-layer	n	-	
-leader	n	~	1F9ED
-leadership	n	-	
-league	n	-	
-leather	n	-	
-lecture	n	~	1F9D1-200D-1F3EB
-legend	n	-	
-leisure	n	~	1F3D6
-length	n	-	
-lesson	n	-	
-liability	n	-	
-license	n	~	1FAAA
-lid	n	-	
-lifestyle	n	~	1F6CB
-limit	n	~	26D4
-liquid	n	~	1F4A7
-literature	n	-	
-load	n	-	
-loan	n	-	
-lobby	n	~	1F3E8
-logic	n	-	
-loss	n	~	1F4C9
-lump	n	-	
-luxury	n	~	1F48E
-machine	n	-	
-majority	n	-	
-male	n	~	1F468
-mall	n	~	1F6CD
-management	n	~	1F4CA
-manager	n	~	1F9D1-200D-1F4BC
-manner	n	-	
-manufacturer	n	-	
-margin	n	-	
-mark	n	-	
-marketing	n	-	
-mass	n	-	
-master	n	-	
-match	n	-	
-mate	n	-	
-material	n	~	2702
-meaning	n	-	
-measurement	n	-	
-media	n	~	1F4FA
-medium	n	-	
-meeting	n	-	
-membership	n	~	1FAAA
-memory	n	~	1F9E0
-menu	n	~	E250
-mess	n	-	
-metal	n	-	
-method	n	~	1F6E0
-mile	n	-	
-military	n	~	1FA96
-mill	n	-	
-mind	n	~	1F9E0
-minister	n	~	1F3DB
-minority	n	-	
-mission	n	-	
-mixture	n	-	
-mode	n	~	1F39B
-mood	n	~	1F60A
-mortgage	n	-	
-motion	n	-	
-motivation	n	-	
-motor	n	-	
-movement	n	-	
-mud	n	-	
-mystery	n	-	
-myth	n	~	1F9DA
-nation	n	-	
-nature	n	~	1F333
-neck	n	-	
-neighbor	n	-	
-neighborhood	n	-	
-nerve	n	-	
-net	n	-	
-network	n	~	1F6DC
-noise	n	~	1F50A
-notice	n	-	
-notion	n	-	
-objective	n	-	
-obligation	n	-	
-observation	n	-	
-occasion	n	~	1F389
-occupation	n	-	
-offer	n	~	1FAF4
-opening	n	-	
-opera	n	~	1F3A4
-operation	n	-	
-opportunity	n	~	1F511
-opposition	n	-	
-option	n	-	
-orchestra	n	~	1F3BB
-organization	n	~	1F3E2
-origin	n	-	
-outcome	n	-	
-outline	n	-	
-output	n	~	1F4E4
-oven	n	-	
-owner	n	~	1F511
-ownership	n	~	1F511
-oxygen	n	-	
-pace	n	~	1F6B6
-pack	n	-	
-panel	n	-	
-paragraph	n	-	
-parliament	n	-	
-passage	n	-	
-passion	n	-	
-past	n	~	1F4DC
-path	n	-	
-patience	n	-	
-pattern	n	-	
-penalty	n	-	
-pension	n	~	1F9D3
-percentage	n	-	
-perception	n	-	
-performance	n	-	
-period	n	-	
-permission	n	-	
-personality	n	-	
-perspective	n	-	
-phase	n	-	
-philosophy	n	-	
-phrase	n	-	
-pile	n	-	
-pipe	n	-	
-pitch	n	-	
-pity	n	~	1F97A
-platform	n	-	
-play	n	-	
-player	n	~	1F3AE
-pleasure	n	-	
-plenty	n	-	
-plot	n	-	
-poem	n	-	
-poet	n	~	270D
-poetry	n	-	
-politician	n	~	1F3DB
-politics	n	-	
-pollution	n	-	
-pop	n	~	1F3B5
-popularity	n	-	
-population	n	~	1F465
-port	n	~	2693
-portion	n	~	1F370
-position	n	~	1F4CD
-possession	n	~	1F45C
-possibility	n	~	2753
-potential	n	-	
-pound	n	-	
-powder	n	~	1F9C2
-praise	n	~	1F44F
-prayer	n	-	
-preference	n	-	
-preparation	n	-	
-presence	n	-	
-presentation	n	-	
-pressure	n	-	
-pride	n	~	1F308
-priest	n	~	26EA
-principle	n	~	1F4DC
-print	n	~	1F5A8
-priority	n	~	1F51D
-prisoner	n	-	
-privilege	n	-	
-probability	n	~	1F3B2
-procedure	n	-	
-product	n	-	
-production	n	~	1F3ED
-profession	n	-	
-professor	n	~	1F9D1-200D-1F3EB
-profit	n	-	
-progress	n	-	
-promise	n	-	
-promotion	n	-	
-proof	n	~	1F9FE
-property	n	-	
-proposal	n	-	
-protection	n	~	1F6E1
-protein	n	~	1F969
-psychology	n	-	
-public	n	~	1F465
-publication	n	-	
-publicity	n	-	
-publisher	n	-	
-pump	n	~	26FD
-punishment	n	~	26D3
-pupil	n	~	1F9D1-200D-1F393
-purchase	n	~	1F6D2
-purpose	n	-	
-pursuit	n	-	
-quality	n	~	2B50
-quantity	n	~	1F522
-queue	n	~	1F6B6
-quote	n	-	
-rail	n	~	1F6E4
-range	n	-	
-rank	n	~	1F3C5
-ratio	n	-	
-ray	n	-	
-reaction	n	-	
-reader	n	-	
-reading	n	-	
-reality	n	-	
-reception	n	~	1F6CE
-recipe	n	-	
-recognition	n	-	
-recommendation	n	-	
-recovery	n	~	2764-FE0F-200D-1FA79
-reduction	n	-	
-reference	n	-	
-reflection	n	~	1FA9E
-reform	n	-	
-refusal	n	-	
-register	n	-	
-registration	n	-	
-regret	n	~	1F647
-regulation	n	-	
-relation	n	-	
-relative	n	~	1F46A
-release	n	~	1F513
-relief	n	~	1F62E-200D-1F4A8
-religion	n	~	1F6D0
-remark	n	-	
-remedy	n	~	1F48A
-rent	n	-	
-replacement	n	-	
-reply	n	~	21A9
-reporter	n	~	1F4F0
-representation	n	-	
-representative	n	~	1F464
-reputation	n	-	
-request	n	~	1F64B
-requirement	n	-	
-reservation	n	~	1F4C5
-reserve	n	-	
-resident	n	-	
-resistance	n	-	
-resolution	n	-	
-resort	n	-	
-resource	n	-	
-respect	n	~	1FAE1
-response	n	-	
-responsibility	n	-	
-retirement	n	~	1F334
-return	n	~	21A9
-revenue	n	~	1F4B0
-review	n	-	
-revolution	n	-	
-reward	n	-	
-rhythm	n	~	1F3B5
-risk	n	~	26A0
-rival	n	-	
-river	n	-	
-rotation	n	-	
-route	n	~	1F6E3
-routine	n	-	
-row	n	-	
-rumor	n	-	
-rush	n	-	
-salary	n	-	
-sale	n	-	
-sample	n	~	1F9EA
-sand	n	~	1F3DC
-satisfaction	n	-	
-sauce	n	~	1FAD9
-saving	n	-	
-scale	n	-	
-schedule	n	~	1F4C5
-scheme	n	-	
-scholar	n	-	
-scholarship	n	-	
-score	n	~	1F4AF
-script	n	~	1F4DC
-second	n	~	23F1
-secret	n	~	1F92B
-secretary	n	-	
-section	n	-	
-sector	n	-	
-selection	n	-	
-self	n	~	1F464
-seller	n	-	
-seminar	n	~	1F3EB
-senate	n	-	
-senator	n	-	
-sentence	n	-	
-sentiment	n	-	
-sequence	n	-	
-servant	n	-	
-session	n	~	1F4C5
-set	n	-	
-settlement	n	-	
-shadow	n	-	
-shame	n	~	1F613
-shape	n	~	1F536
-sheet	n	-	
-shelf	n	-	
-shift	n	-	
-shock	n	~	1F632
-shore	n	~	1F3D6
-shot	n	~	1F943
-shoulder	n	-	
-sight	n	~	1F441
-signal	n	~	1F6A5
-signature	n	-	
-silence	n	~	1F92B
-silk	n	~	1F9F5
-silver	n	~	1F948
-sin	n	~	1F608
-sir	n	~	1FAE1
-site	n	~	1F310
-situation	n	-	
-skin	n	-	
-slice	n	~	1F355
-slide	n	-	
-slope	n	~	26F0
-smoke	n	~	1F6AC
-soil	n	-	
-solution	n	~	1F4A1
-soul	n	-	
-south	n	~	1F53D
-specialist	n	-	
-species	n	~	1F43E
-speed	n	~	26A1
-spending	n	~	1F4B8
-spirit	n	~	1F47B
-spot	n	-	
-spread	n	-	
-squad	n	-	
-stability	n	-	
-stage	n	~	1F3A4
-stake	n	-	
-stamp	n	-	
-standard	n	~	1F4CF
-start	n	-	
-statement	n	-	
-status	n	-	
-statute	n	~	2696
-steel	n	-	
-stem	n	~	1F33F
-stick	n	-	
-storage	n	~	1F5C4
-stove	n	-	
-stranger	n	-	
-strategy	n	~	265F
-straw	n	~	1F964
-stream	n	-	
-strength	n	~	1F4AA
-stress	n	~	1F605
-strike	n	~	1F3B3
-strip	n	-	
-stroke	n	-	
-structure	n	~	1F3D7
-struggle	n	~	1F94A
-stuff	n	-	
-style	n	~	1F60E
-substance	n	~	1F9EA
-suburb	n	-	
-sugar	n	~	1F9C1
-suggestion	n	-	
-sum	n	-	
-summary	n	-	
-supply	n	-	
-support	n	-	
-surface	n	-	
-surgery	n	~	1FA7A
-surprise	n	~	1F632
-survey	n	-	
-survival	n	~	1F49A
-suspect	n	-	
-symbol	n	-	
-sympathy	n	-	
-symptom	n	~	1F9A0
-tail	n	-	
-tale	n	-	
-talent	n	-	
-tank	n	-	
-tear	n	~	1F622
-technique	n	~	1F6E0
-teenager	n	~	1F9D2
-temper	n	~	1F620
-tenant	n	-	
-tendency	n	-	
-tension	n	-	
-territory	n	-	
-terror	n	~	1F628
-test	n	-	
-text	n	-	
-theme	n	-	
-therapy	n	~	1F486
-thesis	n	-	
-threat	n	-	
-throat	n	-	
-tide	n	-	
-tile	n	-	
-timber	n	~	1FAB5
-timing	n	~	23F1
-tip	n	-	
-tissue	n	-	
-title	n	-	
-toe	n	~	1F9B6
-tone	n	-	
-top	n	~	1F53C
-topic	n	~	1F4CC
-total	n	~	2795
-touch	n	~	1F446
-tour	n	~	1F9F3
-tourist	n	~	1F9F3
-tournament	n	-	
-tradition	n	-	
-tragedy	n	-	
-trail	n	~	1F463
-trainer	n	~	1F3CB
-transaction	n	-	
-transfer	n	~	21AA
-transformation	n	-	
-transition	n	-	
-transport	n	~	1F685
-tray	n	-	
-trend	n	-	
-tribe	n	-	
-troop	n	~	1FAE1
-trouble	n	~	1F635-200D-1F4AB
-trust	n	-	
-tube	n	-	
-tune	n	~	1F3B5
-tunnel	n	-	
-turn	n	-	
-twin	n	~	1F46F
-understanding	n	-	
-union	n	-	
-user	n	-	
-valley	n	~	1F3DE
-variety	n	~	1F500
-vendor	n	~	1F6CD
-venture	n	~	1F680
-version	n	-	
-vessel	n	~	1F6A2
-veteran	n	~	1F396
-victim	n	~	1F915
-violence	n	-	
-virtue	n	~	1F607
-visit	n	-	
-visitor	n	-	
-vitamin	n	~	1F34A
-vocabulary	n	-	
-voter	n	-	
-wage	n	-	
-waist	n	-	
-waiter	n	-	
-wardrobe	n	~	1F9E5
-wealth	n	~	1FA8E
-weekend	n	-	
-welfare	n	-	
-west	n	~	2B05
-wisdom	n	-	
-wonder	n	-	
-workshop	n	-	
-worry	n	-	
-yard	n	~	1F3E1
-youth	n	~	1F9D2
-zone	n	-	
-cut	n	~	2702
-cycle	n	~	1F6B2
-danger	n	~	26A0
-date	n	~	1F4C6
-delivery	n	~	1F4E6
-departure	n	~	1F6EB
-engine	n	~	2699
-error	n	~	274C
-exercise	n	~	1F3CB
-exit	n	=	E201
-experiment	n	~	1F9EA
-explosion	n	~	1F4A5
-factory	n	=	1F3ED
-fishing	n	=	1F3A3
-flag	n	=	1F6A9
-festival	n	~	1F386
-furniture	n	~	1FA91
-garden	n	~	1FAB4
-glass	n	~	1F943
-grass	n	~	1F33F
-honey	n	~	1F36F
-judge	n	=	1F9D1-200D-2696-FE0F
-library	n	=	1F4DA
-luck	n	~	1F340
-magazine	n	~	1F5DE
-math	n	~	1F9EE
-palace	n	=	1F3F0
-pizza	n	=	1F355
-queen	n	~	1F451
-restaurant	n	~	1F37D
-roof	n	~	1F3E0
-suit	n	~	1F454
-tie	n	~	1F454
-temperature	n	=	1F321
-thumb	n	~	1F44D
-tool	n	~	1F6E0
-toast	n	=	1F35E
-traffic	n	=	1F6A6
-translation	n	~	1F310
-role	n	-	
-ring	n	=	1F48D
-abandon	v	-	
-abuse	v	-	
-accommodate	v	~	1F3E8
-accompany	v	-	
-accomplish	v	-	
-account	v	~	1F9FE
-accuse	v	~	1F449
-act	v	~	1F3AD
-adapt	v	-	
-adjust	v	-	
-admit	v	-	
-adopt	v	-	
-advance	v	~	27A1
-advise	v	-	
-advocate	v	~	1F4E2
-affect	v	-	
-afford	v	-	
-agree	v	-	
-allow	v	-	
-alter	v	~	1F504
-amend	v	~	270F
-amount	v	-	
-answer	v	-	
-anticipate	v	~	23F3
-appeal	v	-	
-appear	v	~	26C5
-apply	v	-	
-appoint	v	-	
-appreciate	v	-	
-approach	v	-	
-argue	v	-	
-arise	v	~	1F53C
-arouse	v	-	
-arrange	v	~	1F4CB
-ask	v	~	2753
-assist	v	-	
-associate	v	-	
-assume	v	-	
-attack	v	~	2694
-attempt	v	-	
-attend	v	~	1F64B
-attribute	v	-	
-authorize	v	-	
-avoid	v	~	21AA
-award	v	~	1F396
-back	v	~	2B05
-balance	v	-	
-bang	v	-	
-bargain	v	-	
-base	v	-	
-battle	v	-	
-be	v	-	
-bear	v	-	
-beat	v	-	
-become	v	~	1F504
-begin	v	~	25B6
-behave	v	~	1F647
-believe	v	-	
-belong	v	-	
-bend	v	-	
-benefit	v	-	
-bet	v	~	1F3B2
-bid	v	-	
-bill	v	~	1F9FE
-bind	v	-	
-blame	v	~	1F449
-bless	v	-	
-block	v	-	
-board	v	-	
-book	v	~	1F4D5
-borrow	v	~	1F4E5
-bother	v	~	1F61F
-brake	v	-	
-break	v	~	1F494
-bring	v	-	
-budget	v	-	
-bump	v	-	
-burst	v	~	1F4A5
-care	v	~	2764
-carry	v	-	
-carve	v	~	1F52A
-cast	v	~	1F3A3
-catch	v	~	1FAF4
-cater	v	~	1F37D
-cause	v	~	1F517
-cease	v	~	1F6D1
-chair	v	-	
-challenge	v	-	
-change	v	~	1F504
-charge	v	~	1F4B3
-cheat	v	~	1F3B2
-chew	v	-	
-choke	v	-	
-choose	v	-	
-chop	v	~	1FA93
-cite	v	-	
-claim	v	~	270B
-clarify	v	-	
-classify	v	~	1F5C2
-clear	v	~	1F9F9
-cling	v	-	
-clone	v	-	
-close	v	~	1F512
-cluster	v	-	
-coincide	v	-	
-collaborate	v	-	
-collapse	v	-	
-collect	v	-	
-combat	v	~	2694
-combine	v	~	1F517
-come	v	~	2B05
-comfort	v	~	1FAC2
-command	v	~	1F4E2
-commence	v	~	25B6
-commission	v	-	
-commit	v	~	2705
-communicate	v	-	
-commute	v	~	1F68C
-compel	v	-	
-compensate	v	-	
-compete	v	-	
-compile	v	-	
-complain	v	-	
-complement	v	~	2795
-complete	v	-	
-complicate	v	-	
-comply	v	-	
-comprise	v	~	1F9E9
-compromise	v	-	
-compute	v	~	1F9EE
-conceal	v	~	1F648
-concede	v	~	1F3F3
-conceive	v	-	
-concentrate	v	-	
-concern	v	~	1F61F
-conclude	v	~	1F3C1
-condemn	v	-	
-conduct	v	~	1F3BC
-confer	v	-	
-confess	v	-	
-confine	v	-	
-confirm	v	-	
-confront	v	-	
-connect	v	~	1F6DC
-conquer	v	-	
-consent	v	-	
-conserve	v	-	
-consist	v	~	1F9E9
-consolidate	v	-	
-constitute	v	~	1F9E9
-construct	v	~	1F3D7
-consult	v	-	
-consume	v	~	1F374
-contact	v	~	1F4DE
-contain	v	~	1FAD9
-contemplate	v	-	
-contend	v	-	
-contest	v	-	
-continue	v	~	25B6
-contract	v	-	
-contradict	v	-	
-contrast	v	~	25D0
-contribute	v	-	
-control	v	~	1F39B
-convert	v	-	
-convey	v	-	
-convict	v	-	
-convince	v	-	
-cool	v	~	2744
-cooperate	v	-	
-coordinate	v	-	
-cope	v	-	
-copy	v	-	
-correct	v	-	
-correlate	v	-	
-correspond	v	~	2709
-cost	v	~	1F4B2
-count	v	~	1F522
-cover	v	-	
-crack	v	~	1F4A5
-crash	v	-	
-create	v	~	2728
-credit	v	~	1F4B3
-creep	v	~	1F40C
-criticize	v	-	
-cross	v	~	274C
-crush	v	~	1F970
-cure	v	~	1F48A
-curve	v	~	1FA9D
-damage	v	-	
-dare	v	-	
-date	v	~	1F4C6
-deal	v	~	1F91D
-decide	v	-	
-declare	v	-	
-decline	v	~	1F4C9
-decorate	v	-	
-decrease	v	~	1F4C9
-dedicate	v	~	1F381
-deem	v	-	
-defeat	v	-	
-define	v	~	1F4D6
-defy	v	~	1F44A
-delay	v	~	23F3
-deliver	v	~	1F4E8
-demand	v	-	
-demonstrate	v	-	
-deny	v	~	1F6AB
-depend	v	~	1F517
-depict	v	-	
-deposit	v	~	1F3E6
-depress	v	~	1F614
-derive	v	~	21AA
-describe	v	~	1F4C4
-deserve	v	~	1F3C5
-design	v	-	
-desire	v	-	
-detach	v	-	
-determine	v	~	1F4CA
-devise	v	-	
-devote	v	-	
-differ	v	~	1F937
-diminish	v	~	1F4C9
-direct	v	-	
-discharge	v	~	1F4A8
-discipline	v	-	
-disclose	v	-	
-discount	v	-	
-discourage	v	~	1F61F
-discuss	v	-	
-dismiss	v	~	1FAF3
-dispose	v	~	1F5D1
-dispute	v	-	
-disrupt	v	-	
-dissolve	v	~	1FAE0
-distinguish	v	-	
-distribute	v	-	
-disturb	v	~	1F64D
-divert	v	-	
-divorce	v	~	1F494
-do	v	~	1F4CB
-document	v	-	
-dominate	v	~	1F451
-donate	v	-	
-double	v	~	1F46F
-doubt	v	~	1FAE4
-draft	v	-	
-drag	v	~	1FAF7
-drain	v	~	1FAAB
-drift	v	~	1F32C
-drop	v	~	1FAF3
-dry	v	~	1F3DC
-dump	v	~	1F5D1
-earn	v	-	
-ease	v	~	1F609
-echo	v	-	
-educate	v	-	
-elect	v	~	1F5F3
-elevate	v	~	1F53C
-eliminate	v	-	
-embarrass	v	~	1F633
-emerge	v	~	1F305
-emphasize	v	~	2757
-employ	v	-	
-empty	v	-	
-enable	v	~	23FB
-enact	v	-	
-encounter	v	~	1F91D
-encourage	v	-	
-endorse	v	-	
-endure	v	-	
-enforce	v	~	1F46E
-engage	v	~	1F48D
-enhance	v	-	
-enlarge	v	~	1F50E
-enlist	v	-	
-ensure	v	~	1F6E1
-entertain	v	~	1F9D1-200D-1F3A4
-entitle	v	~	1F3F7
-establish	v	~	1F3D7
-estimate	v	~	1F4CA
-evaluate	v	-	
-evoke	v	-	
-evolve	v	-	
-exceed	v	-	
-exchange	v	~	1F4B1
-exclude	v	-	
-excuse	v	~	1F647
-execute	v	-	
-exert	v	-	
-exhibit	v	-	
-exist	v	-	
-expand	v	~	2194
-expect	v	~	23F3
-experience	v	~	1F393
-experiment	v	~	1F9EA
-expire	v	~	231B
-explain	v	~	1F4AC
-exploit	v	~	1F528
-explore	v	-	
-expose	v	-	
-extend	v	~	2795
-extract	v	-	
-face	v	~	1F600
-facilitate	v	-	
-fade	v	~	1F303
-fancy	v	~	1F9D0
-fascinate	v	-	
-favor	v	~	1F647
-feature	v	~	2B50
-feel	v	~	2764
-fetch	v	~	1F481
-figure	v	-	
-fill	v	~	1FAD7
-finance	v	~	1F3E6
-fit	v	-	
-fix	v	-	
-flash	v	~	1F4F8
-flee	v	-	
-flow	v	-	
-focus	v	-	
-force	v	-	
-forecast	v	~	1F324
-forgive	v	-	
-form	v	-	
-formulate	v	~	1F4DD
-found	v	~	1F3D7
-free	v	~	1F513
-fulfill	v	-	
-fund	v	-	
-gain	v	~	1F4C8
-gather	v	-	
-generate	v	~	1F4A1
-get	v	~	1F4E5
-give	v	~	1F381
-glance	v	-	
-go	v	~	27A1
-govern	v	~	1F3DB
-grab	v	~	270A
-graduate	v	-	
-grant	v	-	
-grasp	v	~	270A
-greet	v	~	1F44B
-guarantee	v	-	
-guard	v	~	1F482
-guess	v	~	1F937
-guide	v	~	1F9ED
-halt	v	~	1F6D1
-hand	v	~	270B
-handle	v	-	
-hang	v	-	
-harm	v	-	
-have	v	~	1F45C
-head	v	-	
-heal	v	~	1FA79
-help	v	~	1F6DF
-hesitate	v	~	2753
-highlight	v	-	
-hint	v	-	
-hire	v	-	
-hit	v	-	
-hold	v	~	1FAF1
-hope	v	~	1F64F
-host	v	-	
-identify	v	-	
-ignore	v	~	1F648
-illustrate	v	-	
-imply	v	-	
-impose	v	~	2757
-impress	v	-	
-improve	v	~	1F4C8
-include	v	~	2795
-incorporate	v	-	
-increase	v	~	1F4C8
-indicate	v	~	1F449
-induce	v	-	
-indulge	v	~	1F370
-infect	v	-	
-infer	v	-	
-influence	v	-	
-inform	v	~	2139
-inherit	v	-	
-initiate	v	~	1F680
-injure	v	~	1FA7C
-insert	v	-	
-insist	v	-	
-inspect	v	-	
-inspire	v	-	
-install	v	-	
-instruct	v	~	1F9D1-200D-1F3EB
-insult	v	-	
-insure	v	-	
-integrate	v	-	
-intend	v	-	
-interest	v	~	2B50
-interfere	v	-	
-interpret	v	-	
-interrupt	v	~	23F8
-introduce	v	~	1F44B
-invent	v	-	
-invest	v	-	
-investigate	v	-	
-involve	v	-	
-irritate	v	~	1F64D
-isolate	v	-	
-issue	v	~	1F4E4
-join	v	-	
-joke	v	~	1F61C
-judge	v	-	
-justify	v	-	
-keep	v	~	1F512
-kill	v	~	1F480
-lack	v	-	
-land	v	~	1F6EC
-last	v	~	231B
-lay	v	-	
-lead	v	~	1F9ED
-leak	v	~	1F4A7
-lean	v	-	
-leap	v	~	1F998
-lend	v	-	
-let	v	~	2705
-lift	v	-	
-light	v	-	
-limit	v	~	26D4
-list	v	-	
-live	v	~	1F3E0
-load	v	-	
-locate	v	-	
-log	v	-	
-lose	v	~	1F614
-lower	v	~	1F53D
-maintain	v	~	1F527
-make	v	~	1F6E0
-manage	v	-	
-manipulate	v	~	1F527
-manufacture	v	~	1F3ED
-map	v	-	
-march	v	-	
-mark	v	-	
-market	v	-	
-marry	v	~	1F48D
-match	v	-	
-matter	v	~	2757
-mean	v	-	
-measure	v	~	1F4CF
-meet	v	~	1F91D
-merge	v	-	
-mind	v	~	1F9E0
-minimize	v	-	
-miss	v	-	
-mix	v	~	1F39B
-mobilize	v	-	
-model	v	-	
-modify	v	-	
-monitor	v	~	1F5A5
-motivate	v	-	
-move	v	~	1F504
-murder	v	-	
-name	v	~	1F4DB
-navigate	v	-	
-need	v	~	2757
-neglect	v	~	1F648
-negotiate	v	-	
-nod	v	~	1F642-200D-2195-FE0F
-nominate	v	~	1F64B
-note	v	~	1F4DD
-notice	v	-	
-notify	v	~	1F514
-obey	v	-	
-object	v	~	1F44E
-observe	v	-	
-obtain	v	~	1F4E5
-occupy	v	~	1F4CD
-occur	v	~	2728
-offer	v	~	1FAF4
-omit	v	-	
-open	v	~	1F513
-operate	v	-	
-oppose	v	~	1F44E
-opt	v	~	1F449
-order	v	-	
-organize	v	-	
-orient	v	-	
-originate	v	-	
-overcome	v	-	
-overlook	v	~	1F648
-owe	v	~	1F4B8
-own	v	~	1F511
-pack	v	-	
-participate	v	~	1F64B
-pass	v	-	
-pay	v	~	1F4B5
-perceive	v	~	1F441
-perform	v	~	1F3AD
-permit	v	~	2705
-persist	v	-	
-bake	v	~	1F950
-bite	v	~	1F9B7
-blow	v	~	1F32C
-brush	v	~	1F58C
-burn	v	=	1F525
-call	v	=	1F4DE
-cancel	v	=	274C
-chat	v	~	1F4AC
-check	v	=	2714
-cut	v	~	2702
-persuade	v	-	
-pick	v	-	
-pile	v	-	
-pitch	v	-	
-place	v	~	1F4CD
-plan	v	-	
-plead	v	~	1F97A
-please	v	~	1F60A
-pledge	v	-	
-plot	v	~	1F5FA
-plunge	v	-	
-point	v	~	1F449
-pollute	v	-	
-pop	v	-	
-portray	v	~	1F3A8
-pose	v	-	
-possess	v	~	1F45C
-postpone	v	~	23F3
-practice	v	~	1F501
-praise	v	~	1F44F
-prefer	v	-	
-prepare	v	-	
-present	v	~	1F381
-preserve	v	~	1F6DF
-press	v	-	
-presume	v	-	
-pretend	v	-	
-prevail	v	-	
-prevent	v	-	
-proceed	v	-	
-process	v	-	
-produce	v	~	1F3ED
-profit	v	-	
-progress	v	-	
-prohibit	v	~	1F6AB
-project	v	~	1F4FD
-promise	v	-	
-promote	v	-	
-prompt	v	-	
-pronounce	v	-	
-propose	v	~	1F4DD
-prosecute	v	-	
-protect	v	~	1F6E1
-prove	v	-	
-provide	v	-	
-pull	v	-	
-punch	v	~	270A
-punish	v	~	26D3
-purchase	v	~	1F6D2
-pursue	v	-	
-push	v	~	1FAF7
-put	v	-	
-qualify	v	-	
-question	v	~	2753
-quit	v	~	1F6AA
-quote	v	-	
-raise	v	~	270B
-range	v	-	
-rank	v	~	1F3C5
-rate	v	-	
-reach	v	~	1FAF1
-react	v	-	
-realize	v	-	
-rebuild	v	~	1F477
-recall	v	-	
-receive	v	~	1F4E5
-recognize	v	~	1F3C5
-recommend	v	-	
-recover	v	~	2764-FE0F-200D-1FA79
-recruit	v	-	
-reduce	v	~	1F4C9
-refer	v	~	1F4D6
-reflect	v	~	1FA9E
-reform	v	-	
-refuse	v	~	1F6AB
-regard	v	-	
-register	v	-	
-regret	v	-	
-regulate	v	~	2696
-reinforce	v	-	
-reject	v	-	
-relate	v	-	
-relax	v	~	1F9D8
-release	v	~	1F513
-relieve	v	~	1F62E-200D-1F4A8
-rely	v	-	
-remain	v	~	1F9CD
-remember	v	~	1F516
-remind	v	~	1F397
-remove	v	~	E262
-render	v	-	
-renew	v	-	
-rent	v	-	
-repair	v	~	1F477
-repeat	v	~	1F501
-replace	v	~	1F501
-reply	v	~	21A9
-report	v	-	
-represent	v	~	1F464
-reproduce	v	-	
-request	v	~	1F64B
-require	v	~	2757
-resemble	v	-	
-reserve	v	~	1F4C6
-resign	v	-	
-resist	v	-	
-resolve	v	-	
-resort	v	~	1F334
-respect	v	~	1FAE1
-respond	v	~	21A9
-restore	v	-	
-restrict	v	~	1F6AB
-result	v	-	
-retain	v	-	
-retreat	v	~	2B05
-return	v	~	21A9
-reveal	v	-	
-reverse	v	~	25C0
-review	v	-	
-revise	v	~	270F
-revive	v	-	
-reward	v	-	
-rid	v	-	
-ring	v	~	1F514
-rise	v	~	1F53C
-risk	v	-	
-rub	v	-	
-rule	v	~	1F451
-rush	v	-	
-sacrifice	v	-	
-sample	v	-	
-satisfy	v	~	1F60A
-save	v	~	1F4BE
-scatter	v	~	1F4A8
-schedule	v	~	1F4C6
-score	v	~	1F4AF
-scratch	v	-	
-screen	v	~	1F5A5
-seal	v	-	
-secure	v	-	
-seek	v	-	
-seize	v	~	270A
-select	v	-	
-sell	v	~	1F3F7
-send	v	~	1F4E9
-sense	v	~	1F443
-separate	v	~	2702
-serve	v	~	1F37D
-set	v	-	
-settle	v	-	
-shape	v	~	1F536
-share	v	~	E253
-shed	v	-	
-shift	v	-	
-shock	v	~	1F632
-show	v	~	1F440
-shrink	v	-	
-sign	v	~	270D
-signal	v	~	1F6A5
-skip	v	~	23ED
-slap	v	~	270B
-slide	v	-	
-slip	v	-	
-smash	v	-	
-snap	v	-	
-solve	v	-	
-sort	v	~	1F5C2
-spare	v	-	
-spark	v	~	1F9E8
-specialize	v	-	
-specify	v	-	
-spell	v	~	1F524
-spend	v	~	1F4B8
-spoil	v	~	1F5D1
-sponsor	v	~	1F4B0
-spot	v	~	1F440
-spread	v	~	1F4A8
-squeeze	v	-	
-stabilize	v	-	
-stack	v	-	
-stage	v	~	1F3A4
-state	v	-	
-stay	v	~	1F6CF
-steal	v	~	1F64A
-steer	v	-	
-stem	v	-	
-step	v	~	1F463
-stick	v	-	
-stimulate	v	~	26A1
-stir	v	~	1F944
-stop	v	~	1F6D1
-store	v	~	1F5C4
-strain	v	-	
-strengthen	v	-	
-stress	v	~	1F605
-strike	v	~	1F3B3
-strip	v	-	
-strive	v	-	
-struggle	v	~	1F94A
-stuff	v	-	
-submit	v	~	1F4E4
-substitute	v	~	1F501
-succeed	v	-	
-suck	v	-	
-suffer	v	~	1F622
-suggest	v	-	
-suit	v	~	1F454
-sum	v	~	2795
-summarize	v	-	
-supply	v	-	
-support	v	~	1F91D
-suppose	v	~	1F914
-suppress	v	-	
-surround	v	-	
-survive	v	~	1F49A
-suspect	v	-	
-suspend	v	~	23F8
-sustain	v	-	
-swing	v	-	
-take	v	-	
-tap	v	~	1F6B0
-tax	v	-	
-tell	v	~	1F5E3
-tempt	v	~	1F36B
-tend	v	~	27A1
-test	v	~	1F9EA
-threaten	v	~	26A0
-throw	v	-	
-tie	v	~	1FAA2
-tighten	v	-	
-tip	v	-	
-tire	v	-	
-title	v	-	
-tolerate	v	-	
-toss	v	~	1F93E
-tour	v	-	
-trace	v	~	1FAC6
-track	v	~	1F6E4
-trade	v	-	
-transfer	v	~	21AA
-transform	v	-	
-translate	v	~	1F310
-transmit	v	~	1F4E1
-transport	v	~	1F685
-treat	v	~	1F9C1
-trigger	v	-	
-trip	v	-	
-trust	v	-	
-try	v	~	1F3AF
-turn	v	~	21AA
-twist	v	~	1FAA2
-type	v	~	2328
-undergo	v	~	1F504
-underline	v	-	
-understand	v	~	1F9E0
-undertake	v	~	1F4BC
-unfold	v	-	
-unite	v	~	1F517
-update	v	-	
-upgrade	v	~	1F53C
-urge	v	-	
-use	v	~	1F527
-utilize	v	~	1F527
-value	v	~	1F48E
-vanish	v	-	
-vary	v	~	1F500
-venture	v	-	
-verify	v	-	
-view	v	~	1F440
-violate	v	-	
-visit	v	~	1F6AA
-wait	v	~	23F3
-want	v	~	1F44D
-warm	v	-	
-warn	v	~	26A0
-waste	v	~	1F5D1
-weaken	v	-	
-weigh	v	-	
-whip	v	-	
-win	v	-	
-wind	v	-	
-wipe	v	~	1F9F9
-witness	v	-	
-wonder	v	-	
-work	v	~	1F4BC
-worry	v	~	1F61F
-wrap	v	-	
-yield	v	~	1F3C5
-shoot	v	-	
-spin	v	~	1F300
-wear	v	~	1F455
-wash	v	=	1F9FC
-yell	v	~	1F4E3
-worker	n	=	1F9D1-200D-1F3ED
-chest	n	-	
-degree	n	=	1F393
-right	n	-	
-gold	n	~	1F947
-instrument	n	-	
-keyboard	n	=	2328
-mirror	n	=	1FA9E
-nail	n	=	1F528
-needle	n	=	1FAA1
-note	n	=	1F4DD
-nut	n	=	1F330
-pool	n	=	1F3CA
-post	n	-	
-rocket	n	=	1F680
-rubber	n	-	
-ruin	n	-	
-speaker	n	=	1F5E3
-square	n	-	
-steam	n	=	2668
-tablet	n	=	1F48A
-vehicle	n	=	1F697
-warning	n	=	26A0
-wheel	n	=	1F6DE
-planet	n	=	1FA90
-science	n	=	1F9EA
-bow	v	=	1F647
-drive	v	=	1F697
-exercise	v	=	1F3CB
-fall	v	-	
-find	v	=	1F50E
-fold	v	-	
-forbid	v	=	26D4
-knock	v	=	270A
-know	v	=	1F9E0
-play	v	=	1F3AE
-post	v	-	
-print	v	=	1F5A8
-program	v	=	1F4BB
-pump	v	=	26FD
-ruin	v	-	
-shut	v	-	
-smoke	v	=	1F6AC
-stretch	v	-	
-tear	v	-	
-wave	v	=	1F44B
-whisper	v	=	1F92B
+# one row per concept: en<TAB>pos<TAB>flag<TAB>OpenMoji hex<TAB>icon name
+# flag: = fits the word, ~ approximate metaphor, - no icon (the card shows a letter in a ring)
+time	n	=	23F0	alarm clock
+year	n	=	1F4C5	calendar
+people	n	=	1F465	busts in silhouette
+way	n	-		
+day	n	=	1F31E	sun with face
+man	n	=	1F468	man
+woman	n	=	1F469	woman
+life	n	~	1F331	seedling
+child	n	=	1F9D2	child
+world	n	=	1F30D	globe showing Europe-Africa
+school	n	=	1F3EB	school
+family	n	=	1F46A	family
+student	n	=	1F9D1-200D-1F393	student
+group	n	-		
+country	n	=	1F5FA	world map
+problem	n	-		
+hand	n	=	270B	raised hand
+part	n	~	1F9E9	puzzle piece
+place	n	~	1F4CD	round pushpin
+case	n	-		
+week	n	~	1F5D3	spiral calendar
+company	n	=	1F3E2	office building
+system	n	~	2699	gear
+program	n	~	2328	keyboard
+question	n	=	2753	red question mark
+job	n	=	1F4BC	briefcase
+night	n	=	1F303	night with stars
+point	n	~	1F4CC	pushpin
+home	n	=	1F3E0	house
+water	n	=	1F4A7	droplet
+room	n	~	1F6CB	couch and lamp
+mother	n	=	1F469-200D-1F467	family: woman, girl
+area	n	-		
+money	n	=	1F4B0	money bag
+story	n	~	1F4D5	closed book
+month	n	~	1F4C6	tear-off calendar
+right	n	-		
+study	n	=	1F4DA	books
+book	n	=	1F4D6	open book
+eye	n	=	1F441	eye
+work	n	=	1F4BC	briefcase
+word	n	~	1F524	input latin letters
+business	n	=	1F4BC	briefcase
+side	n	~	2194	left-right arrow
+kind	n	-		
+head	n	~	1F5E3	speaking head
+house	n	=	1F3E0	house
+service	n	~	1F6CE	bellhop bell
+friend	n	=	1F46B	woman and man holding hands
+father	n	=	1F468-200D-1F467	family: man, girl
+power	n	~	26A1	high voltage
+hour	n	=	231B	hourglass done
+game	n	=	1F3AE	video game
+line	n	-		
+end	n	=	1F51A	END arrow
+member	n	~	1FAAA	identification card
+law	n	=	2696	balance scale
+car	n	=	1F697	automobile
+city	n	=	1F3D9	cityscape
+name	n	=	1F4DB	name badge
+team	n	~	1F9D1-200D-1F91D-200D-1F9D1	people holding hands
+minute	n	=	23F1	stopwatch
+kid	n	=	1F9D2	child
+body	n	~	1F9CD	person standing
+back	n	~	2B05	left arrow
+parent	n	=	1F9D1-200D-1F37C	person feeding baby
+face	n	=	1F600	grinning face
+level	n	~	1F39A	level slider
+office	n	=	1F9D1-200D-1F4BC	office worker
+door	n	=	1F6AA	door
+health	n	=	1F49A	green heart
+person	n	=	1F9CD	person standing
+art	n	=	1F3A8	artist palette
+war	n	=	2694	crossed swords
+history	n	=	1F4DC	scroll
+party	n	=	1F389	party popper
+result	n	~	2705	check mark button
+change	n	-		
+morning	n	=	1F305	sunrise
+reason	n	~	1F914	thinking face
+research	n	-		
+girl	n	=	1F467	girl
+guy	n	~	1F468	man
+moment	n	~	23F1	stopwatch
+air	n	~	1F32C	wind face
+teacher	n	=	1F9D1-200D-1F3EB	teacher
+force	n	~	1F4AA	flexed biceps
+education	n	~	1F393	graduation cap
+foot	n	=	1F9B6	foot
+boy	n	=	1F466	boy
+age	n	~	231B	hourglass done
+policy	n	~	1F4DC	scroll
+process	n	-		
+music	n	=	1F3B5	musical note
+argument	n	~	1F5E8	left speech bubble
+sense	n	-		
+market	n	~	1F3EC	department store
+death	n	=	1F480	skull
+song	n	=	1F3B6	musical notes
+clothes	n	=	1F455	t-shirt
+community	n	~	1F3D8	houses
+blood	n	=	1FA78	drop of blood
+list	n	~	1F4CB	clipboard
+effect	n	~	2728	sparkles
+use	n	~	1F527	wrench
+report	n	~	1F4C4	page facing up
+difference	n	-		
+evidence	n	~	1F50E	magnifying glass tilted right
+finger	n	=	1F590	hand with fingers splayed
+freedom	n	~	1F54A	dove
+future	n	=	1F52E	crystal ball
+goal	n	=	1F945	goal net
+god	n	-		
+ground	n	-		
+hotel	n	=	1F3E8	hotel
+idea	n	=	1F4A1	light bulb
+image	n	-		
+industry	n	=	1F3ED	factory
+information	n	=	2139	information
+interest	n	~	2B50	star
+letter	n	=	2709	envelope
+light	n	=	1F526	flashlight
+matter	n	-		
+middle	n	-		
+model	n	-		
+newspaper	n	=	1F4F0	newspaper
+opinion	n	-		
+order	n	~	1F4CB	clipboard
+pain	n	~	1FA79	adhesive bandage
+paper	n	=	1F4C4	page facing up
+picture	n	=	1F5BC	framed picture
+plan	n	~	1F4DD	memo
+practice	n	~	1F501	repeat button
+president	n	-		
+press	n	~	1F4F0	newspaper
+price	n	=	1F3F7	label
+project	n	-		
+rate	n	~	1F4C8	chart increasing
+record	n	~	1F399	studio microphone
+region	n	~	1F5FA	world map
+rest	n	=	1F6CC	person in bed
+road	n	=	1F6E3	motorway
+role	n	-		
+rule	n	~	1F4D0	triangular ruler
+safety	n	~	1F6E1	shield
+scene	n	~	1F3AC	clapper board
+science	n	=	1F9EA	test tube
+screen	n	=	1F5A5	desktop computer
+sea	n	=	1F30A	water wave
+season	n	~	1F343	leaf fluttering in wind
+security	n	~	1F512	locked
+series	n	-		
+share	n	~	E253	share
+shoe	n	=	1F45E	man’s shoe
+shop	n	=	1F6CD	shopping bags
+sign	n	~	1FAA7	placard
+sister	n	=	1F46D	women holding hands
+size	n	~	1F4CF	straight ruler
+skill	n	-		
+society	n	~	1F465	busts in silhouette
+soldier	n	~	1FA96	military helmet
+son	n	=	1F466	boy
+sound	n	=	1F50A	speaker high volume
+source	n	-		
+space	n	~	1FA90	ringed planet
+speech	n	~	1F5E3	speaking head
+sport	n	=	26BD	soccer ball
+spring	n	~	1F331	seedling
+staff	n	-		
+star	n	=	2B50	star
+state	n	~	1F3DB	classical building
+station	n	=	1F689	station
+step	n	~	1F463	footprints
+stock	n	-		
+street	n	~	1F6E3	motorway
+subject	n	~	1F4D5	closed book
+success	n	=	1F3C6	trophy
+summer	n	=	1F33B	sunflower
+sun	n	=	2600	sun
+table	n	-		
+talk	n	-		
+task	n	-		
+tax	n	~	1F4B0	money bag
+technology	n	~	1F4BB	laptop
+television	n	=	1F4FA	television
+term	n	~	1F4C5	calendar
+theory	n	-		
+thing	n	~	1F4E6	package
+thought	n	=	1F4AD	thought balloon
+trade	n	-		
+training	n	~	1F3CB	person lifting weights
+travel	n	=	2708	airplane
+treatment	n	~	1F489	syringe
+tree	n	=	1F333	deciduous tree
+trial	n	-		
+truth	n	-		
+type	n	~	2328	keyboard
+unit	n	-		
+value	n	~	1F48E	gem stone
+video	n	=	1F3A5	movie camera
+view	n	~	1F441	eye
+village	n	=	1F3D8	houses
+voice	n	-		
+wall	n	=	1F9F1	brick
+watch	n	=	231A	watch
+weather	n	=	1F324	sun behind small cloud
+wedding	n	=	1F935	person in tuxedo
+weight	n	-		
+wife	n	=	1F469	woman
+wind	n	=	1F4A8	dashing away
+window	n	~	1FA9F	window
+winter	n	=	26F7	skier
+wish	n	=	1F320	shooting star
+witness	n	-		
+wood	n	=	1FAB5	wood
+worker	n	=	1F9D1-200D-1F3ED	factory worker
+writer	n	=	270D	writing hand
+advantage	n	-		
+advice	n	~	1F4A1	light bulb
+affair	n	-		
+aid	n	-		
+aim	n	=	1F3AF	bullseye
+amount	n	~	1F9EE	abacus
+analysis	n	-		
+animal	n	=	1F43E	paw prints
+answer	n	-		
+appearance	n	-		
+apple	n	=	1F34E	red apple
+arm	n	=	1F4AA	flexed biceps
+army	n	=	1FA96	military helmet
+arrival	n	=	1F6EC	airplane arrival
+association	n	-		
+attack	n	~	2694	crossed swords
+attention	n	-		
+audience	n	~	1F44F	clapping hands
+author	n	~	270D	writing hand
+authority	n	-		
+award	n	=	1F396	military medal
+baby	n	=	1F476	baby
+bag	n	=	1F45C	handbag
+ball	n	=	26BD	soccer ball
+band	n	~	1F3B8	guitar
+bank	n	=	1F3E6	bank
+bar	n	~	1F378	cocktail glass
+base	n	-		
+basis	n	~	1F9F1	brick
+bath	n	=	1F6C1	bathtub
+battle	n	~	2694	crossed swords
+beach	n	=	1F3D6	beach with umbrella
+bed	n	=	1F6CF	bed
+beginning	n	~	25B6	play button
+belief	n	-		
+bell	n	=	1F514	bell
+benefit	n	~	1F44D	thumbs up
+bird	n	=	1F426	bird
+birth	n	~	1F476	baby
+bit	n	~	1F90F	pinching hand
+boat	n	=	26F5	sailboat
+bone	n	=	1F9B4	bone
+border	n	-		
+bottle	n	=	1F37E	bottle with popping cork
+bottom	n	~	1F53D	downwards button
+bowl	n	=	1F963	bowl with spoon
+box	n	=	1F4E6	package
+brain	n	=	1F9E0	brain
+branch	n	~	1F33F	herb
+bread	n	=	1F35E	bread
+break	n	~	2615	hot beverage
+breakfast	n	=	1F95E	pancakes
+bridge	n	=	1F309	bridge at night
+brother	n	=	1F46C	men holding hands
+budget	n	-		
+building	n	=	1F3E2	office building
+bus	n	=	1F68C	bus
+bush	n	~	1F33F	herb
+button	n	~	1F518	radio button
+buyer	n	-		
+cabinet	n	=	1F5C4	file cabinet
+cable	n	~	1F50C	electric plug
+cake	n	=	1F382	birthday cake
+call	n	~	1F4DE	telephone receiver
+camera	n	=	1F4F7	camera
+camp	n	=	1F3D5	camping
+campaign	n	-		
+cancer	n	~	1F397	reminder ribbon
+candidate	n	-		
+cap	n	=	1F9E2	billed cap
+capital	n	-		
+captain	n	~	2693	anchor
+card	n	=	1F4B3	credit card
+care	n	-		
+career	n	-		
+carpet	n	-		
+cash	n	=	1F4B5	dollar banknote
+cat	n	=	1F408	cat
+category	n	~	1F5C2	card index dividers
+cause	n	-		
+ceiling	n	~	2B06	up arrow
+cell	n	~	1F9A0	microbe
+cent	n	~	1FA99	coin
+center	n	-		
+century	n	~	231B	hourglass done
+ceremony	n	~	1F389	party popper
+chain	n	=	26D3	chains
+chair	n	=	1FA91	chair
+chairman	n	-		
+challenge	n	-		
+champion	n	~	1F947	1st place medal
+chance	n	=	1F3B2	game die
+channel	n	~	1F4FA	television
+chapter	n	~	1F516	bookmark
+character	n	-		
+charity	n	-		
+chart	n	=	1F4C8	chart increasing
+chat	n	~	1F4AC	speech balloon
+cheek	n	-		
+cheese	n	=	1F9C0	cheese wedge
+chef	n	=	1F9D1-200D-1F373	cook
+chemical	n	=	2697	alembic
+chemistry	n	=	2697	alembic
+chest	n	-		
+chicken	n	=	1F414	chicken
+chief	n	~	1F451	crown
+childhood	n	~	1F9F8	teddy bear
+chip	n	~	1F35F	french fries
+chocolate	n	=	1F36B	chocolate bar
+choice	n	~	1F914	thinking face
+church	n	=	26EA	church
+cigarette	n	=	1F6AC	cigarette
+circle	n	=	26AA	white circle
+citizen	n	-		
+claim	n	-		
+class	n	~	1F3EB	school
+classroom	n	~	1F3EB	school
+client	n	-		
+climate	n	~	26C5	sun behind cloud
+clock	n	=	1F550	one o’clock
+cloth	n	~	1F9F5	thread
+cloud	n	=	2601	cloud
+club	n	~	2663	club suit
+clue	n	-		
+coach	n	~	1F4E3	megaphone
+coal	n	-		
+coast	n	~	1F3D6	beach with umbrella
+coat	n	=	1F9E5	coat
+code	n	~	1F4BB	laptop
+coffee	n	=	2615	hot beverage
+coin	n	=	1FA99	coin
+cold	n	~	1F976	cold face
+colleague	n	-		
+collection	n	~	1F5C3	card file box
+college	n	~	1F393	graduation cap
+color	n	=	1F3A8	artist palette
+column	n	-		
+combination	n	-		
+comfort	n	~	1FAC2	people hugging
+comment	n	=	E263	comment
+commission	n	~	1F4B0	money bag
+commitment	n	-		
+committee	n	-		
+communication	n	-		
+comparison	n	-		
+competition	n	-		
+complaint	n	-		
+component	n	-		
+computer	n	=	1F4BB	laptop
+concentration	n	-		
+concept	n	-		
+concern	n	~	1F61F	worried face
+concert	n	~	1F39F	admission tickets
+condition	n	=	1F4CB	clipboard
+conference	n	-		
+confidence	n	-		
+conflict	n	-		
+congress	n	-		
+connection	n	~	1F517	link
+consequence	n	-		
+consideration	n	-		
+construction	n	=	1F477	construction worker
+consumer	n	-		
+contact	n	~	1F4DE	telephone receiver
+content	n	-		
+context	n	-		
+contract	n	-		
+contrast	n	~	25D0	circle with left half black
+control	n	~	1F39B	control knobs
+conversation	n	=	E246	people dialogue
+cook	n	=	1F373	cooking
+cooking	n	=	1F373	cooking
+cop	n	=	1F46E	police officer
+copy	n	-		
+corner	n	-		
+cost	n	~	1F4B2	heavy dollar sign
+cottage	n	=	1F3E1	house with garden
+cotton	n	~	2601	cloud
+council	n	~	1F465	busts in silhouette
+counter	n	~	1F9EE	abacus
+couple	n	=	1F9D1-200D-1F91D-200D-1F9D1	people holding hands
+courage	n	-		
+course	n	-		
+court	n	~	2696	balance scale
+cousin	n	-		
+cover	n	~	1F4D4	notebook with decorative cover
+cow	n	=	1F404	cow
+crack	n	-		
+craft	n	-		
+crash	n	-		
+cream	n	~	1F366	soft ice cream
+creation	n	~	2728	sparkles
+credit	n	~	1F4B3	credit card
+crew	n	-		
+crime	n	~	1FAC6	fingerprint
+crisis	n	-		
+criticism	n	-		
+crop	n	=	1F33D	ear of corn
+cross	n	=	271D	latin cross
+crowd	n	-		
+culture	n	~	1F3AD	performing arts
+cup	n	=	2615	hot beverage
+currency	n	=	1F4B4	yen banknote
+curve	n	-		
+customer	n	~	1F6D2	shopping cart
+cut	n	~	2702	scissors
+cycle	n	~	1F6B2	bicycle
+dad	n	=	1F468-200D-1F37C	man feeding baby
+damage	n	-		
+dance	n	=	1F483	woman dancing
+danger	n	~	26A0	warning
+data	n	~	1F4CA	bar chart
+date	n	~	1F4C6	tear-off calendar
+daughter	n	=	1F467	girl
+dawn	n	=	1F305	sunrise
+deal	n	~	1F91D	handshake
+dealer	n	-		
+debate	n	-		
+debt	n	~	1F4B8	money with wings
+decade	n	-		
+decision	n	~	2705	check mark button
+deck	n	-		
+definition	n	-		
+degree	n	=	1F393	graduation cap
+delay	n	-		
+delivery	n	~	1F4E6	package
+demand	n	-		
+democracy	n	~	1F5F3	ballot box with ballot
+department	n	~	1F3E2	office building
+departure	n	~	1F6EB	airplane departure
+depression	n	~	1F614	pensive face
+depth	n	~	1F53D	downwards button
+description	n	-		
+desert	n	=	1F3DC	desert
+design	n	=	270F	pencil
+desk	n	=	E163	desk lamp
+detail	n	-		
+device	n	=	E1CC	tablet
+devil	n	=	1F608	smiling face with horns
+diet	n	~	1F34E	red apple
+dinner	n	=	1F35D	spaghetti
+direction	n	=	1F9ED	compass
+director	n	~	1F3AC	clapper board
+dirt	n	-		
+disaster	n	-		
+discipline	n	-		
+discount	n	-		
+discussion	n	-		
+disease	n	=	1F9A0	microbe
+dish	n	=	1F37D	fork and knife with plate
+disk	n	=	1F4BD	computer disk
+display	n	-		
+distance	n	~	1F4CF	straight ruler
+distribution	n	-		
+district	n	~	1F3D8	houses
+doctor	n	=	1F468-200D-2695-FE0F	man health worker
+document	n	=	1F4C4	page facing up
+dog	n	=	1F415	dog
+doll	n	=	1F38E	Japanese dolls
+dollar	n	=	1F4B2	heavy dollar sign
+domain	n	~	1F310	globe with meridians
+donation	n	-		
+dose	n	=	1F48A	pill
+doubt	n	-		
+draft	n	-		
+drama	n	=	1F3AD	performing arts
+dream	n	=	1F4AD	thought balloon
+dress	n	=	1F457	dress
+drink	n	=	1F964	cup with straw
+drive	n	~	1F697	automobile
+driver	n	=	1F69A	delivery truck
+drop	n	~	1F4A7	droplet
+drug	n	=	1F48A	pill
+drum	n	=	1F941	drum
+duck	n	=	1F986	duck
+dust	n	-		
+duty	n	-		
+ear	n	=	1F442	ear
+earth	n	=	1F30D	globe showing Europe-Africa
+east	n	~	27A1	right arrow
+edge	n	~	1F4CF	straight ruler
+editor	n	-		
+effort	n	-		
+egg	n	=	1F95A	egg
+election	n	=	1F5F3	ballot box with ballot
+electricity	n	=	26A1	high voltage
+elephant	n	=	1F418	elephant
+elevator	n	=	1F6D7	elevator
+emergency	n	=	1F691	ambulance
+emotion	n	-		
+emphasis	n	-		
+empire	n	-		
+employee	n	~	1F464	bust in silhouette
+employer	n	-		
+employment	n	-		
+enemy	n	-		
+energy	n	=	1F50B	battery
+engine	n	~	2699	gear
+engineer	n	=	1F9D1-200D-1F52C	scientist
+entrance	n	-		
+entry	n	-		
+environment	n	~	1F333	deciduous tree
+equipment	n	-		
+error	n	~	274C	cross mark
+essay	n	-		
+estate	n	~	1F3E1	house with garden
+evening	n	=	1F306	cityscape at dusk
+event	n	~	1F389	party popper
+exam	n	-		
+example	n	-		
+exchange	n	=	1F4B1	currency exchange
+excitement	n	-		
+exercise	n	~	1F3CB	person lifting weights
+exhibition	n	=	1F5BC	framed picture
+existence	n	-		
+exit	n	=	E201	emergency exit
+expansion	n	~	2194	left-right arrow
+expense	n	~	1F4B8	money with wings
+experience	n	~	1F393	graduation cap
+experiment	n	~	1F9EA	test tube
+expert	n	~	1F913	nerd face
+explanation	n	-		
+explosion	n	~	1F4A5	collision
+expression	n	~	1F610	neutral face
+extension	n	-		
+extent	n	-		
+fact	n	~	2139	information
+factory	n	=	1F3ED	factory
+failure	n	=	274C	cross mark
+faith	n	-		
+fall	n	=	1F341	maple leaf
+farm	n	~	1F69C	tractor
+farmer	n	=	1F9D1-200D-1F33E	farmer
+fashion	n	~	1F457	dress
+fat	n	-		
+fault	n	-		
+fear	n	=	1F628	fearful face
+feature	n	-		
+fee	n	-		
+feeling	n	-		
+festival	n	~	1F386	fireworks
+fever	n	=	1F912	face with thermometer
+field	n	=	1F69C	tractor
+fight	n	=	1F94A	boxing glove
+figure	n	~	1F4CA	bar chart
+file	n	=	1F4C1	file folder
+film	n	=	1F39E	film frames
+finding	n	-		
+fire	n	=	1F525	fire
+fish	n	=	1F41F	fish
+fishing	n	=	1F3A3	fishing pole
+fitness	n	=	1F4AA	flexed biceps
+flag	n	=	1F6A9	triangular flag
+flame	n	=	1F525	fire
+flight	n	~	2708	airplane
+flood	n	=	E2D0	sea level rise
+floor	n	-		
+flow	n	-		
+flower	n	=	1F338	cherry blossom
+flu	n	=	1F927	sneezing face
+focus	n	-		
+fog	n	=	1F32B	fog
+folk	n	-		
+food	n	=	1F35E	bread
+football	n	=	26BD	soccer ball
+forest	n	=	1F332	evergreen tree
+fork	n	=	1F374	fork and knife
+form	n	~	1F4DD	memo
+format	n	-		
+fortune	n	=	1F960	fortune cookie
+foundation	n	~	1F3D7	building construction
+fountain	n	=	26F2	fountain
+frame	n	=	1F5BC	framed picture
+frequency	n	-		
+front	n	-		
+fruit	n	=	1F34E	red apple
+fuel	n	=	26FD	fuel pump
+fun	n	~	1F3AA	circus tent
+function	n	-		
+fund	n	-		
+furniture	n	~	1FA91	chair
+garage	n	=	E206	parking garage
+garden	n	~	1FAB4	potted plant
+gas	n	=	26FD	fuel pump
+gate	n	-		
+gear	n	=	2699	gear
+gene	n	=	1F9EC	dna
+generation	n	~	1F46A	family
+genius	n	-		
+gentleman	n	~	1F574	person in suit levitating
+gesture	n	~	1F44B	waving hand
+ghost	n	=	1F47B	ghost
+giant	n	-		
+gift	n	=	1F381	wrapped gift
+glass	n	~	1F943	tumbler glass
+glove	n	=	1F9E4	gloves
+glue	n	-		
+gold	n	~	1F947	1st place medal
+golf	n	=	26F3	flag in hole
+government	n	~	1F3DB	classical building
+governor	n	-		
+grade	n	-		
+grain	n	=	1F33E	sheaf of rice
+grammar	n	-		
+grandfather	n	=	1F474	old man
+grandmother	n	=	1F475	old woman
+grass	n	~	1F33F	herb
+grave	n	=	1FAA6	headstone
+growth	n	-		
+guard	n	~	1F482	guard
+guest	n	-		
+guide	n	-		
+guilt	n	~	1F614	pensive face
+guitar	n	=	1F3B8	guitar
+gun	n	=	1F52B	water pistol
+habit	n	-		
+hair	n	=	1F471	person: blond hair
+half	n	~	1F313	first quarter moon
+hall	n	-		
+handle	n	-		
+happiness	n	-		
+hat	n	=	1F3A9	top hat
+headache	n	~	1F623	persevering face
+headline	n	-		
+hearing	n	~	1F442	ear
+heart	n	=	2764	red heart
+heat	n	-		
+heaven	n	~	1FABD	wing
+height	n	-		
+hell	n	-		
+help	n	~	1F6DF	ring buoy
+hero	n	=	1F9B8	superhero
+hill	n	=	26F0	mountain
+hint	n	-		
+hip	n	-		
+hobby	n	-		
+hole	n	=	1F573	hole
+holiday	n	=	1F334	palm tree
+homework	n	-		
+honey	n	~	1F36F	honey pot
+honor	n	~	1F396	military medal
+hook	n	=	1FA9D	hook
+hope	n	-		
+horizon	n	~	1F305	sunrise
+horn	n	~	1F3BA	trumpet
+horse	n	=	1F40E	horse
+hospital	n	=	1F3E5	hospital
+host	n	-		
+household	n	-		
+housing	n	~	1F3D8	houses
+humor	n	~	1F602	face with tears of joy
+hunger	n	~	1F374	fork and knife
+hunting	n	-		
+husband	n	=	1F468	man
+ice	n	=	1F9CA	ice
+identity	n	~	1FAAA	identification card
+illness	n	~	1F912	face with thermometer
+imagination	n	-		
+immigration	n	~	1F6C2	passport control
+impact	n	~	1F4A5	collision
+import	n	-		
+importance	n	-		
+impression	n	-		
+improvement	n	-		
+incident	n	~	26A0	warning
+income	n	~	1F4E8	incoming envelope
+increase	n	-		
+independence	n	-		
+index	n	~	1F516	bookmark
+individual	n	~	1F464	bust in silhouette
+infection	n	-		
+inflation	n	-		
+influence	n	-		
+ingredient	n	=	1F955	carrot
+initiative	n	~	1F680	rocket
+injury	n	~	1F915	face with head-bandage
+input	n	~	1F524	input latin letters
+insect	n	=	1F41B	bug
+insight	n	-		
+inspection	n	-		
+instance	n	~	1F4CC	pushpin
+instinct	n	~	1F43E	paw prints
+instruction	n	-		
+instructor	n	~	1F9D1-200D-1F3EB	teacher
+instrument	n	-		
+insurance	n	-		
+intelligence	n	-		
+intention	n	-		
+interaction	n	-		
+interior	n	~	1F6CB	couch and lamp
+internet	n	=	1F310	globe with meridians
+interview	n	=	E24A	interview
+introduction	n	~	1F44B	waving hand
+investment	n	-		
+invitation	n	~	2709	envelope
+iron	n	-		
+island	n	=	1F3DD	desert island
+issue	n	-		
+item	n	~	1F4E6	package
+jail	n	~	26D3	chains
+jam	n	~	1FAD9	jar
+jar	n	=	1F36F	honey pot
+jaw	n	~	1F9B7	tooth
+jazz	n	~	1F3B7	saxophone
+jeans	n	=	1F456	jeans
+jet	n	=	1F6EB	airplane departure
+jewel	n	=	1F48E	gem stone
+joint	n	~	1F9B4	bone
+joke	n	~	1F61C	winking face with tongue
+journal	n	=	1F4D3	notebook
+journalist	n	~	1F4F0	newspaper
+journey	n	~	1F9F3	luggage
+joy	n	-		
+judge	n	=	1F9D1-200D-2696-FE0F	judge
+judgment	n	-		
+juice	n	=	1F9C3	beverage box
+jungle	n	-		
+jury	n	-		
+justice	n	-		
+key	n	=	1F511	key
+keyboard	n	=	2328	keyboard
+king	n	=	1F934	prince
+kitchen	n	=	1F373	cooking
+knee	n	=	1F9B5	leg
+knife	n	=	1F52A	kitchen knife
+knowledge	n	-		
+lab	n	~	2697	alembic
+label	n	=	1F3F7	label
+labor	n	-		
+ladder	n	=	1FA9C	ladder
+lady	n	=	1F469	woman
+lake	n	-		
+lamp	n	=	1F4A1	light bulb
+land	n	~	1F5FA	world map
+landlord	n	-		
+landscape	n	=	1F3D4	snow-capped mountain
+lane	n	~	1F6E3	motorway
+language	n	~	1F4AC	speech balloon
+lap	n	-		
+laptop	n	=	1F4BB	laptop
+laser	n	~	1F534	red circle
+laughter	n	~	1F602	face with tears of joy
+laundry	n	=	1F9FA	basket
+lawn	n	=	E343	lawn mower
+lawyer	n	-		
+layer	n	-		
+leader	n	~	1F9ED	compass
+leadership	n	-		
+league	n	-		
+leather	n	-		
+lecture	n	~	1F9D1-200D-1F3EB	teacher
+leg	n	=	1F9BF	mechanical leg
+legend	n	-		
+leisure	n	~	1F3D6	beach with umbrella
+lemon	n	=	1F34B	lemon
+length	n	-		
+lens	n	=	1F50D	magnifying glass tilted left
+lesson	n	-		
+liability	n	-		
+liberty	n	=	1F5FD	Statue of Liberty
+library	n	=	1F4DA	books
+license	n	~	1FAAA	identification card
+lid	n	-		
+lifestyle	n	~	1F6CB	couch and lamp
+lightning	n	=	26A1	high voltage
+limit	n	~	26D4	no entry
+link	n	=	1F587	linked paperclips
+lip	n	=	1FAE6	biting lip
+liquid	n	~	1F4A7	droplet
+literature	n	-		
+load	n	-		
+loan	n	-		
+lobby	n	~	1F3E8	hotel
+location	n	=	1F4CD	round pushpin
+lock	n	=	1F512	locked
+log	n	=	1FAB5	wood
+logic	n	-		
+loss	n	~	1F4C9	chart decreasing
+love	n	=	2764	red heart
+luck	n	~	1F340	four leaf clover
+luggage	n	=	1F9F3	luggage
+lump	n	-		
+lunch	n	=	1F371	bento box
+lung	n	=	1FAC1	lungs
+luxury	n	~	1F48E	gem stone
+machine	n	-		
+magazine	n	~	1F5DE	rolled-up newspaper
+magic	n	=	1F9D9	mage
+mail	n	=	1F4EC	open mailbox with raised flag
+majority	n	-		
+male	n	~	1F468	man
+mall	n	~	1F6CD	shopping bags
+management	n	~	1F4CA	bar chart
+manager	n	~	1F9D1-200D-1F4BC	office worker
+manner	n	-		
+manufacturer	n	-		
+map	n	=	1F5FA	world map
+margin	n	-		
+mark	n	-		
+marketing	n	-		
+marriage	n	=	1F470-200D-2640-FE0F	woman with veil
+mask	n	=	1F637	face with medical mask
+mass	n	-		
+master	n	-		
+match	n	-		
+mate	n	-		
+material	n	~	2702	scissors
+math	n	~	1F9EE	abacus
+meal	n	=	1F35D	spaghetti
+meaning	n	-		
+measurement	n	-		
+meat	n	=	1F969	cut of meat
+mechanism	n	=	2699	gear
+media	n	~	1F4FA	television
+medicine	n	=	1F48A	pill
+medium	n	-		
+meeting	n	-		
+melody	n	=	1F3B5	musical note
+membership	n	~	1FAAA	identification card
+memory	n	~	1F9E0	brain
+menu	n	~	E250	hamburger menu
+message	n	=	2709	envelope
+mess	n	-		
+metal	n	-		
+method	n	~	1F6E0	hammer and wrench
+midnight	n	=	1F303	night with stars
+mile	n	-		
+military	n	~	1FA96	military helmet
+milk	n	=	1F95B	glass of milk
+mill	n	-		
+mind	n	~	1F9E0	brain
+mine	n	=	26CF	pick
+minister	n	~	1F3DB	classical building
+minority	n	-		
+mirror	n	=	1FA9E	mirror
+mission	n	-		
+mistake	n	=	274C	cross mark
+mixture	n	-		
+mode	n	~	1F39B	control knobs
+monitor	n	=	1F5A5	desktop computer
+monkey	n	=	1F412	monkey
+mood	n	~	1F60A	smiling face with smiling eyes
+moon	n	=	1F319	crescent moon
+mortgage	n	-		
+mosquito	n	=	1F99F	mosquito
+motion	n	-		
+motivation	n	-		
+motor	n	-		
+mountain	n	=	26F0	mountain
+mouse	n	=	1F401	mouse
+mouth	n	=	1F444	mouth
+movement	n	-		
+movie	n	=	1F3AC	clapper board
+mud	n	-		
+muscle	n	=	1F4AA	flexed biceps
+museum	n	=	1F5BC	framed picture
+mushroom	n	=	1F344	mushroom
+mystery	n	-		
+myth	n	~	1F9DA	fairy
+nail	n	=	1F528	hammer
+nation	n	-		
+nature	n	~	1F333	deciduous tree
+navy	n	=	2693	anchor
+neck	n	-		
+needle	n	=	1FAA1	sewing needle
+neighbor	n	-		
+neighborhood	n	-		
+nerve	n	-		
+nest	n	=	1FAB9	empty nest
+net	n	-		
+network	n	~	1F6DC	wireless
+news	n	=	1F4F0	newspaper
+noise	n	~	1F50A	speaker high volume
+noon	n	=	2600	sun
+nose	n	=	1F443	nose
+note	n	=	1F4DD	memo
+notice	n	-		
+notion	n	-		
+novel	n	=	1F4D6	open book
+nurse	n	=	1F469-200D-2695-FE0F	woman health worker
+nut	n	=	1F330	chestnut
+objective	n	-		
+obligation	n	-		
+observation	n	-		
+occasion	n	~	1F389	party popper
+occupation	n	-		
+ocean	n	=	1F30A	water wave
+offer	n	~	1FAF4	palm up hand
+officer	n	=	1F46E	police officer
+oil	n	=	1F6E2	oil drum
+onion	n	=	1F9C5	onion
+opening	n	-		
+opera	n	~	1F3A4	microphone
+operation	n	-		
+opportunity	n	~	1F511	key
+opposition	n	-		
+option	n	-		
+orange	n	=	1F34A	tangerine
+orchestra	n	~	1F3BB	violin
+organization	n	~	1F3E2	office building
+origin	n	-		
+outcome	n	-		
+outline	n	-		
+output	n	~	1F4E4	outbox tray
+oven	n	-		
+owner	n	~	1F511	key
+ownership	n	~	1F511	key
+oxygen	n	-		
+pace	n	~	1F6B6	person walking
+pack	n	-		
+package	n	=	1F4E6	package
+page	n	=	1F4C4	page facing up
+paint	n	=	1F3A8	artist palette
+painting	n	=	1F5BC	framed picture
+palace	n	=	1F3F0	castle
+pan	n	=	1F373	cooking
+panel	n	-		
+pants	n	=	1F456	jeans
+paragraph	n	-		
+park	n	=	1F3DE	national park
+parking	n	=	1F17F	P button
+parliament	n	-		
+passage	n	-		
+passenger	n	=	1F6F3	passenger ship
+passion	n	-		
+past	n	~	1F4DC	scroll
+path	n	-		
+patience	n	-		
+patient	n	=	E30A	patient file
+pattern	n	-		
+pause	n	=	23F8	pause button
+payment	n	=	1F4B3	credit card
+peace	n	=	262E	peace symbol
+peak	n	=	E20E	foggy mountain
+pear	n	=	1F350	pear
+pen	n	=	1F58A	pen
+pencil	n	=	270F	pencil
+penalty	n	-		
+pension	n	~	1F9D3	older person
+pepper	n	=	1F336	hot pepper
+percentage	n	-		
+perception	n	-		
+performance	n	-		
+period	n	-		
+permission	n	-		
+personality	n	-		
+perspective	n	-		
+pet	n	=	1F436	dog face
+phase	n	-		
+philosophy	n	-		
+phone	n	=	1F4F1	mobile phone
+photo	n	=	1F5BC	framed picture
+photograph	n	=	1F4F7	camera
+photographer	n	=	1F4F8	camera with flash
+phrase	n	-		
+physics	n	=	269B	atom symbol
+piano	n	=	1F3B9	musical keyboard
+pie	n	=	1F967	pie
+piece	n	=	1F9E9	puzzle piece
+pig	n	=	1F416	pig
+pile	n	-		
+pilot	n	=	1F9D1-200D-2708-FE0F	pilot
+pin	n	=	1F4CC	pushpin
+pipe	n	-		
+pitch	n	-		
+pity	n	~	1F97A	pleading face
+pizza	n	=	1F355	pizza
+plane	n	=	1F6EB	airplane departure
+planet	n	=	1FA90	ringed planet
+plant	n	=	1F331	seedling
+plastic	n	=	E0CC	plastic bottle
+plate	n	=	1F37D	fork and knife with plate
+platform	n	-		
+play	n	-		
+player	n	~	1F3AE	video game
+pleasure	n	-		
+plenty	n	-		
+plot	n	-		
+poem	n	-		
+poet	n	~	270D	writing hand
+poetry	n	-		
+poison	n	=	2620	skull and crossbones
+pole	n	=	1F488	barber pole
+police	n	=	1F46E	police officer
+politician	n	~	1F3DB	classical building
+politics	n	-		
+pollution	n	-		
+pool	n	=	1F3CA	person swimming
+pop	n	~	1F3B5	musical note
+popularity	n	-		
+population	n	~	1F465	busts in silhouette
+port	n	~	2693	anchor
+portion	n	~	1F370	shortcake
+position	n	~	1F4CD	round pushpin
+possession	n	~	1F45C	handbag
+possibility	n	~	2753	red question mark
+post	n	-		
+pot	n	=	1F372	pot of food
+potato	n	=	1F954	potato
+potential	n	-		
+pound	n	-		
+powder	n	~	1F9C2	salt
+praise	n	~	1F44F	clapping hands
+prayer	n	-		
+preference	n	-		
+pregnancy	n	=	1F930	pregnant woman
+preparation	n	-		
+presence	n	-		
+present	n	=	1F381	wrapped gift
+presentation	n	-		
+pressure	n	-		
+pride	n	~	1F308	rainbow
+priest	n	~	26EA	church
+principle	n	~	1F4DC	scroll
+print	n	~	1F5A8	printer
+priority	n	~	1F51D	TOP arrow
+prison	n	=	26D3	chains
+prisoner	n	-		
+privacy	n	=	1F50F	locked with pen
+privilege	n	-		
+prize	n	=	1F3C6	trophy
+probability	n	~	1F3B2	game die
+procedure	n	-		
+product	n	-		
+production	n	~	1F3ED	factory
+profession	n	-		
+professor	n	~	1F9D1-200D-1F3EB	teacher
+profit	n	-		
+progress	n	-		
+promise	n	-		
+promotion	n	-		
+proof	n	~	1F9FE	receipt
+property	n	-		
+proposal	n	-		
+protection	n	~	1F6E1	shield
+protein	n	~	1F969	cut of meat
+protest	n	=	1FAA7	placard
+psychology	n	-		
+pub	n	=	1F37A	beer mug
+public	n	~	1F465	busts in silhouette
+publication	n	-		
+publicity	n	-		
+publisher	n	-		
+pump	n	~	26FD	fuel pump
+punishment	n	~	26D3	chains
+pupil	n	~	1F9D1-200D-1F393	student
+purchase	n	~	1F6D2	shopping cart
+purpose	n	-		
+purse	n	=	1F45B	purse
+pursuit	n	-		
+quality	n	~	2B50	star
+quantity	n	~	1F522	input numbers
+quarter	n	=	1F313	first quarter moon
+queen	n	~	1F451	crown
+queue	n	~	1F6B6	person walking
+quote	n	-		
+race	n	=	1F3C3	person running
+radio	n	=	1F4FB	radio
+rail	n	~	1F6E4	railway track
+railway	n	=	1F682	locomotive
+rain	n	=	1F327	cloud with rain
+range	n	-		
+rank	n	~	1F3C5	sports medal
+ratio	n	-		
+ray	n	-		
+reaction	n	-		
+reader	n	-		
+reading	n	-		
+reality	n	-		
+receipt	n	=	1F9FE	receipt
+receiver	n	=	1F4DE	telephone receiver
+reception	n	~	1F6CE	bellhop bell
+recipe	n	-		
+recognition	n	-		
+recommendation	n	-		
+recording	n	=	1F399	studio microphone
+recovery	n	~	2764-FE0F-200D-1FA79	mending heart
+reduction	n	-		
+reference	n	-		
+reflection	n	~	1FA9E	mirror
+reform	n	-		
+refrigerator	n	=	2744	snowflake
+refusal	n	-		
+register	n	-		
+registration	n	-		
+regret	n	~	1F647	person bowing
+regulation	n	-		
+relation	n	-		
+relationship	n	=	1F491	couple with heart
+relative	n	~	1F46A	family
+release	n	~	1F513	unlocked
+relief	n	~	1F62E-200D-1F4A8	face exhaling
+religion	n	~	1F6D0	place of worship
+remark	n	-		
+remedy	n	~	1F48A	pill
+reminder	n	=	1F397	reminder ribbon
+rent	n	-		
+repair	n	=	1F477	construction worker
+replacement	n	-		
+reply	n	~	21A9	right arrow curving left
+reporter	n	~	1F4F0	newspaper
+representation	n	-		
+representative	n	~	1F464	bust in silhouette
+reputation	n	-		
+request	n	~	1F64B	person raising hand
+requirement	n	-		
+rescue	n	=	1F468-200D-1F692	man firefighter
+reservation	n	~	1F4C5	calendar
+reserve	n	-		
+resident	n	-		
+resistance	n	-		
+resolution	n	-		
+resort	n	-		
+resource	n	-		
+respect	n	~	1FAE1	saluting face
+response	n	-		
+responsibility	n	-		
+restaurant	n	~	1F37D	fork and knife with plate
+retirement	n	~	1F334	palm tree
+return	n	~	21A9	right arrow curving left
+revenue	n	~	1F4B0	money bag
+review	n	-		
+revolution	n	-		
+reward	n	-		
+rhythm	n	~	1F3B5	musical note
+rice	n	=	1F35A	cooked rice
+ring	n	=	1F48D	ring
+risk	n	~	26A0	warning
+rival	n	-		
+river	n	-		
+rock	n	=	1FAA8	rock
+rocket	n	=	1F680	rocket
+rod	n	=	1F3A3	fishing pole
+roll	n	=	1F950	croissant
+roof	n	~	1F3E0	house
+root	n	=	1FADA	ginger root
+rope	n	=	1FAA2	knot
+rose	n	=	1F339	rose
+rotation	n	-		
+route	n	~	1F6E3	motorway
+routine	n	-		
+row	n	-		
+rubber	n	-		
+ruin	n	-		
+rumor	n	-		
+rush	n	-		
+salary	n	-		
+sale	n	-		
+salt	n	=	1F9C2	salt
+sample	n	~	1F9EA	test tube
+sand	n	~	1F3DC	desert
+sandwich	n	=	1F96A	sandwich
+satisfaction	n	-		
+sauce	n	~	1FAD9	jar
+saving	n	-		
+scale	n	-		
+schedule	n	~	1F4C5	calendar
+scheme	n	-		
+scholar	n	-		
+scholarship	n	-		
+scientist	n	=	1F9D1-200D-1F52C	scientist
+score	n	~	1F4AF	hundred points
+screw	n	=	1FA9B	screwdriver
+script	n	~	1F4DC	scroll
+search	n	=	1F50D	magnifying glass tilted left
+seat	n	=	1F4BA	seat
+second	n	~	23F1	stopwatch
+secret	n	~	1F92B	shushing face
+secretary	n	-		
+section	n	-		
+sector	n	-		
+seed	n	=	1F331	seedling
+selection	n	-		
+self	n	~	1F464	bust in silhouette
+seller	n	-		
+seminar	n	~	1F3EB	school
+senate	n	-		
+senator	n	-		
+sentence	n	-		
+sentiment	n	-		
+sequence	n	-		
+servant	n	-		
+session	n	~	1F4C5	calendar
+set	n	-		
+setting	n	=	2699	gear
+settlement	n	-		
+shadow	n	-		
+shame	n	~	1F613	downcast face with sweat
+shape	n	~	1F536	large orange diamond
+sheet	n	-		
+shelf	n	-		
+shell	n	=	1F41A	spiral shell
+shelter	n	=	1F6D6	hut
+shift	n	-		
+ship	n	=	1F6A2	ship
+shirt	n	=	1F455	t-shirt
+shock	n	~	1F632	astonished face
+shopping	n	=	1F6D2	shopping cart
+shore	n	~	1F3D6	beach with umbrella
+shot	n	~	1F943	tumbler glass
+shoulder	n	-		
+shower	n	=	1F6BF	shower
+sight	n	~	1F441	eye
+signal	n	~	1F6A5	horizontal traffic light
+signature	n	-		
+silence	n	~	1F92B	shushing face
+silk	n	~	1F9F5	thread
+silver	n	~	1F948	2nd place medal
+sin	n	~	1F608	smiling face with horns
+singer	n	=	1F9D1-200D-1F3A4	singer
+sir	n	~	1FAE1	saluting face
+site	n	~	1F310	globe with meridians
+situation	n	-		
+skin	n	-		
+skirt	n	=	1F457	dress
+sky	n	=	1F324	sun behind small cloud
+sleep	n	=	1F634	sleeping face
+slice	n	~	1F355	pizza
+slide	n	-		
+slope	n	~	26F0	mountain
+smoke	n	~	1F6AC	cigarette
+snake	n	=	1F40D	snake
+snow	n	=	2744	snowflake
+soap	n	=	1F9FC	soap
+sock	n	=	1F9E6	socks
+sofa	n	=	1F6CB	couch and lamp
+soil	n	-		
+solution	n	~	1F4A1	light bulb
+soul	n	-		
+soup	n	=	1F372	pot of food
+south	n	~	1F53D	downwards button
+speaker	n	=	1F5E3	speaking head
+specialist	n	-		
+species	n	~	1F43E	paw prints
+speed	n	~	26A1	high voltage
+spending	n	~	1F4B8	money with wings
+spirit	n	~	1F47B	ghost
+spoon	n	=	1F944	spoon
+spot	n	-		
+spray	n	=	E0B1	sanitizer spray
+spread	n	-		
+squad	n	-		
+square	n	-		
+stability	n	-		
+stadium	n	=	1F3DF	stadium
+stage	n	~	1F3A4	microphone
+stair	n	=	E087	evacuate downstairs
+stake	n	-		
+stamp	n	-		
+standard	n	~	1F4CF	straight ruler
+start	n	-		
+statement	n	-		
+status	n	-		
+statute	n	~	2696	balance scale
+steak	n	=	1F969	cut of meat
+steam	n	=	2668	hot springs
+steel	n	-		
+stem	n	~	1F33F	herb
+stick	n	-		
+stomach	n	=	E313	stomach
+stone	n	=	1FAA8	rock
+stop	n	=	1F6D1	stop sign
+storage	n	~	1F5C4	file cabinet
+store	n	=	1F3EA	convenience store
+storm	n	=	26C8	cloud with lightning and rain
+stove	n	-		
+stranger	n	-		
+strategy	n	~	265F	chess pawn
+straw	n	~	1F964	cup with straw
+stream	n	-		
+strength	n	~	1F4AA	flexed biceps
+stress	n	~	1F605	grinning face with sweat
+strike	n	~	1F3B3	bowling
+string	n	=	1F9F5	thread
+strip	n	-		
+stroke	n	-		
+structure	n	~	1F3D7	building construction
+struggle	n	~	1F94A	boxing glove
+studio	n	=	1F399	studio microphone
+stuff	n	-		
+style	n	~	1F60E	smiling face with sunglasses
+substance	n	~	1F9EA	test tube
+suburb	n	-		
+sugar	n	~	1F9C1	cupcake
+suggestion	n	-		
+suit	n	~	1F454	necktie
+sum	n	-		
+summary	n	-		
+supply	n	-		
+support	n	-		
+surface	n	-		
+surgery	n	~	1FA7A	stethoscope
+surprise	n	~	1F632	astonished face
+survey	n	-		
+survival	n	~	1F49A	green heart
+suspect	n	-		
+sweater	n	=	1F9E5	coat
+switch	n	=	E1C3	switch
+symbol	n	-		
+sympathy	n	-		
+symptom	n	~	1F9A0	microbe
+tablet	n	=	1F48A	pill
+tail	n	-		
+tale	n	-		
+talent	n	-		
+tank	n	-		
+tape	n	=	1F4FC	videocassette
+target	n	=	1F3AF	bullseye
+taste	n	=	1F445	tongue
+taxi	n	=	1F695	taxi
+tea	n	=	1F375	teacup without handle
+tear	n	~	1F622	crying face
+technique	n	~	1F6E0	hammer and wrench
+teenager	n	~	1F9D2	child
+temper	n	~	1F620	angry face
+temperature	n	=	1F321	thermometer
+temple	n	=	1F6D5	hindu temple
+tenant	n	-		
+tendency	n	-		
+tennis	n	=	1F3BE	tennis
+tension	n	-		
+tent	n	=	1F3D5	camping
+territory	n	-		
+terror	n	~	1F628	fearful face
+test	n	-		
+text	n	-		
+theater	n	=	1F3AD	performing arts
+theme	n	-		
+therapy	n	~	1F486	person getting massage
+thesis	n	-		
+thread	n	=	1F9F5	thread
+threat	n	-		
+throat	n	-		
+throne	n	=	1F451	crown
+thumb	n	~	1F44D	thumbs up
+ticket	n	=	1F39F	admission tickets
+tide	n	-		
+tie	n	~	1F454	necktie
+tiger	n	=	1F405	tiger
+tile	n	-		
+timber	n	~	1FAB5	wood
+timing	n	~	23F1	stopwatch
+tip	n	-		
+tire	n	=	1F6DE	wheel
+tissue	n	-		
+title	n	-		
+toast	n	=	1F35E	bread
+toe	n	~	1F9B6	foot
+toilet	n	=	1F6BD	toilet
+tomato	n	=	1F345	tomato
+tone	n	-		
+tongue	n	=	1F445	tongue
+tool	n	~	1F6E0	hammer and wrench
+tooth	n	=	1F9B7	tooth
+top	n	~	1F53C	upwards button
+topic	n	~	1F4CC	pushpin
+torch	n	=	1F526	flashlight
+total	n	~	2795	plus
+touch	n	~	1F446	backhand index pointing up
+tour	n	~	1F9F3	luggage
+tourist	n	~	1F9F3	luggage
+tournament	n	-		
+towel	n	=	1F9FB	roll of paper
+tower	n	=	1F5FC	Tokyo tower
+town	n	=	1F3D8	houses
+toy	n	=	1FA80	yo-yo
+track	n	=	1F6E4	railway track
+tradition	n	-		
+traffic	n	=	1F6A6	vertical traffic light
+tragedy	n	-		
+trail	n	~	1F463	footprints
+train	n	=	1F686	train
+trainer	n	~	1F3CB	person lifting weights
+transaction	n	-		
+transfer	n	~	21AA	left arrow curving right
+transformation	n	-		
+transition	n	-		
+translation	n	~	1F310	globe with meridians
+transport	n	~	1F685	bullet train
+transportation	n	=	1F685	bullet train
+trap	n	=	1FAA4	mouse trap
+tray	n	-		
+treasure	n	=	1FA99	coin
+trend	n	-		
+tribe	n	-		
+trick	n	=	1F3A9	top hat
+trip	n	=	1F9F3	luggage
+troop	n	~	1FAE1	saluting face
+trouble	n	~	1F635-200D-1F4AB	face with spiral eyes
+truck	n	=	1F69A	delivery truck
+trust	n	-		
+tube	n	-		
+tune	n	~	1F3B5	musical note
+tunnel	n	-		
+turn	n	-		
+tutor	n	=	1F468-200D-1F3EB	man teacher
+twin	n	~	1F46F	people with bunny ears
+uncle	n	=	1F468	man
+understanding	n	-		
+uniform	n	=	1F94B	martial arts uniform
+union	n	-		
+university	n	=	1F393	graduation cap
+user	n	-		
+vacation	n	=	1F334	palm tree
+valley	n	~	1F3DE	national park
+variety	n	~	1F500	shuffle tracks button
+vegetable	n	=	1F966	broccoli
+vehicle	n	=	1F697	automobile
+vendor	n	~	1F6CD	shopping bags
+venture	n	~	1F680	rocket
+version	n	-		
+vessel	n	~	1F6A2	ship
+veteran	n	~	1F396	military medal
+victim	n	~	1F915	face with head-bandage
+victory	n	=	270C	victory hand
+violence	n	-		
+virtue	n	~	1F607	smiling face with halo
+virus	n	=	1F9A0	microbe
+visit	n	-		
+visitor	n	-		
+vitamin	n	~	1F34A	tangerine
+vocabulary	n	-		
+volume	n	=	1F508	speaker low volume
+vote	n	=	1F5F3	ballot box with ballot
+voter	n	-		
+wage	n	-		
+waist	n	-		
+waiter	n	-		
+walk	n	=	1F6B6	person walking
+wallet	n	=	1F45B	purse
+wardrobe	n	~	1F9E5	coat
+warning	n	=	26A0	warning
+waste	n	=	1F5D1	wastebasket
+wave	n	=	1F30A	water wave
+wealth	n	~	1FA8E	treasure chest
+weapon	n	=	1F52B	water pistol
+web	n	=	1F578	spider web
+weekend	n	-		
+welfare	n	-		
+west	n	~	2B05	left arrow
+wheat	n	=	1F35E	bread
+wheel	n	=	1F6DE	wheel
+wine	n	=	1F377	wine glass
+wing	n	=	1FABD	wing
+winner	n	=	1F3C6	trophy
+wire	n	=	E1D4	wire
+wisdom	n	-		
+wolf	n	=	1F43A	wolf
+wonder	n	-		
+workshop	n	-		
+worry	n	-		
+wound	n	=	E306	plaster
+yard	n	~	1F3E1	house with garden
+youth	n	~	1F9D2	child
+zone	n	-		
+abandon	v	-		
+absorb	v	=	1F9FD	sponge
+abuse	v	-		
+accelerate	v	=	23E9	fast-forward button
+accommodate	v	~	1F3E8	hotel
+accompany	v	-		
+accomplish	v	-		
+account	v	~	1F9FE	receipt
+accuse	v	~	1F449	backhand index pointing right
+achieve	v	=	1F3C6	trophy
+act	v	~	1F3AD	performing arts
+adapt	v	-		
+add	v	=	E25F	add button
+adjust	v	-		
+admire	v	=	1F60D	smiling face with heart-eyes
+admit	v	-		
+adopt	v	-		
+advance	v	~	27A1	right arrow
+advertise	v	=	1F4E2	loudspeaker
+advise	v	-		
+advocate	v	~	1F4E2	loudspeaker
+affect	v	-		
+afford	v	-		
+agree	v	-		
+aim	v	=	1F3AF	bullseye
+allow	v	-		
+alter	v	~	1F504	counterclockwise arrows button
+amend	v	~	270F	pencil
+amount	v	-		
+analyze	v	=	1F50D	magnifying glass tilted left
+announce	v	=	1F4E2	loudspeaker
+answer	v	-		
+anticipate	v	~	23F3	hourglass not done
+apologize	v	=	1F647	person bowing
+appeal	v	-		
+appear	v	~	26C5	sun behind cloud
+apply	v	-		
+appoint	v	-		
+appreciate	v	-		
+approach	v	-		
+approve	v	=	1F44D	thumbs up
+argue	v	-		
+arise	v	~	1F53C	upwards button
+arouse	v	-		
+arrange	v	~	1F4CB	clipboard
+arrest	v	=	1F46E	police officer
+arrive	v	=	1F6EC	airplane arrival
+ask	v	~	2753	red question mark
+assist	v	-		
+associate	v	-		
+assume	v	-		
+attack	v	~	2694	crossed swords
+attempt	v	-		
+attend	v	~	1F64B	person raising hand
+attract	v	=	1F9F2	magnet
+attribute	v	-		
+authorize	v	-		
+avoid	v	~	21AA	left arrow curving right
+award	v	~	1F396	military medal
+back	v	~	2B05	left arrow
+bake	v	~	1F950	croissant
+balance	v	-		
+ban	v	=	1F6AB	prohibited
+bang	v	-		
+bargain	v	-		
+base	v	-		
+battle	v	-		
+be	v	-		
+bear	v	-		
+beat	v	-		
+become	v	~	1F504	counterclockwise arrows button
+beg	v	=	1F64F	folded hands
+begin	v	~	25B6	play button
+behave	v	~	1F647	person bowing
+believe	v	-		
+belong	v	-		
+bend	v	-		
+benefit	v	-		
+bet	v	~	1F3B2	game die
+bid	v	-		
+bill	v	~	1F9FE	receipt
+bind	v	-		
+bite	v	~	1F9B7	tooth
+blame	v	~	1F449	backhand index pointing right
+bless	v	-		
+block	v	-		
+blow	v	~	1F32C	wind face
+board	v	-		
+boil	v	=	1F372	pot of food
+book	v	~	1F4D5	closed book
+boost	v	=	1F680	rocket
+borrow	v	~	1F4E5	inbox tray
+bother	v	~	1F61F	worried face
+bounce	v	=	26F9	person bouncing ball
+bow	v	=	1F647	person bowing
+brake	v	-		
+break	v	~	1F494	broken heart
+breathe	v	=	1FAC1	lungs
+breed	v	=	1F436	dog face
+bring	v	-		
+broadcast	v	=	1F4E1	satellite antenna
+brush	v	~	1F58C	paintbrush
+budget	v	-		
+build	v	=	1F477	construction worker
+bump	v	-		
+burn	v	=	1F525	fire
+burst	v	~	1F4A5	collision
+bury	v	=	1FA8F	shovel
+buy	v	=	1F6D2	shopping cart
+calculate	v	=	1F9EE	abacus
+call	v	=	1F4DE	telephone receiver
+cancel	v	=	274C	cross mark
+capture	v	=	1F4F7	camera
+care	v	~	2764	red heart
+carry	v	-		
+carve	v	~	1F52A	kitchen knife
+cast	v	~	1F3A3	fishing pole
+catch	v	~	1FAF4	palm up hand
+cater	v	~	1F37D	fork and knife with plate
+cause	v	~	1F517	link
+cease	v	~	1F6D1	stop sign
+celebrate	v	=	1F973	partying face
+chair	v	-		
+challenge	v	-		
+change	v	~	1F504	counterclockwise arrows button
+charge	v	~	1F4B3	credit card
+chase	v	=	1F3C3	person running
+chat	v	~	1F4AC	speech balloon
+cheat	v	~	1F3B2	game die
+check	v	=	2714	check mark
+cheer	v	=	1F4E3	megaphone
+chew	v	-		
+choke	v	-		
+choose	v	-		
+chop	v	~	1FA93	axe
+cite	v	-		
+claim	v	~	270B	raised hand
+clap	v	=	1F44F	clapping hands
+clarify	v	-		
+classify	v	~	1F5C2	card index dividers
+clean	v	=	1F9FC	soap
+clear	v	~	1F9F9	broom
+click	v	=	1F5B1	computer mouse
+climb	v	=	1F9D7	person climbing
+cling	v	-		
+clone	v	-		
+close	v	~	1F512	locked
+cluster	v	-		
+coincide	v	-		
+collaborate	v	-		
+collapse	v	-		
+collect	v	-		
+combat	v	~	2694	crossed swords
+combine	v	~	1F517	link
+come	v	~	2B05	left arrow
+comfort	v	~	1FAC2	people hugging
+command	v	~	1F4E2	loudspeaker
+commence	v	~	25B6	play button
+comment	v	=	E263	comment
+commission	v	-		
+commit	v	~	2705	check mark button
+communicate	v	-		
+commute	v	~	1F68C	bus
+compare	v	=	2696	balance scale
+compel	v	-		
+compensate	v	-		
+compete	v	-		
+compile	v	-		
+complain	v	-		
+complement	v	~	2795	plus
+complete	v	-		
+complicate	v	-		
+comply	v	-		
+compose	v	=	E267	compose
+comprise	v	~	1F9E9	puzzle piece
+compromise	v	-		
+compute	v	~	1F9EE	abacus
+conceal	v	~	1F648	see-no-evil monkey
+concede	v	~	1F3F3	white flag
+conceive	v	-		
+concentrate	v	-		
+concern	v	~	1F61F	worried face
+conclude	v	~	1F3C1	chequered flag
+condemn	v	-		
+conduct	v	~	1F3BC	musical score
+confer	v	-		
+confess	v	-		
+confine	v	-		
+confirm	v	-		
+confront	v	-		
+confuse	v	=	1F615	confused face
+congratulate	v	=	1F389	party popper
+connect	v	~	1F6DC	wireless
+conquer	v	-		
+consent	v	-		
+conserve	v	-		
+consider	v	=	1F914	thinking face
+consist	v	~	1F9E9	puzzle piece
+consolidate	v	-		
+constitute	v	~	1F9E9	puzzle piece
+construct	v	~	1F3D7	building construction
+consult	v	-		
+consume	v	~	1F374	fork and knife
+contact	v	~	1F4DE	telephone receiver
+contain	v	~	1FAD9	jar
+contemplate	v	-		
+contend	v	-		
+contest	v	-		
+continue	v	~	25B6	play button
+contract	v	-		
+contradict	v	-		
+contrast	v	~	25D0	circle with left half black
+contribute	v	-		
+control	v	~	1F39B	control knobs
+convert	v	-		
+convey	v	-		
+convict	v	-		
+convince	v	-		
+cook	v	=	1F373	cooking
+cool	v	~	2744	snowflake
+cooperate	v	-		
+coordinate	v	-		
+cope	v	-		
+copy	v	-		
+correct	v	-		
+correlate	v	-		
+correspond	v	~	2709	envelope
+cost	v	~	1F4B2	heavy dollar sign
+cough	v	=	1F927	sneezing face
+count	v	~	1F522	input numbers
+cover	v	-		
+crack	v	~	1F4A5	collision
+crash	v	-		
+crawl	v	=	1F476	baby
+create	v	~	2728	sparkles
+credit	v	~	1F4B3	credit card
+creep	v	~	1F40C	snail
+criticize	v	-		
+cross	v	~	274C	cross mark
+crush	v	~	1F970	smiling face with hearts
+cry	v	=	1F62D	loudly crying face
+cultivate	v	=	1F331	seedling
+cure	v	~	1F48A	pill
+curve	v	~	1FA9D	hook
+cut	v	~	2702	scissors
+damage	v	-		
+dance	v	=	1F483	woman dancing
+dare	v	-		
+dash	v	=	1F4A8	dashing away
+date	v	~	1F4C6	tear-off calendar
+deal	v	~	1F91D	handshake
+decide	v	-		
+declare	v	-		
+decline	v	~	1F4C9	chart decreasing
+decorate	v	-		
+decrease	v	~	1F4C9	chart decreasing
+dedicate	v	~	1F381	wrapped gift
+deem	v	-		
+defeat	v	-		
+defend	v	=	1F6E1	shield
+define	v	~	1F4D6	open book
+defy	v	~	1F44A	oncoming fist
+delay	v	~	23F3	hourglass not done
+delete	v	=	E262	delete
+deliver	v	~	1F4E8	incoming envelope
+demand	v	-		
+demonstrate	v	-		
+deny	v	~	1F6AB	prohibited
+depart	v	=	1F6EB	airplane departure
+depend	v	~	1F517	link
+depict	v	-		
+deposit	v	~	1F3E6	bank
+depress	v	~	1F614	pensive face
+derive	v	~	21AA	left arrow curving right
+describe	v	~	1F4C4	page facing up
+deserve	v	~	1F3C5	sports medal
+design	v	-		
+desire	v	-		
+destroy	v	=	1F4A5	collision
+detach	v	-		
+detect	v	=	1F575	detective
+determine	v	~	1F4CA	bar chart
+develop	v	=	1F9D1-200D-1F4BB	technologist
+devise	v	-		
+devote	v	-		
+diagnose	v	=	1FA7A	stethoscope
+die	v	=	1F480	skull
+differ	v	~	1F937	person shrugging
+dig	v	=	1FA8F	shovel
+diminish	v	~	1F4C9	chart decreasing
+direct	v	-		
+disable	v	=	23FC	power on-off symbol
+disagree	v	=	1FAEF	fight cloud
+disappear	v	=	1FAE0	melting face
+disappoint	v	=	1F614	pensive face
+disapprove	v	=	1F44E	thumbs down
+discharge	v	~	1F4A8	dashing away
+discipline	v	-		
+disclose	v	-		
+discount	v	-		
+discourage	v	~	1F61F	worried face
+discover	v	=	1F50D	magnifying glass tilted left
+discuss	v	-		
+dislike	v	=	1F44E	thumbs down
+dismiss	v	~	1FAF3	palm down hand
+display	v	=	1F5A5	desktop computer
+dispose	v	~	1F5D1	wastebasket
+dispute	v	-		
+disrupt	v	-		
+dissolve	v	~	1FAE0	melting face
+distinguish	v	-		
+distribute	v	-		
+disturb	v	~	1F64D	person frowning
+dive	v	=	1F97D	goggles
+divert	v	-		
+divide	v	=	2797	divide
+divorce	v	~	1F494	broken heart
+do	v	~	1F4CB	clipboard
+document	v	-		
+dominate	v	~	1F451	crown
+donate	v	-		
+double	v	~	1F46F	people with bunny ears
+doubt	v	~	1FAE4	face with diagonal mouth
+draft	v	-		
+drag	v	~	1FAF7	leftwards pushing hand
+drain	v	~	1FAAB	low battery
+draw	v	=	270F	pencil
+dream	v	=	1F4AD	thought balloon
+dress	v	=	1F457	dress
+drift	v	~	1F32C	wind face
+drink	v	=	1F964	cup with straw
+drive	v	=	1F697	automobile
+drop	v	~	1FAF3	palm down hand
+drown	v	=	1F30A	water wave
+dry	v	~	1F3DC	desert
+dump	v	~	1F5D1	wastebasket
+earn	v	-		
+ease	v	~	1F609	winking face
+eat	v	=	1F374	fork and knife
+echo	v	-		
+edit	v	=	E25D	edit
+educate	v	-		
+elect	v	~	1F5F3	ballot box with ballot
+elevate	v	~	1F53C	upwards button
+eliminate	v	-		
+embarrass	v	~	1F633	flushed face
+embrace	v	=	1FAC2	people hugging
+emerge	v	~	1F305	sunrise
+emphasize	v	~	2757	red exclamation mark
+employ	v	-		
+empty	v	-		
+enable	v	~	23FB	power symbol
+enact	v	-		
+encounter	v	~	1F91D	handshake
+encourage	v	-		
+end	v	=	1F51A	END arrow
+endorse	v	-		
+endure	v	-		
+enforce	v	~	1F46E	police officer
+engage	v	~	1F48D	ring
+enhance	v	-		
+enjoy	v	=	1F60A	smiling face with smiling eyes
+enlarge	v	~	1F50E	magnifying glass tilted right
+enlist	v	-		
+ensure	v	~	1F6E1	shield
+enter	v	=	1F6AA	door
+entertain	v	~	1F9D1-200D-1F3A4	singer
+entitle	v	~	1F3F7	label
+escape	v	=	E201	emergency exit
+establish	v	~	1F3D7	building construction
+estimate	v	~	1F4CA	bar chart
+evaluate	v	-		
+evoke	v	-		
+evolve	v	-		
+exceed	v	-		
+exchange	v	~	1F4B1	currency exchange
+exclude	v	-		
+excuse	v	~	1F647	person bowing
+execute	v	-		
+exercise	v	=	1F3CB	person lifting weights
+exert	v	-		
+exhibit	v	-		
+exist	v	-		
+expand	v	~	2194	left-right arrow
+expect	v	~	23F3	hourglass not done
+experience	v	~	1F393	graduation cap
+experiment	v	~	1F9EA	test tube
+expire	v	~	231B	hourglass done
+explain	v	~	1F4AC	speech balloon
+exploit	v	~	1F528	hammer
+explore	v	-		
+explode	v	=	1F92F	exploding head
+export	v	=	1F4E4	outbox tray
+expose	v	-		
+express	v	=	1F610	neutral face
+extend	v	~	2795	plus
+extract	v	-		
+face	v	~	1F600	grinning face
+facilitate	v	-		
+fade	v	~	1F303	night with stars
+fail	v	=	1F61E	disappointed face
+fall	v	-		
+fancy	v	~	1F9D0	face with monocle
+fascinate	v	-		
+favor	v	~	1F647	person bowing
+fear	v	=	1F628	fearful face
+feature	v	~	2B50	star
+feed	v	=	1F469-200D-1F37C	woman feeding baby
+feel	v	~	2764	red heart
+fetch	v	~	1F481	person tipping hand
+fight	v	=	1F94A	boxing glove
+figure	v	-		
+fill	v	~	1FAD7	pouring liquid
+film	v	=	1F39E	film frames
+filter	v	=	E257	filter
+finance	v	~	1F3E6	bank
+find	v	=	1F50E	magnifying glass tilted right
+finish	v	=	1F3C1	chequered flag
+fire	v	=	1F525	fire
+fish	v	=	1F41F	fish
+fit	v	-		
+fix	v	-		
+flash	v	~	1F4F8	camera with flash
+flee	v	-		
+float	v	=	1F6DF	ring buoy
+flow	v	-		
+fly	v	=	1F426	bird
+focus	v	-		
+fold	v	-		
+follow	v	=	1F463	footprints
+forbid	v	=	26D4	no entry
+force	v	-		
+forecast	v	~	1F324	sun behind small cloud
+forget	v	=	1F4AD	thought balloon
+forgive	v	-		
+form	v	-		
+formulate	v	~	1F4DD	memo
+found	v	~	1F3D7	building construction
+frame	v	=	1F5BC	framed picture
+free	v	~	1F513	unlocked
+freeze	v	=	1F976	cold face
+frighten	v	=	1F628	fearful face
+fry	v	=	1F373	cooking
+fuel	v	=	26FD	fuel pump
+fulfill	v	-		
+fund	v	-		
+gain	v	~	1F4C8	chart increasing
+gather	v	-		
+generate	v	~	1F4A1	light bulb
+get	v	~	1F4E5	inbox tray
+give	v	~	1F381	wrapped gift
+glance	v	-		
+glow	v	=	1F31F	glowing star
+go	v	~	27A1	right arrow
+govern	v	~	1F3DB	classical building
+grab	v	~	270A	raised fist
+graduate	v	-		
+grant	v	-		
+grasp	v	~	270A	raised fist
+greet	v	~	1F44B	waving hand
+grind	v	=	E156	coffee grinder
+grow	v	=	1FAB4	potted plant
+guarantee	v	-		
+guard	v	~	1F482	guard
+guess	v	~	1F937	person shrugging
+guide	v	~	1F9ED	compass
+halt	v	~	1F6D1	stop sign
+hand	v	~	270B	raised hand
+handle	v	-		
+hang	v	-		
+happen	v	=	2728	sparkles
+harm	v	-		
+hate	v	=	1F44E	thumbs down
+have	v	~	1F45C	handbag
+head	v	-		
+heal	v	~	1FA79	adhesive bandage
+hear	v	=	1F442	ear
+heat	v	=	1F525	fire
+help	v	~	1F6DF	ring buoy
+hesitate	v	~	2753	red question mark
+hide	v	=	1FAE3	face with peeking eye
+highlight	v	-		
+hint	v	-		
+hire	v	-		
+hit	v	-		
+hold	v	~	1FAF1	rightwards hand
+hook	v	=	1FA9D	hook
+hope	v	~	1F64F	folded hands
+host	v	-		
+house	v	=	1F3E0	house
+hug	v	=	1F917	smiling face with open hands
+hunt	v	=	1F98C	deer
+hurry	v	=	1F3C3	person running
+hurt	v	=	1F915	face with head-bandage
+identify	v	-		
+ignore	v	~	1F648	see-no-evil monkey
+illustrate	v	-		
+imagine	v	=	1F4AD	thought balloon
+implement	v	=	1F6E0	hammer and wrench
+imply	v	-		
+import	v	=	1F4E5	inbox tray
+impose	v	~	2757	red exclamation mark
+impress	v	-		
+improve	v	~	1F4C8	chart increasing
+include	v	~	2795	plus
+incorporate	v	-		
+increase	v	~	1F4C8	chart increasing
+indicate	v	~	1F449	backhand index pointing right
+induce	v	-		
+indulge	v	~	1F370	shortcake
+infect	v	-		
+infer	v	-		
+influence	v	-		
+inform	v	~	2139	information
+inherit	v	-		
+initiate	v	~	1F680	rocket
+inject	v	=	1F489	syringe
+injure	v	~	1FA7C	crutch
+input	v	=	1F520	input latin uppercase
+insert	v	-		
+insist	v	-		
+inspect	v	-		
+inspire	v	-		
+install	v	-		
+instruct	v	~	1F9D1-200D-1F3EB	teacher
+insult	v	-		
+insure	v	-		
+integrate	v	-		
+intend	v	-		
+interest	v	~	2B50	star
+interfere	v	-		
+interpret	v	-		
+interrupt	v	~	23F8	pause button
+interview	v	=	E24A	interview
+introduce	v	~	1F44B	waving hand
+invent	v	-		
+invest	v	-		
+investigate	v	-		
+invite	v	=	1F4E9	envelope with arrow
+involve	v	-		
+irritate	v	~	1F64D	person frowning
+isolate	v	-		
+issue	v	~	1F4E4	outbox tray
+join	v	-		
+joke	v	~	1F61C	winking face with tongue
+judge	v	-		
+jump	v	=	1F998	kangaroo
+justify	v	-		
+keep	v	~	1F512	locked
+kick	v	=	1F9B5	leg
+kill	v	~	1F480	skull
+kiss	v	=	1F618	face blowing a kiss
+knock	v	=	270A	raised fist
+know	v	=	1F9E0	brain
+label	v	=	1F3F7	label
+lack	v	-		
+land	v	~	1F6EC	airplane arrival
+last	v	~	231B	hourglass done
+laugh	v	=	1F602	face with tears of joy
+launch	v	=	1F680	rocket
+lay	v	-		
+lead	v	~	1F9ED	compass
+leak	v	~	1F4A7	droplet
+lean	v	-		
+leap	v	~	1F998	kangaroo
+learn	v	=	1F4DA	books
+leave	v	=	1F6AA	door
+lend	v	-		
+let	v	~	2705	check mark button
+lie	v	=	1F925	lying face
+lift	v	-		
+light	v	-		
+like	v	=	1F44D	thumbs up
+limit	v	~	26D4	no entry
+link	v	=	1F587	linked paperclips
+list	v	-		
+listen	v	=	1F3A7	headphone
+live	v	~	1F3E0	house
+load	v	-		
+locate	v	-		
+lock	v	=	1F512	locked
+log	v	-		
+look	v	=	1F440	eyes
+lose	v	~	1F614	pensive face
+love	v	=	2764	red heart
+lower	v	~	1F53D	downwards button
+maintain	v	~	1F527	wrench
+make	v	~	1F6E0	hammer and wrench
+manage	v	-		
+manipulate	v	~	1F527	wrench
+manufacture	v	~	1F3ED	factory
+map	v	-		
+march	v	-		
+mark	v	-		
+market	v	-		
+marry	v	~	1F48D	ring
+match	v	-		
+matter	v	~	2757	red exclamation mark
+mean	v	-		
+measure	v	~	1F4CF	straight ruler
+meet	v	~	1F91D	handshake
+melt	v	=	1FAE0	melting face
+mention	v	=	1F4AC	speech balloon
+merge	v	-		
+mind	v	~	1F9E0	brain
+minimize	v	-		
+miss	v	-		
+mix	v	~	1F39B	control knobs
+mobilize	v	-		
+model	v	-		
+modify	v	-		
+monitor	v	~	1F5A5	desktop computer
+motivate	v	-		
+mount	v	=	1F5FB	mount fuji
+move	v	~	1F504	counterclockwise arrows button
+multiply	v	=	2716	multiply
+murder	v	-		
+name	v	~	1F4DB	name badge
+navigate	v	-		
+need	v	~	2757	red exclamation mark
+neglect	v	~	1F648	see-no-evil monkey
+negotiate	v	-		
+nod	v	~	1F642-200D-2195-FE0F	head shaking vertically
+nominate	v	~	1F64B	person raising hand
+note	v	~	1F4DD	memo
+notice	v	-		
+notify	v	~	1F514	bell
+obey	v	-		
+object	v	~	1F44E	thumbs down
+observe	v	-		
+obtain	v	~	1F4E5	inbox tray
+occupy	v	~	1F4CD	round pushpin
+occur	v	~	2728	sparkles
+offer	v	~	1FAF4	palm up hand
+omit	v	-		
+open	v	~	1F513	unlocked
+operate	v	-		
+oppose	v	~	1F44E	thumbs down
+opt	v	~	1F449	backhand index pointing right
+order	v	-		
+organize	v	-		
+orient	v	-		
+originate	v	-		
+overcome	v	-		
+overlook	v	~	1F648	see-no-evil monkey
+owe	v	~	1F4B8	money with wings
+own	v	~	1F511	key
+pack	v	-		
+paint	v	=	1F3A8	artist palette
+park	v	=	1F3DE	national park
+participate	v	~	1F64B	person raising hand
+pass	v	-		
+pause	v	=	23F8	pause button
+pay	v	~	1F4B5	dollar banknote
+perceive	v	~	1F441	eye
+perform	v	~	1F3AD	performing arts
+permit	v	~	2705	check mark button
+persist	v	-		
+persuade	v	-		
+phone	v	=	1F4F1	mobile phone
+photograph	v	=	1F4F7	camera
+pick	v	-		
+picture	v	=	1F5BC	framed picture
+pile	v	-		
+pin	v	=	1F4CC	pushpin
+pitch	v	-		
+place	v	~	1F4CD	round pushpin
+plan	v	-		
+plant	v	=	1F331	seedling
+play	v	=	1F3AE	video game
+plead	v	~	1F97A	pleading face
+please	v	~	1F60A	smiling face with smiling eyes
+pledge	v	-		
+plot	v	~	1F5FA	world map
+plunge	v	-		
+point	v	~	1F449	backhand index pointing right
+pollute	v	-		
+pop	v	-		
+portray	v	~	1F3A8	artist palette
+pose	v	-		
+possess	v	~	1F45C	handbag
+post	v	-		
+postpone	v	~	23F3	hourglass not done
+pour	v	=	1FAD7	pouring liquid
+practice	v	~	1F501	repeat button
+praise	v	~	1F44F	clapping hands
+pray	v	=	1F64F	folded hands
+predict	v	=	1F52E	crystal ball
+prefer	v	-		
+prepare	v	-		
+present	v	~	1F381	wrapped gift
+preserve	v	~	1F6DF	ring buoy
+press	v	-		
+presume	v	-		
+pretend	v	-		
+prevail	v	-		
+prevent	v	-		
+print	v	=	1F5A8	printer
+proceed	v	-		
+process	v	-		
+produce	v	~	1F3ED	factory
+profit	v	-		
+program	v	=	1F4BB	laptop
+progress	v	-		
+prohibit	v	~	1F6AB	prohibited
+project	v	~	1F4FD	film projector
+promise	v	-		
+promote	v	-		
+prompt	v	-		
+pronounce	v	-		
+propose	v	~	1F4DD	memo
+prosecute	v	-		
+protect	v	~	1F6E1	shield
+protest	v	=	1FAA7	placard
+prove	v	-		
+provide	v	-		
+publish	v	=	1F4DA	books
+pull	v	-		
+pump	v	=	26FD	fuel pump
+punch	v	~	270A	raised fist
+punish	v	~	26D3	chains
+purchase	v	~	1F6D2	shopping cart
+pursue	v	-		
+push	v	~	1FAF7	leftwards pushing hand
+put	v	-		
+qualify	v	-		
+question	v	~	2753	red question mark
+quit	v	~	1F6AA	door
+quote	v	-		
+race	v	=	1F3C3	person running
+rain	v	=	1F327	cloud with rain
+raise	v	~	270B	raised hand
+range	v	-		
+rank	v	~	1F3C5	sports medal
+rate	v	-		
+reach	v	~	1FAF1	rightwards hand
+react	v	-		
+read	v	=	1F4D6	open book
+realize	v	-		
+rebuild	v	~	1F477	construction worker
+recall	v	-		
+receive	v	~	1F4E5	inbox tray
+recognize	v	~	1F3C5	sports medal
+recommend	v	-		
+record	v	=	1F3A5	movie camera
+recover	v	~	2764-FE0F-200D-1FA79	mending heart
+recruit	v	-		
+reduce	v	~	1F4C9	chart decreasing
+refer	v	~	1F4D6	open book
+reflect	v	~	1FA9E	mirror
+reform	v	-		
+refuse	v	~	1F6AB	prohibited
+regard	v	-		
+register	v	-		
+regret	v	-		
+regulate	v	~	2696	balance scale
+reinforce	v	-		
+reject	v	-		
+relate	v	-		
+relax	v	~	1F9D8	person in lotus position
+release	v	~	1F513	unlocked
+relieve	v	~	1F62E-200D-1F4A8	face exhaling
+rely	v	-		
+remain	v	~	1F9CD	person standing
+remember	v	~	1F516	bookmark
+remind	v	~	1F397	reminder ribbon
+remove	v	~	E262	delete
+render	v	-		
+renew	v	-		
+rent	v	-		
+repair	v	~	1F477	construction worker
+repeat	v	~	1F501	repeat button
+replace	v	~	1F501	repeat button
+reply	v	~	21A9	right arrow curving left
+report	v	-		
+represent	v	~	1F464	bust in silhouette
+reproduce	v	-		
+request	v	~	1F64B	person raising hand
+require	v	~	2757	red exclamation mark
+rescue	v	=	1F468-200D-1F692	man firefighter
+resemble	v	-		
+reserve	v	~	1F4C6	tear-off calendar
+resign	v	-		
+resist	v	-		
+resolve	v	-		
+resort	v	~	1F334	palm tree
+respect	v	~	1FAE1	saluting face
+respond	v	~	21A9	right arrow curving left
+rest	v	=	1F6CC	person in bed
+restore	v	-		
+restrict	v	~	1F6AB	prohibited
+result	v	-		
+retain	v	-		
+retire	v	=	1F334	palm tree
+retreat	v	~	2B05	left arrow
+return	v	~	21A9	right arrow curving left
+reveal	v	-		
+reverse	v	~	25C0	reverse button
+review	v	-		
+revise	v	~	270F	pencil
+revive	v	-		
+reward	v	-		
+rid	v	-		
+ride	v	=	1F6B2	bicycle
+ring	v	~	1F514	bell
+rise	v	~	1F53C	upwards button
+risk	v	-		
+roll	v	=	1F950	croissant
+rotate	v	=	1F300	cyclone
+rub	v	-		
+ruin	v	-		
+rule	v	~	1F451	crown
+run	v	=	1F3C3	person running
+rush	v	-		
+sacrifice	v	-		
+sail	v	=	26F5	sailboat
+sample	v	-		
+satisfy	v	~	1F60A	smiling face with smiling eyes
+save	v	~	1F4BE	floppy disk
+scan	v	=	E329	ct scan
+scare	v	=	1FAE2	face with open eyes and hand over mouth
+scatter	v	~	1F4A8	dashing away
+schedule	v	~	1F4C6	tear-off calendar
+score	v	~	1F4AF	hundred points
+scratch	v	-		
+scream	v	=	1F631	face screaming in fear
+screen	v	~	1F5A5	desktop computer
+seal	v	-		
+search	v	=	1F50D	magnifying glass tilted left
+secure	v	-		
+see	v	=	1F441	eye
+seek	v	-		
+seize	v	~	270A	raised fist
+select	v	-		
+sell	v	~	1F3F7	label
+send	v	~	1F4E9	envelope with arrow
+sense	v	~	1F443	nose
+separate	v	~	2702	scissors
+serve	v	~	1F37D	fork and knife with plate
+set	v	-		
+settle	v	-		
+shake	v	=	1F642-200D-2194-FE0F	head shaking horizontally
+shape	v	~	1F536	large orange diamond
+share	v	~	E253	share
+shed	v	-		
+shelter	v	=	1F6D6	hut
+shift	v	-		
+shine	v	=	1F31E	sun with face
+ship	v	=	1F6A2	ship
+shock	v	~	1F632	astonished face
+shoot	v	-		
+shop	v	=	1F6CD	shopping bags
+shout	v	=	1F4E2	loudspeaker
+show	v	~	1F440	eyes
+shrink	v	-		
+shrug	v	=	1F937	person shrugging
+shut	v	-		
+sigh	v	=	1F62E-200D-1F4A8	face exhaling
+sign	v	~	270D	writing hand
+signal	v	~	1F6A5	horizontal traffic light
+sing	v	=	1F3A4	microphone
+sink	v	=	E2D0	sea level rise
+sit	v	=	1FA91	chair
+skip	v	~	23ED	next track button
+slap	v	~	270B	raised hand
+sleep	v	=	1F634	sleeping face
+slide	v	-		
+slip	v	-		
+smash	v	-		
+smell	v	=	1F443	nose
+smile	v	=	1F60A	smiling face with smiling eyes
+smoke	v	=	1F6AC	cigarette
+snap	v	-		
+soak	v	=	1F9FD	sponge
+solve	v	-		
+sort	v	~	1F5C2	card index dividers
+sound	v	=	1F50A	speaker high volume
+spare	v	-		
+spark	v	~	1F9E8	firecracker
+speak	v	=	1F5E3	speaking head
+specialize	v	-		
+specify	v	-		
+spell	v	~	1F524	input latin letters
+spend	v	~	1F4B8	money with wings
+spill	v	=	1FAD7	pouring liquid
+spin	v	~	1F300	cyclone
+split	v	=	1FA93	axe
+spoil	v	~	1F5D1	wastebasket
+sponsor	v	~	1F4B0	money bag
+spot	v	~	1F440	eyes
+spread	v	~	1F4A8	dashing away
+squeeze	v	-		
+stabilize	v	-		
+stack	v	-		
+stage	v	~	1F3A4	microphone
+stand	v	=	1F9CD	person standing
+stare	v	=	1FAE3	face with peeking eye
+start	v	=	25B6	play button
+state	v	-		
+stay	v	~	1F6CF	bed
+steal	v	~	1F64A	speak-no-evil monkey
+steer	v	-		
+stem	v	-		
+step	v	~	1F463	footprints
+stick	v	-		
+stimulate	v	~	26A1	high voltage
+stir	v	~	1F944	spoon
+stop	v	~	1F6D1	stop sign
+store	v	~	1F5C4	file cabinet
+strain	v	-		
+strengthen	v	-		
+stress	v	~	1F605	grinning face with sweat
+stretch	v	-		
+strike	v	~	1F3B3	bowling
+strip	v	-		
+strive	v	-		
+struggle	v	~	1F94A	boxing glove
+study	v	=	1F4DA	books
+stuff	v	-		
+submit	v	~	1F4E4	outbox tray
+substitute	v	~	1F501	repeat button
+succeed	v	-		
+suck	v	-		
+suffer	v	~	1F622	crying face
+suggest	v	-		
+suit	v	~	1F454	necktie
+sum	v	~	2795	plus
+summarize	v	-		
+supply	v	-		
+support	v	~	1F91D	handshake
+suppose	v	~	1F914	thinking face
+suppress	v	-		
+surprise	v	=	1F632	astonished face
+surround	v	-		
+survive	v	~	1F49A	green heart
+suspect	v	-		
+suspend	v	~	23F8	pause button
+sustain	v	-		
+swallow	v	=	1F444	mouth
+swear	v	=	1F92C	face with symbols on mouth
+sweep	v	=	1F9F9	broom
+swim	v	=	1F3CA	person swimming
+swing	v	-		
+switch	v	=	E1C3	switch
+tackle	v	=	1F94A	boxing glove
+take	v	-		
+talk	v	=	1F5E3	speaking head
+tap	v	~	1F6B0	potable water
+target	v	=	1F3AF	bullseye
+taste	v	=	1F445	tongue
+tax	v	-		
+teach	v	=	1F468-200D-1F3EB	man teacher
+tear	v	-		
+tell	v	~	1F5E3	speaking head
+tempt	v	~	1F36B	chocolate bar
+tend	v	~	27A1	right arrow
+test	v	~	1F9EA	test tube
+thank	v	=	1F64F	folded hands
+think	v	=	1F914	thinking face
+threaten	v	~	26A0	warning
+throw	v	-		
+tie	v	~	1FAA2	knot
+tighten	v	-		
+tip	v	-		
+tire	v	-		
+title	v	-		
+tolerate	v	-		
+toss	v	~	1F93E	person playing handball
+touch	v	=	1F446	backhand index pointing up
+tour	v	-		
+trace	v	~	1FAC6	fingerprint
+track	v	~	1F6E4	railway track
+trade	v	-		
+train	v	=	1F686	train
+transfer	v	~	21AA	left arrow curving right
+transform	v	-		
+translate	v	~	1F310	globe with meridians
+transmit	v	~	1F4E1	satellite antenna
+transport	v	~	1F685	bullet train
+trap	v	=	1FAA4	mouse trap
+travel	v	=	2708	airplane
+treat	v	~	1F9C1	cupcake
+trigger	v	-		
+trim	v	=	1FA9A	carpentry saw
+trip	v	-		
+trust	v	-		
+try	v	~	1F3AF	bullseye
+turn	v	~	21AA	left arrow curving right
+twist	v	~	1FAA2	knot
+type	v	~	2328	keyboard
+undergo	v	~	1F504	counterclockwise arrows button
+underline	v	-		
+understand	v	~	1F9E0	brain
+undertake	v	~	1F4BC	briefcase
+unfold	v	-		
+unite	v	~	1F517	link
+unlock	v	=	1F513	unlocked
+update	v	-		
+upgrade	v	~	1F53C	upwards button
+upload	v	=	E251	upload
+urge	v	-		
+use	v	~	1F527	wrench
+utilize	v	~	1F527	wrench
+value	v	~	1F48E	gem stone
+vanish	v	-		
+vary	v	~	1F500	shuffle tracks button
+venture	v	-		
+verify	v	-		
+view	v	~	1F440	eyes
+violate	v	-		
+visit	v	~	1F6AA	door
+vote	v	=	1F5F3	ballot box with ballot
+wait	v	~	23F3	hourglass not done
+wake	v	=	23F0	alarm clock
+walk	v	=	1F6B6	person walking
+wander	v	=	1F6B6	person walking
+want	v	~	1F44D	thumbs up
+warm	v	-		
+warn	v	~	26A0	warning
+wash	v	=	1F9FC	soap
+waste	v	~	1F5D1	wastebasket
+watch	v	=	1F440	eyes
+wave	v	=	1F44B	waving hand
+weaken	v	-		
+wear	v	~	1F455	t-shirt
+weigh	v	-		
+welcome	v	=	1F44B	waving hand
+whip	v	-		
+whisper	v	=	1F92B	shushing face
+win	v	-		
+wind	v	-		
+wipe	v	~	1F9F9	broom
+wish	v	=	1F320	shooting star
+withdraw	v	=	1F4E4	outbox tray
+witness	v	-		
+wonder	v	-		
+work	v	~	1F4BC	briefcase
+worry	v	~	1F61F	worried face
+wrap	v	-		
+write	v	=	270D	writing hand
+yell	v	~	1F4E3	megaphone
+yield	v	~	1F3C5	sports medal

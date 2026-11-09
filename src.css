@@ -2,10 +2,30 @@
 @source "./index.html";
 @source "./app.js";
 
+@theme {
+  --font-word: 'Google Sans', var(--font-sans);
+}
 
-.card { outline: 1px solid transparent; outline-offset: -1px; transition: outline-color .1s ease-in-out; }
+@layer base {
+  :focus-visible { outline: 2px solid var(--color-amber-400); outline-offset: 2px; }
+}
+
+@layer components {
+  /* segmented switch: [RU|EN|TH] */
+  .seg { @apply flex gap-0.5 rounded-xl bg-zinc-900 p-0.5 text-sm; }
+  .seg button { @apply cursor-pointer rounded-lg px-3 py-1 text-zinc-400 hover:text-zinc-100; }
+  .seg button[aria-pressed="true"] { @apply bg-amber-400 font-semibold text-zinc-950; }
+
+  /* round icon button in the card corner */
+  .corner { @apply absolute top-1.5 flex size-6 cursor-pointer items-center justify-center rounded-full border border-zinc-700 text-zinc-500 hover:border-amber-400 hover:text-amber-400; }
+  .corner[data-done] { @apply border-amber-400 text-amber-400; }
+}
+
+/* the card is a stretched button (reveal the translation) with the corner controls above it */
+.card { content-visibility: auto; outline: 1px solid transparent; outline-offset: -1px; transition: outline-color .1s ease-in-out; }
+.card.open { outline-color: var(--color-amber-400); }
 .card .translation { opacity: 0; transition: opacity .1s ease-in-out; }
 .card.open .translation { opacity: 1; }
-.card.open { outline-color: var(--color-amber-400); }
+.card .reveal:focus-visible { outline-offset: -4px; }
+
 @media (prefers-reduced-motion: reduce) { .card, .card .translation { transition: none; } }
-.word { font-family: 'Google Sans', var(--font-sans); }

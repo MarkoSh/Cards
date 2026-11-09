@@ -1,174 +1,238 @@
-// Cards: masonry gallery of the 1000 most frequent nouns/verbs per language.
-// State: base language (what you know) -> decks of the other two; pos = n|v.
+// Cards: a gallery of the most frequent nouns and verbs in Russian, English and Thai.
+// You pick the language you know (base) and the deck you study (target); the card shows the
+// deck word and reveals the base-language translation on click.
+// Data: CONCEPTS (data.js), SPRITE (icons/sprite.js). Both are built by tools/build_data.py.
+
 const LANGS = ['ru', 'en', 'th'];
-const NAMES = { ru: 'RU', en: 'EN', th: 'TH' };
-const FIELD = { ru: 'r', en: 'e', th: 't' };
-const POS = [['n', 'nouns'], ['v', 'verbs']];
-const I18N = {
+const CODE = { ru: 'RU', en: 'EN', th: 'TH' };
+const FIELD = { ru: 'r', en: 'e', th: 't' };   // concept field holding the word of each language
+const DECK_SIZE = 1000;
+const STORAGE_KEY = 'cards';
+
+const TEXT = {
   ru: {
-    nouns: 'Существительные', verbs: 'Глаголы', search: 'Поиск…', empty: 'Ничего не найдено',
-    title: 'Cards — слова в карточках',
-    description: '1000 частотных существительных и 1000 глаголов английского, русского и тайского в карточках с иконками, транскрипцией и переводом.',
-    footer: 'Иконки: <a class="underline" href="https://openmoji.org" rel="noopener" target="_blank">OpenMoji</a> (CC BY-SA 4.0). Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.',
-    projects: 'Другие проекты:'
+    title: 'Cards — слова в карточках', search: 'Поиск…', empty: 'Ничего не найдено',
+    n: 'Существительные', v: 'Глаголы', copy: 'Копировать', copied: 'Скопировано', translate: 'Google Переводчик',
+    description: 'До 1000 частотных существительных и глаголов английского, русского и тайского в карточках с иконками, транскрипцией и переводом.',
+    credits: 'Иконки: {openmoji} (CC BY-SA 4.0). Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.',
+    projects: 'Другие проекты:',
   },
   en: {
-    nouns: 'Nouns', verbs: 'Verbs', search: 'Search…', empty: 'Nothing found',
-    title: 'Cards — vocabulary in cards',
-    description: '1000 frequent nouns and 1000 verbs in English, Russian and Thai, with icons, transcriptions and translations.',
-    footer: 'Icons: <a class="underline" href="https://openmoji.org" rel="noopener" target="_blank">OpenMoji</a> (CC BY-SA 4.0). Frequency: wordfreq (en/ru), Thai National Corpus (th). Translations curated by hand.',
-    projects: 'Other projects:'
+    title: 'Cards — vocabulary in cards', search: 'Search…', empty: 'Nothing found',
+    n: 'Nouns', v: 'Verbs', copy: 'Copy', copied: 'Copied', translate: 'Google Translate',
+    description: 'Up to 1000 frequent nouns and verbs in English, Russian and Thai, with icons, transcriptions and translations.',
+    credits: 'Icons: {openmoji} (CC BY-SA 4.0). Frequency: wordfreq (en/ru), Thai National Corpus (th). Translations curated by hand.',
+    projects: 'Other projects:',
   },
   th: {
-    nouns: 'คำนาม', verbs: 'คำกริยา', search: 'ค้นหา…', empty: 'ไม่พบคำที่ค้นหา',
-    title: 'Cards — เรียนคำศัพท์ด้วยบัตรคำ',
-    description: 'คำนามและคำกริยาที่พบบ่อยภาษาละ 1,000 คำ ในภาษาอังกฤษ รัสเซีย และไทย พร้อมไอคอน การถอดเสียง และคำแปล',
-    footer: 'ไอคอน: <a class="underline" href="https://openmoji.org" rel="noopener" target="_blank">OpenMoji</a> (CC BY-SA 4.0) · ความถี่คำ: wordfreq (en/ru), Thai National Corpus (th) · คำแปลคัดสรรด้วยตนเอง',
-    projects: 'โครงการอื่น:'
-  }
+    title: 'Cards — เรียนคำศัพท์ด้วยบัตรคำ', search: 'ค้นหา…', empty: 'ไม่พบคำที่ค้นหา',
+    n: 'คำนาม', v: 'คำกริยา', copy: 'คัดลอก', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
+    description: 'คำนามและคำกริยาที่พบบ่อยสูงสุดภาษาละ 1,000 คำ ในภาษาอังกฤษ รัสเซีย และไทย พร้อมไอคอน การถอดเสียง และคำแปล',
+    credits: 'ไอคอน: {openmoji} (CC BY-SA 4.0) · ความถี่คำ: wordfreq (en/ru), Thai National Corpus (th) · คำแปลคัดสรรด้วยตนเอง',
+    projects: 'โครงการอื่น:',
+  },
 };
 
-let state = { base: 'ru', target: 'en', pos: 'n' };
-try {
-  const saved = JSON.parse(localStorage.getItem('cards') || '{}');
-  if (LANGS.includes(saved.base)) state.base = saved.base;
-  if (LANGS.includes(saved.target) && saved.target !== state.base) state.target = saved.target;
-  if (['n', 'v'].includes(saved.pos)) state.pos = saved.pos;
-} catch (e) {}
-if (state.target === state.base) state.target = LANGS.find(l => l !== state.base);
+const ICON = {   // lucide, 24x24
+  copy: '<rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>',
+  check: '<path d="M20 6 9 17l-5-5"/>',
+  translate: '<path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/>',
+};
+const icon = name => `<svg class="size-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[name]}</svg>`;
+
+// card heights vary a little so the wall does not look like a table (px must match the classes)
+const LOOKS = [
+  { height: 'h-52', px: 208, glyph: 'size-16' },
+  { height: 'h-56', px: 224, glyph: 'size-20' },
+  { height: 'h-60', px: 240, glyph: 'size-24' },
+];
 
 const $ = id => document.getElementById(id);
-const esc = s => s.replace(/[&<>"]/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m]));
-const hash = s => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
+const esc = s => s.replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
+const norm = s => s.toLowerCase().replace(/ё/g, 'е');
+const lookOf = c => LOOKS[[...c.e].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7) % LOOKS.length];
+const otherLangs = lang => LANGS.filter(l => l !== lang);
 
-function save() { localStorage.setItem('cards', JSON.stringify(state)); }
+// ---- state -------------------------------------------------------------------------------
 
-function chips(el, items, current, cb) {
-  el.innerHTML = items.map(([val, label]) =>
-    `<button data-v="${val}" aria-pressed="${val === current}" class="px-3 py-1 rounded-lg cursor-pointer ${val === current ? 'bg-amber-400 text-zinc-950 font-semibold' : 'text-zinc-400 hover:text-zinc-100'}">${label}</button>`).join('');
-  el.querySelectorAll('button').forEach(b => b.onclick = () => cb(b.dataset.v));
+const state = { base: 'ru', target: 'en', pos: 'n' };
+
+function loadState() {
+  let saved = {};
+  try { saved = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; } catch (e) {}
+  if (LANGS.includes(saved.base)) state.base = saved.base;
+  if (otherLangs(state.base).includes(saved.target)) state.target = saved.target;
+  else state.target = otherLangs(state.base)[0];
+  if (saved.pos === 'n' || saved.pos === 'v') state.pos = saved.pos;
 }
 
+function setState(patch) {
+  Object.assign(state, patch);
+  if (state.target === state.base) state.target = otherLangs(state.base)[0];
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
+  paintChrome();
+  paintGrid();
+}
+
+// ---- deck: most frequent first, then the authored order --------------------------------
+
+CONCEPTS.forEach(c => { c.s = norm([c.e, c.r, c.t, c.x].join(' ')); });   // search text
+
+const decks = new Map();
 function deck() {
-  // frequency rank first, then authored order to fill up to 1000 cards
-  return CONCEPTS
-    .map((c, i) => [(c.k && c.k[state.target]) || 9999, i, c])
-    .filter(x => x[2].p === state.pos)
-    .sort((a, b) => a[0] - b[0] || a[1] - b[1])
-    .map(x => x[2])
-    .filter((c, i, all) => all.findIndex(d => d[FIELD[state.target]] === c[FIELD[state.target]]) === i)  // synonyms share a translation: one card per word
-    .slice(0, 1000);
+  const key = state.target + state.pos;
+  if (!decks.has(key)) {
+    const field = FIELD[state.target], seen = new Set();
+    decks.set(key, CONCEPTS
+      .map((c, i) => ({ c, i, rank: c.k?.[state.target] ?? Infinity }))
+      .filter(x => x.c.p === state.pos)
+      .sort((a, b) => a.rank - b.rank || a.i - b.i)
+      .map(x => x.c)
+      // synonyms can share one translation: one card per deck word
+      .filter(c => !seen.has(c[field]) && seen.add(c[field]))
+      .slice(0, DECK_SIZE));
+  }
+  return decks.get(key);
+}
+
+// ---- cards -------------------------------------------------------------------------------
+
+function glyph(c, look) {
+  if (c.g) return `<svg class="${look.glyph} text-amber-400" aria-hidden="true"><use href="#i-${c.g}"/></svg>`;
+  // abstract word, no pictogram: its first letter in a ring
+  const word = c[FIELD[state.target]];
+  const letter = (state.target === 'th' && word.match(/[ก-ฮ]/)?.[0]) || [...word][0];
+  return `<span class="flex size-20 items-center justify-center rounded-full border-2 border-amber-400/50 text-3xl text-amber-400 font-semibold font-word ${state.target === 'th' ? 'pb-1' : ''}" aria-hidden="true">${esc(letter)}</span>`;
+}
+
+// five bars: how common the word is (rank in the frequency list of the deck language)
+function frequency(c) {
+  const rank = c.k?.[state.target];
+  const lit = !rank ? 0 : rank <= 50 ? 5 : rank <= 200 ? 4 : rank <= 500 ? 3 : rank <= 1000 ? 2 : 1;
+  const bars = [0, 1, 2, 3, 4].map(i =>
+    `<span class="w-0.5 rounded-full ${i < lit ? 'bg-amber-400' : 'bg-zinc-700'}" style="height:${4 + i * 2}px"></span>`).join('');
+  return `<span class="absolute left-2 top-2 flex items-end gap-px" ${rank ? `title="#${rank}"` : ''} aria-hidden="true">${bars}</span>`;
 }
 
 function transcription(c) {
-  if (state.target === 'en') return c.i || '';
-  if (state.target === 'th') return c.x || '';
-  return '';
+  return (state.target === 'en' ? c.i : state.target === 'th' ? c.x : '') || '';
 }
 
-// no pictogram for abstract words: first letter of the deck word in a ring
-function badge(c) {
-  const w = c[FIELD[state.target]];
-  const ch = (state.target === 'th' ? w.match(/[\u0E01-\u0E2E]/) : null)?.[0] || [...w][0];
-  return `<span class="w-20 h-20 rounded-full border-2 border-amber-400/50 flex items-center justify-center text-3xl font-semibold ${state.target === 'th' ? 'pb-1' : ''}">${esc(ch)}</span>`;
+function card(c) {
+  const t = TEXT[state.base], look = lookOf(c), word = c[FIELD[state.target]];
+  const url = `https://translate.google.com/?sl=${state.target}&tl=${state.base}&text=${encodeURIComponent(word)}&op=translate`;
+  return `<article class="card ${look.height} relative bg-zinc-900">
+  <button type="button" class="reveal absolute inset-0 flex select-none flex-col items-center justify-center p-4 text-center" aria-expanded="false">
+    ${glyph(c, look)}
+    <span class="font-word mt-2 block font-semibold leading-snug ${state.target === 'th' ? 'text-xl' : 'text-lg'}">${esc(word)}</span>
+    <span class="mt-0.5 block h-4 text-xs text-zinc-500">${esc(transcription(c))}</span>
+    <span class="translation mt-2 block h-10 w-full border-t border-zinc-800 pt-2 text-sm text-zinc-400" aria-hidden="true">${esc(c[FIELD[state.base]])}</span>
+  </button>
+  ${frequency(c)}
+  <a class="corner right-9" href="${url}" target="_blank" rel="noopener" title="${t.translate}" aria-label="${t.translate}">${icon('translate')}</a>
+  <button type="button" class="corner copy right-1.5" data-word="${esc(word)}" title="${t.copy}" aria-label="${t.copy}">${icon('copy')}</button>
+</article>`;
 }
 
-const COPY_ICON = '<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>';
-const CHECK_ICON = '<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
-const TRANSLATE_ICON = '<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg>';
-const HEIGHTS = [208, 224, 240];   // px of h-52 / h-56 / h-60
+// ---- grid: columns filled in reading order (every card goes to the shortest column) ------
 
-// how common the word is: rank in the frequency list of the deck language (1 = most common)
-function freq(c) {
-  const r = c.k && c.k[state.target];
-  const lit = !r ? 0 : r <= 50 ? 5 : r <= 200 ? 4 : r <= 500 ? 3 : r <= 1000 ? 2 : 1;
-  const bars = [0, 1, 2, 3, 4].map(i => `<span class="w-0.5 rounded-full ${i < lit ? 'bg-amber-400' : 'bg-zinc-700'}" style="height:${4 + i * 2}px"></span>`).join('');
-  return `<span class="absolute top-2 left-2 flex items-end gap-px" title="${r ? '#' + r : ''}">${bars}</span>`;
-}
+const BREAKPOINTS = [[1900, 6], [1440, 5], [1024, 4], [640, 3]].map(([w, n]) => [matchMedia(`(min-width:${w}px)`), n]);
+const columnCount = () => BREAKPOINTS.find(([mq]) => mq.matches)?.[1] ?? 2;
 
-function columns() {
-  const w = window.innerWidth;
-  return w < 640 ? 2 : w < 1024 ? 3 : w < 1440 ? 4 : w < 1900 ? 5 : 6;
-}
-
-function cardHTML(c, h) {
-  const size = ['w-16 h-16', 'w-20 h-20', 'w-24 h-24'][h];
-  const height = ['h-52', 'h-56', 'h-60'][h];
-  const word = c[FIELD[state.target]];
-  return `<article class="card ${height} relative overflow-hidden bg-zinc-900 p-4 flex flex-col items-center justify-center text-center cursor-pointer select-none" data-e="${esc(c.e)}">
-      ${freq(c)}
-      <button type="button" class="copy absolute top-1.5 right-1.5 flex items-center justify-center w-6 h-6 rounded-full border border-zinc-700 text-zinc-500 hover:text-amber-400 hover:border-amber-400 cursor-pointer" aria-label="Copy" data-w="${esc(word)}">${COPY_ICON}</button>
-      <a class="gt absolute top-1.5 right-9 flex items-center justify-center w-6 h-6 rounded-full border border-zinc-700 text-zinc-500 hover:text-amber-400 hover:border-amber-400" aria-label="Google Translate" target="_blank" rel="noopener" href="https://translate.google.com/?sl=${state.target}&tl=${state.base}&text=${encodeURIComponent(word)}&op=translate">${TRANSLATE_ICON}</a>
-      <div class="text-amber-400 flex justify-center shrink-0">${c.g ? `<svg class="${size}"><use href="#i-${c.g}"/></svg>` : badge(c)}</div>
-      <div class="word mt-2 font-semibold ${state.target === 'th' ? 'text-xl' : 'text-lg'} leading-snug">${esc(word)}</div>
-      <div class="h-4 text-xs text-zinc-500 mt-0.5">${esc(transcription(c))}</div>
-      <div class="translation h-10 mt-2 pt-2 border-t border-zinc-800 text-sm text-zinc-400">${esc(c[FIELD[state.base]])}</div>
-    </article>`;
-}
-
-function copyText(text) {
-  if (navigator.clipboard && navigator.clipboard.writeText) return navigator.clipboard.writeText(text);
-  return new Promise((ok, no) => {
-    const t = document.createElement('textarea');
-    t.value = text; document.body.appendChild(t); t.select();
-    try { document.execCommand('copy') ? ok() : no(); } catch (e) { no(e); } finally { t.remove(); }
-  });
-}
-
-function render() {
-  const q = $('q').value.trim().toLowerCase();
-  const items = deck().filter(c => !q ||
-    ['e', 'r', 't'].some(f => c[f].toLowerCase().includes(q)));
-  // masonry that keeps the order: every next card goes to the shortest column,
-  // so the rank grows left to right, then down
-  const n = columns(), cols = Array.from({ length: n }, () => ({ h: 0, html: '' }));
-  items.forEach(c => {
-    const h = hash(c.e) % 3, col = cols.reduce((m, x) => x.h < m.h ? x : m);
-    col.html += cardHTML(c, h);
-    col.h += HEIGHTS[h] + 1;
-  });
-  $('grid').innerHTML = cols.map(c => `<div class="flex-1 min-w-0 flex flex-col gap-px">${c.html}</div>`).join('');
-  $('grid').querySelectorAll('.card').forEach(el => el.onclick = () => el.classList.toggle('open'));
-  $('grid').querySelectorAll('.gt').forEach(a => a.onclick = e => e.stopPropagation());
-  $('grid').querySelectorAll('.copy').forEach(b => b.onclick = e => {
-    e.stopPropagation();
-    copyText(b.dataset.w).then(() => {
-      b.innerHTML = CHECK_ICON; b.classList.add('text-amber-400', 'border-amber-400');
-      setTimeout(() => { b.innerHTML = COPY_ICON; b.classList.remove('text-amber-400', 'border-amber-400'); }, 1000);
-    }).catch(() => {});
-  });
+function paintGrid() {
+  const q = norm($('q').value.trim());
+  const items = deck().filter(c => !q || c.s.includes(q));
+  const cols = Array.from({ length: columnCount() }, () => ({ height: 0, html: '' }));
+  for (const c of items) {
+    const col = cols.reduce((a, b) => b.height < a.height ? b : a);
+    col.html += card(c);
+    col.height += lookOf(c).px + 1;
+  }
+  $('grid').innerHTML = cols.map(col => `<div class="flex min-w-0 flex-1 flex-col gap-px">${col.html}</div>`).join('');
   $('empty').classList.toggle('hidden', items.length > 0);
 }
 
-function renderControls() {
-  chips($('base'), LANGS.map(l => [l, NAMES[l]]), state.base, v => {
-    state.base = v;
-    if (state.target === v) state.target = LANGS.find(l => l !== v);
-    save(); renderAll();
-  });
-  const text = I18N[state.base];
-  chips($('pos'), POS.map(([value, key]) => [value, text[key]]), state.pos,
-    v => { state.pos = v; save(); renderControls(); render(); });
-  const others = LANGS.filter(l => l !== state.base);
-  chips($('targets'), others.map(l => [l, NAMES[l]]), state.target, v => { state.target = v; save(); renderAll(); });
+// ---- page chrome: switches, texts --------------------------------------------------------
+
+function segment(el, items, current, label) {
+  el.innerHTML = items.map(([value, text]) =>
+    `<button type="button" data-value="${value}" aria-pressed="${value === current}" ${label ? `title="${label(value)}"` : ''}>${text}</button>`).join('');
 }
 
-function renderAll() {
-  const text = I18N[state.base];
+function paintChrome() {
+  const t = TEXT[state.base];
+  const names = new Intl.DisplayNames([state.base], { type: 'language' });
+  const langName = l => names.of(l);
   document.documentElement.lang = state.base;
-  document.title = text.title;
-  document.querySelector('meta[name="description"]').content = text.description;
-  $('q').placeholder = text.search;
-  $('empty').textContent = text.empty;
-  $('footer-note').innerHTML = text.footer;
-  $('projects-label').textContent = text.projects;
-  renderControls();
-  render();
+  document.title = t.title;
+  document.querySelector('meta[name="description"]').content = t.description;
+  $('q').placeholder = t.search;
+  $('q').setAttribute('aria-label', t.search);
+  $('empty').textContent = t.empty;
+  $('credits').innerHTML = t.credits.replace('{openmoji}', '<a class="underline" href="https://openmoji.org" target="_blank" rel="noopener">OpenMoji</a>');
+  $('projects').textContent = t.projects;
+  segment($('base'), LANGS.map(l => [l, CODE[l]]), state.base, langName);
+  segment($('target'), otherLangs(state.base).map(l => [l, CODE[l]]), state.target, langName);
+  segment($('pos'), [['n', t.n], ['v', t.v]], state.pos);
 }
+
+// ---- events (one listener per area; the grid is re-created on every repaint) -------------
+
+const setLabel = (el, text) => { el.title = text; el.setAttribute('aria-label', text); };
+
+function copyText(text) {
+  if (navigator.clipboard?.writeText) return navigator.clipboard.writeText(text);
+  return new Promise((resolve, reject) => {
+    const box = Object.assign(document.createElement('textarea'), { value: text });
+    document.body.append(box);
+    box.select();
+    try { document.execCommand('copy') ? resolve() : reject(); } catch (e) { reject(e); } finally { box.remove(); }
+  });
+}
+
+$('grid').addEventListener('click', e => {
+  const copy = e.target.closest('.copy');
+  if (copy) {
+    copyText(copy.dataset.word).then(() => {
+      const label = copy.title;
+      copy.innerHTML = icon('check');
+      copy.dataset.done = '';
+      setLabel(copy, TEXT[state.base].copied);
+      setTimeout(() => {
+        copy.innerHTML = icon('copy');
+        delete copy.dataset.done;
+        setLabel(copy, label);
+      }, 1000);
+    }).catch(() => {});
+    return;
+  }
+  const reveal = e.target.closest('.reveal');
+  if (reveal) {
+    const open = reveal.parentElement.classList.toggle('open');
+    reveal.setAttribute('aria-expanded', open);
+    reveal.querySelector('.translation').setAttribute('aria-hidden', !open);
+  }
+});
+
+$('base').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setState({ base: b.dataset.value }); });
+$('target').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setState({ target: b.dataset.value }); });
+$('pos').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setState({ pos: b.dataset.value }); });
+
+let searchFrame = 0;
+$('q').addEventListener('input', () => {
+  cancelAnimationFrame(searchFrame);
+  searchFrame = requestAnimationFrame(paintGrid);
+});
+
+let columns = columnCount();
+for (const [mq] of BREAKPOINTS) {
+  mq.addEventListener('change', () => { if (columnCount() !== columns) { columns = columnCount(); paintGrid(); } });
+}
+
+// ---- start -------------------------------------------------------------------------------
 
 $('sprite').innerHTML = SPRITE;
-renderAll();
-$('q').oninput = render;
-let cols = columns();
-window.addEventListener('resize', () => { if (columns() !== cols) { cols = columns(); render(); } });
+loadState();
+paintChrome();
+paintGrid();
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
