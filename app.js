@@ -7,6 +7,7 @@ const LANGS = ['ru', 'en', 'th'];
 const CODE = { ru: 'RU', en: 'EN', th: 'TH' };
 const FIELD = { ru: 'r', en: 'e', th: 't' };   // concept field holding the word of each language
 const DECK_SIZE = 1000;
+const NO_RANK = 1e9;      // words missing from a frequency list go to the end of the deck
 const STORAGE_KEY = 'cards';
 
 const TEXT = {
@@ -84,11 +85,12 @@ function deck() {
   if (!decks.has(key)) {
     const field = FIELD[state.target], seen = new Set();
     decks.set(key, CONCEPTS
-      .map((c, i) => ({ c, i, rank: c.k?.[state.target] ?? Infinity }))
+      .map((c, i) => ({ c, i, rank: c.k?.[state.target] ?? NO_RANK, en: c.k?.en ?? NO_RANK }))
       .filter(x => x.c.p === state.pos)
-      .sort((a, b) => a.rank - b.rank || a.i - b.i)
+      // synonyms share a rank when they share a translation: the commonest English sense goes first
+      .sort((a, b) => a.rank - b.rank || a.en - b.en || a.i - b.i)
       .map(x => x.c)
-      // synonyms can share one translation: one card per deck word
+      // one card per deck word
       .filter(c => !seen.has(c[field]) && seen.add(c[field]))
       .slice(0, DECK_SIZE));
   }
