@@ -1,0 +1,1043 @@
+# verb|English|Russian|Thai. Mark the verb in each sentence with [ ]; Thai words are separated by spaces. Short, everyday, no names.
+be|He [was] a teacher|Он [был] учителем|เขา [เป็น] ครู
+constitute|Girls [constitute] half of the class|Девочки [составляют] половину класса|เด็กผู้หญิง [เป็น] ครึ่ง หนึ่ง ของ ห้อง
+get|I [get] a letter|Я [получаю] письмо|ฉัน [ได้] จดหมาย
+have|I [have] a dog|У меня [есть] собака|ฉัน [มี] สุนัข
+know|I [know] the answer|Я [знаю] ответ|ฉัน [รู้] คำตอบ
+possess|He [possesses] a rare book|Он [обладает] редкой книгой|เขา [มี] หนังสือ หายาก
+give|I [give] you a book|Я [даю] тебе книгу|ฉัน [ให้] หนังสือ เธอ
+render|Doctors [render] aid|Врачи [оказывают] помощь|หมอ [ให้] ความช่วยเหลือ
+see|I [see] a bird|Я [вижу] птицу|ฉัน [เห็น] นก
+go|We [go] home|Мы [идём] домой|เรา [ไป] บ้าน
+make|The factory [makes] shoes|Фабрика [создаёт] обувь|โรงงาน [ผลิต] รองเท้า
+stir|I [stir] the soup|Я [помешиваю] суп|ฉัน [คน] ซุป
+think|I [think] about you|Я [думаю] о тебе|ฉัน [คิด] ถึง เธอ
+want|I [want] water|Я [хочу] воды|ฉัน [อยาก] ได้ น้ำ
+live|We [live] in a house|Мы [живём] в доме|เรา [อยู่] ใน บ้าน
+resort|He [resorts] to force|Он [прибегает] к силе|เขา [ใช้] กำลัง
+use|I [use] a phone|Я [использую] телефон|ฉัน [ใช้] โทรศัพท์
+utilize|We [utilize] a new method|Мы [применяем] новый метод|เรา [ใช้] วิธี ใหม่
+do|I [do] my homework|Я [делаю] уроки|ฉัน [ทำ] การบ้าน
+enter|I [enter] the room|Я [вхожу] в комнату|ฉัน [เข้า] ห้อง
+need|I [need] help|Я [нуждаюсь] в помощи|ฉัน [ต้องการ] ความช่วยเหลือ
+occur|Accidents [occur] at night|Аварии [происходят] ночью|อุบัติเหตุ [เกิด] ตอน กลางคืน
+work|I [work] at a bank|Я [работаю] в банке|ฉัน [ทำงาน] ที่ ธนาคาร
+speak|She [speaks] Thai|Она [говорит] по-тайски|เธอ [พูด] ภาษา ไทย
+take|I [take] a book|Я [беру] книгу|ฉัน [เอา] หนังสือ
+cost|It [costs] ten baht|Это [стоит] десять бат|อันนี้ [มีราคา] สิบ บาท
+look|I [look] at the sky|Я [смотрю] на небо|ฉัน [มอง] ท้องฟ้า
+come|He [comes] at six|Он [приходит] в шесть|เขา [มา] ตอน หกโมง
+matter|Your word [matters]|Твоё слово [значит] много|คำพูด ของ เธอ [สำคัญ]
+find|I [find] my keys|Я [нахожу] ключи|ฉัน [พบ] กุญแจ
+help|I [help] my mother|Я [помогаю] маме|ฉัน [ช่วย] แม่
+view|We [view] the photos|Мы [рассматриваем] фото|เรา [ดู] รูป
+watch|I [watch] the birds|Я [наблюдаю] за птицами|ฉัน [ดู] นก
+show|I [show] a photo|Я [показываю] фото|ฉัน [แสดง] ภาพ
+bring|I [bring] tea|Я [приношу] чай|ฉัน [นำ] ชา มา
+feel|I [feel] cold|Я [чувствую] холод|ฉัน [รู้สึก] หนาว
+lead|She [leads] the team|Она [ведёт] команду|เธอ [นำ] ทีม
+keep|I [keep] the keys at home|Я [храню] ключи дома|ฉัน [เก็บ] กุญแจ ไว้ ที่ บ้าน
+love|I [love] my family|Я [люблю] семью|ฉัน [รัก] ครอบครัว
+put|I [put] the cup on the table|Я [кладу] чашку на стол|ฉัน [วาง] ถ้วย บน โต๊ะ
+tell|I [tell] her the news|Я [рассказываю] ей новости|ฉัน [บอก] ข่าว เธอ
+leave|I [leave] the house|Я [ухожу] из дома|ฉัน [ออกจาก] บ้าน
+return|I [return] home|Я [возвращаюсь] домой|ฉัน [กลับ] บ้าน
+locate|The hotel [is located] near the sea|Отель [находится] у моря|โรงแรม [ตั้งอยู่] ใกล้ ทะเล
+obtain|He [obtains] a visa|Он [добывает] визу|เขา [ได้รับ] วีซ่า
+play|Children [play] in the yard|Дети [играют] во дворе|เด็ก [เล่น] ที่ สนาม
+receive|I [receive] a message|Я [получаю] сообщение|ฉัน [ได้รับ] ข้อความ
+figure|I finally [figure] it out|Я наконец [сообразил]|ฉัน [คิด] ออก แล้ว
+let|I [let] you go|Я [позволяю] тебе уйти|ฉัน [ปล่อย] เธอ ไป
+originate|The word [originates] in Latin|Слово [происходит] из латыни|คำ นี้ [มีกำเนิด] จาก ภาษา ละติน
+call|I [call] my friend|Я [зову] друга|ฉัน [เรียก] เพื่อน
+like|I [like] tea|Мне [нравится] чай|ฉัน [ชอบ] ชา
+follow|The dog [follows] me|Собака [следует] за мной|สุนัข [ตาม] ฉัน
+set|I [set] the clock|Я [устанавливаю] часы|ฉัน [ตั้ง] นาฬิกา
+care|I [care] about you|Я [забочусь] о тебе|ฉัน [ใส่ใจ] เธอ
+understand|I [understand] you|Я [понимаю] тебя|ฉัน [เข้าใจ] เธอ
+hope|I [hope] for rain|Я [надеюсь] на дождь|ฉัน [หวัง] ว่า ฝน จะ ตก
+start|The race [starts] at eight|Гонка [стартует] в восемь|การแข่ง [เริ่มต้น] ตอน สองทุ่ม
+change|I [change] my shirt|Я [меняю] рубашку|ฉัน [เปลี่ยน] เสื้อ
+perform|She [performs] on stage|Она [выступает] на сцене|เธอ [แสดง] บน เวที
+read|I [read] a book|Я [читаю] книгу|ฉัน [อ่าน] หนังสือ
+create|I [create] a picture|Я [создаю] картину|ฉัน [สร้าง] ภาพ
+generate|Wind [generates] power|Ветер [генерирует] энергию|ลม [สร้าง] พลังงาน
+amount|Costs [amount] to a hundred baht|Расходы [составляют] сто бат|ค่าใช้จ่าย [รวมเป็น] ร้อย บาท
+compile|I [compile] a list|Я [составляю] список|ฉัน [รวบรวม] รายการ
+mean|What does it [mean]?|Что это [означает]?|นี่ [หมายความว่า] อะไร
+become|She [becomes] a doctor|Она [становится] врачом|เธอ [กลายเป็น] หมอ
+support|I [support] my team|Я [поддерживаю] свою команду|ฉัน [สนับสนุน] ทีม ของ ฉัน
+determine|We [determine] the date|Мы [определяем] дату|เรา [กำหนด] วัน
+impose|They [impose] rules|Они [навязывают] правила|พวก เขา [กำหนด] กฎ
+include|The price [includes] tea|Цена [включает] чай|ราคา [รวม] ชา
+request|I [request] a table|Я [прошу] столик|ฉัน [ขอ] โต๊ะ
+stop|The bus [stops] here|Автобус [останавливается] здесь|รถเมล์ [หยุด] ที่ นี่
+base|I [base] it on facts|Я [основываю] это на фактах|ฉัน [อิง] ข้อเท็จจริง
+believe|I [believe] you|Я [верю] тебе|ฉัน [เชื่อ] เธอ
+try|I [try] to open the door|Я [пытаюсь] открыть дверь|ฉัน [พยายาม] เปิด ประตู
+encounter|I [encounter] a problem|Я [встречаю] трудность|ฉัน [พบ] ปัญหา
+meet|I [meet] a friend|Я [встречаю] друга|ฉัน [พบ] เพื่อน
+run|I [run] in the park|Я [бегаю] в парке|ฉัน [วิ่ง] ใน สวน
+spot|I [spot] a bird in the tree|Я [замечаю] птицу на дереве|ฉัน [พบ] นก บน ต้นไม้
+thank|I [thank] you|Я [благодарю] вас|ฉัน [ขอบคุณ] คุณ
+unite|We [unite] the groups|Мы [объединяем] группы|เรา [รวม] กลุ่ม
+exist|Ghosts do not [exist]|Призраков не [существует]|ผี ไม่ [มีอยู่]
+walk|I [walk] to school|Я [хожу] в школу пешком|ฉัน [เดิน] ไป โรงเรียน
+develop|I [develop] a business|Я [развиваю] бизнес|ฉัน [พัฒนา] ธุรกิจ
+face|I [face] a problem|Я [сталкиваюсь] с проблемой|ฉัน [เผชิญ] ปัญหา
+post|I [post] a photo|Я [публикую] фото|ฉัน [โพสต์] รูป
+talk|We [talk] on the phone|Мы [разговариваем] по телефону|เรา [พูดคุย] ทาง โทรศัพท์
+eat|I [eat] fish|Я [ем] рыбу|ฉัน [กิน] ปลา
+mind|I don't [mind] the noise|Я ничего не [имею против] шума|ฉัน ไม่ [รังเกียจ] เสียง
+send|I [send] a letter|Я [отправляю] письмо|ฉัน [ส่ง] จดหมาย
+ship|We [ship] goods by sea|Мы [перевозим] товары морем|เรา [ส่ง] สินค้า ทาง ทะเล
+transmit|The cable [transmits] a signal|Кабель [передаёт] сигнал|สาย [ส่ง] สัญญาณ
+pay|I [pay] for lunch|Я [плачу] за обед|ฉัน [จ่าย] ค่า อาหาร กลางวัน
+arrange|I [arrange] a party|Я [устраиваю] праздник|ฉัน [จัด] งานเลี้ยง
+lose|I [lose] my job|Я [теряю] работу|ฉัน [สูญเสีย] งาน
+organize|We [organize] a trip|Мы [организуем] поездку|เรา [จัด] ทริป
+stage|They [stage] a play|Они [ставят] спектакль|พวก เขา [จัด] ละคร
+win|We [win] the game|Мы [побеждаем] в игре|เรา [ชนะ] เกม
+combine|I [combine] two colors|Я [комбинирую] цвета|ฉัน [รวม] สี
+remember|I [remember] you|Я [помню] тебя|ฉัน [จำ] เธอ ได้
+begin|I [begin] the lesson|Я [начинаю] урок|ฉัน [เริ่ม] บทเรียน
+commence|The show [commences] at nine|Концерт [начинается] в девять|การแสดง [เริ่ม] ตอน สามทุ่ม
+hit|I [hit] the ball|Я [ударяю] по мячу|ฉัน [ตี] ลูกบอล
+ask|I [ask] the teacher|Я [спрашиваю] учителя|ฉัน [ถาม] ครู
+cause|Rain [causes] floods|Дождь [вызывает] наводнение|ฝน [ก่อให้เกิด] น้ำท่วม
+consider|I [consider] it a good idea|Я [считаю] это хорошей идеей|ฉัน [พิจารณา] ความคิด นี้
+move|I [move] the chair|Я [двигаю] стул|ฉัน [ขยับ] เก้าอี้
+pass|I [pass] the shop|Я [прохожу] мимо магазина|ฉัน [ผ่าน] ร้าน
+undergo|He [undergoes] surgery|Он [подвергается] операции|เขา [ผ่าน] การ ผ่าตัด
+write|I [write] a letter|Я [пишу] письмо|ฉัน [เขียน] จดหมาย
+add|I [add] sugar|Я [добавляю] сахар|ฉัน [เพิ่ม] น้ำตาล
+boost|Tea [boosts] energy|Чай [повышает] бодрость|ชา [เพิ่ม] พลัง
+increase|We [increase] speed|Мы [увеличиваем] скорость|เรา [เพิ่ม] ความเร็ว
+wait|I [wait] for you|Я [жду] тебя|ฉัน [รอ] เธอ
+open|I [open] the door|Я [открываю] дверь|ฉัน [เปิด] ประตู
+act|He [acts] quickly|Он [действует] быстро|เขา [กระทำ] อย่าง รวดเร็ว
+commit|He [commits] a crime|Он [совершает] преступление|เขา [กระทำ] ความผิด
+stay|I [stay] at a hotel|Я [остаюсь] в отеле|ฉัน [พัก] ที่ โรงแรม
+buy|I [buy] bread|Я [покупаю] хлеб|ฉัน [ซื้อ] ขนมปัง
+imagine|I [imagine] the sea|Я [представляю] море|ฉัน [จินตนาการ] ถึง ทะเล
+introduce|I [introduce] my friend|Я [представляю] друга|ฉัน [แนะนำ] เพื่อน
+picture|I [picture] a house|Я [представляю] дом|ฉัน [นึก] ภาพ บ้าน
+report|I [report] the news|Я [сообщаю] новости|ฉัน [รายงาน] ข่าว
+represent|She [represents] the school|Она [представляет] школу|เธอ [เป็นตัวแทน] ของ โรงเรียน
+learn|I [learn] to swim|Я [учусь] плавать|ฉัน [เรียน] ว่าย น้ำ
+turn|I [turn] left|Я [поворачиваю] налево|ฉัน [เลี้ยว] ซ้าย
+check|I [check] my email|Я [проверяю] почту|ฉัน [ตรวจ] อีเมล
+sit|I [sit] on a chair|Я [сижу] на стуле|ฉัน [นั่ง] บน เก้าอี้
+build|We [build] a house|Мы [строим] дом|เรา [ก่อสร้าง] บ้าน
+hear|I [hear] music|Я [слышу] музыку|ฉัน [ได้ยิน] เพลง
+count|I [count] the coins|Я [считаю] монеты|ฉัน [นับ] เหรียญ
+die|Flowers [die] in winter|Цветы [умирают] зимой|ดอกไม้ [ตาย] ใน ฤดูหนาว
+regard|I [regard] him as a friend|Я [считаю] его другом|ฉัน [ถือ] ว่า เขา เป็น เพื่อน
+cut|I [cut] the bread|Я [режу] хлеб|ฉัน [ตัด] ขนมปัง
+decrease|We [decrease] costs|Мы [уменьшаем] расходы|เรา [ลด] ค่าใช้จ่าย
+hold|I [hold] a cup|Я [держу] чашку|ฉัน [ถือ] ถ้วย
+lower|I [lower] the flag|Я [опускаю] флаг|ฉัน [ลด] ธง
+reduce|We [reduce] waste|Мы [сокращаем] отходы|เรา [ลด] ขยะ
+manufacture|They [manufacture] cars|Они [изготавливают] машины|พวก เขา [ผลิต] รถยนต์
+produce|The farm [produces] milk|Ферма [производит] молоко|ฟาร์ม [ผลิต] นม
+fight|The boys [fight]|Мальчики [дерутся]|เด็กผู้ชาย [สู้] กัน
+remain|I [remain] at home|Я [остаюсь] дома|ฉัน [คงอยู่] ที่ บ้าน
+enable|The key [enables] me to enter|Ключ [позволяет] мне войти|กุญแจ [ทำให้สามารถ] เข้า ได้
+permit|The teacher [permits] it|Учитель [позволяет] это|ครู [อนุญาต] เรื่อง นี้
+sell|I [sell] fruit|Я [продаю] фрукты|ฉัน [ขาย] ผลไม้
+offer|I [offer] tea|Я [предлагаю] чай|ฉัน [เสนอ] ชา
+propose|I [propose] a plan|Я [вношу предложение] по плану|ฉัน [เสนอ] แผน
+rest|I [rest] after work|Я [отдыхаю] после работы|ฉัน [พัก] หลัง เลิกงาน
+kill|The cold [kills] plants|Мороз [убивает] растения|ความหนาว [ฆ่า] ต้นไม้
+treat|He [treats] me well|Он хорошо [обращается] со мной|เขา [ปฏิบัติ] ต่อ ฉัน ดี
+miss|I [miss] my mother|Я [скучаю] по маме|ฉัน [คิดถึง] แม่
+sleep|I [sleep] at ten|Я [сплю] в десять|ฉัน [นอน] ตอน สี่ทุ่ม
+cure|The medicine [cures] a cold|Лекарство [лечит] простуду|ยา [รักษา] หวัด
+maintain|We [maintain] the road|Мы [поддерживаем] дорогу в порядке|เรา [รักษา] ถนน
+search|I [search] for my phone|Я [ищу] телефон|ฉัน [ค้นหา] โทรศัพท์
+seek|I [seek] advice|Я [ищу] совет|ฉัน [แสวงหา] คำแนะนำ
+shoot|He [shoots] with a bow|Он [стреляет] из лука|เขา [ยิง] ธนู
+account|I [account] for the cost|Я [учитываю] расходы|ฉัน [คำนึง] ถึง ค่าใช้จ่าย
+choose|I [choose] a book|Я [выбираю] книгу|ฉัน [เลือก] หนังสือ
+opt|I [opt] for tea|Я [выбираю] чай|ฉัน [เลือก] ชา
+select|I [select] a color|Я [отбираю] цвета|ฉัน [เลือก] สี
+consist|The team [consists] of five|Команда [состоит] из пяти|ทีม [ประกอบด้วย] ห้า คน
+happen|What [happens] next?|Что [случается] дальше?|อะไร [เกิดขึ้น] ต่อ
+depend|It [depends] on the weather|Это [зависит] от погоды|มัน [ขึ้นอยู่กับ] อากาศ
+concern|This [concerns] you|Это [касается] тебя|เรื่อง นี้ [เกี่ยวข้อง] กับ เธอ
+stick|I [stick] a stamp|Я [клею] марку|ฉัน [ติด] แสตมป์
+break|I [break] a chair|Я [ломаю] стул|ฉัน [ทำลาย] เก้าอี้
+result|Rain [results] in mud|Дождь [приводит] к грязи|ฝน [ส่งผล] ให้ เป็น โคลน
+study|I [study] a language|Я [изучаю] язык|ฉัน [ศึกษา] ภาษา
+train|I [train] my memory|Я [тренирую] память|ฉัน [ฝึก] ความจำ
+wish|I [wish] you luck|Я [желаю] тебе удачи|ฉัน [ขอให้] เธอ โชคดี
+alter|I [alter] the plan|Я [изменяю] план|ฉัน [เปลี่ยน] แผน
+answer|I [answer] the question|Я [отвечаю] на вопрос|ฉัน [ตอบ] คำถาม
+transform|Heat [transforms] ice into water|Тепло [преобразует] лёд в воду|ความร้อน [เปลี่ยน] น้ำแข็ง เป็น น้ำ
+deal|I [deal] with problems|Я [занимаюсь] делами|ฉัน [จัดการ] เรื่อง
+guess|I [guess] the answer|Я [угадываю] ответ|ฉัน [เดา] คำตอบ
+strive|I [strive] for success|Я [стремлюсь] к успеху|ฉัน [พยายาม] ให้ ประสบความสำเร็จ
+provide|The hotel [provides] breakfast|Отель [обеспечивает] завтрак|โรงแรม [จัดหา] อาหารเช้า
+sound|The music [sounds] good|Музыка [звучит] хорошо|เพลง [ฟังดู] ดี
+save|I [save] a child|Я [спасаю] ребёнка|ฉัน [ช่วยชีวิต] เด็ก
+fear|I [fear] dogs|Я [боюсь] собак|ฉัน [กลัว] สุนัข
+stand|I [stand] by the door|Я [стою] у двери|ฉัน [ยืน] ที่ ประตู
+appear|A star [appears]|Звезда [появляется]|ดาว [ปรากฏ]
+drive|I [drive] a car|Я [вожу] машину|ฉัน [ขับ] รถ
+emerge|The sun [emerges] from clouds|Солнце [возникает] из облаков|ดวงอาทิตย์ [ปรากฏ] จาก เมฆ
+execute|I [execute] the order|Я [выполняю] приказ|ฉัน [ดำเนินการ] ตาม คำสั่ง
+grab|I [grab] a bag|Я [хватаю] сумку|ฉัน [คว้า] กระเป๋า
+implement|We [implement] the plan|Мы [внедряем] план|เรา [ดำเนินการ] ตาม แผน
+match|The shoes [match] the dress|Туфли [соответствуют] платью|รองเท้า [เข้ากัน] กับ ชุด
+step|I [step] forward|Я [шагаю] вперёд|ฉัน [ก้าว] ไป ข้างหน้า
+review|I [review] my notes|Я [пересматриваю] записи|ฉัน [ทบทวน] บันทึก
+serve|The waiter [serves] soup|Официант [обслуживает] гостей|พนักงาน [บริการ] แขก
+hate|I [hate] noise|Я [ненавижу] шум|ฉัน [เกลียด] เสียงดัง
+involve|The job [involves] travel|Работа [вовлекает] поездки|งาน นี้ [เกี่ยวข้อง] กับ การ เดินทาง
+relate|This [relates] to you|Это [относится] к тебе|เรื่อง นี้ [เกี่ยวข้อง] กับ เธอ
+bear|I cannot [bear] the heat|Я не могу [терпеть] жару|ฉัน [อดทน] ต่อ ความร้อน ไม่ ได้
+contrast|Black [contrasts] with white|Чёрное [контрастирует] с белым|สีดำ [แตกต่าง] จาก สีขาว
+decide|I [decide] to go|Я [решаю] идти|ฉัน [ตัดสินใจ] ไป
+differ|The twins [differ] in height|Близнецы [отличаются] ростом|ฝาแฝด [แตกต่าง] กัน ที่ ส่วนสูง
+vary|Prices [vary]|Цены [варьируются]|ราคา [แตกต่าง] กัน ไป
+belong|The bag [belongs] to me|Сумка [принадлежит] мне|กระเป๋า [เป็นของ] ฉัน
+enjoy|I [enjoy] music|Я [наслаждаюсь] музыкой|ฉัน [สนุก] กับ ดนตรี
+demand|I [demand] an answer|Я [требую] ответа|ฉัน [เรียกร้อง] คำตอบ
+require|This job [requires] time|Эта работа [требует] времени|งาน นี้ [เรียกร้อง] เวลา
+travel|We [travel] by train|Мы [путешествуем] поездом|เรา [เดินทาง] โดย รถไฟ
+continue|I [continue] walking|Я [продолжаю] идти|ฉัน [ต่อ] ไป
+measure|I [measure] the table|Я [измеряю] стол|ฉัน [วัด] โต๊ะ
+cover|I [cover] the pot|Я [покрываю] кастрюлю|ฉัน [คลุม] หม้อ
+capture|They [capture] a thief|Они [захватывают] вора|พวก เขา [จับ] โจร
+catch|I [catch] the ball|Я [ловлю] мяч|ฉัน [จับ] ลูกบอล
+pick|I [pick] a flower|Я [срываю] цветок|ฉัน [หยิบ] ดอกไม้
+name|We [name] the cat Orange|Мы [называем] кошку Апельсин|เรา [ตั้งชื่อ] แมว ว่า ส้ม
+publish|They [publish] a book|Они [издают] книгу|พวก เขา [ตีพิมพ์] หนังสือ
+forget|I [forget] the key|Я [забываю] ключ|ฉัน [ลืม] กุญแจ
+lift|I [lift] a box|Я [приподнимаю] коробку|ฉัน [ยก] กล่อง
+raise|I [raise] my hand|Я [поднимаю] руку|ฉัน [ยก] มือ
+listen|I [listen] to music|Я [слушаю] музыку|ฉัน [ฟัง] เพลง
+practice|I [practice] every day|Я [практикуюсь] каждый день|ฉัน [ฝึก] ทุก วัน
+concede|I [concede] the game|Я [уступаю] в игре|ฉัน [ยอม] แพ้
+control|I [control] the car|Я [контролирую] машину|ฉัน [ควบคุม] รถ
+manipulate|He [manipulates] people|Он [манипулирует] людьми|เขา [ควบคุม] คน
+regulate|The law [regulates] prices|Закон [регулирует] цены|กฎหมาย [ควบคุม] ราคา
+lay|I [lay] a cloth on the table|Я [стелю] скатерть на стол|ฉัน [วาง] ผ้า บน โต๊ะ
+place|I [place] a book on the shelf|Я [помещаю] книгу на полку|ฉัน [วาง] หนังสือ บน ชั้น
+host|We [host] a party|Мы [принимаем] гостей|เรา [เป็นเจ้าภาพ] งานเลี้ยง
+release|I [release] a bird|Я [выпускаю] птицу|ฉัน [ปล่อย] นก
+note|I [note] the date|Я [записываю] дату|ฉัน [จด] วัน
+visit|I [visit] my aunt|Я [посещаю] тётю|ฉัน [เยี่ยม] ป้า
+allow|They [allow] dogs here|Здесь [разрешают] собак|ที่ นี่ [อนุญาต] สุนัข
+judge|I [judge] the contest|Я [сужу] соревнование|ฉัน [ตัดสิน] การแข่งขัน
+marry|He [marries] in May|Он [женится] в мае|เขา [แต่งงาน] ใน เดือน พฤษภาคม
+occupy|Guests [occupy] the room|Гости [занимают] комнату|แขก [ยึดครอง] ห้อง
+teach|I [teach] children|Я [учу] детей|ฉัน [สอน] เด็ก
+charge|The shop [charges] ten baht|Магазин [взимает] десять бат|ร้าน [เรียกเก็บ] สิบ บาท
+limit|I [limit] sugar|Я [ограничиваю] сахар|ฉัน [จำกัด] น้ำตาล
+amend|I [amend] the text|Я [корректирую] текст|ฉัน [แก้ไข] ข้อความ
+correct|I [correct] a mistake|Я [исправляю] ошибку|ฉัน [แก้ไข] ข้อผิดพลาด
+edit|I [edit] a photo|Я [редактирую] фото|ฉัน [แก้ไข] ภาพ
+revise|I [revise] the plan|Я [пересматриваю] план|ฉัน [แก้ไข] แผน
+spend|I [spend] money|Я [трачу] деньги|ฉัน [ใช้จ่าย] เงิน
+beat|We [beat] them at chess|Мы [обыгрываем] их в шахматы|เรา [เอาชนะ] พวก เขา ใน หมากรุก
+handle|I [handle] the problem|Я [справляюсь] с проблемой|ฉัน [จัดการ] ปัญหา
+manage|She [manages] a shop|Она [управляет] магазином|เธอ [จัดการ] ร้าน
+expect|I [expect] a call|Я [ожидаю] звонка|ฉัน [คาดหวัง] สายโทรศัพท์
+cross|I [cross] the street|Я [перехожу] улицу|ฉัน [ข้าม] ถนน
+describe|I [describe] the room|Я [описываю] комнату|ฉัน [บรรยาย] ห้อง
+assist|I [assist] the teacher|Я [помогаю] учителю|ฉัน [ช่วยเหลือ] ครู
+focus|I [focus] on work|Я [сосредоточиваюсь] на работе|ฉัน [โฟกัส] ที่ งาน
+end|The film [ends] at ten|Фильм [заканчивается] в десять|หนัง [จบ] ตอน สี่ทุ่ม
+join|I [join] a group|Я [присоединяюсь] к группе|ฉัน [เข้าร่วม] กลุ่ม
+admit|I [admit] my mistake|Я [признаю] ошибку|ฉัน [ยอมรับ] ความผิด
+drop|I [drop] a cup|Я [роняю] чашку|ฉัน [ทำตก] ถ้วย
+lack|We [lack] time|Нам [не хватает] времени|เรา [ขาด] เวลา
+link|I [link] two files|Я [связываю] два файла|ฉัน [เชื่อมโยง] สอง ไฟล์
+welcome|I [welcome] guests|Я [приветствую] гостей|ฉัน [ยินดีต้อนรับ] แขก
+adapt|I [adapt] to the heat|Я [адаптируюсь] к жаре|ฉัน [ปรับ] ตัว เข้า กับ ความร้อน
+adjust|I [adjust] the seat|Я [регулирую] сиденье|ฉัน [ปรับ] ที่นั่ง
+advocate|I [advocate] for clean water|Я [отстаиваю] чистую воду|ฉัน [สนับสนุน] น้ำ สะอาด
+agree|I [agree] with you|Я [соглашаюсь] с тобой|ฉัน [เห็นด้วย] กับ เธอ
+sponsor|A bank [sponsors] the race|Банк [спонсирует] гонку|ธนาคาร [สนับสนุน] การแข่ง
+announce|I [announce] the news|Я [объявляю] новость|ฉัน [ประกาศ] ข่าว
+design|I [design] a chair|Я [проектирую] дом|ฉัน [ออกแบบ] บ้าน
+resolve|We [resolve] the problem|Мы [разрешаем] спор|เรา [แก้] ปัญหา
+solve|I [solve] a puzzle|Я [решаю] задачу|ฉัน [แก้] โจทย์
+claim|He [claims] it is his|Он [утверждает], что это его|เขา [อ้าง] ว่า เป็น ของ เขา
+analyze|I [analyze] the data|Я [анализирую] данные|ฉัน [วิเคราะห์] ข้อมูล
+discharge|The hospital [discharges] a patient|Больница [выписывает] пациента|โรงพยาบาล [ปล่อย] ผู้ป่วย
+command|The captain [commands] the ship|Капитан [командует] кораблём|กัปตัน [สั่ง] เรือ
+feature|The film [features] a dog|Фильм [показывает] собаку|หนัง [นำเสนอ] สุนัข
+order|I [order] soup|Я [заказываю] суп|ฉัน [สั่ง] ซุป
+evoke|The song [evokes] memories|Песня [вызывает] воспоминания|เพลง [ปลุก] ความทรงจำ
+finish|I [finish] work at six|Я [заканчиваю] работу в шесть|ฉัน [เสร็จ] งาน ตอน หกโมง
+spark|A joke [sparks] laughter|Шутка [вызывает] смех|มุก [จุด] เสียงหัวเราะ
+divide|I [divide] the cake|Я [делю] торт|ฉัน [แบ่ง] เค้ก
+grow|Trees [grow] fast|Деревья [растут] быстро|ต้นไม้ [เติบโต] เร็ว
+govern|The king [governs] the country|Король [управляет] страной|กษัตริย์ [ปกครอง] ประเทศ
+hurt|Glass can [hurt] you|Стекло может [ранить] тебя|แก้ว อาจ [ทำร้าย] เธอ
+rule|The queen [rules] the land|Королева [правит] страной|ราชินี [ปกครอง] แผ่นดิน
+drink|I [drink] water|Я [пью] воду|ฉัน [ดื่ม] น้ำ
+emphasize|I [emphasize] the point|Я [подчёркиваю] главное|ฉัน [เน้น] ข้อ สำคัญ
+highlight|I [highlight] a word|Я [выделяю] слово|ฉัน [เน้น] คำ
+reach|I [reach] the station|Я [достигаю] вокзала|ฉัน [ไปถึง] สถานี
+compare|I [compare] prices|Я [сравниваю] цены|ฉัน [เปรียบเทียบ] ราคา
+suggest|I [suggest] a walk|Я [предлагаю] прогулку|ฉัน [แนะนำ] ให้ เดิน เล่น
+combat|We [combat] pollution|Мы [боремся] с загрязнением|เรา [ต่อสู้] กับ มลพิษ
+struggle|He [struggles] with a heavy bag|Он [борется] с тяжёлой сумкой|เขา [ดิ้นรน] กับ กระเป๋า หนัก
+cease|The rain [ceases]|Дождь [прекращается]|ฝน [หยุด]
+halt|The guard [halts] a car|Охранник [останавливает] машину|ยาม [หยุด] รถ
+protect|A hat [protects] from the sun|Шляпа [охраняет] от солнца|หมวก [ปกป้อง] จาก แดด
+wear|I [wear] a hat|Я [ношу] шляпу|ฉัน [สวม] หมวก
+separate|I [separate] the egg white|Я [отделяю] белок от желтка|ฉัน [แยก] ไข่ ขาว
+split|We [split] the bill|Мы [разделяем] счёт|เรา [แยก] บิล
+suppose|I [suppose] he is right|Я [полагаю], он прав|ฉัน [สมมติ] ว่า เขา ถูก
+close|I [close] the window|Я [закрываю] окно|ฉัน [ปิด] หน้าต่าง
+reply|I [reply] to the letter|Я [отвечаю] на письмо|ฉัน [ตอบกลับ] จดหมาย
+shut|I [shut] the door|Я [захлопываю] дверь|ฉัน [ปิด] ประตู
+doubt|I [doubt] his words|Я [сомневаюсь] в его словах|ฉัน [สงสัย] ใน คำพูด ของ เขา
+conduct|I [conduct] a test|Я [провожу] тест|ฉัน [ดำเนิน] การ ทดสอบ
+establish|They [establish] a school|Они [учреждают] школу|พวก เขา [ก่อตั้ง] โรงเรียน
+notice|I [notice] a bird|Я [замечаю] птицу|ฉัน [สังเกต] เห็น นก
+explain|I [explain] the rule|Я [объясняю] правило|ฉัน [อธิบาย] กฎ
+plan|We [plan] a trip|Мы [планируем] поездку|เรา [วางแผน] เดินทาง
+fall|Leaves [fall] in autumn|Листья [падают] осенью|ใบไม้ [ตก] ใน ฤดูใบไม้ร่วง
+associate|I [associate] it with summer|Я [ассоциирую] это с летом|ฉัน [เชื่อมโยง] มัน กับ ฤดูร้อน
+carry|I [carry] a bag|Я [несу] сумку|ฉัน [แบก] กระเป๋า
+avoid|I [avoid] noise|Я [избегаю] шума|ฉัน [หลีกเลี่ยง] เสียงดัง
+prevent|A hat [prevents] sunburn|Шляпа [предотвращает] ожог|หมวก [ป้องกัน] แดด เผา
+pop|A bird [pops] out of the bush|Птица [выскакивает] из куста|นก [โผล่] ออก จาก พุ่มไม้
+lie|I [lie] on the bed|Я [лежу] на кровати|ฉัน [นอน] บน เตียง
+dump|I [dump] the trash|Я [выбрасываю] мусор|ฉัน [ทิ้ง] ขยะ
+breed|They [breed] dogs|Они [разводят] собак|พวก เขา [เลี้ยง] สุนัข
+fit|The shoes [fit] me|Туфли мне [подходят]|รองเท้า [พอดี] กับ ฉัน
+ride|I [ride] a bicycle|Я [езжу] на велосипеде|ฉัน [ขี่] จักรยาน
+suit|This color [suits] you|Этот цвет тебе [подходит]|สี นี้ [เหมาะ] กับ เธอ
+inspect|I [inspect] the car|Я [осматриваю] машину|ฉัน [ตรวจสอบ] รถ
+verify|I [verify] the date|Я [удостоверяюсь] в дате|ฉัน [ตรวจสอบ] วัน
+sign|I [sign] a paper|Я [подписываю] бумагу|ฉัน [ลงนาม] เอกสาร
+attribute|I [attribute] it to luck|Я [приписываю] это удаче|ฉัน [ระบุ] ว่า เป็น โชค
+identify|I [identify] the bird|Я [опознаю] птицу|ฉัน [ระบุ] ชนิด นก
+specify|Please [specify] the date|Пожалуйста, [уточните] дату|กรุณา [ระบุ] วัน
+quit|I [quit] smoking|Я [бросаю] курить|ฉัน [เลิก] สูบ บุหรี่
+encourage|I [encourage] my friend|Я [поощряю] друга|ฉัน [ส่งเสริม] เพื่อน
+worry|I [worry] about my mother|Я [беспокоюсь] о маме|ฉัน [กังวล] เรื่อง แม่
+force|They [force] me to wait|Они [заставляют] меня ждать|พวก เขา [บังคับ] ให้ ฉัน รอ
+mention|I [mention] his name|Я [упоминаю] его имя|ฉัน [กล่าวถึง] ชื่อ เขา
+realize|I [realize] my mistake|Я [осознаю] свою ошибку|ฉัน [ตระหนัก] ถึง ความผิด
+score|He [scores] a goal|Он [забивает] гол|เขา [ทำคะแนน] ได้ หนึ่ง ประตู
+hand|I [hand] you a pen|Я [передаю] тебе ручку|ฉัน [ยื่น] ปากกา ให้ เธอ
+submit|I [submit] a form|Я [подаю] заявление|ฉัน [ยื่น] ใบสมัคร
+throw|I [throw] a ball|Я [бросаю] мяч|ฉัน [ขว้าง] ลูกบอล
+prepare|I [prepare] dinner|Я [готовлю] ужин|ฉัน [เตรียม] อาหารเย็น
+click|I [click] the button|Я [щёлкаю] по кнопке|ฉัน [คลิก] ปุ่ม
+escape|The bird [escapes] from the cage|Птица [сбегает] из клетки|นก [หนี] จาก กรง
+flee|People [flee] from the fire|Люди [убегают] от огня|คน [หนี] ไฟ
+contact|I [contact] the shop|Я [связываюсь] с магазином|ฉัน [ติดต่อ] ร้าน
+fail|I [fail] the test|Я [проваливаю] экзамен|ฉัน [ล้มเหลว] ใน การ สอบ
+experience|I [experience] joy|Я [испытываю] радость|ฉัน [ประสบ] ความสุข
+pull|I [pull] the door|Я [тяну] дверь|ฉัน [ดึง] ประตู
+push|I [push] the cart|Я [толкаю] тележку|ฉัน [ผลัก] รถเข็น
+undertake|We [undertake] a new job|Мы [предпринимаем] новое дело|เรา [ดำเนิน] งาน ใหม่
+inform|I [inform] my mother|Я [сообщаю] маме|ฉัน [แจ้ง] แม่
+rise|The sun [rises]|Солнце [поднимается]|ดวงอาทิตย์ [ขึ้น]
+apply|I [apply] a new method|Я [применяю] новый метод|ฉัน [นำไปใช้] วิธี ใหม่
+enlarge|I [enlarge] a photo|Я [увеличиваю] фото|ฉัน [ขยาย] ภาพ
+expand|We [expand] the shop|Мы [расширяем] магазин|เรา [ขยาย] ร้าน
+conclude|I [conclude] the talk|Я [заключаю] беседу|ฉัน [สรุป] การ พูดคุย
+draw|I [draw] a house|Я [рисую] дом|ฉัน [วาด] บ้าน
+summarize|I [summarize] the story|Я [резюмирую] рассказ|ฉัน [สรุป] เรื่อง
+compete|We [compete] in a race|Мы [соревнуемся] в гонке|เรา [แข่งขัน] ใน การ แข่ง
+contend|They [contend] for the prize|Они [соперничают] за приз|พวก เขา [แข่งขัน] เพื่อ รางวัล
+gain|I [gain] experience|Я [приобретаю] опыт|ฉัน [ได้มา] ประสบการณ์
+ban|They [ban] smoking|Они [запрещают] курение|พวก เขา [ห้าม] สูบ บุหรี่
+forbid|I [forbid] it|Я [воспрещаю] это|ฉัน [ห้าม] เรื่อง นี้
+prohibit|The law [prohibits] noise|Закон [налагает запрет] на шум|กฎหมาย [ห้าม] เสียงดัง
+spread|Fire [spreads] fast|Огонь [распространяется] быстро|ไฟ [แพร่] เร็ว
+arrive|The train [arrives] at six|Поезд [прибывает] в шесть|รถไฟ [มาถึง] ตอน หกโมง
+cast|I [cast] a stone|Я [бросаю] камень|ฉัน [ปา] หิน
+communicate|We [communicate] by phone|Мы [общаемся] по телефону|เรา [สื่อสาร] ทาง โทรศัพท์
+resemble|He [resembles] his father|Он [походит] на отца|เขา [คล้าย] พ่อ
+improve|I [improve] my Thai|Я [улучшаю] свой тайский|ฉัน [ปรับปรุง] ภาษา ไทย ของ ฉัน
+congratulate|I [congratulate] you|Я [поздравляю] тебя|ฉัน [แสดงความยินดี] กับ เธอ
+remove|I [remove] a stain|Я [удаляю] пятно|ฉัน [เอาออก] คราบ
+progress|My work [progresses]|Моя работа [прогрессирует]|งาน ของ ฉัน [ก้าวหน้า]
+confine|I [confine] the dog to the yard|Я [ограничиваю] собаку двором|ฉัน [จำกัด] สุนัข ใน ลาน
+correspond|The photo [corresponds] to the text|Фото [соответствует] тексту|ภาพ [สอดคล้อง] กับ ข้อความ
+restrict|The law [restricts] speed|Закон [ставит ограничения] скорости|กฎหมาย [จำกัด] ความเร็ว
+complete|I [complete] the work|Я [завершаю] работу|ฉัน [เสร็จสิ้น] งาน
+prove|I [prove] it|Я [доказываю] это|ฉัน [พิสูจน์] เรื่อง นี้
+mark|I [mark] the date|Я [отмечаю] дату|ฉัน [ทำเครื่องหมาย] วัน
+own|I [own] a house|Я [владею] домом|ฉัน [เป็นเจ้าของ] บ้าน
+document|I [document] the trip|Я [документирую] поездку|ฉัน [บันทึก] การ เดินทาง
+log|The system [logs] visits|Система [регистрирует] визиты|ระบบ [บันทึก] การ เข้า ชม
+record|I [record] a song|Я [записываю] песню|ฉัน [บันทึก] เพลง
+wake|I [wake] at six|Я [просыпаюсь] в шесть|ฉัน [ตื่น] ตอน หกโมง
+flow|The river [flows] to the sea|Река [течёт] к морю|แม่น้ำ [ไหล] ไป ทะเล
+fly|Birds [fly] in the sky|Птицы [летают] в небе|นก [บิน] บน ท้องฟ้า
+remind|I [remind] him about the date|Я [напоминаю] ему о дате|ฉัน [เตือน] เขา เรื่อง วัน
+guide|I [guide] the guests|Я [руковожу] гостями|ฉัน [นำทาง] แขก
+operate|The doctor [operates]|Врач [оперирует]|หมอ [ผ่าตัด]
+present|I [present] a plan|Я [преподношу] план|ฉัน [นำเสนอ] แผน
+comprise|The set [comprises] ten parts|Набор [включает] десять частей|ชุด นี้ [ประกอบด้วย] สิบ ส่วน
+contain|The box [contains] books|Коробка [содержит] книги|กล่อง [บรรจุ] หนังสือ
+print|I [print] a photo|Я [печатаю] фото|ฉัน [พิมพ์] ภาพ
+type|I [type] a message|Я [набираю] сообщение|ฉัน [พิมพ์] ข้อความ
+appreciate|I [appreciate] your help|Я [ценю] твою помощь|ฉัน [ซาบซึ้ง] ใน ความช่วยเหลือ ของ เธอ
+discover|I [discover] a new road|Я [обнаруживаю] новую дорогу|ฉัน [ค้นพบ] ถนน สาย ใหม่
+point|I [point] at the map|Я [указываю] на карту|ฉัน [ชี้] ที่ แผนที่
+state|I [state] my position|Я [утверждаю] свою позицию|ฉัน [แถลง] จุดยืน ของ ฉัน
+intend|I [intend] to go|Я [намереваюсь] пойти|ฉัน [ตั้งใจ] จะ ไป
+issue|They [issue] a ticket|Они [выпускают] билет|พวก เขา [ออก] ตั๋ว
+compose|I [compose] a song|Я [сочиняю] песню|ฉัน [แต่ง] เพลง
+kick|I [kick] the ball|Я [пинаю] мяч|ฉัน [เตะ] ลูกบอล
+appoint|They [appoint] a new manager|Они [назначают] нового менеджера|พวก เขา [แต่งตั้ง] ผู้จัดการ คน ใหม่
+advance|We [advance] slowly|Мы [продвигаемся] медленно|เรา [ก้าวหน้า] อย่าง ช้า
+mix|I [mix] two colors|Я [смешиваю] два цвета|ฉัน [ผสม] สอง สี
+plant|I [plant] a tree|Я [сажаю] дерево|ฉัน [ปลูก] ต้นไม้
+translate|I [translate] a letter|Я [перевожу] письмо|ฉัน [แปล] จดหมาย
+date|I [date] the letter|Я [датирую] письмо|ฉัน [ลงวันที่] ใน จดหมาย
+ensure|I [ensure] the safety|Я [гарантирую] безопасность|ฉัน [รับรอง] ความปลอดภัย
+fill|I [fill] a glass|Я [наполняю] стакан|ฉัน [เติม] แก้ว
+fix|I [fix] the chair|Я [чиню] стул|ฉัน [ซ่อม] เก้าอี้
+skip|I [skip] breakfast|Я [пропускаю] завтрак|ฉัน [ข้าม] อาหารเช้า
+perceive|I [perceive] a smell|Я [воспринимаю] запах|ฉัน [รับรู้] กลิ่น
+sense|I [sense] danger|Я [ощущаю] опасность|ฉัน [รับรู้] อันตราย
+list|I [list] the names|Я [перечисляю] имена|ฉัน [จัดรายการ] ชื่อ
+connect|I [connect] the cable|Я [соединяю] кабель|ฉัน [เชื่อมต่อ] สาย
+scatter|I [scatter] seeds|Я [разбрасываю] семена|ฉัน [กระจาย] เมล็ด
+participate|I [participate] in a game|Я [участвую] в игре|ฉัน [มีส่วนร่วม] ใน เกม
+express|I [express] my thanks|Я [выражаю] благодарность|ฉัน [แสดงออก] ถึง ความขอบคุณ
+form|Clouds [form] in the sky|Облака [формируются] в небе|เมฆ [ก่อตัว] บน ท้องฟ้า
+indicate|The arrow [indicates] the way|Стрелка [указывает] путь|ลูกศร [บ่งชี้] ทาง
+advise|I [advise] you to rest|Я [советую] тебе отдохнуть|ฉัน [แนะนำ] ให้ เธอ พักผ่อน
+recommend|I [recommend] this book|Я [рекомендую] эту книгу|ฉัน [แนะนำ] หนังสือ เล่ม นี้
+share|I [share] food|Я [делюсь] едой|ฉัน [แบ่งปัน] อาหาร
+shop|I [shop] on Saturday|Я [делаю покупки] в субботу|ฉัน [ช็อปปิ้ง] วัน เสาร์
+confirm|I [confirm] the date|Я [подтверждаю] дату|ฉัน [ยืนยัน] วัน
+touch|I [touch] the water|Я [трогаю] воду|ฉัน [สัมผัส] น้ำ
+arise|A problem [arises]|Возникает [проблема]|ปัญหา [เกิดขึ้น]
+smoke|He [smokes] a pipe|Он [курит] трубку|เขา [สูบ] ไปป์
+discuss|We [discuss] the plan|Мы [обсуждаем] план|เรา [อภิปราย] แผน
+laugh|We [laugh] together|Мы [смеёмся] вместе|เรา [หัวเราะ] ด้วย กัน
+pack|I [pack] a bag|Я [упаковываю] сумку|ฉัน [ห่อ] ของ ใส่ กระเป๋า
+strike|The clock [strikes] six|Часы [бьют] шесть|นาฬิกา [ตี] หก
+track|I [track] a package|Я [отслеживаю] посылку|ฉัน [ติดตาม] พัสดุ
+defend|I [defend] my friend|Я [защищаю] друга|ฉัน [ปกป้อง] เพื่อน
+import|They [import] fruit|Они [импортируют] фрукты|พวก เขา [นำเข้า] ผลไม้
+cook|I [cook] rice|Я [готовлю] рис|ฉัน [ทำอาหาร] ข้าว
+reveal|I [reveal] a secret|Я [раскрываю] секрет|ฉัน [เปิดเผย] ความลับ
+aim|I [aim] at the target|Я [стремлюсь] к цели|ฉัน [มุ่ง] สู่ เป้าหมาย
+affect|Weather [affects] mood|Погода [влияет] на настроение|อากาศ [มีผล] ต่อ อารมณ์
+explore|We [explore] the city|Мы [исследуем] город|เรา [สำรวจ] เมือง
+approve|I [approve] the plan|Я [одобряю] план|ฉัน [อนุมัติ] แผน
+secure|I [secure] the door|Я [закрепляю] дверь|ฉัน [ยึด] ประตู
+seize|The police [seize] a car|Полиция [захватывает] машину|ตำรวจ [ยึด] รถ
+arrest|The police [arrest] a thief|Полиция [арестовывает] вора|ตำรวจ [จับกุม] โจร
+decline|I [decline] the offer|Я [отклоняю] предложение|ฉัน [ปฏิเสธ] ข้อเสนอ
+deny|I [deny] it|Я [отрицаю] это|ฉัน [ปฏิเสธ] เรื่อง นี้
+refuse|I [refuse] to go|Я [отказываюсь] идти|ฉัน [ปฏิเสธ] ที่ จะ ไป
+reject|They [reject] my idea|Они [отвергают] мою идею|พวก เขา [ปฏิเสธ] ความคิด ของ ฉัน
+schedule|I [schedule] a meeting|Я [планирую] встречу|ฉัน [กำหนดเวลา] การ ประชุม
+endorse|I [endorse] this plan|Я [одобряю] этот план|ฉัน [รับรอง] แผน นี้
+extend|I [extend] my stay|Я [продлеваю] своё пребывание|ฉัน [ขยายเวลา] การ พัก
+desire|I [desire] peace|Я [желаю] мира|ฉัน [ปรารถนา] สันติภาพ
+smile|I [smile] at a child|Я [улыбаюсь] ребёнку|ฉัน [ยิ้ม] ให้ เด็ก
+blame|I [blame] myself|Я [виню] себя|ฉัน [ตำหนิ] ตัวเอง
+collect|I [collect] stamps|Я [собираю] марки|ฉัน [เก็บรวบรวม] แสตมป์
+observe|I [observe] the birds|Я [наблюдаю] за птицами|ฉัน [สังเกต] นก
+display|The shop [displays] shoes|Магазин [демонстрирует] обувь|ร้าน [จัดแสดง] รองเท้า
+estimate|I [estimate] the cost|Я [оцениваю] стоимость|ฉัน [ประเมิน] ราคา
+confer|We [confer] for an hour|Мы [совещаемся] час|เรา [ปรึกษา] กัน หนึ่ง ชั่วโมง
+consult|I [consult] a doctor|Я [консультируюсь] с врачом|ฉัน [ปรึกษา] หมอ
+elect|We [elect] a leader|Мы [избираем] лидера|เรา [เลือกตั้ง] ผู้นำ
+surround|Trees [surround] the house|Деревья [окружают] дом|ต้นไม้ [ล้อมรอบ] บ้าน
+employ|They [employ] ten people|Они [нанимают] десять человек|พวก เขา [จ้าง] สิบ คน
+fire|I [fire] the old wood|Я [поджигаю] дрова|ฉัน [จุดไฟ] เผา ฟืน
+fund|A bank [funds] the school|Банк [спонсирует] школу|ธนาคาร [ให้ทุน] โรงเรียน
+reflect|The water [reflects] the sky|Вода [отражает] небо|น้ำ [สะท้อน] ท้องฟ้า
+burst|The balloon [bursts]|Шарик [лопается]|ลูกโป่ง [แตก]
+crack|The ice [cracks]|Лёд [трескается]|น้ำแข็ง [แตก]
+inspire|Music [inspires] me|Музыка [вдохновляет] меня|ดนตรี [สร้างแรงบันดาลใจ] ให้ ฉัน
+launch|They [launch] a rocket|Они [запускают] ракету|พวก เขา [เปิดตัว] จรวด
+accomplish|I [accomplish] a goal|Я [выполняю] задачу|ฉัน [ทำสำเร็จ] เป้าหมาย
+deliver|I [deliver] a parcel|Я [доставляю] посылку|ฉัน [ส่งมอบ] พัสดุ
+withdraw|I [withdraw] money|Я [снимаю] деньги|ฉัน [ถอน] เงิน
+vote|We [vote] for a leader|Мы [голосуем] за лидера|เรา [ลงคะแนน] ให้ ผู้นำ
+wash|I [wash] my hands|Я [мою] руки|ฉัน [ล้าง] มือ
+export|They [export] rice|Они [экспортируют] рис|พวก เขา [ส่งออก] ข้าว
+destroy|The storm [destroys] a house|Буря [разрушает] дом|พายุ [ทำลาย] บ้าน
+draft|I [draft] a letter|Я [набрасываю] письмо|ฉัน [ร่าง] จดหมาย
+grant|The school [grants] a prize|Школа [предоставляет] приз|โรงเรียน [มอบ] รางวัล
+drift|A boat [drifts] on the water|Лодка [дрейфует] по воде|เรือ [ลอย] บน น้ำ
+float|A leaf [floats] on the water|Лист [плавает] на воде|ใบไม้ [ลอย] บน น้ำ
+refer|I [refer] to the map|Я [ссылаюсь] на карту|ฉัน [อ้างอิง] แผนที่
+deposit|I [deposit] money in the bank|Я [вношу] деньги в банк|ฉัน [ฝาก] เงิน ที่ ธนาคาร
+direct|I [direct] a film|Я [направляю] фильм|ฉัน [กำกับ] หนัง
+hang|I [hang] a picture|Я [вешаю] картину|ฉัน [แขวน] รูป
+paint|I [paint] the wall|Я [крашу] стену|ฉัน [ทาสี] ผนัง
+pledge|I [pledge] to help|Я [обещаю] помочь|ฉัน [สาบาน] ว่า จะ ช่วย
+promise|I [promise] to come|Я [обещаю] прийти|ฉัน [สัญญา] ว่า จะ มา
+blow|The wind [blows]|Ветер [дует]|ลม [เป่า]
+cry|The baby [cries]|Ребёнок [плачет]|เด็กทารก [ร้องไห้]
+exceed|The cost [exceeds] the budget|Расход [превышает] бюджет|ค่าใช้จ่าย [เกิน] งบ
+press|I [press] the button|Я [нажимаю] кнопку|ฉัน [กด] ปุ่ม
+deserve|You [deserve] a prize|Ты [заслуживаешь] приз|เธอ [สมควร] ได้ รางวัล
+dream|I [dream] of the sea|Я [мечтаю] о море|ฉัน [ฝัน] ถึง ทะเล
+register|I [register] for a class|Я [регистрируюсь] на курс|ฉัน [ลงทะเบียน] เรียน
+sing|I [sing] a song|Я [пою] песню|ฉัน [ร้องเพลง]
+warn|I [warn] you|Я [предупреждаю] тебя|ฉัน [เตือน] เธอ
+delay|We [delay] the trip|Мы [откладываем] поездку|เรา [เลื่อน] การ เดินทาง
+postpone|We [postpone] the meeting|Мы [переносим] встречу|เรา [เลื่อน] การ ประชุม
+slide|Children [slide] on the ice|Дети [скользят] по льду|เด็ก [เลื่อน] ตัว ไป บน น้ำแข็ง
+dedicate|I [dedicate] a song to you|Я [посвящаю] тебе песню|ฉัน [อุทิศ] เพลง ให้ เธอ
+favor|I [favor] tea|Я [отдаю предпочтение] чаю|ฉัน [โปรดปราน] ชา
+complement|Rice [complements] fish|Рис [дополняет] рыбу|ข้าว [เสริม] ปลา
+kiss|I [kiss] my mother|Я [целую] маму|ฉัน [จูบ] แม่
+reinforce|I [reinforce] the wall|Я [укрепляю] стену|ฉัน [เสริม] กำแพง
+strengthen|Exercise [strengthens] muscles|Зарядка [усиливает] мышцы|การออกกำลังกาย [เสริม] กล้ามเนื้อ
+replace|I [replace] a lamp|Я [заменяю] лампу|ฉัน [แทนที่] โคมไฟ
+diagnose|The doctor [diagnoses] a cold|Врач [диагностирует] простуду|หมอ [วินิจฉัย] หวัด
+achieve|I [achieve] my goal|Я [достигаю] цели|ฉัน [บรรลุ] เป้าหมาย
+afford|I cannot [afford] a car|Я не могу [позволить себе] машину|ฉัน ไม่ [มีกำลัง] ซื้อ รถ
+assume|I [assume] he is at home|Я [предполагаю], он дома|ฉัน [สมมติ] ว่า เขา อยู่ บ้าน
+transfer|I [transfer] money|Я [перевожу] деньги|ฉัน [โอน] เงิน
+prefer|I [prefer] tea|Я [предпочитаю] чай|ฉัน [ชอบมากกว่า] ชา
+tolerate|I cannot [tolerate] noise|Я не могу [терпеть] шум|ฉัน [ทน] เสียงดัง ไม่ ได้
+arouse|The smell [arouses] hunger|Запах [пробуждает] голод|กลิ่น [กระตุ้น] ความหิว
+prompt|The sign [prompts] us to stop|Знак [подсказывает] нам остановиться|ป้าย [กระตุ้น] ให้ เรา หยุด
+stimulate|Tea [stimulates] the mind|Чай [стимулирует] ум|ชา [กระตุ้น] จิตใจ
+tend|Prices [tend] to rise|Цены [склоняются] к росту|ราคา [มีแนวโน้ม] สูง ขึ้น
+trigger|Dust [triggers] a cough|Пыль [запускает] кашель|ฝุ่น [กระตุ้น] อาการ ไอ
+define|I [define] the word|Я [определяю] слово|ฉัน [นิยาม] คำ
+murder|A man is [murdered] in the film|В фильме человека [убивают]|ใน หนัง [ฆาตกรรม] คน
+excuse|[Excuse] me|[Извините] меня|[ขอโทษ] ด้วย
+back|I [back] my friend|Я [поддерживаю] друга|ฉัน [หนุน] เพื่อน
+sustain|They [sustain] a good mood|Они [поддерживают] хорошее настроение|พวก เขา [คง] อารมณ์ ดี ไว้
+film|I [film] a dog|Я [снимаю] собаку|ฉัน [ถ่ายทำ] สุนัข
+object|I [object] to the plan|Я [возражаю] против плана|ฉัน [คัดค้าน] แผน
+portray|The film [portrays] a king|Фильм [изображает] короля|หนัง [วาด] ภาพ กษัตริย์
+promote|I [promote] a shop|Я [продвигаю] магазин|ฉัน [โปรโมต] ร้าน
+substitute|I [substitute] sugar with honey|Я [подменяю] сахар мёдом|ฉัน [แทนที่] น้ำตาล ด้วย น้ำผึ้ง
+interpret|I [interpret] the dream|Я [истолковываю] сон|ฉัน [ตีความ] ความฝัน
+attend|I [attend] a lesson|Я [посещаю] урок|ฉัน [เข้าร่วม] เรียน
+disturb|Noise [disturbs] me|Шум [мешает] мне|เสียงดัง [รบกวน] ฉัน
+declare|I [declare] the result|Я [заявляю] результат|ฉัน [ประกาศ] ผล
+consolidate|We [consolidate] the groups|Мы [консолидируем] группы|เรา [รวบรวม] กลุ่ม
+earn|I [earn] money|Я [зарабатываю] деньги|ฉัน [หาเงิน]
+gather|I [gather] leaves|Я [собираю] листья|ฉัน [รวบรวม] ใบไม้
+head|We [head] north|Мы [направляемся] на север|เรา [มุ่งหน้า] ไป ทิศเหนือ
+update|I [update] the app|Я [обновляю] приложение|ฉัน [อัปเดต] แอป
+presume|I [presume] he knows|Я [предполагаю], он знает|ฉัน [สันนิษฐาน] ว่า เขา รู้
+advertise|They [advertise] shoes|Они [рекламируют] обувь|พวก เขา [โฆษณา] รองเท้า
+experiment|I [experiment] with colors|Я [экспериментирую] с цветами|ฉัน [ทดลอง] กับ สี
+hide|I [hide] a gift|Я [прячу] подарок|ฉัน [ซ่อน] ของขวัญ
+burn|I [burn] paper|Я [сжигаю] бумагу|ฉัน [เผา] กระดาษ
+invite|I [invite] a friend|Я [приглашаю] друга|ฉัน [เชิญ] เพื่อน
+invest|I [invest] in a business|Я [инвестирую] в бизнес|ฉัน [ลงทุน] ใน ธุรกิจ
+respond|I [respond] to the letter|Я [откликаюсь] на письмо|ฉัน [ตอบสนอง] ต่อ จดหมาย
+accelerate|The car [accelerates]|Машина [ускоряется]|รถ [เร่ง] ความเร็ว
+rush|I [rush] to work|Я [спешу] на работу|ฉัน [เร่ง] ไป ทำงาน
+suffer|I [suffer] from pain|Я [страдаю] от боли|ฉัน [ทนทุกข์] จาก ความเจ็บปวด
+wonder|I [wonder] who it is|Я [задумываюсь], кто это|ฉัน [สงสัย] ว่า นี่ คือ ใคร
+influence|Friends [influence] me|Друзья [влияют] на меня|เพื่อน [มีอิทธิพล] ต่อ ฉัน
+attack|The dog [attacks] a cat|Собака [нападает] на кошку|สุนัข [โจมตี] แมว
+engage|I [engage] in sport|Я [занимаюсь] спортом|ฉัน [มีส่วนร่วม] ใน กีฬา
+recognize|I [recognize] your voice|Я [узнаю] твой голос|ฉัน [จำได้] ว่า เป็น เสียง ของ เธอ
+survive|Plants [survive] in the desert|Растения [выживают] в пустыне|พืช [อยู่รอด] ใน ทะเลทราย
+adopt|We [adopt] a new rule|Мы [перенимаем] новое правило|เรา [นำมาใช้] กฎ ใหม่
+trace|I [trace] the route|Я [прослеживаю] маршрут|ฉัน [สืบ] เส้นทาง
+entitle|A ticket [entitles] you to enter|Билет [даёт право] войти|ตั๋ว [ให้สิทธิ์] เธอ เข้า ได้
+calculate|I [calculate] the cost|Я [вычисляю] стоимость|ฉัน [คำนวณ] ราคา
+expose|I [expose] a lie|Я [разоблачаю] ложь|ฉัน [เปิดโปง] คำโกหก
+feed|I [feed] the cat|Я [кормлю] кошку|ฉัน [ให้อาหาร] แมว
+injure|I [injure] my foot|Я [ранил] ногу|ฉัน [ทำให้บาดเจ็บ] เท้า
+plot|They [plot] a trick|Они [замышляют] обман|พวก เขา [วางแผน] หลอก
+lock|I [lock] the door|Я [запираю] дверь|ฉัน [ล็อก] ประตู
+oppose|I [oppose] the plan|Я [противостою] плану|ฉัน [ต่อต้าน] แผน
+suspect|I [suspect] a mistake|Я [подозреваю] ошибку|ฉัน [สงสัย] ว่า มี ความผิดพลาด
+swear|I [swear] to tell the truth|Я [клянусь] говорить правду|ฉัน [สาบาน] ว่า จะ พูด ความจริง
+attempt|I [attempt] a jump|Я [пробую] прыгнуть|ฉัน [ลอง] กระโดด
+commission|I [commission] a picture|Я [поручаю] картину|ฉัน [มอบหมาย] ให้ วาด ภาพ
+dance|We [dance] together|Мы [танцуем] вместе|เรา [เต้น] ด้วย กัน
+steer|I [steer] a boat|Я [управляю] лодкой|ฉัน [บังคับทิศ] เรือ
+project|I [project] a film on the wall|Я [проецирую] фильм на стену|ฉัน [ฉาย] หนัง บน ผนัง
+found|They [found] a school|Они [основывают] школу|พวก เขา [ก่อตั้ง] โรงเรียน
+race|We [race] to the shop|Мы [мчимся] к магазину|เรา [แข่ง] วิ่ง ไป ร้าน
+rid|I [rid] the house of ants|Я [избавляю] дом от муравьёв|ฉัน [กำจัด] มด ใน บ้าน
+test|I [test] the phone|Я [тестирую] телефон|ฉัน [ทดสอบ] โทรศัพท์
+dress|I [dress] in the morning|Я [одеваюсь] утром|ฉัน [แต่งตัว] ตอน เช้า
+celebrate|We [celebrate] a holiday|Мы [празднуем] праздник|เรา [ฉลอง] วันหยุด
+exchange|We [exchange] gifts|Мы [обмениваемся] подарками|เรา [แลกเปลี่ยน] ของขวัญ
+delete|I [delete] a file|Я [удаляю] файл|ฉัน [ลบ] ไฟล์
+repeat|I [repeat] the word|Я [повторяю] слово|ฉัน [ทำซ้ำ] คำ
+ignore|I [ignore] the noise|Я [игнорирую] шум|ฉัน [เพิกเฉย] ต่อ เสียงดัง
+confuse|I [confuse] two words|Я [путаю] два слова|ฉัน [สับสน] สอง คำ
+purchase|I [purchase] a ticket|Я [закупаю] билеты|ฉัน [ซื้อ] ตั๋ว
+punch|He [punches] the bag|Он [бьёт] по груше|เขา [ชก] กระสอบทราย
+roll|The ball [rolls]|Мяч [катится]|ลูกบอล [กลิ้ง]
+tie|I [tie] a rope|Я [завязываю] верёвку|ฉัน [มัด] เชือก
+accuse|I [accuse] him|Я [обвиняю] его|ฉัน [กล่าวหา] เขา
+argue|We [argue] about money|Мы [спорим] о деньгах|เรา [โต้เถียง] เรื่อง เงิน
+bind|I [bind] a book|Я [связываю] книги|ฉัน [ผูก] หนังสือ
+process|I [process] photos|Я [обрабатываю] фото|ฉัน [ประมวลผล] ภาพ
+qualify|I [qualify] for the race|Я [прохожу отбор] на гонку|ฉัน [มีคุณสมบัติ] เข้า แข่ง
+pursue|I [pursue] a dream|Я [добиваюсь] мечты|ฉัน [แสวงหา] ความฝัน
+flash|The light [flashes]|Свет [мигает]|ไฟ [กะพริบ]
+guarantee|I [guarantee] quality|Я [гарантирую] качество|ฉัน [รับประกัน] คุณภาพ
+convert|I [convert] money into dollars|Я [преобразую] деньги в доллары|ฉัน [แปลง] เงิน เป็น ดอลลาร์
+please|The gift [pleases] her|Подарок [радует] её|ของขวัญ [ทำให้พอใจ] เธอ
+retire|He [retires] at sixty|Он [уходит на пенсию] в шестьдесят|เขา [เกษียณ] ตอน อายุ หกสิบ
+settle|They [settle] in a village|Они [поселяются] в деревне|พวก เขา [ตั้งถิ่นฐาน] ใน หมู่บ้าน
+cancel|I [cancel] the trip|Я [отменяю] поездку|ฉัน [ยกเลิก] การ เดินทาง
+evolve|Animals [evolve]|Животные [развиваются]|สัตว์ [วิวัฒนาการ]
+swim|I [swim] in the sea|Я [плаваю] в море|ฉัน [ว่ายน้ำ] ใน ทะเล
+disappoint|The film [disappoints] me|Фильм [разочаровывает] меня|หนัง [ทำให้ผิดหวัง] ฉัน
+dispose|I [dispose] of old things|Я [избавляюсь] от старых вещей|ฉัน [กำจัด] ของ เก่า
+eliminate|I [eliminate] waste|Я [устраняю] отходы|ฉัน [กำจัด] ขยะ
+hunt|The cat [hunts] a mouse|Кошка [охотится] на мышь|แมว [ล่า] หนู
+suck|The baby [sucks] milk|Малыш [сосёт] молоко|ทารก [ดูด] นม
+fetch|I [fetch] water|Я [приношу] воду|ฉัน [ไปเอา] น้ำ
+yield|The field [yields] rice|Поле [приносит] рис|ทุ่ง [ให้ผล] เป็น ข้าว
+hire|I [hire] a driver|Я [нанимаю] водителя|ฉัน [ว่าจ้าง] คนขับรถ
+steal|A thief [steals] a bag|Вор [крадёт] сумку|โจร [ขโมย] กระเป๋า
+abandon|I [abandon] the house|Я [покидаю] дом|ฉัน [ละทิ้ง] บ้าน
+bid|I [bid] for a painting|Я [предлагаю цену] за картину|ฉัน [ประมูล] ภาพวาด
+pour|I [pour] tea|Я [наливаю] чай|ฉัน [เท] ชา
+bury|I [bury] a bone|Я [хороню] кость|ฉัน [ฝัง] กระดูก
+convince|I [convince] him|Я [убеждаю] его|ฉัน [โน้มน้าว] เขา
+drain|I [drain] the water|Я [осушаю] болото|ฉัน [ระบาย] น้ำ
+breathe|I [breathe] deeply|Я [дышу] глубоко|ฉัน [หายใจ] ลึก
+interest|Birds [interest] me|Птицы [интересуют] меня|นก [ทำให้สนใจ] ฉัน
+land|The plane [lands]|Самолёт [приземляется]|เครื่องบิน [ลงจอด]
+pray|I [pray] for peace|Я [молюсь] о мире|ฉัน [ภาวนา] ขอ สันติภาพ
+react|I [react] quickly|Я [реагирую] быстро|ฉัน [ตอบสนอง] อย่าง รวดเร็ว
+recall|I [recall] his face|Я [вспоминаю] его лицо|ฉัน [ระลึก] ถึง ใบหน้า เขา
+conserve|I [conserve] water|Я [берегу] воду|ฉัน [อนุรักษ์] น้ำ
+preserve|I [preserve] old photos|Я [сохраняю] старые фото|ฉัน [อนุรักษ์] รูป เก่า
+sum|I [sum] the numbers|Я [суммирую] числа|ฉัน [บวก] ตัวเลข
+bother|The noise [bothers] me|Шум [беспокоит] меня|เสียงดัง [รบกวน] ฉัน
+clean|I [clean] the room|Я [убираю] комнату|ฉัน [ทำความสะอาด] ห้อง
+behave|Children [behave] well|Дети хорошо [ведут себя]|เด็ก [ประพฤติ] ดี
+contribute|I [contribute] to the team|Я [вношу вклад] в команду|ฉัน [มีส่วนร่วม] ใน ทีม
+damage|The storm [damages] a roof|Буря [повреждает] крышу|พายุ [ทำให้เสียหาย] หลังคา
+accommodate|The hotel [accommodates] guests|Отель [размещает] гостей|โรงแรม [รองรับ] แขก
+bite|The dog [bites]|Собака [кусает]|สุนัข [กัด]
+shape|I [shape] clay|Я [формирую] глину|ฉัน [หล่อหลอม] ดินเหนียว
+reverse|I [reverse] the list|Я [переворачиваю] список|ฉัน [ย้อนกลับ] รายการ
+drag|I [drag] a bag|Я [тащу] сумку|ฉัน [ลาก] กระเป๋า
+spell|I [spell] a word|Я [произношу по буквам] слово|ฉัน [สะกด] คำ
+supply|They [supply] water|Они [снабжают] водой|พวก เขา [จัดหา] น้ำ
+criticize|I [criticize] the plan|Я [критикую] план|ฉัน [วิจารณ์] แผน
+threaten|The storm [threatens] the village|Буря [угрожает] деревне|พายุ [ขู่] หมู่บ้าน
+award|They [award] a prize|Они [награждают] призом|พวก เขา [มอบรางวัล]
+input|I [input] a number|Я [ввожу] число|ฉัน [ป้อนข้อมูล] ตัวเลข
+knock|I [knock] on the door|Я [стучу] в дверь|ฉัน [เคาะ] ประตู
+resign|He [resigns] from work|Он [уходит в отставку] с работы|เขา [ลาออก] จาก งาน
+rank|I [rank] the players|Я [ранжирую] игроков|ฉัน [จัดอันดับ] ผู้เล่น
+scream|I [scream] with fear|Я [кричу] от страха|ฉัน [กรีดร้อง] ด้วย ความกลัว
+rotate|The wheel [rotates]|Колесо [вращается]|ล้อ [หมุน]
+spin|I [spin] a top|Я [кручу] волчок|ฉัน [หมุน] ลูกข่าง
+stretch|I [stretch] a rope|Я [растягиваю] верёвку|ฉัน [ยืด] เชือก
+impress|The song [impresses] me|Песня [впечатляет] меня|เพลง [ประทับใจ] ฉัน
+monitor|I [monitor] the weather|Я [отслеживаю] погоду|ฉัน [เฝ้าสังเกต] อากาศ
+pretend|The child [pretends] to sleep|Ребёнок [притворяется] спящим|เด็ก [แกล้ง] นอน
+shake|I [shake] the bottle|Я [трясу] бутылку|ฉัน [เขย่า] ขวด
+collaborate|We [collaborate] on a project|Мы [сотрудничаем] над проектом|เรา [ร่วมมือ] กัน ใน โครงการ
+cooperate|The children [cooperate]|Дети [взаимодействуют]|เด็ก [ร่วมมือ] กัน
+stack|I [stack] the books|Я [ставлю] книги стопкой|ฉัน [ซ้อน] หนังสือ
+suspend|They [suspend] the game|Они [приостанавливают] игру|พวก เขา [ระงับ] เกม
+attract|Honey [attracts] bees|Мёд [привлекает] пчёл|น้ำผึ้ง [ดึงดูด] ผึ้ง
+block|A tree [blocks] the road|Дерево [блокирует] дорогу|ต้นไม้ [ปิดกั้น] ถนน
+dare|I [dare] to jump|Я [смею] прыгнуть|ฉัน [กล้า] กระโดด
+evaluate|I [evaluate] the work|Я [оцениваю] работу|ฉัน [ประเมินผล] งาน
+distribute|I [distribute] food|Я [распределяю] еду|ฉัน [แจกจ่าย] อาหาร
+investigate|The police [investigate] a theft|Полиция [расследует] кражу|ตำรวจ [สืบสวน] การ ขโมย
+bow|I [bow] to the teacher|Я [кланяюсь] учителю|ฉัน [โค้ง] ให้ ครู
+jump|I [jump] over a stone|Я [прыгаю] через камень|ฉัน [กระโดด] ข้าม หิน
+leap|The cat [leaps] over a fence|Кошка [перепрыгивает] через забор|แมว [กระโดด] ข้าม รั้ว
+detach|I [detach] the cable|Я [отсоединяю] кабель|ฉัน [ถอด] สาย
+strip|I [strip] the baby for a bath|Я [раздеваю] малыша для купания|ฉัน [ถอด] เสื้อผ้า ทารก ก่อน อาบน้ำ
+cite|I [cite] a book|Я [цитирую] книгу|ฉัน [ยกมา] จาก หนังสือ
+construct|They [construct] a bridge|Они [сооружают] мост|พวก เขา [ก่อสร้าง] สะพาน
+strain|I [strain] my back|Я [перенапрягаю] спину|ฉัน [เครียด] หลัง
+stress|Work [stresses] me|Работа [тревожит] меня|งาน ทำให้ ฉัน [เครียด]
+derive|I [derive] joy from music|Я [извлекаю] радость из музыки|ฉัน [ได้มา] ซึ่ง ความสุข จาก ดนตรี
+decorate|I [decorate] a tree|Я [украшаю] ёлку|ฉัน [ตกแต่ง] ต้นไม้
+disable|I [disable] the alarm|Я [отключаю] сигнал|ฉัน [ปิดการใช้งาน] สัญญาณ
+educate|We [educate] children|Мы [обучаем] детей|เรา [ให้การศึกษา] เด็ก
+integrate|I [integrate] two systems|Я [интегрирую] две системы|ฉัน [บูรณาการ] สอง ระบบ
+switch|I [switch] the channel|Я [переключаю] канал|ฉัน [สลับ] ช่อง
+recover|I [recover] after a cold|Я [восстанавливаюсь] после простуды|ฉัน [ฟื้นตัว] หลัง หวัด
+relax|I [relax] on the sofa|Я [расслабляюсь] на диване|ฉัน [ผ่อนคลาย] บน โซฟา
+rely|I [rely] on my friend|Я [полагаюсь] на друга|ฉัน [พึ่งพา] เพื่อน
+succeed|I [succeed] in my work|Я [преуспеваю] в работе|ฉัน [ประสบความสำเร็จ] ใน งาน
+filter|I [filter] the water|Я [фильтрую] воду|ฉัน [กรอง] น้ำ
+pump|I [pump] air|Я [качаю] воздух|ฉัน [สูบ] ลม
+curve|The road [curves]|Дорога [изгибается]|ถนน [โค้ง]
+satisfy|The food [satisfies] me|Еда [удовлетворяет] меня|อาหาร [ทำให้พอใจ] ฉัน
+challenge|I [challenge] his decision|Я [оспариваю] его решение|ฉัน [ท้าทาย] การ ตัดสินใจ ของ เขา
+dispute|We [dispute] the price|Мы [препираемся] о цене|เรา [โต้แย้ง] เรื่อง ราคา
+overcome|I [overcome] fear|Я [преодолеваю] страх|ฉัน [เอาชนะ] ความกลัว
+repair|I [repair] a bike|Я [ремонтирую] велосипед|ฉัน [ซ่อม] จักรยาน
+shock|The news [shocks] me|Новость [шокирует] меня|ข่าว [ทำให้ตกใจ] ฉัน
+shout|I [shout] his name|Я [кричу] его имя|ฉัน [ตะโกน] ชื่อ เขา
+classify|I [classify] the books|Я [классифицирую] книги|ฉัน [จัดหมวด] หนังสือ
+coordinate|I [coordinate] the work|Я [координирую] работу|ฉัน [ประสานงาน] งาน
+retreat|The army [retreats]|Армия [отступает]|กองทัพ [ถอย]
+dig|I [dig] a hole|Я [копаю] яму|ฉัน [ขุด] หลุม
+disappear|The sun [disappears]|Солнце [исчезает]|ดวงอาทิตย์ [หายไป]
+forgive|I [forgive] you|Я [прощаю] тебя|ฉัน [ให้อภัย] เธอ
+invent|I [invent] a game|Я [изобретаю] игру|ฉัน [ประดิษฐ์] เกม
+mount|I [mount] a horse|Я [взбираюсь] на лошадь|ฉัน [ขึ้น] ม้า
+phone|I [phone] my mother|Я [звоню] маме|ฉัน [โทร] หา แม่
+ruin|The rain [ruins] the trip|Дождь [портит] поездку|ฝน [ทำลาย] การ เดินทาง
+tip|I [tip] the glass|Я [опрокидываю] стакан|ฉัน [เอียง] แก้ว
+accompany|I [accompany] a friend|Я [сопровождаю] друга|ฉัน [ไปด้วย] เพื่อน
+deem|I [deem] it right|Я [полагаю] это верным|ฉัน [ถือ] ว่า ถูก
+load|I [load] the car|Я [гружу] машину|ฉัน [บรรทุก] รถ
+insert|I [insert] a coin|Я [вставляю] монету|ฉัน [แทรก] เหรียญ
+trust|I [trust] you|Я [доверяю] тебе|ฉัน [ไว้วางใจ] เธอ
+squeeze|I [squeeze] a lemon|Я [сжимаю] лимон|ฉัน [บีบ] มะนาว
+isolate|I [isolate] the sick|Я [изолирую] больного|ฉัน [แยกตัว] ผู้ป่วย
+modify|I [modify] the plan|Я [изменяю] план|ฉัน [ดัดแปลง] แผน
+hook|I [hook] a fish|Я [зацепляю] рыбу|ฉัน [เกี่ยว] ปลา
+upgrade|I [upgrade] my phone|Я [модернизирую] телефон|ฉัน [อัปเกรด] โทรศัพท์
+bless|The priest [blesses] the couple|Священник [благословляет] пару|นักบวช [อวยพร] คู่ บ่าวสาว
+complain|I [complain] about noise|Я [жалуюсь] на шум|ฉัน [บ่น] เรื่อง เสียงดัง
+reserve|I [reserve] a table|Я [резервирую] столик|ฉัน [สำรอง] โต๊ะ
+quote|I [quote] a poem|Я [цитирую] стихотворение|ฉัน [อ้างอิง] บทกวี
+defy|I [defy] the rules|Я [противлюсь] правилам|ฉัน [ท้าทาย] กฎ
+shed|The tree [sheds] leaves|Дерево [роняет] листья|ต้นไม้ [หลั่ง] ใบ
+climb|I [climb] a hill|Я [карабкаюсь] на холм|ฉัน [ปีน] เนิน เขา
+demonstrate|I [demonstrate] a trick|Я [демонстрирую] фокус|ฉัน [สาธิต] กล
+borrow|I [borrow] a book|Я [беру взаймы] книгу|ฉัน [ยืม] หนังสือ
+target|I [target] a goal|Я [нацеливаюсь] на цель|ฉัน [ตั้งเป้า] ไว้ ที่ เป้าหมาย
+coincide|The dates [coincide]|Даты [совпадают]|วัน ที่ [ตรงกัน]
+bargain|I [bargain] at the market|Я [торгуюсь] на рынке|ฉัน [ต่อรอง] ที่ ตลาด
+store|I [store] rice in a jar|Я [храню] рис в банке|ฉัน [จัดเก็บ] ข้าว ใน โหล
+snap|I [snap] my fingers|Я [щёлкаю] пальцами|ฉัน [ดีด] นิ้ว
+book|I [book] a room|Я [бронирую] номер|ฉัน [จอง] ห้อง
+sort|I [sort] the socks|Я [сортирую] носки|ฉัน [จัดเรียง] ถุงเท้า
+cheat|He [cheats] at cards|Он [обманывает] в картах|เขา [โกง] ไพ่
+defeat|We [defeat] the team|Мы [побеждаем] команду|เรา [เอาชนะ] ทีม
+clear|I [clear] the table|Я [очищаю] стол|ฉัน [เคลียร์] โต๊ะ
+convict|The court [convicts] a thief|Суд [приговаривает] вора|ศาล [ตัดสินว่ากระทำผิด] โจร
+dismiss|They [dismiss] a worker|Они [увольняют] работника|พวก เขา [ไล่ออก] คนงาน
+distinguish|I [distinguish] two colors|Я [различаю] два цвета|ฉัน [แยกแยะ] สอง สี
+indulge|I [indulge] my child|Я [балую] ребёнка|ฉัน [ตามใจ] ลูก
+incorporate|I [incorporate] new words|Я [включаю в состав] новые слова|ฉัน [รวมเข้าด้วยกัน] คำ ใหม่
+sweep|I [sweep] the floor|Я [подметаю] пол|ฉัน [กวาด] พื้น
+urge|I [urge] him to hurry|Я [призываю] его поторопиться|ฉัน [เรียกร้อง] ให้ เขา รีบ
+retain|I [retain] the receipt|Я [сохраняю] чек|ฉัน [เก็บไว้] ใบเสร็จ
+resist|I [resist] the cold|Я [сопротивляюсь] холоду|ฉัน [ต้านทาน] ความหนาว
+light|I [light] a candle|Я [зажигаю] свечу|ฉัน [จุด] เทียน
+range|Prices [range] from ten to fifty|Цены [варьируются] от десяти до пятидесяти|ราคา [อยู่ในช่วง] สิบ ถึง ห้าสิบ
+trap|I [trap] a mouse|Я [заманиваю] мышь|ฉัน [ดัก] หนู
+waste|I [waste] time|Я [трачу впустую] время|ฉัน [สิ้นเปลือง] เวลา
+collapse|The roof [collapses]|Крыша [рушится]|หลังคา [พัง]
+devote|I [devote] time to music|Я [посвящаю] время музыке|ฉัน [ทุ่มเท] เวลา ให้ ดนตรี
+dominate|The big dog [dominates]|Большая собака [доминирует]|สุนัข ตัว ใหญ่ [ครอบงำ]
+install|I [install] an app|Я [устанавливаю] приложение|ฉัน [ติดตั้ง] แอป
+nominate|I [nominate] a friend|Я [выдвигаю] друга|ฉัน [เสนอชื่อ] เพื่อน
+proceed|I [proceed] to the door|Я [перехожу к] двери|ฉัน [ดำเนินต่อ] ไป ที่ ประตู
+restore|I [restore] an old chair|Я [восстанавливаю] старый стул|ฉัน [ฟื้นฟู] เก้าอี้ เก่า
+respect|I [respect] my teacher|Я [уважаю] учителя|ฉัน [เคารพ] ครู
+approach|I [approach] the house|Я [приближаюсь] к дому|ฉัน [เข้าใกล้] บ้าน
+illustrate|I [illustrate] a book|Я [иллюстрирую] книгу|ฉัน [แสดงให้เห็น] ด้วย ภาพ
+convey|I [convey] a message|Я [передаю] сообщение|ฉัน [สื่อ] ข้อความ
+shine|The sun [shines]|Солнце [светит]|ดวงอาทิตย์ [ส่องแสง]
+frighten|The dog [frightens] a child|Собака [пугает] ребёнка|สุนัข [ทำให้กลัว] เด็ก
+scare|A mouse [scares] her|Мышь [пугает] её|หนู [ทำให้ตกใจกลัว] เธอ
+apologize|I [apologize] to you|Я [извиняюсь] перед тобой|ฉัน [ขอโทษ] เธอ
+embrace|I [embrace] my friend|Я [обнимаю] друга|ฉัน [กอด] เพื่อน
+bake|I [bake] bread|Я [пеку] хлеб|ฉัน [อบ] ขนมปัง
+wipe|I [wipe] the table|Я [вытираю] стол|ฉัน [เช็ด] โต๊ะ
+conceal|I [conceal] a gift|Я [скрываю] подарок|ฉัน [ปกปิด] ของขวัญ
+embarrass|The question [embarrasses] me|Вопрос [смущает] меня|คำถาม [ทำให้อับอาย] ฉัน
+screen|I [screen] visitors|Я [отсеиваю] посетителей|ฉัน [คัดกรอง] ผู้มาเยือน
+tackle|I [tackle] a hard task|Я [берусь] за трудную задачу|ฉัน [รับมือ] กับ งาน ยาก
+trade|They [trade] fruit|Они [торгуют] фруктами|พวก เขา [ค้า] ผลไม้
+dissolve|I [dissolve] sugar in tea|Я [растворяю] сахар в чае|ฉัน [ละลาย] น้ำตาล ใน ชา
+melt|Ice [melts] in the sun|Лёд [тает] на солнце|น้ำแข็ง [ละลาย] ใน แดด
+wrap|I [wrap] a gift|Я [заворачиваю] подарок|ฉัน [ห่อ] ของขวัญ
+confront|I [confront] the problem|Я [противостою] проблеме|ฉัน [เผชิญ] ปัญหา
+graduate|I [graduate] this year|Я [оканчиваю] школу в этом году|ฉัน [สำเร็จการศึกษา] ปี นี้
+compensate|They [compensate] me for the loss|Они [компенсируют] мне потерю|พวก เขา [ชดเชย] ความสูญเสีย ให้ ฉัน
+hurry|I [hurry] to the bus|Я [тороплюсь] на автобус|ฉัน [รีบ] ไป ขึ้น รถเมล์
+predict|I [predict] rain|Я [предсказываю] дождь|ฉัน [ทำนาย] ว่า ฝน จะ ตก
+justify|I [justify] my choice|Я [оправдываю] свой выбор|ฉัน [พิสูจน์] ว่า การ เลือก ของ ฉัน ถูก
+motivate|Praise [motivates] children|Похвала [мотивирует] детей|คำชม [สร้างแรงจูงใจ] ให้ เด็ก
+bend|I [bend] a wire|Я [сгибаю] проволоку|ฉัน [งอ] ลวด
+infect|A mosquito [infects] a person|Комар [заражает] человека|ยุง [ติดเชื้อ] ให้ คน
+authorize|I [authorize] the payment|Я [уполномочиваю] платёж|ฉัน [ให้อำนาจ] ใน การ จ่าย
+inject|The doctor [injects] medicine|Врач [вводит] лекарство|หมอ [ฉีด] ยา
+chase|The dog [chases] a cat|Собака [преследует] кошку|สุนัข [ไล่] แมว
+suppress|I [suppress] a laugh|Я [подавляю] смех|ฉัน [ปราบ] เสียงหัวเราะ
+heal|Time [heals]|Время [исцеляет]|เวลา [เยียวยา]
+last|The lesson [lasts] an hour|Урок [длится] час|บทเรียน [นาน] หนึ่ง ชั่วโมง
+lean|I [lean] on the wall|Я [наклоняюсь] к стене|ฉัน [เอน] พิง กำแพง
+orient|I [orient] the map|Я [ориентирую] карту|ฉัน [ปรับทิศ] แผนที่
+disrupt|Noise [disrupts] the lesson|Шум [нарушает] урок|เสียงดัง [ขัดขวาง] บทเรียน
+seal|I [seal] the letter|Я [запечатываю] письмо|ฉัน [ปิดผนึก] จดหมาย
+entertain|The clown [entertains] children|Клоун [развлекает] детей|ตัวตลก [สร้างความบันเทิง] ให้ เด็ก
+freeze|Water [freezes] in winter|Вода [замерзает] зимой|น้ำ [แช่แข็ง] ใน ฤดูหนาว
+comply|I [comply] with the rules|Я [соблюдаю] правила|ฉัน [ปฏิบัติตาม] กฎ
+sacrifice|I [sacrifice] time|Я [жертвую] временем|ฉัน [เสียสละ] เวลา
+glance|I [glance] at the clock|Я [взглядываю] на часы|ฉัน [เหลือบมอง] นาฬิกา
+pose|I [pose] for a photo|Я [позирую] для фото|ฉัน [โพสท่า] ถ่ายรูป
+title|I [title] the story|Я [озаглавливаю] рассказ|ฉัน [ตั้งชื่อ] เรื่อง
+contradict|The facts [contradict] his words|Факты [противоречат] его словам|ข้อเท็จจริง [ขัดแย้ง] กับ คำพูด ของ เขา
+neglect|I [neglect] my garden|Я [пренебрегаю] садом|ฉัน [ละเลย] สวน
+disagree|I [disagree] with you|Я [возражаю] тебе|ฉัน [ไม่เห็นด้วย] กับ เธอ
+fulfill|I [fulfill] my promise|Я [исполняю] обещание|ฉัน [ทำให้สำเร็จ] ตาม สัญญา
+heat|I [heat] the soup|Я [нагреваю] суп|ฉัน [ทำให้ร้อน] ซุป
+depart|The train [departs] at six|Поезд [отправляется] в шесть|รถไฟ [ออกเดินทาง] ตอน หกโมง
+underline|I [underline] a word|Я [подчёркиваю] слово|ฉัน [ขีดเส้นใต้] คำ
+smash|I [smash] a plate|Я [разбиваю] тарелку|ฉัน [ทุบ] จาน
+anticipate|I [anticipate] rain|Я [предвижу] дождь|ฉัน [คาดการณ์] ว่า ฝน จะ ตก
+extract|I [extract] juice|Я [извлекаю] сок|ฉัน [สกัด] น้ำผลไม้
+enhance|Salt [enhances] taste|Соль [улучшает] вкус|เกลือ [เพิ่มพูน] รสชาติ
+fold|I [fold] a shirt|Я [складываю] рубашку|ฉัน [พับ] เสื้อ
+taste|I [taste] the soup|Я [пробую] суп|ฉัน [ลิ้มรส] ซุป
+tear|I [tear] a paper|Я [рву] бумагу|ฉัน [ฉีก] กระดาษ
+comment|I [comment] on a photo|Я [комментирую] фото|ฉัน [แสดงความคิดเห็น] ใน รูป
+concentrate|I [concentrate] on work|Я [концентрируюсь] на работе|ฉัน [มีสมาธิ] กับ งาน
+exclude|I [exclude] sugar|Я [исключаю] сахар|ฉัน [ไม่รวม] น้ำตาล
+specialize|I [specialize] in fish|Я [специализируюсь] на рыбе|ฉัน [เชี่ยวชาญ] เรื่อง ปลา
+value|I [value] my friends|Я [ценю] друзей|ฉัน [ให้คุณค่า] กับ เพื่อน
+cool|I [cool] the tea|Я [охлаждаю] чай|ฉัน [ทำให้เย็น] ชา
+detect|The dog [detects] a smell|Собака [обнаруживает] запах|สุนัข [ตรวจพบ] กลิ่น
+donate|I [donate] clothes|Я [жертвую] одежду|ฉัน [บริจาค] เสื้อผ้า
+fry|I [fry] fish|Я [жарю] рыбу|ฉัน [ทอด] ปลา
+insist|I [insist] on paying|Я [настаиваю] на оплате|ฉัน [ยืนกราน] ที่ จะ จ่าย
+pronounce|I [pronounce] the word|Я [произношу] слово|ฉัน [ออกเสียง] คำ
+pitch|He [pitches] the ball|Он [подаёт] мяч|เขา [ขว้าง] ลูกบอล
+rescue|We [rescue] a cat|Мы [спасаем] кошку|เรา [กู้ชีพ] แมว
+chew|I [chew] gum|Я [жую] жвачку|ฉัน [เคี้ยว] หมากฝรั่ง
+weigh|I [weigh] the rice|Я [взвешиваю] рис|ฉัน [ชั่ง] ข้าว
+warm|I [warm] my hands|Я [согреваю] руки|ฉัน [อุ่น] มือ
+confess|I [confess] my mistake|Я [признаюсь] в ошибке|ฉัน [สารภาพ] ความผิด
+cope|I [cope] with stress|Я [справляюсь] со стрессом|ฉัน [รับมือ] กับ ความเครียด
+crash|The car [crashes] into a wall|Машина [разбивается] о стену|รถ [ชน] กำแพง
+divorce|They [divorce]|Они [разводятся]|พวก เขา [หย่า] กัน
+dry|I [dry] the clothes|Я [сушу] одежду|ฉัน [ทำให้แห้ง] เสื้อผ้า
+induce|The song [induces] sleep|Песня [побуждает] ко сну|เพลง [ชักจูง] ให้ ง่วง
+joke|I [joke] with my friend|Я [шучу] с другом|ฉัน [ล้อเล่น] กับ เพื่อน
+question|I [question] the guest|Я [расспрашиваю] гостя|ฉัน [ตั้งคำถาม] กับ แขก
+renew|I [renew] my visa|Я [обновляю] визу|ฉัน [ต่ออายุ] วีซ่า
+battle|Soldiers [battle] in the field|Солдаты [сражаются] в поле|ทหาร [ต่อสู้] ใน ทุ่ง
+smell|I [smell] a flower|Я [нюхаю] цветок|ฉัน [ดม] ดอกไม้
+stuff|I [stuff] clothes into a bag|Я [запихиваю] одежду в сумку|ฉัน [ยัด] เสื้อผ้า ใส่ กระเป๋า
+witness|I [witness] an accident|Я [становлюсь свидетелем] аварии|ฉัน [เห็นเหตุการณ์] อุบัติเหตุ
+yell|I [yell] at the dog|Я [ору] на собаку|ฉัน [ตะโกน] ใส่ สุนัข
+crush|I [crush] a nut|Я [раздавливаю] орех|ฉัน [บด] ถั่ว
+elevate|The lift [elevates] people|Лифт [возвышает] людей|ลิฟต์ [ยกขึ้น] คน
+devise|I [devise] a plan|Я [придумываю] план|ฉัน [คิดค้น] แผน
+broadcast|They [broadcast] a game|Они [транслируют] матч|พวก เขา [ออกอากาศ] การ แข่ง
+praise|I [praise] the child|Я [хвалю] ребёнка|ฉัน [ชม] เด็ก
+abuse|He [abuses] his power|Он [злоупотребляет] властью|เขา [ละเมิด] อำนาจ
+bet|I [bet] on a horse|Я [держу пари] на лошадь|ฉัน [เดิมพัน] กับ ม้า
+interview|I [interview] a doctor|Я [интервьюирую] врача|ฉัน [สัมภาษณ์] หมอ
+leak|The roof [leaks]|Крыша [протекает]|หลังคา [รั่ว]
+risk|I [risk] my money|Я [рискую] деньгами|ฉัน [เสี่ยง] เงิน
+punish|I [punish] the dog|Я [наказываю] собаку|ฉัน [ลงโทษ] สุนัข
+initiate|I [initiate] a talk|Я [инициирую] разговор|ฉัน [ริเริ่ม] การ พูดคุย
+negotiate|We [negotiate] the price|Мы [договариваемся] о цене|เรา [เจรจา] เรื่อง ราคา
+interfere|I [interfere] in a quarrel|Я [вмешиваюсь] в ссору|ฉัน [แทรกแซง] การ ทะเลาะ
+recruit|We [recruit] new staff|Мы [набираем персонал]|เรา [รับสมัคร] พนักงาน ใหม่
+slip|I [slip] on the ice|Я [поскальзываюсь] на льду|ฉัน [ลื่น] บน น้ำแข็ง
+upload|I [upload] a photo|Я [загружаю] фото|ฉัน [อัปโหลด] รูป
+imply|His words [imply] a threat|Его слова [подразумевают] угрозу|คำพูด ของ เขา [เป็นนัย] ถึง การ ขู่
+obey|The dog [obeys] me|Собака [подчиняется] мне|สุนัข [เชื่อฟัง] ฉัน
+shift|I [shift] the table|Я [сдвигаю] стол|ฉัน [ขยับ] โต๊ะ
+brake|I [brake] at the corner|Я [торможу] на углу|ฉัน [เบรก] ที่ หัวมุม
+condemn|I [condemn] violence|Я [осуждаю] насилие|ฉัน [ประณาม] ความรุนแรง
+grasp|I [grasp] a rope|Я [схватываю] верёвку|ฉัน [คว้า] เชือก
+slap|I [slap] a mosquito|Я [шлёпаю] комара|ฉัน [ตบ] ยุง
+greet|I [greet] a neighbor|Я [приветствую] соседа|ฉัน [ทักทาย] เพื่อนบ้าน
+tour|We [tour] the city|Мы [путешествуем] по городу|เรา [เที่ยว] เมือง
+enforce|The police [enforce] the law|Полиция [обеспечивает исполнение] закона|ตำรวจ [บังคับใช้] กฎหมาย
+swing|Children [swing]|Дети [качаются]|เด็ก [แกว่ง] ชิงช้า
+appeal|I [appeal] to the court|Я [апеллирую] к суду|ฉัน [อุทธรณ์] ต่อ ศาล
+consume|We [consume] a lot of water|Мы [потребляем] много воды|เรา [บริโภค] น้ำ มาก
+irritate|Smoke [irritates] the eyes|Дым [раздражает] глаза|ควัน [ระคายเคือง] ตา
+relieve|Tea [relieves] a cough|Чай [облегчает] кашель|ชา [คลาย] อาการ ไอ
+surprise|The gift [surprises] me|Подарок [удивляет] меня|ของขวัญ [ทำให้ประหลาดใจ] ฉัน
+grind|I [grind] coffee|Я [мелю] кофе|ฉัน [บด] กาแฟ
+model|I [model] a house|Я [моделирую] дом|ฉัน [สร้างแบบจำลอง] บ้าน
+beg|The dog [begs] for food|Собака [умоляет] о еде|สุนัข [ขอร้อง] อาหาร
+absorb|A sponge [absorbs] water|Губка [поглощает] воду|ฟองน้ำ [ดูดซึม] น้ำ
+lend|I [lend] you a book|Я [одалживаю] тебе книгу|ฉัน [ให้ยืม] หนังสือ เธอ
+plead|I [plead] for help|Я [умоляю] о помощи|ฉัน [วิงวอน] ขอ ความช่วยเหลือ
+compromise|We [compromise]|Мы [идём на уступки]|เรา [ประนีประนอม] กัน
+glow|The moon [glows]|Луна [светится]|พระจันทร์ [เรืองแสง]
+inherit|I [inherit] a house|Я [наследую] дом|ฉัน [สืบทอด] บ้าน
+label|I [label] a box|Я [помечаю] коробку|ฉัน [ติดฉลาก] กล่อง
+park|I [park] the car|Я [паркую] машину|ฉัน [จอด] รถ
+stare|I [stare] at a bird|Я [пялюсь] на птицу|ฉัน [จ้อง] นก
+toss|I [toss] a coin|Я [подбрасываю] монету|ฉัน [โยน] เหรียญ
+violate|I [violate] a rule|Я [нарушаю] правило|ฉัน [ละเมิด] กฎ
+consent|I [consent] to the plan|Я [соглашаюсь] с планом|ฉัน [ยินยอม] ตาม แผน
+frame|I [frame] a photo|Я [обрамляю] фото|ฉัน [ใส่กรอบ] รูป
+rebuild|We [rebuild] the house|Мы [отстраиваем] дом|เรา [สร้างใหม่] บ้าน
+rate|I [rate] the film|Я [оцениваю] фильм|ฉัน [ให้คะแนน] หนัง
+contract|Metal [contracts] in the cold|Металл [сжимается] на холоде|โลหะ [หด] ใน ความหนาว
+dislike|I [dislike] noise|Я [не люблю] шум|ฉัน [ไม่ชอบ] เสียงดัง
+double|I [double] the recipe|Я [удваиваю] рецепт|ฉัน [เพิ่มเป็นสองเท่า] สูตร
+exercise|I [exercise] in the morning|Я [тренируюсь] утром|ฉัน [ออกกำลังกาย] ตอน เช้า
+trim|I [trim] a bush|Я [подрезаю] куст|ฉัน [ตัดแต่ง] พุ่มไม้
+carve|I [carve] a bird from wood|Я [вырезаю] птицу из дерева|ฉัน [แกะสลัก] นก จาก ไม้
+credit|The bank [credits] my account|Банк [зачисляет] деньги на мой счёт|ธนาคาร [ให้เครดิต] บัญชี ของ ฉัน
+rent|I [rent] a room|Я [арендую] комнату|ฉัน [เช่า] ห้อง
+transport|They [transport] goods|Они [перевозят] товары|พวก เขา [ขนส่ง] สินค้า
+conceive|I [conceive] a plan|Я [задумываю] план|ฉัน [คิดขึ้น] แผน
+board|I [board] a ship|Я [сажусь] на корабль|ฉัน [ขึ้นเรือ]
+endure|I [endure] pain|Я [выношу] боль|ฉัน [อดทน] ต่อ ความเจ็บปวด
+exhibit|I [exhibit] my pictures|Я [выставляю] свои картины|ฉัน [จัดแสดง] ภาพ ของ ฉัน
+owe|I [owe] you money|Я [должен] тебе деньги|ฉัน [เป็นหนี้] เธอ
+diminish|The noise [diminishes]|Шум [уменьшается]|เสียงดัง [ลดลง]
+tempt|Cake [tempts] me|Торт [искушает] меня|เค้ก [ล่อใจ] ฉัน
+clarify|I [clarify] the rule|Я [проясняю] правило|ฉัน [ชี้แจง] กฎ
+free|I [free] a bird|Я [освобождаю] птицу|ฉัน [ปลดปล่อย] นก
+interrupt|I [interrupt] a talk|Я [прерываю] разговор|ฉัน [ขัดจังหวะ] การ พูดคุย
+disclose|I [disclose] a secret|Я [разглашаю] тайну|ฉัน [เปิดเผย] ความลับ
+instruct|I [instruct] the driver|Я [инструктирую] водителя|ฉัน [สั่งสอน] คนขับรถ
+boil|I [boil] eggs|Я [варю] яйца|ฉัน [ต้ม] ไข่
+cheer|We [cheer] for the team|Мы [подбадриваем] команду|เรา [เชียร์] ทีม
+depress|Rain [depresses] me|Дождь [удручает] меня|ฝน [ทำให้ซึมเศร้า] ฉัน
+exploit|They [exploit] the land|Они [эксплуатируют] землю|พวก เขา [ใช้ประโยชน์] ที่ดิน
+notify|I [notify] the school|Я [уведомляю] школу|ฉัน [แจ้ง] โรงเรียน
+sink|The boat [sinks]|Лодка [тонет]|เรือ [จม]
+stem|The problem [stems] from noise|Проблема [проистекает] из шума|ปัญหา [มาจาก] เสียงดัง
+overlook|I [overlook] a mistake|Я [упускаю] ошибку|ฉัน [มองข้าม] ความผิดพลาด
+persuade|I [persuade] him to come|Я [уговариваю] его прийти|ฉัน [ชักชวน] เขา ให้ มา
+expire|My visa [expires]|Моя виза [истекает]|วีซ่า ของ ฉัน [หมดอายุ]
+reward|I [reward] the dog|Я [награждаю] собаку|ฉัน [ให้รางวัล] สุนัข
+spoil|Heat [spoils] food|Жара [портит] еду|ความร้อน [ทำเสีย] อาหาร
+balance|I [balance] on one leg|Я [балансирую] на одной ноге|ฉัน [ทรงตัว] บน ขา เดียว
+explode|The balloon [explodes]|Шар [взрывается]|ลูกโป่ง [ระเบิด]
+minimize|I [minimize] the cost|Я [минимизирую] расходы|ฉัน [ลดให้น้อยที่สุด] ค่าใช้จ่าย
+wander|I [wander] around the city|Я [брожу] по городу|ฉัน [เดินเที่ยว] ใน เมือง
+copy|I [copy] a file|Я [копирую] файл|ฉัน [คัดลอก] ไฟล์
+hesitate|I [hesitate] at the door|Я [колеблюсь] у двери|ฉัน [ลังเล] ที่ ประตู
+chop|I [chop] wood|Я [рублю] дрова|ฉัน [สับ] ฟืน
+chat|We [chat] online|Мы [болтаем] в сети|เรา [แชท] ออนไลน์
+contest|I [contest] the result|Я [оспариваю] результат|ฉัน [โต้แย้ง] ผล
+depict|The picture [depicts] the sea|Картина [изображает] море|ภาพ [พรรณนา] ทะเล
+drown|The boy [drowns]|Мальчик [тонет]|เด็กผู้ชาย [จมน้ำ]
+cater|They [cater] for a party|Они [обслуживают] праздник|พวก เขา [จัดเลี้ยง] งานเลี้ยง
+protest|We [protest] against noise|Мы [протестуем] против шума|เรา [ประท้วง] เสียงดัง
+scan|I [scan] a paper|Я [сканирую] бумагу|ฉัน [สแกน] กระดาษ
+tap|I [tap] the screen|Я [постукиваю] по экрану|ฉัน [แตะ] หน้าจอ
+enact|They [enact] a law|Они [принимают закон]|พวก เขา [ประกาศใช้] กฎหมาย
+enlist|He [enlists] in the army|Он [вербуется] в армию|เขา [เกณฑ์] ทหาร
+march|Soldiers [march]|Солдаты [маршируют]|ทหาร [เดินแถว]
+merge|Two rivers [merge]|Две реки [сливаются]|สอง แม่น้ำ [ควบรวม] กัน
+sample|I [sample] the soup|Я [беру пробы] супа|ฉัน [สุ่มตัวอย่าง] ซุป
+wave|I [wave] my hand|Я [машу] рукой|ฉัน [โบก] มือ
+fade|The color [fades]|Цвет [выцветает]|สี [จาง]
+shrink|The shirt [shrinks]|Рубашка [садится]|เสื้อ [หด]
+weaken|Illness [weakens] me|Болезнь [ослабляет] меня|โรค [ทำให้อ่อนแอ] ฉัน
+admire|I [admire] the sea|Я [восхищаюсь] морем|ฉัน [ชื่นชม] ทะเล
+choke|I [choke] on a crumb|Я [задыхаюсь] от крошки|ฉัน [สำลัก] เศษ ขนมปัง
+compel|The rule [compels] us to wait|Правило [принуждает] нас ждать|กฎ [บังคับ] ให้ เรา รอ
+photograph|I [photograph] a bird|Я [фотографирую] птицу|ฉัน [ถ่ายภาพ] นก
+rain|It [rains] today|Сегодня [идёт] дождь|วันนี้ [ฝนตก]
+vanish|The bird [vanishes]|Птица [пропадает]|นก [หายไป]
+program|I [program] a game|Я [программирую] игру|ฉัน [เขียนโปรแกรม] เกม
+bang|I [bang] on the door|Я [стучу] в дверь|ฉัน [ทุบ] ประตู
+benefit|Exercise [benefits] the body|Зарядка [приносит пользу] телу|การออกกำลังกาย [เป็นประโยชน์] ต่อ ร่างกาย
+bill|The shop [bills] me|Магазин [выставляет] мне счёт|ร้าน [เรียกเก็บเงิน] จาก ฉัน
+bounce|The ball [bounces]|Мяч [подпрыгивает]|ลูกบอล [เด้ง]
+brush|I [brush] my teeth|Я [чищу] зубы|ฉัน [แปรง] ฟัน
+budget|I [budget] for food|Я [закладываю] деньги на еду|ฉัน [จัดงบ] ค่า อาหาร
+bump|I [bump] into a chair|Я [натыкаюсь] на стул|ฉัน [ชน] เก้าอี้
+chair|She [chairs] the meeting|Она [председательствует] на встрече|เธอ [เป็นประธาน] ใน การ ประชุม
+clap|We [clap]|Мы [хлопаем]|เรา [ปรบมือ]
+cling|The child [clings] to his mother|Ребёнок [цепляется] за маму|เด็ก [เกาะ] แม่
+clone|I [clone] a file|Я [клонирую] файл|ฉัน [โคลน] ไฟล์
+cluster|Birds [cluster] on a tree|Птицы [группируются] на дереве|นก [รวมกลุ่ม] บน ต้นไม้
+comfort|I [comfort] a friend|Я [утешаю] друга|ฉัน [ปลอบ] เพื่อน
+commute|I [commute] by bus|Я [добираюсь] на работу автобусом|ฉัน [เดินทางไปทำงาน] ด้วย รถเมล์
+complicate|Rain [complicates] the trip|Дождь [усложняет] поездку|ฝน [ทำให้ซับซ้อน] การ เดินทาง
+compute|I [compute] the total|Я [вычисляю] сумму|ฉัน [ประมวลผล] ผลรวม
+conquer|They [conquer] a mountain|Они [завоёвывают] гору|พวก เขา [พิชิต] ภูเขา
+contemplate|I [contemplate] the decision|Я [обдумываю] решение|ฉัน [ครุ่นคิด] ถึง การ ตัดสินใจ
+correlate|The two numbers [correlate]|Два числа [соотносятся]|สอง ตัวเลข [สัมพันธ์กัน]
+cough|I [cough]|Я [кашляю]|ฉัน [ไอ]
+crawl|The baby [crawls]|Малыш [ползает]|ทารก [คลาน]
+creep|A cat [creeps] up|Кошка [крадётся]|แมว [คืบ] เข้า มา
+cultivate|I [cultivate] rice|Я [выращиваю] рис|ฉัน [เพาะปลูก] ข้าว
+dash|I [dash] to the door|Я [бросаюсь] к двери|ฉัน [พุ่ง] ไป ที่ ประตู
+disapprove|I [disapprove] of the plan|Я [не одобряю] план|ฉัน [ไม่เห็นด้วย] กับ แผน
+discipline|I [discipline] the dog|Я [дисциплинирую] собаку|ฉัน [ลงโทษ] เพื่อ ฝึก สุนัข
+discount|The shop [discounts] shoes|Магазин [делает скидку] на обувь|ร้าน [ลดราคา] รองเท้า
+discourage|Rain [discourages] me|Дождь [отговаривает] меня|ฝน [ทำให้ท้อ] ฉัน
+dive|I [dive] into the sea|Я [ныряю] в море|ฉัน [ดำน้ำ] ใน ทะเล
+divert|I [divert] attention|Я [отвлекаю] внимание|ฉัน [เบนทาง] ความสนใจ
+ease|Tea [eases] the pain|Чай [облегчает] боль|ชา [บรรเทา] ความเจ็บปวด
+echo|The voice [echoes]|Голос [отдаётся эхом]|เสียง [ก้อง]
+empty|I [empty] a bottle|Я [опустошаю] бутылку|ฉัน [ทำให้ว่าง] ขวด
+exert|I [exert] effort|Я [прилагаю] усилия|ฉัน [ใช้ความพยายาม]
+facilitate|A map [facilitates] the trip|Карта [содействует] поездке|แผนที่ [อำนวยความสะดวก] การ เดินทาง
+fancy|I [fancy] cats|Я [увлекаюсь] кошками|ฉัน [ชอบ] แมว
+fascinate|The sea [fascinates] me|Море [очаровывает] меня|ทะเล [หลงใหล] ฉัน
+finance|A bank [finances] the school|Банк [финансирует] школу|ธนาคาร [ให้ทุน] โรงเรียน
+fish|I [fish] in the river|Я [ужу] рыбу в реке|ฉัน [ตกปลา] ใน แม่น้ำ
+forecast|They [forecast] rain|Они [прогнозируют] дождь|พวก เขา [พยากรณ์] ว่า ฝน จะ ตก
+formulate|I [formulate] a question|Я [формулирую] вопрос|ฉัน [กำหนดสูตร] คำถาม
+fuel|I [fuel] the car|Я [заправляю] машину|ฉัน [เติมเชื้อเพลิง] รถ
+guard|A dog [guards] the house|Собака [охраняет] дом|สุนัข [เฝ้า] บ้าน
+harm|Smoke [harms] health|Дым [вредит] здоровью|ควัน [ทำอันตราย] สุขภาพ
+hint|I [hint] at the answer|Я [намекаю] на ответ|ฉัน [ใบ้] คำตอบ
+house|The hotel [houses] guests|Отель [размещает] гостей|โรงแรม [ให้ที่อยู่อาศัย] แขก
+hug|I [hug] my mother|Я [обнимаю] маму|ฉัน [กอด] แม่
+infer|I [infer] a reason|Я [делаю вывод] о причине|ฉัน [อนุมาน] สาเหตุ
+insult|He [insults] me|Он [оскорбляет] меня|เขา [ดูหมิ่น] ฉัน
+insure|I [insure] my car|Я [страхую] машину|ฉัน [ทำประกัน] รถ
+map|I [map] the route|Я [картографирую] маршрут|ฉัน [ทำแผนที่] เส้นทาง
+market|I [market] shoes|Я [продвигаю на рынке] обувь|ฉัน [ทำการตลาด] รองเท้า
+mobilize|They [mobilize] volunteers|Они [мобилизуют] добровольцев|พวก เขา [ระดม] อาสาสมัคร
+multiply|I [multiply] two by five|Я [умножаю] два на пять|ฉัน [คูณ] สอง ด้วย ห้า
+navigate|I [navigate] by the map|Я [ориентируюсь] по карте|ฉัน [นำทาง] ด้วย แผนที่
+nod|I [nod]|Я [киваю]|ฉัน [พยักหน้า]
+omit|I [omit] a word|Я [пропускаю] слово|ฉัน [ละ] คำ
+pause|I [pause] the song|Я [приостанавливаю] песню|ฉัน [หยุดชั่วคราว] เพลง
+persist|I [persist] in learning|Я [упорствую] в учёбе|ฉัน [พากเพียร] เรียน
+pile|I [pile] books|Я [нагромождаю] книги|ฉัน [กอง] หนังสือ
+pin|I [pin] a note|Я [прикалываю] записку|ฉัน [ปัก] โน้ต
+plunge|I [plunge] into the water|Я [погружаюсь] в воду|ฉัน [พุ่งลง] น้ำ
+pollute|Cars [pollute] the air|Машины [загрязняют] воздух|รถ [ทำให้เป็นมลพิษ] อากาศ
+prevail|Peace [prevails]|Мир [преобладает]|สันติภาพ [มีชัย]
+profit|I [profit] from trade|Я [наживаюсь] на торговле|ฉัน [ทำกำไร] จาก การ ค้า
+prosecute|They [prosecute] a thief|Они [подают в суд] на вора|พวก เขา [ฟ้อง] โจร
+reform|They [reform] the school|Они [реформируют] школу|พวก เขา [ปฏิรูป] โรงเรียน
+regret|I [regret] my words|Я [сожалею] о словах|ฉัน [เสียใจ] กับ คำพูด ของ ฉัน
+reproduce|I [reproduce] a picture|Я [воспроизвожу] картину|ฉัน [ทำซ้ำ] ภาพ
+revive|I [revive] an old song|Я [возрождаю] старую песню|ฉัน [ฟื้น] เพลง เก่า
+ring|The bell [rings]|Звонок [звенит]|กระดิ่ง [ดัง]
+rub|I [rub] my hands|Я [тру] руки|ฉัน [ถู] มือ
+sail|The boat [sails] to the island|Лодка [плывёт] к острову|เรือ [แล่น] ไป เกาะ
+scratch|The cat [scratches] a door|Кошка [царапает] дверь|แมว [ข่วน] ประตู
+shelter|I [shelter] from the rain|Я [укрываюсь] от дождя|ฉัน [หลบ] ฝน
+shrug|I [shrug] my shoulders|Я [пожимаю плечами]|ฉัน [ยักไหล่]
+sigh|I [sigh]|Я [вздыхаю]|ฉัน [ถอนหายใจ]
+signal|I [signal] with a lamp|Я [подаю сигнал] лампой|ฉัน [ส่งสัญญาณ] ด้วย โคมไฟ
+soak|I [soak] the rice|Я [намачиваю] рис|ฉัน [แช่] ข้าว
+spare|I [spare] his life|Я [щажу] его жизнь|ฉัน [ไว้ชีวิต] เขา
+spill|I [spill] tea|Я [проливаю] чай|ฉัน [หก] ชา
+stabilize|I [stabilize] the table|Я [стабилизирую] стол|ฉัน [ทำให้มั่นคง] โต๊ะ
+swallow|I [swallow] a pill|Я [глотаю] таблетку|ฉัน [กลืน] ยา
+tax|They [tax] cigarettes|Они [облагают] сигареты налогом|พวก เขา [เก็บภาษี] บุหรี่
+tighten|I [tighten] a screw|Я [затягиваю] винт|ฉัน [กระชับ] สกรู
+tire|Work [tires] me|Работа [утомляет] меня|งาน [ทำให้เหนื่อย] ฉัน
+trip|I [trip] on a stone|Я [спотыкаюсь] о камень|ฉัน [สะดุด] หิน
+twist|I [twist] a rope|Я [скручиваю] верёвку|ฉัน [บิด] เชือก
+unfold|I [unfold] a map|Я [разворачиваю] карту|ฉัน [คลี่] แผนที่
+unlock|I [unlock] the door|Я [отпираю] дверь|ฉัน [ปลดล็อก] ประตู
+venture|I [venture] into the forest|Я [рискую] зайти в лес|ฉัน [ลุย] เข้า ป่า
+whip|I [whip] cream|Я [взбиваю] сливки|ฉัน [ตี] ครีม
+whisper|I [whisper] to a friend|Я [шепчу] другу|ฉัน [กระซิบ] กับ เพื่อน
+wind|I [wind] a thread|Я [наматываю] нитку|ฉัน [ม้วน] ด้าย

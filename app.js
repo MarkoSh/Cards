@@ -1,7 +1,7 @@
 // Cards: a gallery of the most frequent nouns and verbs in Russian, English and Thai.
 // You pick the language you know (base) and the deck you study (target); the card shows the
 // deck word and reveals the base-language translation on click.
-// Data: CONCEPTS (data.js), SPRITE (icons/sprite.js). Both are built by tools/build_data.py.
+// Data: CONCEPTS (data.js), EXAMPLES (examples.js), SPRITE (icons/sprite.js). Both are built by tools/build_data.py.
 
 const LANGS = ['ru', 'en', 'th'];
 const CODE = { ru: 'RU', en: 'EN', th: 'TH' };
@@ -13,21 +13,21 @@ const STORAGE_KEY = 'cards';
 const TEXT = {
   ru: {
     title: 'Cards — слова в карточках', search: 'Поиск…', empty: 'Ничего не найдено',
-    n: 'Существительные', v: 'Глаголы', copy: 'Копировать', copied: 'Скопировано', translate: 'Google Переводчик',
+    n: 'Существительные', v: 'Глаголы', copy: 'Копировать', example: 'Пример', copied: 'Скопировано', translate: 'Google Переводчик',
     description: 'До 1000 частотных существительных и глаголов английского, русского и тайского в карточках с иконками, транскрипцией и переводом.',
     credits: 'Иконки: {openmoji} (CC BY-SA 4.0). Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.',
     projects: 'Другие проекты:',
   },
   en: {
     title: 'Cards — vocabulary in cards', search: 'Search…', empty: 'Nothing found',
-    n: 'Nouns', v: 'Verbs', copy: 'Copy', copied: 'Copied', translate: 'Google Translate',
+    n: 'Nouns', v: 'Verbs', copy: 'Copy', example: 'Example', copied: 'Copied', translate: 'Google Translate',
     description: 'Up to 1000 frequent nouns and verbs in English, Russian and Thai, with icons, transcriptions and translations.',
     credits: 'Icons: {openmoji} (CC BY-SA 4.0). Frequency: wordfreq (en/ru), Thai National Corpus (th). Translations curated by hand.',
     projects: 'Other projects:',
   },
   th: {
     title: 'Cards — เรียนคำศัพท์ด้วยบัตรคำ', search: 'ค้นหา…', empty: 'ไม่พบคำที่ค้นหา',
-    n: 'คำนาม', v: 'คำกริยา', copy: 'คัดลอก', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
+    n: 'คำนาม', v: 'คำกริยา', copy: 'คัดลอก', example: 'ตัวอย่าง', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
     description: 'คำนามและคำกริยาที่พบบ่อยสูงสุดภาษาละ 1,000 คำ ในภาษาอังกฤษ รัสเซีย และไทย พร้อมไอคอน การถอดเสียง และคำแปล',
     credits: 'ไอคอน: {openmoji} (CC BY-SA 4.0) · ความถี่คำ: wordfreq (en/ru), Thai National Corpus (th) · คำแปลคัดสรรด้วยตนเอง',
     projects: 'โครงการอื่น:',
@@ -35,6 +35,7 @@ const TEXT = {
 };
 
 const ICON = {   // lucide, 24x24
+  quote: '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8"/><path d="M8 13h5"/>',
   copy: '<rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>',
   check: '<path d="M20 6 9 17l-5-5"/>',
   translate: '<path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/>',
@@ -120,6 +121,21 @@ function transcription(c) {
   return (state.target === 'en' ? c.i : state.target === 'th' ? c.x : '') || '';
 }
 
+// [verb] in a sample sentence -> highlighted verb
+const mark = text => esc(text).replace(/\[(.+?)\]/, '<b class="text-amber-400">$1</b>');
+
+// a short sentence with the verb: the deck language first, then its transcription (Thai) and the translation
+function example(c) {
+  const ex = c.p === 'v' && EXAMPLES[c.e];
+  if (!ex) return '';
+  const [en, ru, th, roman] = ex, sentence = { en, ru, th };
+  return `<button type="button" class="ex absolute inset-0 flex flex-col items-center justify-center bg-zinc-900 px-4 pb-4 pt-10 text-center" tabindex="-1">
+    <span class="font-word font-semibold leading-snug ${state.target === 'th' ? 'text-xl' : 'text-lg'}">${mark(sentence[state.target])}</span>
+    ${state.target === 'th' ? `<span class="mt-1 text-xs text-zinc-500">${esc(roman)}</span>` : ''}
+    <span class="mt-3 w-full border-t border-zinc-800 pt-3 text-sm text-zinc-400">${mark(sentence[state.base])}</span>
+  </button>`;
+}
+
 function card(c) {
   const t = TEXT[state.base], look = lookOf(c), word = c[FIELD[state.target]];
   const url = `https://translate.google.com/?sl=${state.target}&tl=${state.base}&text=${encodeURIComponent(word)}&op=translate`;
@@ -130,8 +146,10 @@ function card(c) {
     <span class="mt-0.5 block h-4 text-xs text-zinc-500">${esc(transcription(c))}</span>
     <span class="translation mt-2 block h-10 w-full border-t border-zinc-800 pt-2 text-sm text-zinc-400" aria-hidden="true">${esc(c[FIELD[state.base]])}</span>
   </button>
+  ${example(c)}
   ${frequency(c)}
   <a class="corner right-9" href="${url}" target="_blank" rel="noopener" title="${t.translate}" aria-label="${t.translate}">${icon('translate')}</a>
+  ${EXAMPLES[c.e] && c.p === 'v' ? `<button type="button" class="corner toggle-example right-16" title="${t.example}" aria-label="${t.example}" aria-expanded="false">${icon('quote')}</button>` : ''}
   <button type="button" class="corner copy right-1.5" data-word="${esc(word)}" title="${t.copy}" aria-label="${t.copy}">${icon('copy')}</button>
 </article>`;
 }
@@ -206,6 +224,12 @@ $('grid').addEventListener('click', e => {
         setLabel(copy, label);
       }, 1000);
     }).catch(() => {});
+    return;
+  }
+  const toggle = e.target.closest('.toggle-example, .ex');
+  if (toggle) {
+    const cardEl = toggle.closest('.card'), shown = cardEl.classList.toggle('show-ex');
+    cardEl.querySelector('.toggle-example').setAttribute('aria-expanded', shown);
     return;
   }
   const reveal = e.target.closest('.reveal');

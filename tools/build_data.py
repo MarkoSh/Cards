@@ -5,10 +5,12 @@ Adds en IPA (eng_to_ipa), th romanization (tltk, RTGS), per-language frequency r
 the icon of each concept. Black OpenMoji SVGs are cached in tools/openmoji-svg and packed
 into one recolorable sprite (icons/sprite.js).
 
+Examples: tools/examples.txt (verb|English|Russian|Thai, the verb in [brackets], Thai words separated by spaces) -> examples.js.
+
 Run: ~/.venv/bin/uv run --with tltk --with 'numpy<2' --with 'pandas<2.3' --with requests --with nltk \
   --with python-crfsuite --with scikit-learn --with eng-to-ipa python -W ignore tools/build_data.py
 """
-import json, os, re, urllib.request
+import functools, json, os, re, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -72,15 +74,38 @@ def build_sprite(hexcodes):
         f.write('const SPRITE=' + json.dumps(svg) + ';\n')
     print('sprite:', len(parts), 'icons')
 
+def build_examples(concepts, roman):
+    """tools/examples.txt -> examples.js: {verb: [en, ru, th, th romanization]}; the verb is marked with [brackets]."""
+    verbs = {c['e']: c for c in concepts if c['p'] == 'v'}
+    out = {}
+    for n, line in enumerate(open(os.path.join(HERE, 'examples.txt'), encoding='utf8'), 1):
+        if not line.strip() or line.startswith('#'):
+            continue
+        verb, en, ru, th = [x.strip() for x in line.split('|')]
+        if verb not in verbs:
+            print(f'examples.txt:{n}: unknown verb {verb}')
+            continue
+        for lang, text in (('en', en), ('ru', ru), ('th', th)):
+            if text.count('[') != 1 or text.count(']') != 1:
+                print(f'examples.txt:{n}: {verb}: mark the verb in {lang} with [ ]')
+        if verbs[verb]['t'].replace(' ', '') not in th.replace(' ', '').replace('[', '').replace(']', ''):
+            print(f'examples.txt:{n}: {verb}: the Thai sentence lacks {verbs[verb]["t"]}')
+        plain = th.replace('[', '').replace(']', '')
+        out[verb] = [en, ru, th, ' '.join(roman(w) for w in plain.split())]
+    with open(os.path.join(ROOT, 'examples.js'), 'w', encoding='utf8') as f:
+        f.write('const EXAMPLES=' + json.dumps(out, ensure_ascii=False, separators=(',', ':')) + ';\n')
+    print('examples:', len(out), 'of', len(verbs), 'verbs')
+
 def main():
     import eng_to_ipa
     from tltk.nlp import th2roman  # royin (pythainlp) leaks Thai vowel marks into the Latin text
+    roman = functools.lru_cache(None)(lambda w: th2roman(w).replace('<s/>', '').strip())   # tltk is slow, words repeat
     concepts, ranks, icons = load_concepts(), load_ranks(), load_icons()
     for c in concepts:
         ipa = eng_to_ipa.convert(c['e'])
         if ipa and '*' not in ipa:
             c['i'] = '/' + ipa + '/'
-        c['x'] = ' '.join(th2roman(w).replace('<s/>', '').strip() for w in c['t'].split())
+        c['x'] = ' '.join(roman(w) for w in c['t'].split())
         if icons[c['e'], c['p']]:
             c['g'] = icons[c['e'], c['p']]
         k = {}
@@ -95,6 +120,7 @@ def main():
     with open(os.path.join(ROOT, 'data.js'), 'w', encoding='utf8') as f:
         f.write('const CONCEPTS=' + json.dumps(concepts, ensure_ascii=False, separators=(',', ':')) + ';\n')
     print('concepts:', len(concepts))
+    build_examples(concepts, roman)
     for lang in ('en', 'ru', 'th'):
         for pos in ('n', 'v'):
             n = sum(1 for c in concepts if c['p'] == pos and c.get('k', {}).get(lang, 9999) <= 1000)

@@ -28,4 +28,9 @@
 .card.open .translation { opacity: 1; }
 .card .reveal:focus-visible { outline-offset: -4px; }
 
-@media (prefers-reduced-motion: reduce) { .card, .card .translation { transition: none; } }
+/* the sample sentence of a verb covers the card, the corner buttons stay above it */
+.card .ex { opacity: 0; visibility: hidden; transition: opacity .1s ease-in-out, visibility .1s; }
+.card.show-ex .ex { opacity: 1; visibility: visible; }
+.card .toggle-example[aria-expanded="true"] { border-color: var(--color-amber-400); color: var(--color-amber-400); }
+
+@media (prefers-reduced-motion: reduce) { .card, .card .translation, .card .ex { transition: none; } }
