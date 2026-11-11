@@ -40,6 +40,7 @@ const TEXT = {
 const ICON = {   // lucide, 24x24
   quote: '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8"/><path d="M8 13h5"/>',
   share: '<path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/>',
+  camera: '<path d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"/><circle cx="12" cy="13" r="3"/>',
   copy: '<rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>',
   check: '<path d="M20 6 9 17l-5-5"/>',
   heart: '<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>',
@@ -140,7 +141,13 @@ function speak(text, lang) {
 
 // ---- cards -------------------------------------------------------------------------------
 
-const photoOf = c => PHOTOS.has(c.p + c.e) ? `photos/${c.p}-${c.e.replace(/\W+/g, '-')}.webp` : '';
+const photoOf = c => PHOTOS[c.p + c.e] ? `photos/${c.p}-${c.e.replace(/\W+/g, '-')}.webp` : '';
+
+// who took the photo and where it comes from: a small pill over the corner of the photo, linked to the photo page
+function credit(c) {
+  const p = PHOTOS[c.p + c.e];
+  return p ? `<a class="credit" href="${esc(p[1])}" target="_blank" rel="noopener" title="${esc(p[0])} · ${esc(p[2])}">${icon('camera', 'size-3')}<span class="truncate">${esc(p[0])} · ${esc(p[2])}</span></a>` : '';
+}
 
 // until a photo exists the post shows the old pictogram (or the first letter) on a dark square
 function media(c) {
@@ -193,10 +200,13 @@ function card(c) {
     <span class="font-semibold text-zinc-200">${t[c.p]}</span>
     <span class="ml-auto flex items-center gap-2">${c.k?.[state.target] ? `#${c.k[state.target]}` : ''}${frequency(c)}</span>
   </header>
+  <div class="relative">
   <button type="button" class="reveal media relative flex aspect-square w-full select-none items-center justify-center overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-800" aria-expanded="false" aria-label="${esc(word)}">
     ${media(c)}
     <span class="burst pointer-events-none absolute inset-0 flex items-center justify-center text-red-500">${icon('heart', 'size-24 fill-current')}</span>
   </button>
+  ${credit(c)}
+  </div>
   <div class="flex items-center gap-3 px-3 pt-2.5">
     ${heart(c)}
     <button type="button" class="speak action" data-text="${esc(word)}" title="${t.listen}" aria-label="${t.listen}">${icon('volume', 'size-6')}</button>

@@ -19,6 +19,8 @@
   /* heart, voice, translate, copy under the photo */
   .action { @apply flex cursor-pointer items-center text-zinc-300 hover:text-amber-400; }
   .action[data-done] { @apply text-amber-400; }
+  /* photographer credit over the corner of a photo */
+  .credit { @apply absolute bottom-2 left-2 flex max-w-[75%] items-center gap-1 rounded-full bg-black/55 px-2 py-0.5 text-[11px] text-zinc-300 backdrop-blur-sm hover:text-amber-400; }
   .like-on { @apply text-red-500; }
   .like-on svg { fill: currentColor; }
   .like-old { @apply text-zinc-500; }
