@@ -13,7 +13,7 @@ const STORAGE_KEY = 'cards';
 const TEXT = {
   ru: {
     title: 'Cards — слова как в инстаграме', search: 'Поиск…', empty: 'Ничего не найдено',
-    n: 'Существительные', v: 'Глаголы', copy: 'Копировать', example: 'Пример', copied: 'Скопировано', translate: 'Google Переводчик',
+    n: 'Существительные', v: 'Глаголы', all: 'Все', copy: 'Копировать', example: 'Пример', copied: 'Скопировано', translate: 'Google Переводчик',
     share: 'Поделиться карточкой', like: 'Выучил', recall: 'Забыл? Вспомнил — нажмите ещё раз', listen: 'Послушать', known: 'выучено', recallN: 'пора вспомнить',
     description: 'До 1000 частотных существительных и глаголов английского, русского и тайского в карточках с иконками, транскрипцией и переводом.',
     credits: 'Иконки: {openmoji} (CC BY-SA 4.0). Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.',
@@ -21,7 +21,7 @@ const TEXT = {
   },
   en: {
     title: 'Cards — vocabulary in cards', search: 'Search…', empty: 'Nothing found',
-    n: 'Nouns', v: 'Verbs', copy: 'Copy', example: 'Example', copied: 'Copied', translate: 'Google Translate',
+    n: 'Nouns', v: 'Verbs', all: 'All', copy: 'Copy', example: 'Example', copied: 'Copied', translate: 'Google Translate',
     share: 'Share this card', like: 'I know it', recall: 'Forgot? Recalled it — tap again', listen: 'Listen', known: 'learned', recallN: 'to recall',
     description: 'Up to 1000 frequent nouns and verbs in English, Russian and Thai, with icons, transcriptions and translations.',
     credits: 'Icons: {openmoji} (CC BY-SA 4.0). Frequency: wordfreq (en/ru), Thai National Corpus (th). Translations curated by hand.',
@@ -29,7 +29,7 @@ const TEXT = {
   },
   th: {
     title: 'Cards — เรียนคำศัพท์ด้วยบัตรคำ', search: 'ค้นหา…', empty: 'ไม่พบคำที่ค้นหา',
-    n: 'คำนาม', v: 'คำกริยา', copy: 'คัดลอก', example: 'ตัวอย่าง', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
+    n: 'คำนาม', v: 'คำกริยา', all: 'ทั้งหมด', copy: 'คัดลอก', example: 'ตัวอย่าง', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
     share: 'แชร์การ์ดนี้', like: 'จำได้แล้ว', recall: 'ลืมแล้ว? นึกออกแล้วกดอีกครั้ง', listen: 'ฟัง', known: 'จำได้', recallN: 'ควรทบทวน',
     description: 'คำนามและคำกริยาที่พบบ่อยสูงสุดภาษาละ 1,000 คำ ในภาษาอังกฤษ รัสเซีย และไทย พร้อมไอคอน การถอดเสียง และคำแปล',
     credits: 'ไอคอน: {openmoji} (CC BY-SA 4.0) · ความถี่คำ: wordfreq (en/ru), Thai National Corpus (th) · คำแปลคัดสรรด้วยตนเอง',
@@ -63,7 +63,7 @@ function loadState() {
   if (LANGS.includes(saved.base)) state.base = saved.base;
   if (otherLangs(state.base).includes(saved.target)) state.target = saved.target;
   else state.target = otherLangs(state.base)[0];
-  if (saved.pos === 'n' || saved.pos === 'v') state.pos = saved.pos;
+  if (['n', 'v', 'a'].includes(saved.pos)) state.pos = saved.pos;
 }
 
 function setState(patch) {
@@ -81,19 +81,30 @@ CONCEPTS.forEach(c => { c.s = norm([c.e, c.r, c.t, c.x].join(' ')); });   // sea
 const decks = new Map();
 function deck() {
   const key = state.target + state.pos;
-  if (!decks.has(key)) {
-    const field = FIELD[state.target], seen = new Set();
-    decks.set(key, CONCEPTS
-      .map((c, i) => ({ c, i, rank: c.k?.[state.target] ?? NO_RANK, en: c.k?.en ?? NO_RANK }))
-      .filter(x => x.c.p === state.pos)
-      // synonyms share a rank when they share a translation: the commonest English sense goes first
-      .sort((a, b) => a.rank - b.rank || a.en - b.en || a.i - b.i)
-      .map(x => x.c)
-      // one card per deck word
-      .filter(c => !seen.has(c[field]) && seen.add(c[field]))
-      .slice(0, DECK_SIZE));
-  }
+  if (!decks.has(key)) decks.set(key, state.pos === 'a' ? mix(deckOf('n'), deckOf('v')) : deckOf(state.pos));
   return decks.get(key);
+}
+
+function deckOf(pos) {
+  const field = FIELD[state.target], seen = new Set();
+  return CONCEPTS
+    .map((c, i) => ({ c, i, rank: c.k?.[state.target] ?? NO_RANK, en: c.k?.en ?? NO_RANK }))
+    .filter(x => x.c.p === pos)
+    // synonyms share a rank when they share a translation: the commonest English sense goes first
+    .sort((a, b) => a.rank - b.rank || a.en - b.en || a.i - b.i)
+    .map(x => x.c)
+    // one card per deck word
+    .filter(c => !seen.has(c[field]) && seen.add(c[field]))
+    .slice(0, DECK_SIZE);
+}
+
+// nouns and verbs shuffled together; each list keeps its own frequency order (fixed seed: the same wall every time)
+function mix(a, b) {
+  let seed = 7;
+  const random = () => { seed = (seed + 0x6D2B79F5) | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+  const out = [];
+  for (let i = 0, j = 0; i < a.length || j < b.length;) out.push(j >= b.length || (i < a.length && random() < (a.length - i) / (a.length - i + b.length - j)) ? a[i++] : b[j++]);
+  return out;
 }
 
 // ---- likes: "I know this word"; a like is red for 30 days, then fades to grey (known once, time to recall) --------
@@ -240,7 +251,7 @@ function paintChrome() {
   $('projects').textContent = t.projects;
   segment($('base'), LANGS.map(l => [l, CODE[l]]), state.base, langName);
   segment($('target'), otherLangs(state.base).map(l => [l, CODE[l]]), state.target, langName);
-  segment($('pos'), [['n', t.n], ['v', t.v]], state.pos);
+  segment($('pos'), [['n', t.n], ['v', t.v], ['a', t.all]], state.pos);
 }
 
 // ---- events (one listener per area; the grid is re-created on every repaint) -------------
