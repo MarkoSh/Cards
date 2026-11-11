@@ -2,3 +2,4 @@ node_modules/
 tools/openmoji.json
 tools/openmoji-svg/
 tools/freq.json
+tools/.keys
