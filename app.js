@@ -170,7 +170,7 @@ function heart(c) {
 function card(c) {
   const t = TEXT[state.base], word = c[FIELD[state.target]], tr = transcription(c);
   const url = `https://translate.google.com/?sl=${state.target}&tl=${state.base}&text=${encodeURIComponent(word)}&op=translate`;
-  return `<article class="post overflow-hidden border border-zinc-800 bg-zinc-900 sm:rounded-2xl" data-id="${c.p}:${c.e}">
+  return `<article class="post overflow-hidden border border-zinc-800 bg-zinc-900 sm:rounded-lg" data-id="${c.p}:${c.e}">
   <header class="flex items-center gap-2 px-3 py-2 text-xs text-zinc-400">
     <span class="flex size-7 items-center justify-center rounded-full bg-amber-400 text-[10px] font-bold text-zinc-950">${CODE[state.target]}</span>
     <span class="font-semibold text-zinc-200">${c.p === 'n' ? t.n : t.v}</span>
