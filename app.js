@@ -267,7 +267,9 @@ function paintChrome() {
   $('projects').textContent = t.projects;
   segment($('base'), LANGS.map(l => [l, CODE[l]]), state.base, langName);
   segment($('target'), otherLangs(state.base).map(l => [l, CODE[l]]), state.target, langName);
-  segment($('pos'), [['a', t.all], ['n', t.n], ['v', t.v], ['p', t.p], ['c', t.c]], state.pos);
+  const kinds = [['a', t.all], ['n', t.n], ['v', t.v], ['p', t.p], ['c', t.c]];
+  segment($('pos'), kinds, state.pos);
+  $('posSel').innerHTML = kinds.map(([v, x]) => `<option value="${v}"${v === state.pos ? ' selected' : ''}>${x}</option>`).join('');
 }
 
 // ---- events (one listener per area; the grid is re-created on every repaint) -------------
@@ -357,6 +359,7 @@ function paintLike(post, c) {
 
 $('base').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setState({ base: b.dataset.value }); });
 $('target').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setState({ target: b.dataset.value }); });
+$('posSel').addEventListener('change', e => setState({ pos: e.target.value }));
 $('pos').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setState({ pos: b.dataset.value }); });
 
 let searchFrame = 0;
