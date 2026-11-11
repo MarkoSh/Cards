@@ -29,6 +29,8 @@
 .post .more { display: grid; grid-template-rows: 0fr; opacity: 0; transition: grid-template-rows .1s ease-in-out, opacity .1s ease-in-out; }
 .post.open .more { grid-template-rows: 1fr; opacity: 1; }
 .post.open { border-color: var(--color-amber-400); }
+.post.shared { border-color: var(--color-amber-400); box-shadow: 0 0 0 1px var(--color-amber-400), 0 0 28px -2px rgb(251 191 36 / .3); animation: glow 1.4s ease-in-out 2; }
+@keyframes glow { 50% { box-shadow: 0 0 0 1px var(--color-amber-400), 0 0 44px 2px rgb(251 191 36 / .5); } }
 .post .caption:focus-visible { outline-offset: 2px; }
 
 /* the heart that pops up on a double tap */
@@ -36,4 +38,4 @@
 .burst-on .burst { animation: pop .7s ease-out; }
 @keyframes pop { 20% { opacity: 1; transform: scale(1.1); } 70% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(1); } }
 
-@media (prefers-reduced-motion: reduce) { .post .more, .burst-on .burst { transition: none; animation: none; } }
+@media (prefers-reduced-motion: reduce) { .post .more, .burst-on .burst, .post.shared { transition: none; animation: none; } }

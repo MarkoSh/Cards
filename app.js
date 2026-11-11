@@ -14,7 +14,7 @@ const TEXT = {
   ru: {
     title: 'Cards — слова как в инстаграме', search: 'Поиск…', empty: 'Ничего не найдено',
     n: 'Существительные', v: 'Глаголы', copy: 'Копировать', example: 'Пример', copied: 'Скопировано', translate: 'Google Переводчик',
-    like: 'Выучил', recall: 'Забыл? Вспомнил — нажмите ещё раз', listen: 'Послушать', known: 'выучено', recallN: 'пора вспомнить',
+    share: 'Поделиться карточкой', like: 'Выучил', recall: 'Забыл? Вспомнил — нажмите ещё раз', listen: 'Послушать', known: 'выучено', recallN: 'пора вспомнить',
     description: 'До 1000 частотных существительных и глаголов английского, русского и тайского в карточках с иконками, транскрипцией и переводом.',
     credits: 'Иконки: {openmoji} (CC BY-SA 4.0). Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.',
     projects: 'Другие проекты:',
@@ -22,7 +22,7 @@ const TEXT = {
   en: {
     title: 'Cards — vocabulary in cards', search: 'Search…', empty: 'Nothing found',
     n: 'Nouns', v: 'Verbs', copy: 'Copy', example: 'Example', copied: 'Copied', translate: 'Google Translate',
-    like: 'I know it', recall: 'Forgot? Recalled it — tap again', listen: 'Listen', known: 'learned', recallN: 'to recall',
+    share: 'Share this card', like: 'I know it', recall: 'Forgot? Recalled it — tap again', listen: 'Listen', known: 'learned', recallN: 'to recall',
     description: 'Up to 1000 frequent nouns and verbs in English, Russian and Thai, with icons, transcriptions and translations.',
     credits: 'Icons: {openmoji} (CC BY-SA 4.0). Frequency: wordfreq (en/ru), Thai National Corpus (th). Translations curated by hand.',
     projects: 'Other projects:',
@@ -30,7 +30,7 @@ const TEXT = {
   th: {
     title: 'Cards — เรียนคำศัพท์ด้วยบัตรคำ', search: 'ค้นหา…', empty: 'ไม่พบคำที่ค้นหา',
     n: 'คำนาม', v: 'คำกริยา', copy: 'คัดลอก', example: 'ตัวอย่าง', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
-    like: 'จำได้แล้ว', recall: 'ลืมแล้ว? นึกออกแล้วกดอีกครั้ง', listen: 'ฟัง', known: 'จำได้', recallN: 'ควรทบทวน',
+    share: 'แชร์การ์ดนี้', like: 'จำได้แล้ว', recall: 'ลืมแล้ว? นึกออกแล้วกดอีกครั้ง', listen: 'ฟัง', known: 'จำได้', recallN: 'ควรทบทวน',
     description: 'คำนามและคำกริยาที่พบบ่อยสูงสุดภาษาละ 1,000 คำ ในภาษาอังกฤษ รัสเซีย และไทย พร้อมไอคอน การถอดเสียง และคำแปล',
     credits: 'ไอคอน: {openmoji} (CC BY-SA 4.0) · ความถี่คำ: wordfreq (en/ru), Thai National Corpus (th) · คำแปลคัดสรรด้วยตนเอง',
     projects: 'โครงการอื่น:',
@@ -39,6 +39,7 @@ const TEXT = {
 
 const ICON = {   // lucide, 24x24
   quote: '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8"/><path d="M8 13h5"/>',
+  share: '<path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="m16 6-4-4-4 4"/><path d="M12 2v13"/>',
   copy: '<rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>',
   check: '<path d="M20 6 9 17l-5-5"/>',
   heart: '<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>',
@@ -184,6 +185,7 @@ function card(c) {
     ${heart(c)}
     <button type="button" class="speak action" data-text="${esc(word)}" title="${t.listen}" aria-label="${t.listen}">${icon('volume', 'size-6')}</button>
     <a class="action" href="${url}" target="_blank" rel="noopener" title="${t.translate}" aria-label="${t.translate}">${icon('translate', 'size-6')}</a>
+    <button type="button" class="share action" title="${t.share}" aria-label="${t.share}">${icon('share', 'size-6')}</button>
     <button type="button" class="copy action ml-auto" data-word="${esc(word)}" title="${t.copy}" aria-label="${t.copy}">${icon('copy', 'size-6')}</button>
   </div>
   <div class="px-3 pb-3 pt-1.5">
@@ -255,23 +257,48 @@ function copyText(text) {
   });
 }
 
+// the button shows a check mark for a second
+function flash(btn) {
+  const html = btn.innerHTML, label = btn.title;
+  btn.innerHTML = icon('check', 'size-6');
+  btn.dataset.done = '';
+  setLabel(btn, TEXT[state.base].copied);
+  setTimeout(() => { btn.innerHTML = html; delete btn.dataset.done; setLabel(btn, label); }, 1000);
+}
+
+// ---- share link: #<base>-<deck>-<n|v>-<english word> opens that deck, scrolls to the card and lights it ----
+
+const shareUrl = c => `${location.origin === 'null' ? 'file://' : location.origin}${location.pathname}#${state.base}-${state.target}-${c.p}-${encodeURIComponent(c.e)}`;
+
+function applyHash() {
+  let m;
+  try { m = decodeURIComponent(location.hash.slice(1)).match(/^(ru|en|th)-(ru|en|th)-([nv])-(.+)$/); } catch (e) {}
+  if (!m || m[1] === m[2] || !byId.has(m[3] + ':' + m[4])) return false;
+  $('q').value = '';
+  Object.assign(state, { base: m[1], target: m[2], pos: m[3] });
+  paintChrome();
+  paintGrid();
+  const post = $('grid').querySelector(`[data-id="${CSS.escape(m[3] + ':' + m[4])}"]`);
+  if (!post) return true;
+  post.classList.add('shared');
+  // posts below the screen are not rendered yet (content-visibility), so aim again once the layout settles
+  post.scrollIntoView({ block: 'center' });
+  setTimeout(() => post.scrollIntoView({ block: 'center' }), 250);
+  return true;
+}
+window.addEventListener('hashchange', applyHash);
+
 $('grid').addEventListener('click', e => {
   const post = e.target.closest('.post');
   if (!post) return;
   const c = byId.get(post.dataset.id), lang = state.target;
-  const copy = e.target.closest('.copy');
+  const copy = e.target.closest('.copy'), share = e.target.closest('.share');
   if (copy) {
-    copyText(copy.dataset.word).then(() => {
-      const label = copy.title;
-      copy.innerHTML = icon('check', 'size-6');
-      copy.dataset.done = '';
-      setLabel(copy, TEXT[state.base].copied);
-      setTimeout(() => {
-        copy.innerHTML = icon('copy', 'size-6');
-        delete copy.dataset.done;
-        setLabel(copy, label);
-      }, 1000);
-    }).catch(() => {});
+    copyText(copy.dataset.word).then(() => flash(copy)).catch(() => {});
+  } else if (share) {
+    const url = shareUrl(c), word = c[FIELD[state.target]];
+    (navigator.share ? navigator.share({ title: word, url }) : copyText(url).then(() => flash(share)))
+      .catch(err => { if (err?.name !== 'AbortError') copyText(url).then(() => flash(share)).catch(() => {}); });
   } else if (e.target.closest('.speak, .speak-ex')) {
     const b = e.target.closest('.speak, .speak-ex');
     speak(b.dataset.text, lang);
@@ -315,6 +342,5 @@ $('q').addEventListener('input', () => {
 
 $('sprite').innerHTML = SPRITE;
 loadState();
-paintChrome();
-paintGrid();
+if (!applyHash()) { paintChrome(); paintGrid(); }
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
