@@ -3,3 +3,4 @@ tools/openmoji.json
 tools/openmoji-svg/
 tools/freq.json
 tools/.keys
+tools/photo-cache/

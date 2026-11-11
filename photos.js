@@ -1,2 +1,2 @@
-// Keys (part of a concept: n/v + English word) that have photos/<p>-<word>.webp; filled by tools/photos.py
-const PHOTOS = new Set([]);
+// Keys (n/v/p + English word) that have photos/<p>-<word>.webp; written by tools/photos.py index
+const PHOTOS = new Set(["napple", "nbed", "nbird", "nbook", "nbread", "ncar", "ncat", "nchair", "ncoffee", "ndog", "ndoor", "negg", "neye", "nfish", "nflower", "nfood", "nhand", "nhouse", "nmoon", "nmountain", "nphone", "nrice", "nriver", "nsea", "nsun", "ntable", "ntea", "ntree", "nwater", "nwindow", "vbuy", "vcook", "vcry", "vdance", "vdrink", "vdrive", "veat", "vfly", "vgive", "vjump", "vlaugh", "vlisten", "vlook", "vopen", "vplay", "vread", "vrun", "vsing", "vsit", "vsleep", "vsmile", "vspeak", "vstand", "vswim", "vthink", "vwalk", "vwash", "vwork", "vwrite"]);

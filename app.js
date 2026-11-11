@@ -16,7 +16,7 @@ const TEXT = {
     n: 'Существительные', v: 'Глаголы', p: 'Местоимения', all: 'Все', copy: 'Копировать', example: 'Пример', copied: 'Скопировано', translate: 'Google Переводчик',
     share: 'Поделиться карточкой', like: 'Выучил', recall: 'Забыл? Вспомнил — нажмите ещё раз', listen: 'Послушать', known: 'выучено', recallN: 'пора вспомнить',
     description: 'До 1000 частотных существительных и глаголов английского, русского и тайского в карточках с иконками, транскрипцией и переводом.',
-    credits: 'Иконки: {openmoji} (CC BY-SA 4.0). Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.',
+    credits: 'Фото: {pixabay}. Иконки: {openmoji} (CC BY-SA 4.0). Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.',
     projects: 'Другие проекты:',
   },
   en: {
@@ -24,7 +24,7 @@ const TEXT = {
     n: 'Nouns', v: 'Verbs', p: 'Pronouns', all: 'All', copy: 'Copy', example: 'Example', copied: 'Copied', translate: 'Google Translate',
     share: 'Share this card', like: 'I know it', recall: 'Forgot? Recalled it — tap again', listen: 'Listen', known: 'learned', recallN: 'to recall',
     description: 'Up to 1000 frequent nouns and verbs in English, Russian and Thai, with icons, transcriptions and translations.',
-    credits: 'Icons: {openmoji} (CC BY-SA 4.0). Frequency: wordfreq (en/ru), Thai National Corpus (th). Translations curated by hand.',
+    credits: 'Photos: {pixabay}. Icons: {openmoji} (CC BY-SA 4.0). Frequency: wordfreq (en/ru), Thai National Corpus (th). Translations curated by hand.',
     projects: 'Other projects:',
   },
   th: {
@@ -32,7 +32,7 @@ const TEXT = {
     n: 'คำนาม', v: 'คำกริยา', p: 'สรรพนาม', all: 'ทั้งหมด', copy: 'คัดลอก', example: 'ตัวอย่าง', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
     share: 'แชร์การ์ดนี้', like: 'จำได้แล้ว', recall: 'ลืมแล้ว? นึกออกแล้วกดอีกครั้ง', listen: 'ฟัง', known: 'จำได้', recallN: 'ควรทบทวน',
     description: 'คำนามและคำกริยาที่พบบ่อยสูงสุดภาษาละ 1,000 คำ ในภาษาอังกฤษ รัสเซีย และไทย พร้อมไอคอน การถอดเสียง และคำแปล',
-    credits: 'ไอคอน: {openmoji} (CC BY-SA 4.0) · ความถี่คำ: wordfreq (en/ru), Thai National Corpus (th) · คำแปลคัดสรรด้วยตนเอง',
+    credits: 'ภาพถ่าย: {pixabay} · ไอคอน: {openmoji} (CC BY-SA 4.0) · ความถี่คำ: wordfreq (en/ru), Thai National Corpus (th) · คำแปลคัดสรรด้วยตนเอง',
     projects: 'โครงการอื่น:',
   },
 };
@@ -252,7 +252,7 @@ function paintChrome() {
   $('q').placeholder = t.search;
   $('q').setAttribute('aria-label', t.search);
   $('empty').textContent = t.empty;
-  $('credits').innerHTML = t.credits.replace('{openmoji}', '<a class="underline" href="https://openmoji.org" target="_blank" rel="noopener">OpenMoji</a>');
+  $('credits').innerHTML = t.credits.replace('{pixabay}', '<a class="underline" href="https://pixabay.com" target="_blank" rel="noopener">Pixabay</a>').replace('{openmoji}', '<a class="underline" href="https://openmoji.org" target="_blank" rel="noopener">OpenMoji</a>');
   $('projects').textContent = t.projects;
   segment($('base'), LANGS.map(l => [l, CODE[l]]), state.base, langName);
   segment($('target'), otherLangs(state.base).map(l => [l, CODE[l]]), state.target, langName);

@@ -1,0 +1,60 @@
+# pos	english word	Pixabay query (a clear photo of the thing or of one person doing it)
+n	dog	dog
+n	cat	cat
+n	water	glass of water
+n	food	food plate
+n	car	car
+n	house	house
+n	tree	tree
+n	book	book
+n	phone	smartphone hand
+n	hand	hand
+n	eye	human eye
+n	door	door
+n	window	window
+n	table	wooden table
+n	chair	chair
+n	bed	bed
+n	sea	sea
+n	mountain	mountain
+n	river	river
+n	sun	sun
+n	moon	moon
+n	bread	bread
+n	rice	steamed white rice bowl
+n	coffee	cup of coffee
+n	tea	cup of tea
+n	apple	apple
+n	egg	egg
+n	fish	fish
+n	bird	bird
+n	flower	flower
+v	eat	person eating
+v	drink	person drinking water
+v	run	woman jogging park
+v	walk	person walking
+v	sleep	woman sleeping in bed
+v	read	person reading book
+v	write	person writing
+v	swim	swimmer in pool
+v	sing	woman singing microphone
+v	dance	couple dancing
+v	cook	chef cooking in pan
+v	wash	washing hands
+v	drive	person driving car
+v	fly	airplane flying
+v	jump	person jumping
+v	sit	woman sitting on chair
+v	stand	person standing portrait
+v	smile	person smiling
+v	laugh	person laughing
+v	cry	person crying
+v	speak	person talking
+v	listen	person listening headphones
+v	look	person looking
+v	think	person thinking
+v	play	children playing
+v	work	person working laptop
+v	buy	shopping bags
+v	open	opening door
+v	give	giving gift
