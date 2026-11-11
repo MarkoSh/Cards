@@ -37,7 +37,7 @@ def words():
     """(pos, word) of every noun and verb that has an example sentence, i.e. every word of the decks."""
     data = open(os.path.join(ROOT, 'examples.js'), encoding='utf8').read()
     ex = json.loads(data[data.index('=') + 1:].rstrip().rstrip(';'))
-    return [('n', k[2:]) if k.startswith('n:') else ('v', k) for k in ex if not k.startswith('p:')]
+    return [('n', k[2:]) if k.startswith('n:') else ('v', k) for k in ex if not k.startswith(('p:', 'c:'))]
 
 def overrides():
     out = {}
