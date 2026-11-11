@@ -251,7 +251,7 @@ function paintChrome() {
   $('projects').textContent = t.projects;
   segment($('base'), LANGS.map(l => [l, CODE[l]]), state.base, langName);
   segment($('target'), otherLangs(state.base).map(l => [l, CODE[l]]), state.target, langName);
-  segment($('pos'), [['n', t.n], ['v', t.v], ['a', t.all]], state.pos);
+  segment($('pos'), [['a', t.all], ['n', t.n], ['v', t.v]], state.pos);
 }
 
 // ---- events (one listener per area; the grid is re-created on every repaint) -------------
