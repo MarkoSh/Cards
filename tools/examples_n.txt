@@ -1,0 +1,1161 @@
+# noun|English|Russian|Thai. Mark the noun in each sentence with [ ]; Thai words are separated by spaces. Short, everyday, no names.
+time|I have no [time] today|У меня сегодня нет [времени]|วัน นี้ ฉัน ไม่ มี [เวลา]
+people|Many [people] live here|Здесь живёт много [людей]|มี [ผู้คน] อาศัย อยู่ ที่ นี่ มาก
+way|This [way] is shorter|Этот [путь] короче|[ทาง] นี้ สั้น กว่า
+year|It was a good [year]|Это был хороший [год]|เป็น [ปี] ที่ ดี
+day|Today is a nice [day]|Сегодня хороший [день]|วัน นี้ เป็น [วัน] ที่ ดี
+life|[Life] is beautiful|[Жизнь] прекрасна|[ชีวิต] สวยงาม
+world|The [world] is big|[Мир] большой|[โลก] ใบ นี้ กว้าง ใหญ่
+love|[Love] is important in a family|[Любовь] важна в семье|[ความรัก] สำคัญ ใน ครอบครัว
+man|The [man] is reading a book|[Мужчина] читает книгу|[ผู้ชาย] กำลัง อ่าน หนังสือ
+home|My [home] is near the sea|Моё [жилище] рядом с морем|[บ้าน] ของ ฉัน อยู่ ใกล้ ทะเล
+use|The [use] of a phone is simple|[Применение] телефона простое|[การใช้] โทรศัพท์ ง่าย
+part|This is a [part] of the plan|Это [часть] плана|นี่ คือ [ส่วน] หนึ่ง ของ แผน
+state|Each [state] has its own laws|У каждого [государства] свои законы|[รัฐ] แต่ละ แห่ง มี กฎหมาย ของ ตัวเอง
+thing|This [thing] is very useful|Эта [вещь] очень полезна|[สิ่งของ] ชิ้น นี้ มี ประโยชน์ มาก
+game|We play a [game]|Мы играем в [игру]|เรา เล่น [เกม]
+place|This [place] is quiet|Это [место] тихое|[สถานที่] แห่ง นี้ เงียบ สงบ
+school|The [school] is open|[Школа] открыта|[โรงเรียน] เปิด อยู่
+end|The [end] of the film was sad|[Конец] фильма был грустным|[ตอนจบ] ของ หนัง เศร้า
+team|Our [team] won|Наша [команда] победила|[ทีม] ของ เรา ชนะ
+family|I love my [family]|Я люблю свою [семью]|ฉัน รัก [ครอบครัว] ของ ฉัน
+money|I need [money]|Мне нужны [деньги]|ฉัน ต้อง การ [เงิน]
+city|This [city] is big|Этот [город] большой|[เมือง] นี้ ใหญ่
+name|What is your [name]?|Как твоё [имя]?|[ชื่อ] ของ คุณ คือ อะไร
+night|The [night] is cold|[Ночь] холодная|[คืน] นี้ หนาว
+company|He works at a big [company]|Он работает в большой [компании]|เขา ทำงาน ที่ [บริษัท] ใหญ่
+government|The [government] is building a road|[Правительство] строит дорогу|[รัฐบาล] กำลัง สร้าง ถนน
+group|We are a small [group]|Мы небольшая [группа]|เรา เป็น [กลุ่ม] เล็ก ๆ
+public|The [public] can come in|[Публика] может войти|[สาธารณชน] เข้า ได้
+woman|The [woman] is smiling|[Женщина] улыбается|[ผู้หญิง] กำลัง ยิ้ม
+business|He has his own [business]|У него своё [дело]|เขา มี [ธุรกิจ] ของ ตัวเอง
+system|The [system] is not working|[Система] не работает|[ระบบ] ไม่ ทำงาน
+week|I work all [week]|Я работаю всю [неделю]|ฉัน ทำงาน ทั้ง [สัปดาห์]
+case|This [case] is special|Этот [случай] особенный|[กรณี] นี้ พิเศษ
+person|He is a kind [person]|Он добрый [человек]|เขา เป็น [คน] ใจดี
+point|Show me the [point] on the map|Покажи мне [точку] на карте|ชี้ [จุด] บน แผนที่ ให้ ฉัน ดู
+music|I like [music]|Я люблю [музыку]|ฉัน ชอบ [ดนตรี]
+power|The king had great [power]|У короля была большая [власть]|กษัตริย์ มี [อำนาจ] มาก
+water|I drink [water]|Я пью [воду]|ฉัน ดื่ม [น้ำ]
+head|My [head] hurts|У меня болит [голова]|[หัว] ของ ฉัน ปวด
+job|I like my [job]|Мне нравится моя [работа]|ฉัน ชอบ [งาน] ของ ฉัน
+side|Stand on the left [side]|Встань с левой [стороны]|ยืน ทาง [ด้าน] ซ้าย
+line|Draw a [line]|Нарисуй [линию]|วาด [เส้น]
+order|Put the cards in [order]|Разложи карточки по [порядку]|เรียง การ์ด ตาม [ลำดับ]
+party|We have a [party] tonight|Сегодня вечером у нас [вечеринка]|คืน นี้ เรา มี [งานเลี้ยง]
+service|The [service] here is good|[Обслуживание] здесь хорошее|[บริการ] ที่ นี่ ดี
+country|I love this [country]|Я люблю эту [страну]|ฉัน รัก [ประเทศ] นี้
+season|Summer is my favourite [season]|Лето — моё любимое [время года]|ฤดู ร้อน เป็น [ฤดูกาล] ที่ ฉัน ชอบ
+child|The [child] is sleeping|[Ребёнок] спит|[เด็ก] กำลัง นอน หลับ
+area|This [area] is safe|Этот [район] безопасен|[บริเวณ] นี้ ปลอดภัย
+law|Everyone follows the [law]|Все соблюдают [закон]|ทุก คน ทำ ตาม [กฎหมาย]
+war|The [war] is over|[Война] закончилась|[สงคราม] จบ แล้ว
+car|My [car] is new|Моя [машина] новая|[รถยนต์] ของ ฉัน ใหม่
+president|The [president] is speaking|[Президент] выступает|[ประธานาธิบดี] กำลัง พูด
+story|I read a [story]|Я читаю [рассказ]|ฉัน อ่าน [เรื่อง]
+course|I am taking a [course]|Я записался на [курс]|ฉัน เรียน [หลักสูตร]
+health|[Health] is important|[Здоровье] важно|[สุขภาพ] สำคัญ
+hope|I have [hope]|У меня есть [надежда]|ฉัน มี [ความหวัง]
+news|I read the [news]|Я читаю [новости]|ฉัน อ่าน [ข่าว]
+friend|He is my [friend]|Он мой [друг]|เขา เป็น [เพื่อน] ของ ฉัน
+information|I need more [information]|Мне нужно больше [информации]|ฉัน ต้อง การ [ข้อมูล] เพิ่ม
+video|We watch a [video]|Мы смотрим [видео]|เรา ดู [วิดีโอ]
+court|The [court] is open|[Суд] открыт|[ศาล] เปิด ทำ การ
+fact|This is a [fact]|Это [факт]|นี่ คือ [ข้อเท็จจริง]
+guy|That [guy] is funny|Тот [парень] смешной|[หนุ่ม] คน นั้น ตลก
+hand|Give me your [hand]|Дай мне [руку]|ยื่น [มือ] มา ให้ ฉัน
+level|This [level] is easy|Этот [уровень] лёгкий|[ระดับ] นี้ ง่าย
+body|The [body] needs rest|[Телу] нужен отдых|[ร่างกาย] ต้อง การ พักผ่อน
+control|I lost [control]|Я потерял [контроль]|ฉัน เสีย [การควบคุม]
+death|[Death] comes to everyone|[Смерть] приходит ко всем|[ความตาย] มา หา ทุก คน
+food|The [food] is hot|[Еда] горячая|[อาหาร] ร้อน
+hour|Wait one [hour]|Подожди один [час]|รอ หนึ่ง [ชั่วโมง]
+office|My [office] is on the second floor|Мой [офис] на втором этаже|[สำนักงาน] ของ ฉัน อยู่ ชั้น สอง
+problem|I have a [problem]|У меня [проблема]|ฉัน มี [ปัญหา]
+history|I like [history]|Я люблю [историю]|ฉัน ชอบ [ประวัติศาสตร์]
+research|The [research] takes a year|[Исследование] занимает год|[การวิจัย] ใช้ เวลา หนึ่ง ปี
+room|The [room] is clean|[Комната] чистая|[ห้อง] สะอาด
+university|She studies at a [university]|Она учится в [университете]|เธอ เรียน ที่ [มหาวิทยาลัย]
+girl|The [girl] is singing|[Девочка] поёт|[เด็กผู้หญิง] กำลัง ร้อง เพลง
+matter|Water is a kind of [matter]|Вода — вид [вещества]|น้ำ เป็น [สสาร] ชนิด หนึ่ง
+air|The [air] is fresh|[Воздух] свежий|[อากาศ] สด ชื่น
+bit|Give me a [bit] of bread|Дай мне [кусок] хлеба|ขอ ขนมปัง [ชิ้น] หนึ่ง
+class|Our [class] is small|Наш [класс] маленький|[ชั้นเรียน] ของ เรา เล็ก
+idea|That is a good [idea]|Это хорошая [идея]|นั่น เป็น [ไอเดีย] ที่ ดี
+member|He is a [member] of the team|Он [участник] команды|เขา เป็น [สมาชิก] ของ ทีม
+month|I will stay for one [month]|Я останусь на один [месяц]|ฉัน จะ อยู่ หนึ่ง [เดือน]
+question|I have a [question]|У меня есть [вопрос]|ฉัน มี [คำถาม]
+community|Our [community] is friendly|Наше [сообщество] дружелюбное|[ชุมชน] ของ เรา เป็น มิตร
+future|I think about the [future]|Я думаю о [будущем]|ฉัน คิด ถึง [อนาคต]
+light|The [light] is bright|[Свет] яркий|[แสง] จ้า
+morning|I run in the [morning]|Я бегаю [утром]|ฉัน วิ่ง [ตอนเช้า]
+police|Call the [police]|Вызови [полицию]|เรียก [ตำรวจ]
+age|What is your [age]?|Какой у тебя [возраст]?|[อายุ] ของ คุณ เท่า ไหร่
+deal|We made a [deal]|Мы заключили [сделку]|เรา ทำ [ข้อตกลง] กัน
+reason|What is the [reason]?|В чём [причина]?|[เหตุผล] คือ อะไร
+form|This [form] is round|Эта [форма] круглая|[รูปแบบ] นี้ กลม
+heart|My [heart] is beating fast|Моё [сердце] бьётся быстро|[หัวใจ] ของ ฉัน เต้น เร็ว
+minute|Wait a [minute]|Подожди [минуту]|รอ [นาที] หนึ่ง
+fire|The [fire] is hot|[Огонь] горячий|[ไฟ] ร้อน
+fun|[Fun] is important|[Веселье] важно|[ความสนุก] สำคัญ
+medium|Radio is a [medium] of news|Радио — [средство] новостей|วิทยุ เป็น [ตัวกลาง] ของ ข่าว
+phone|My [phone] is ringing|Мой [телефон] звонит|[โทรศัพท์] ของ ฉัน ดัง
+player|The [player] runs fast|[Игрок] быстро бегает|[ผู้เล่น] วิ่ง เร็ว
+art|I like [art]|Я люблю [искусство]|ฉัน ชอบ [ศิลปะ]
+market|We go to the [market]|Мы идём на [рынок]|เรา ไป [ตลาด]
+plan|I have a [plan]|У меня есть [план]|ฉัน มี [แผน]
+education|[Education] is important|[Образование] важно|[การศึกษา] สำคัญ
+front|Sit in the [front]|Сядь [впереди]|นั่ง [ด้านหน้า]
+kid|The [kid] is laughing|[Малыш] смеётся|[เด็กน้อย] กำลัง หัวเราะ
+list|Write a [list]|Напиши [список]|เขียน [รายการ]
+son|My [son] is five|Моему [сыну] пять|[ลูกชาย] ของ ฉัน อายุ ห้า ขวบ
+street|The [street] is long|[Улица] длинная|[ถนน] ยาว
+college|He goes to [college]|Он учится в [колледже]|เขา เรียน ที่ [วิทยาลัย]
+example|Give me an [example]|Приведи [пример]|ยก [ตัวอย่าง] ให้ ฉัน หน่อย
+experience|I have [experience]|У меня есть [опыт]|ฉัน มี [ประสบการณ์]
+program|I watch this [program]|Я смотрю эту [программу]|ฉัน ดู [โปรแกรม] นี้
+type|What [type] of music do you like?|Какой [тип] музыки тебе нравится?|คุณ ชอบ ดนตรี [ประเภท] ไหน
+baby|The [baby] is sleeping|[Младенец] спит|[ทารก] กำลัง นอน
+chance|Give me a [chance]|Дай мне [шанс]|ให้ [โอกาส] ฉัน
+process|The [process] is slow|[Процесс] медленный|[กระบวนการ] ช้า
+song|I sing a [song]|Я пою [песню]|ฉัน ร้อง [เพลง]
+study|[Study] takes time|[Изучение] требует времени|[การเรียน] ใช้ เวลา
+word|I know this [word]|Я знаю это [слово]|ฉัน รู้จัก [คำ] นี้
+self|Know your [self]|Познай своё [я]|รู้จัก [ตัวเอง]
+student|The [student] is reading|[Студент] читает|[นักเรียน] กำลัง อ่าน
+cost|The [cost] is high|[Стоимость] высокая|[ต้นทุน] สูง
+field|The [field] is green|[Поле] зелёное|[ทุ่ง] เขียว
+moment|Wait a [moment]|Подожди [момент]|รอ [ชั่วขณะ] หนึ่ง
+mother|My [mother] cooks|Моя [мать] готовит|[แม่] ของ ฉัน ทำ อาหาร
+road|The [road] is wet|[Дорога] мокрая|[เส้นทาง] เปียก
+town|It is a small [town]|Это маленький [городок]|เป็น [เมือง] เล็ก ๆ
+
+energy|I have a lot of [energy]|У меня много [энергии]|ฉัน มี [พลังงาน] มาก
+force|The wind has great [force]|У ветра большая [сила]|ลม มี [พลัง] มาก
+issue|I bought the new [issue]|Я купил новый [выпуск]|ฉัน ซื้อ [ฉบับ] ใหม่
+price|The [price] is low|[Цена] низкая|[ราคา] ถูก
+result|The [result] is good|[Результат] хороший|[ผลลัพธ์] ดี
+space|There is more [space] here|Здесь больше [пространства]|ที่ นี่ มี [พื้นที่] มาก กว่า
+summer|[Summer] is hot|[Лето] жаркое|[ฤดูร้อน] ร้อน
+term|The [term] is one year|[Срок] — один год|[ระยะเวลา] คือ หนึ่ง ปี
+wife|His [wife] is a doctor|Его [жена] — врач|[ภรรยา] ของ เขา เป็น หมอ
+date|What is today's [date]?|Какая сегодня [дата]?|วัน นี้ [วันที่] เท่า ไหร่
+land|This [land] is green|Эта [территория] зелёная|[ดินแดน] นี้ เขียว ขจี
+project|We have a new [project]|У нас новый [проект]|เรา มี [โครงการ] ใหม่
+site|I open the [site]|Я открываю [сайт]|ฉัน เปิด [เว็บไซต์]
+eye|He closes his [eye]|Он закрывает [глаз]|เขา หลับ [ตา]
+parent|Every [parent] loves a child|Каждый [родитель] любит ребёнка|[พ่อแม่] ทุก คน รัก ลูก
+period|It was a hard [period]|Это был трудный [период]|เป็น [ช่วงเวลา] ที่ ยาก ลำบาก
+position|Take your [position]|Займи своё [положение]|ไป ที่ [ตำแหน่ง] ของ คุณ
+total|The [total] is ten|[Итог] — десять|[ทั้งหมด] คือ สิบ
+club|I go to the [club]|Я хожу в [клуб]|ฉัน ไป [สโมสร]
+film|We watch a [film]|Мы смотрим [фильм]|เรา ดู [ภาพยนตร์]
+military|The [military] is here|[Военные] здесь|[ทหาร] อยู่ ที่ นี่
+security|[Security] is at the door|[Охрана] у двери|[การรักษาความปลอดภัย] อยู่ ที่ ประตู
+share|I own one [share]|У меня одна [акция]|ฉัน มี [หุ้น] หนึ่ง ตัว
+couple|They are a nice [couple]|Они милая [пара]|พวก เขา เป็น [คู่] ที่ น่า รัก
+industry|The [industry] is growing|[Промышленность] растёт|[อุตสาหกรรม] กำลัง เติบโต
+right|Everyone has a [right] to rest|У каждого есть [право] на отдых|ทุก คน มี [สิทธิ์] พักผ่อน
+sense|The word has no [sense]|У слова нет [смысла]|คำ นี้ ไม่ มี [ความหมาย]
+test|I have a [test] tomorrow|У меня завтра [тест]|พรุ่งนี้ ฉัน มี [การทดสอบ]
+view|I like your [view]|Мне нравится твой [взгляд]|ฉัน ชอบ [ทัศนะ] ของ คุณ
+event|It was a big [event]|Это было большое [событие]|เป็น [เหตุการณ์] ใหญ่
+boy|The [boy] runs|[Мальчик] бежит|[เด็กผู้ชาย] วิ่ง
+design|I like the [design]|Мне нравится [дизайн]|ฉัน ชอบ [การออกแบบ]
+gold|The ring is made of [gold]|Кольцо сделано из [золота]|แหวน ทำ จาก [ทอง]
+interest|He has an [interest] in music|У него [интерес] к музыке|เขา มี [ความสนใจ] ใน ดนตรี
+king|The [king] is wise|[Король] мудр|[กษัตริย์] ทรง ฉลาด
+policy|This is a new [policy]|Это новая [политика]|นี่ คือ [นโยบาย] ใหม่
+society|[Society] is changing|[Общество] меняется|[สังคม] กำลัง เปลี่ยน
+church|The [church] is old|[Церковь] старая|[โบสถ์] เก่า
+movie|I like this [movie]|Мне нравится это [кино]|ฉัน ชอบ [หนัง] เรื่อง นี้
+performance|The [performance] begins at eight|[Выступление] начинается в восемь|[การแสดง] เริ่ม ตอน สอง ทุ่ม
+press|The [press] is waiting outside|[Пресса] ждёт снаружи|[สื่อมวลชน] รอ อยู่ ข้าง นอก
+role|He plays an important [role]|Он играет важную [роль]|เขา มี [บทบาท] สำคัญ
+book|I read a [book]|Я читаю [книгу]|ฉัน อ่าน [หนังสือ]
+director|The [director] is in the office|[Директор] в офисе|[ผู้อำนวยการ] อยู่ ใน สำนักงาน
+ground|The [ground] is wet|[Земля] мокрая|[พื้นดิน] เปียก
+meeting|The [meeting] is at ten|[Встреча] в десять|[การพบปะ] เวลา สิบ โมง
+relationship|They have a good [relationship]|У них хорошие [отношения]|พวก เขา มี [ความสัมพันธ์] ที่ ดี
+source|This is the [source] of the river|Это [источник] реки|นี่ คือ [แหล่ง] น้ำ ของ แม่น้ำ
+value|Honesty has great [value]|У честности большая [ценность]|ความ ซื่อสัตย์ มี [คุณค่า] มาก
+evidence|We need [evidence]|Нам нужны [доказательства]|เรา ต้อง การ [หลักฐาน]
+production|The [production] is growing|[Производство] растёт|[การผลิต] กำลัง เพิ่ม ขึ้น
+rate|The [rate] is high|[Норма] высокая|[อัตรา] สูง
+stuff|Put your [stuff] here|Положи свои [вещи] сюда|วาง [ของ] ของ คุณ ไว้ ที่ นี่
+tax|I pay [tax]|Я плачу [налог]|ฉัน จ่าย [ภาษี]
+amount|The [amount] is small|[Количество] небольшое|[จำนวน] น้อย
+fall|The [fall] was not bad|[Падение] было не страшным|[การตก] ไม่ ร้ายแรง
+league|Our team is in the top [league]|Наша команда в высшей [лиге]|ทีม ของ เรา อยู่ ใน [ลีก] สูงสุด
+management|The [management] is new|[Управление] новое|[การจัดการ] ใหม่
+picture|The [picture] is on the wall|[Картина] на стене|[ภาพวาด] อยู่ บน ผนัง
+size|What [size] is it?|Какой это [размер]?|นี่ [ขนาด] อะไร
+trust|I have [trust] in you|У меня есть [доверие] к тебе|ฉัน มี [ความไว้วางใจ] ใน ตัว คุณ
+change|I need a [change]|Мне нужно [изменение]|ฉัน ต้อง การ [การเปลี่ยนแปลง]
+page|Open the [page]|Открой [страницу]|เปิด [หน้า]
+range|The [range] is wide|[Диапазон] широкий|[ช่วง] กว้าง
+science|I like [science]|Я люблю [науку]|ฉัน ชอบ [วิทยาศาสตร์]
+trade|[Trade] is growing|[Торговля] растёт|[การค้า] กำลัง เติบโต
+attention|Pay [attention]|Обрати [внимание]|ให้ [ความสนใจ]
+brother|My [brother] is older|Мой [брат] старше|[พี่ชาย] ของ ฉัน อายุ มาก กว่า
+character|She has a strong [character]|У неё сильный [характер]|เธอ มี [นิสัย] เข้ม แข็ง
+chief|The [chief] is here|[Начальник] здесь|[หัวหน้า] อยู่ ที่ นี่
+football|We play [football]|Мы играем в [футбол]|เรา เล่น [ฟุตบอล]
+property|This is my [property]|Это моё [имущество]|นี่ คือ [ทรัพย์สิน] ของ ฉัน
+quality|The [quality] is high|[Качество] высокое|[คุณภาพ] สูง
+style|I like your [style]|Мне нравится твой [стиль]|ฉัน ชอบ [สไตล์] ของ คุณ
+vote|The [vote] is tomorrow|[Голосование] завтра|[การลงคะแนน] คือ พรุ่งนี้
+blood|[Blood] is red|[Кровь] красная|[เลือด] สี แดง
+dog|The [dog] is running|[Собака] бежит|[สุนัข] กำลัง วิ่ง
+hell|He said it was [hell]|Он сказал, что это был [ад]|เขา บอก ว่า เป็น [นรก]
+language|I study a [language]|Я учу [язык]|ฉัน เรียน [ภาษา]
+oil|I add [oil]|Я добавляю [масло]|ฉัน ใส่ [น้ำมัน]
+stage|This is the first [stage]|Это первый [этап]|นี่ คือ [ขั้น] แรก
+title|What is the [title]?|Какое [название]?|[ชื่อเรื่อง] คือ อะไร
+attack|The [attack] was sudden|[Атака] была внезапной|[การโจมตี] เกิด ขึ้น อย่าง กะทันหัน
+decision|It is my [decision]|Это моё [решение]|นี่ คือ [การตัดสินใจ] ของ ฉัน
+release|The [release] is tomorrow|[Релиз] завтра|[การปล่อย] คือ พรุ่งนี้
+situation|The [situation] is difficult|[Ситуация] сложная|[สถานการณ์] ยาก
+technology|[Technology] changes life|[Технологии] меняют жизнь|[เทคโนโลยี] เปลี่ยน ชีวิต
+choice|It is your [choice]|Это твой [выбор]|นี่ คือ [ทางเลือก] ของ คุณ
+code|I know the [code]|Я знаю [код]|ฉัน รู้ [รหัส]
+door|Open the [door]|Открой [дверь]|เปิด [ประตู]
+election|The [election] is in May|[Выборы] в мае|[การเลือกตั้ง] จัด ใน เดือน พฤษภาคม
+hair|Her [hair] is long|Её [волосы] длинные|[ผม] ของ เธอ ยาว
+increase|There is an [increase] in price|Наблюдается [увеличение] цены|ราคา มี [การเพิ่ม] ขึ้น
+race|I run a [race]|Я участвую в [гонке]|ฉัน เข้า ร่วม [การแข่ง]
+sign|Read the [sign]|Прочитай [знак]|อ่าน [ป้าย]
+staff|The [staff] is friendly|[Персонал] приветливый|[พนักงาน] เป็น มิตร
+union|The [union] helps workers|[Союз] помогает рабочим|[สหภาพ] ช่วย คน งาน
+bed|The [bed] is soft|[Кровать] мягкая|[เตียง] นุ่ม
+career|He has a good [career]|У него хорошая [карьера]|เขา มี [อาชีพ] ที่ ดี
+figure|She has a good [figure]|У неё хорошая [фигура]|เธอ มี [รูปร่าง] ดี
+hospital|The [hospital] is near|[Больница] рядом|[โรงพยาบาล] อยู่ ใกล้
+loss|The [loss] was big|[Потеря] была большой|[การสูญเสีย] ใหญ่ มาก
+paper|I need [paper]|Мне нужна [бумага]|ฉัน ต้อง การ [กระดาษ]
+version|This is the new [version]|Это новая [версия]|นี่ คือ [เวอร์ชัน] ใหม่
+voice|She has a nice [voice]|У неё приятный [голос]|เธอ มี [เสียงพูด] ไพเราะ
+army|The [army] is large|[Армия] большая|[กองทัพ] ใหญ่
+earth|The [earth] is dry|[Земля] сухая|[ดิน] แห้ง
+goal|My [goal] is clear|Моя [цель] ясна|[เป้าหมาย] ของ ฉัน ชัดเจน
+internet|The [internet] is slow|[Интернет] медленный|[อินเทอร์เน็ต] ช้า
+rule|This is the [rule]|Это [правило]|นี่ คือ [กฎ]
+sea|The [sea] is blue|[Море] синее|[ทะเล] สี ฟ้า
+sir|Yes, [sir]|Да, [сэр]|ครับ [ท่าน]
+success|[Success] needs work|[Успех] требует труда|[ความสำเร็จ] ต้อง ใช้ ความ พยายาม
+base|The [base] is strong|[База] прочная|[ฐาน] แข็ง แรง
+risk|There is a [risk]|Есть [риск]|มี [ความเสี่ยง]
+sleep|I need [sleep]|Мне нужен [сон]|ฉัน ต้อง การ [การนอน]
+table|The [table] is big|[Стол] большой|[โต๊ะ] ใหญ่
+truth|Tell the [truth]|Скажи [правду]|บอก [ความจริง]
+ball|The [ball] is round|[Мяч] круглый|[ลูกบอล] กลม
+card|I have a [card]|У меня есть [карточка]|ฉัน มี [การ์ด]
+mine|The [mine] is deep|[Шахта] глубокая|[เหมือง] ลึก
+piece|I want a [piece] of cake|Я хочу [кусок] торта|ฉัน อยาก ได้ เค้ก [ชิ้น] หนึ่ง
+product|This [product] is new|Этот [продукт] новый|[ผลิตภัณฑ์] นี้ ใหม่
+wall|The [wall] is white|[Стена] белая|[กำแพง] สี ขาว
+culture|I love Thai [culture]|Я люблю тайскую [культуру]|ฉัน รัก [วัฒนธรรม] ไทย
+growth|The [growth] is fast|[Рост] быстрый|[การเติบโต] เร็ว
+officer|The [officer] is polite|[Офицер] вежлив|[เจ้าหน้าที่] สุภาพ
+pain|I feel [pain]|Я чувствую [боль]|ฉัน รู้สึก [ความเจ็บปวด]
+respect|Show [respect]|Прояви [уважение]|แสดง [ความเคารพ]
+response|I am waiting for a [response]|Я жду [отклика]|ฉัน รอ [การตอบสนอง]
+river|The [river] is wide|[Река] широкая|[แม่น้ำ] กว้าง
+rock|The [rock] is heavy|[Камень] тяжёлый|[หิน] หนัก
+century|This is a new [century]|Это новый [век]|นี่ คือ [ศตวรรษ] ใหม่
+effect|The [effect] is strong|[Эффект] сильный|[ผลกระทบ] รุนแรง
+network|The [network] is down|[Сеть] не работает|[เครือข่าย] ใช้ ไม่ ได้
+peace|We want [peace]|Мы хотим [мира]|เรา ต้อง การ [สันติภาพ]
+sale|The [sale] starts today|[Продажа] начинается сегодня|[การขาย] เริ่ม วัน นี้
+store|The [store] is open|[Магазин] открыт|[ร้าน] เปิด อยู่
+track|We run on the [track]|Мы бегаем по [дорожке]|เรา วิ่ง บน [ลู่]
+weight|What is your [weight]?|Какой у тебя [вес]?|[น้ำหนัก] ของ คุณ เท่า ไหร่
+capital|Bangkok is the [capital]|Бангкок — [столица]|กรุงเทพ เป็น [เมืองหลวง]
+committee|The [committee] is meeting|[Комитет] заседает|[คณะกรรมการ] กำลัง ประชุม
+conference|The [conference] is on Monday|[Конференция] в понедельник|[การประชุม] อยู่ วัน จันทร์
+difference|There is a big [difference]|Есть большая [разница]|มี [ความแตกต่าง] มาก
+gas|I smell [gas]|Я чувствую запах [газа]|ฉัน ได้ กลิ่น [ก๊าซ]
+island|The [island] is small|[Остров] маленький|[เกาะ] เล็ก
+population|The [population] is growing|[Население] растёт|[ประชากร] เพิ่ม ขึ้น
+potential|He has [potential]|У него есть [потенциал]|เขา มี [ศักยภาพ]
+pressure|I feel [pressure]|Я чувствую [давление]|ฉัน รู้สึก [ความกดดัน]
+radio|I listen to the [radio]|Я слушаю [радио]|ฉัน ฟัง [วิทยุ]
+station|The [station] is near|[Станция] рядом|[สถานี] อยู่ ใกล้
+text|Read the [text]|Прочитай [текст]|อ่าน [ข้อความ]
+treatment|The [treatment] helps|[Лечение] помогает|[การรักษา] ช่วย ได้
+campaign|The [campaign] begins in May|[Кампания] начинается в мае|[แคมเปญ] เริ่ม ใน เดือน พฤษภาคม
+content|I like the [content]|Мне нравится [содержание]|ฉัน ชอบ [เนื้อหา]
+credit|I have a [credit]|У меня [кредит]|ฉัน มี [เครดิต]
+husband|My [husband] cooks|Мой [муж] готовит|[สามี] ของ ฉัน ทำ อาหาร
+ice|I want [ice]|Я хочу [лёд]|ฉัน อยาก ได้ [น้ำแข็ง]
+individual|Each [individual] is different|Каждый [индивид] уникален|[บุคคล] แต่ละ คน แตก ต่าง กัน
+message|I got a [message]|Я получил [сообщение]|ฉัน ได้ รับ [ข้อความ]
+mile|It is one [mile]|Это одна [миля]|หนึ่ง [ไมล์]
+region|This [region] is warm|Этот [регион] тёплый|[ภูมิภาค] นี้ อบอุ่น
+section|Read the first [section]|Прочитай первый [раздел]|อ่าน [ตอน] แรก
+speed|The [speed] is high|[Скорость] высокая|[ความเร็ว] สูง
+travel|I love [travel]|Я люблю [путешествия]|ฉัน รัก [การเดินทาง]
+contact|Keep in [contact]|Оставайся на [связи]|รักษา [การติดต่อ]
+foot|My [foot] hurts|У меня болит [нога]|[เท้า] ของ ฉัน เจ็บ
+tour|We take a [tour]|Мы едем на [тур]|เรา ไป [ทัวร์]
+condition|The [condition] is simple|[Условие] простое|[เงื่อนไข] ง่าย
+nature|I love [nature]|Я люблю [природу]|ฉัน รัก [ธรรมชาติ]
+computer|My [computer] is new|Мой [компьютер] новый|[คอมพิวเตอร์] ของ ฉัน ใหม่
+construction|The [construction] is slow|[Строительство] идёт медленно|[การก่อสร้าง] ช้า
+income|My [income] is small|Мой [доход] небольшой|[รายได้] ของ ฉัน น้อย
+justice|We want [justice]|Мы хотим [справедливости]|เรา ต้อง การ [ความยุติธรรม]
+manager|The [manager] is busy|[Менеджер] занят|[ผู้จัดการ] ยุ่ง
+movement|The [movement] is growing|[Движение] растёт|[ขบวนการ] กำลัง เติบโต
+safety|[Safety] is first|[Безопасность] прежде всего|[ความปลอดภัย] มา ก่อน
+scene|This [scene] is beautiful|Эта [сцена] красивая|[ฉาก] นี้ สวย
+statement|I read the [statement]|Я читаю [заявление]|ฉัน อ่าน [คำแถลง]
+coach|The [coach] is strict|[Тренер] строгий|[โค้ช] เข้ม งวด
+collection|I have a [collection]|У меня есть [коллекция]|ฉัน มี [คอลเลกชัน]
+knowledge|[Knowledge] is power|[Знание] — сила|[ความรู้] คือ พลัง
+search|The [search] takes time|[Поиск] занимает время|[การค้นหา] ใช้ เวลา
+author|The [author] is famous|[Автор] известен|[ผู้แต่ง] มี ชื่อ เสียง
+dad|My [dad] is at work|Мой [папа] на работе|[พ่อ] ของ ฉัน อยู่ ที่ ทำงาน
+hotel|The [hotel] is clean|[Отель] чистый|[โรงแรม] สะอาด
+judge|The [judge] decides|[Судья] решает|[ผู้พิพากษา] ตัดสิน
+leader|The [leader] speaks|[Лидер] говорит|[ผู้นำ] พูด
+letter|I write a [letter]|Я пишу [письмо]|ฉัน เขียน [จดหมาย]
+material|This [material] is soft|Этот [материал] мягкий|[วัสดุ] นี้ นุ่ม
+opportunity|This is a good [opportunity]|Это хорошая [возможность]|นี่ คือ [โอกาส] ที่ ดี
+secretary|The [secretary] is at the desk|[Секретарь] за столом|[เลขานุการ] อยู่ ที่ โต๊ะ
+sister|My [sister] is young|Моя [сестра] молодая|[พี่สาว] ของ ฉัน ยัง สาว
+unit|This is one [unit]|Это одна [единица]|นี่ คือ [หน่วย] หนึ่ง
+worker|The [worker] is tired|[Работник] устал|[คนงาน] เหนื่อย
+bar|We go to the [bar]|Мы идём в [бар]|เรา ไป [บาร์]
+battle|The [battle] is long|[Битва] долгая|[การต่อสู้] ยาวนาน
+brain|The [brain] needs rest|[Мозгу] нужен отдых|[สมอง] ต้อง การ พักผ่อน
+contract|I sign the [contract]|Я подписываю [контракт]|ฉัน เซ็น [สัญญา]
+degree|He has a [degree]|У него есть [степень]|เขา มี [ปริญญา]
+floor|The [floor] is clean|[Пол] чистый|[พื้น] สะอาด
+image|The [image] is clear|[Изображение] чёткое|[ภาพ] ชัด
+insurance|I have [insurance]|У меня есть [страхование]|ฉัน มี [ประกัน]
+majority|The [majority] agrees|[Большинство] согласно|[ส่วนใหญ่] เห็น ด้วย
+opinion|What is your [opinion]?|Каково твоё [мнение]?|[ความคิดเห็น] ของ คุณ คือ อะไร
+sport|I like [sport]|Я люблю [спорт]|ฉัน ชอบ [กีฬา]
+cancer|[Cancer] is a serious disease|[Рак] — серьёзная болезнь|[มะเร็ง] เป็น โรค ร้ายแรง
+dance|I like [dance]|Я люблю [танец]|ฉัน ชอบ [การเต้นรำ]
+direction|Which [direction]?|В каком [направлении]?|[ทิศทาง] ไหน
+master|He is a [master]|Он [мастер]|เขา เป็น [ปรมาจารย์]
+ship|The [ship] is big|[Корабль] большой|[เรือ] ใหญ่
+stock|We have [stock]|У нас есть [запас]|เรา มี [สต็อก]
+weekend|The [weekend] is here|[Выходные] пришли|[วันหยุดสุดสัปดาห์] มา ถึง แล้ว
+wonder|It is a [wonder]|Это [чудо]|นี่ คือ [ปาฏิหาริย์]
+band|The [band] plays tonight|[Группа] играет сегодня вечером|[วงดนตรี] เล่น คืน นี้
+cash|I pay in [cash]|Я плачу [наличными]|ฉัน จ่าย [เงินสด]
+effort|It takes [effort]|Это требует [усилий]|ต้อง ใช้ [ความพยายาม]
+impact|The [impact] is big|[Воздействие] большое|[ผลกระทบ] ใหญ่
+operation|The [operation] is tomorrow|[Операция] завтра|[การผ่าตัด] คือ พรุ่งนี้
+organization|The [organization] helps people|[Организация] помогает людям|[องค์กร] ช่วย เหลือ ผู้ คน
+spring|[Spring] is warm|[Весна] тёплая|[ฤดูใบไม้ผลิ] อบอุ่น
+analysis|The [analysis] is ready|[Анализ] готов|[การวิเคราะห์] เสร็จ แล้ว
+call|I have a [call]|У меня [звонок]|ฉัน มี [การโทร]
+color|What [color] is it?|Какой это [цвет]?|นี่ [สี] อะไร
+competition|The [competition] is tough|[Соревнование] трудное|[การแข่งขัน] หนัก
+detail|Every [detail] matters|Важна каждая [деталь]|ทุก [รายละเอียด] สำคัญ
+dream|I had a [dream]|Мне приснился [сон]|ฉัน ฝัน [ความฝัน]
+marriage|The [marriage] is next year|[Брак] — в следующем году|[การแต่งงาน] คือ ปี หน้า
+patient|The [patient] is waiting|[Пациент] ждёт|[ผู้ป่วย] กำลัง รอ
+resource|Water is a [resource]|Вода — это [ресурс]|น้ำ เป็น [ทรัพยากร]
+skin|My [skin] is dry|Моя [кожа] сухая|[ผิวหนัง] ของ ฉัน แห้ง
+touch|I feel a [touch]|Я чувствую [прикосновение]|ฉัน รู้สึก [การสัมผัส]
+damage|The [damage] is big|[Ущерб] большой|[ความเสียหาย] มาก
+disease|The [disease] is rare|[Болезнь] редкая|[โรค] นี้ หา ยาก
+doctor|The [doctor] is kind|[Врач] добрый|[หมอ] ใจดี
+fish|I eat [fish]|Я ем [рыбу]|ฉัน กิน [ปลา]
+machine|The [machine] is loud|[Машина] шумная|[เครื่องจักร] เสียง ดัง
+record|I keep a [record]|Я веду [запись]|ฉัน เก็บ [บันทึก]
+trip|We take a [trip]|Мы едем в [поездку]|เรา ไป [ทริป]
+captain|The [captain] speaks|[Капитан] говорит|[กัปตัน] พูด
+crime|It is a [crime]|Это [преступление]|นี่ คือ [อาชญากรรม]
+male|The [male] is big|[Самец] большой|[เพศผู้] ตัว ใหญ่
+plant|Water the [plant]|Полей [растение]|รด น้ำ [พืช]
+reality|This is [reality]|Это [реальность]|นี่ คือ [ความเป็นจริง]
+winter|[Winter] is cold|[Зима] холодная|[ฤดูหนาว] หนาว
+advice|I need [advice]|Мне нужен [совет]|ฉัน ต้อง การ [คำแนะนำ]
+award|He won an [award]|Он получил [награду]|เขา ได้ [รางวัล]
+challenge|This is a [challenge]|Это [вызов]|นี่ คือ [ความท้าทาย]
+comment|I read your [comment]|Я прочитал твой [комментарий]|ฉัน อ่าน [ความคิดเห็น] ของ คุณ
+equipment|The [equipment] is new|[Оборудование] новое|[อุปกรณ์] ใหม่
+nation|The [nation] is proud|[Нация] гордится|[ชาติ] ภูมิใจ
+purpose|What is the [purpose]?|Какова [цель]?|[จุดประสงค์] คือ อะไร
+shop|I go to the [shop]|Я иду в [магазин]|ฉัน ไป [ร้านค้า]
+teacher|The [teacher] explains|[Учитель] объясняет|[ครู] อธิบาย
+theory|This is a [theory]|Это [теория]|นี่ คือ [ทฤษฎี]
+camera|My [camera] is new|Моя [камера] новая|[กล้อง] ของ ฉัน ใหม่
+cell|The [cell] is small|[Клетка] маленькая|[เซลล์] เล็ก
+drug|I take a [drug]|Я принимаю [лекарство]|ฉัน กิน [ยา]
+environment|Protect the [environment]|Береги [окружающую среду]|รักษา [สิ่งแวดล้อม]
+mission|The [mission] is hard|[Миссия] трудная|[ภารกิจ] ยาก
+status|What is the [status]?|Какой [статус]?|[สถานะ] คือ อะไร
+trial|The [trial] begins today|[Судебный процесс] начинается сегодня|[การพิจารณาคดี] เริ่ม วัน นี้
+weather|The [weather] is nice|[Погода] хорошая|[สภาพอากาศ] ดี
+coffee|I drink [coffee]|Я пью [кофе]|ฉัน ดื่ม [กาแฟ]
+evening|Good [evening]|Добрый [вечер]|สวัสดี [ตอนเย็น]
+flight|The [flight] is long|[Полёт] долгий|[เที่ยวบิน] ยาว
+freedom|I love [freedom]|Я люблю [свободу]|ฉัน รัก [เสรีภาพ]
+heat|The [heat] is strong|[Жара] сильная|[ความร้อน] รุนแรง
+interview|I have an [interview]|У меня [интервью]|ฉัน มี [สัมภาษณ์]
+library|The [library] is quiet|[Библиотека] тихая|[ห้องสมุด] เงียบ
+location|The [location] is great|[Расположение] отличное|[ที่ตั้ง] ดี มาก
+second|Wait one [second]|Подожди одну [секунду]|รอ หนึ่ง [วินาที]
+star|The [star] is bright|[Звезда] яркая|[ดาว] สว่าง
+channel|Change the [channel]|Смени [канал]|เปลี่ยน [ช่อง]
+distance|The [distance] is short|[Расстояние] короткое|[ระยะทาง] สั้น
+exchange|The [exchange] is fair|[Обмен] честный|[การแลกเปลี่ยน] ยุติธรรม
+glass|I need a [glass] of water|Мне нужен [стакан] воды|ฉัน ขอ น้ำ หนึ่ง [แก้ว]
+protection|We need [protection]|Нам нужна [защита]|เรา ต้อง การ [การป้องกัน]
+speech|His [speech] is short|Его [речь] короткая|[คำพูด] ของ เขา สั้น
+traffic|The [traffic] is heavy|[Движение] плотное|[การจราจร] ติด มาก
+tree|The [tree] is tall|[Дерево] высокое|[ต้นไม้] สูง
+animal|The [animal] is hungry|[Животное] голодно|[สัตว์] หิว
+benefit|There is a [benefit]|Есть [выгода]|มี [ประโยชน์]
+bottom|Look at the [bottom]|Посмотри на [дно]|ดู ที่ [ก้น]
+demand|The [demand] is high|[Спрос] высокий|[ความต้องการ] สูง
+engine|The [engine] is hot|[Двигатель] горячий|[เครื่องยนต์] ร้อน
+investment|This is a good [investment]|Это хорошая [инвестиция]|นี่ คือ [การลงทุน] ที่ ดี
+solution|I have a [solution]|У меня есть [решение]|ฉัน มี [ทางออก]
+structure|The [structure] is simple|[Структура] простая|[โครงสร้าง] ง่าย
+wind|The [wind] is cold|[Ветер] холодный|[ลม] เย็น
+bus|The [bus] is late|[Автобус] опаздывает|[รถโดยสาร] มา สาย
+cent|It costs one [cent]|Это стоит один [цент]|ราคา หนึ่ง [เซนต์]
+mouth|Open your [mouth]|Открой [рот]|อ้า [ปาก]
+photo|I take a [photo]|Я делаю [фото]|ฉัน ถ่าย [รูปถ่าย]
+scale|The [scale] shows my weight|[Весы] показывают мой вес|[เครื่องชั่ง] แสดง น้ำหนัก ของ ฉัน
+surface|The [surface] is smooth|[Поверхность] гладкая|[พื้นผิว] เรียบ
+wedding|The [wedding] is in June|[Свадьба] в июне|[งานแต่งงาน] อยู่ ใน เดือน มิถุนายน
+arm|My [arm] hurts|У меня болит [рука]|[แขน] ของ ฉัน เจ็บ
+budget|The [budget] is small|[Бюджет] небольшой|[งบประมาณ] น้อย
+estate|He owns a large [estate]|Он владеет большим [имением]|เขา เป็น เจ้า ของ [ที่ดิน] ผืน ใหญ่
+faith|I have [faith]|У меня есть [вера]|ฉัน มี [ศรัทธา]
+fashion|I like [fashion]|Я люблю [моду]|ฉัน ชอบ [แฟชั่น]
+feature|This is a new [feature]|Это новая [особенность]|นี่ คือ [คุณสมบัติ] ใหม่
+fund|The [fund] helps children|[Фонд] помогает детям|[กองทุน] ช่วย เหลือ เด็ก
+generation|The new [generation] is here|Новое [поколение] пришло|[รุ่น] ใหม่ มา แล้ว
+metal|The [metal] is hard|[Металл] твёрдый|[โลหะ] แข็ง
+seat|This [seat] is free|Это [сиденье] свободно|[ที่นั่ง] นี้ ว่าง
+target|I hit the [target]|Я попал в [мишень]|ฉัน ยิง ถูก [เป้า]
+village|The [village] is small|[Деревня] маленькая|[หมู่บ้าน] เล็ก
+authority|The [authority] decides|[Власть] решает|[ผู้มีอำนาจ] ตัดสิน
+basis|This is the [basis]|Это [основа]|นี่ คือ [พื้นฐาน]
+employee|The [employee] is polite|[Сотрудник] вежлив|[พนักงาน] สุภาพ
+memory|I have a good [memory]|У меня хорошая [память]|ฉัน มี [ความทรงจำ] ที่ ดี
+ring|The [ring] is gold|[Кольцо] золотое|[แหวน] เป็น ทอง
+silver|The spoon is [silver]|Ложка из [серебра]|ช้อน ทำ จาก [เงิน]
+soul|The [soul] never dies|[Душа] не умирает|[จิตวิญญาณ] ไม่ ตาย
+supply|The [supply] is small|[Поставка] небольшая|[การจัดหา] น้อย
+waste|Do not make [waste]|Не создавай [отходы]|อย่า ทำ [ของเสีย]
+chairman|The [chairman] speaks|[Председатель] говорит|[ประธาน] พูด
+grade|I got a good [grade]|Я получил хорошую [оценку]|ฉัน ได้ [เกรด] ดี
+method|This [method] is simple|Этот [метод] простой|[วิธี] นี้ ง่าย
+option|I have an [option]|У меня есть [вариант]|ฉัน มี [ตัวเลือก]
+prison|The [prison] is far|[Тюрьма] далеко|[เรือนจำ] อยู่ ไกล
+stone|The [stone] is heavy|[Камень] тяжёлый|[ก้อนหิน] หนัก
+strength|I need [strength]|Мне нужна [сила]|ฉัน ต้อง การ [ความแข็งแรง]
+user|The [user] clicks|[Пользователь] нажимает|[ผู้ใช้] กด
+window|Open the [window]|Открой [окно]|เปิด [หน้าต่าง]
+winner|The [winner] smiles|[Победитель] улыбается|[ผู้ชนะ] ยิ้ม
+bag|My [bag] is heavy|Моя [сумка] тяжёлая|[กระเป๋า] ของ ฉัน หนัก
+camp|We sleep in the [camp]|Мы спим в [лагере]|เรา นอน ใน [ค่าย]
+television|I watch [television]|Я смотрю [телевидение]|ฉัน ดู [โทรทัศน์]
+trouble|I am in [trouble]|У меня [неприятность]|ฉัน มี [ปัญหา]
+advantage|This is an [advantage]|Это [преимущество]|นี่ คือ [ข้อได้เปรียบ]
+cat|The [cat] sleeps|[Кошка] спит|[แมว] นอน
+customer|The [customer] is happy|[Заказчик] доволен|[ลูกค้า] มี ความ สุข
+dinner|[Dinner] is ready|[Ужин] готов|[อาหารเย็น] พร้อม แล้ว
+dollar|It costs one [dollar]|Это стоит один [доллар]|ราคา หนึ่ง [ดอลลาร์]
+function|What is its [function]?|Какова её [функция]?|[หน้าที่] ของ มัน คือ อะไร
+gift|This is a [gift]|Это [подарок]|นี่ คือ [ของขวัญ]
+influence|He has great [influence]|У него большое [влияние]|เขา มี [อิทธิพล] มาก
+item|Choose an [item]|Выбери [позицию]|เลือก [สิ่ง] หนึ่ง
+marketing|I work in [marketing]|Я работаю в [маркетинге]|ฉัน ทำงาน ด้าน [การตลาด]
+standard|This is the [standard]|Это [стандарт]|นี่ คือ [มาตรฐาน]
+wood|The table is made of [wood]|Стол сделан из [древесины]|โต๊ะ ทำ จาก [ไม้]
+birth|The [birth] was easy|[Рождение] было лёгким|[การเกิด] ง่าย
+concept|The [concept] is clear|[Концепция] ясна|[แนวคิด] ชัดเจน
+copy|Make a [copy]|Сделай [копию]|ทำ [สำเนา]
+garden|The [garden] is green|[Сад] зелёный|[สวน] เขียว
+host|The [host] is friendly|[Хозяин] приветлив|[เจ้าภาพ] เป็น กันเอง
+housing|[Housing] is expensive|[Жильё] дорогое|[ที่อยู่อาศัย] แพง
+labor|[Labor] is hard|[Труд] тяжёл|[แรงงาน] หนัก
+leadership|[Leadership] takes courage|[Лидерство] требует смелости|[ความเป็นผู้นำ] ต้อง ใช้ ความ กล้า
+length|What is the [length]?|Какова [длина]?|[ความยาว] เท่า ไหร่
+skill|This is a useful [skill]|Это полезный [навык]|นี่ คือ [ทักษะ] ที่ มี ประโยชน์
+apple|I eat an [apple]|Я ем [яблоко]|ฉัน กิน [แอปเปิ้ล]
+connection|The [connection] is weak|[Связь] слабая|[การเชื่อมต่อ] อ่อน
+dress|Her [dress] is red|Её [платье] красное|[ชุดเดรส] ของ เธอ สี แดง
+horse|The [horse] runs|[Лошадь] бежит|[ม้า] วิ่ง
+magic|I believe in [magic]|Я верю в [магию]|ฉัน เชื่อ ใน [เวทมนตร์]
+map|Show me the [map]|Покажи мне [карту]|ขอ ดู [แผนที่]
+net|The fish is in the [net]|Рыба в [сети]|ปลา อยู่ ใน [ตาข่าย]
+request|I have a [request]|У меня [запрос]|ฉัน มี [คำขอ]
+vehicle|The [vehicle] is large|[Транспортное средство] большое|[ยานพาหนะ] ใหญ่
+volume|Turn down the [volume]|Убавь [громкость]|ลด [ปริมาตร] เสียง
+aid|We need [aid]|Нам нужна [помощь]|เรา ต้อง การ [ความช่วยเหลือ]
+conversation|It was a good [conversation]|Это была хорошая [беседа]|เป็น [การสนทนา] ที่ ดี
+corner|Turn at the [corner]|Поверни за [угол]|เลี้ยว ที่ [มุม]
+driver|The [driver] is careful|[Водитель] осторожен|[คนขับรถ] ระมัดระวัง
+farm|The [farm] is big|[Ферма] большая|[ฟาร์ม] ใหญ่
+file|Open the [file]|Открой [файл]|เปิด [ไฟล์]
+responsibility|This is my [responsibility]|Это моя [ответственность]|นี่ คือ [ความรับผิดชอบ] ของ ฉัน
+roll|I buy a [roll] of paper|Я покупаю [рулон] бумаги|ฉัน ซื้อ กระดาษ [ม้วน] หนึ่ง
+surprise|What a [surprise]!|Какой [сюрприз]!|ช่าง เป็น [ความประหลาดใจ]
+thought|I have a [thought]|У меня есть [мысль]|ฉัน มี [ความคิด]
+variety|There is a great [variety] of food|Здесь большое [разнообразие] еды|[ความหลากหลาย] ของ อาหาร มาก มาย
+violence|We are against [violence]|Мы против [насилия]|เรา ต่อ ต้าน [ความรุนแรง]
+weapon|The [weapon] is dangerous|[Оружие] опасно|[อาวุธ] อันตราย
+youth|[Youth] is short|[Молодость] коротка|[วัยเยาว์] สั้น
+edge|Stand at the [edge]|Встань на [край]|ยืน ที่ [ขอบ]
+injury|The [injury] is small|[Травма] небольшая|[การบาดเจ็บ] เล็ก น้อย
+iron|[Iron] is hard|[Железо] твёрдое|[เหล็ก] แข็ง
+magazine|I read a [magazine]|Я читаю [журнал]|ฉัน อ่าน [นิตยสาร]
+model|The [model] is new|[Модель] новая|[โมเดล] ใหม่
+parliament|The [parliament] meets|[Парламент] собирается|[รัฐสภา] ประชุม
+reference|Add a [reference]|Добавь [ссылку на источник]|เพิ่ม [การอ้างอิง]
+religion|[Religion] is important to him|Для него важна [религия]|[ศาสนา] สำคัญ สำหรับ เขา
+strategy|We need a [strategy]|Нам нужна [стратегия]|เรา ต้อง การ [กลยุทธ์]
+wine|I want [wine]|Я хочу [вина]|ฉัน อยาก ได้ [ไวน์]
+audience|The [audience] is clapping|[Аудитория] аплодирует|[ผู้ชม] ปรบ มือ
+description|Read the [description]|Прочитай [описание]|อ่าน [คำอธิบาย]
+guard|The [guard] is at the gate|[Охранник] у ворот|[ยาม] อยู่ ที่ ประตู
+medicine|I study [medicine]|Я изучаю [медицину]|ฉัน เรียน [การแพทย์]
+mountain|The [mountain] is high|[Гора] высокая|[ภูเขา] สูง
+port|The [port] is busy|[Порт] оживлённый|[ท่าเรือ] คึกคัก
+presence|I feel his [presence]|Я чувствую его [присутствие]|ฉัน รู้สึก ถึง [การปรากฏตัว] ของ เขา
+reaction|Her [reaction] was calm|Её [реакция] была спокойной|[ปฏิกิริยา] ของ เธอ สงบ
+step|Take a [step]|Сделай [шаг]|ก้าว [ก้าว] หนึ่ง
+stress|I feel [stress]|Я чувствую [стресс]|ฉัน รู้สึก [ความเครียด]
+taste|I like the [taste]|Мне нравится [вкус]|ฉัน ชอบ [รสชาติ]
+tea|I drink [tea]|Я пью [чай]|ฉัน ดื่ม [ชา]
+victory|The [victory] is ours|[Победа] за нами|[ชัยชนะ] เป็น ของ เรา
+citizen|Every [citizen] has rights|У каждого [гражданина] есть права|[พลเมือง] ทุก คน มี สิทธิ์
+emergency|This is an [emergency]|Это [чрезвычайная ситуация]|นี่ คือ [เหตุฉุกเฉิน]
+failure|[Failure] teaches us|[Неудача] учит нас|[ความล้มเหลว] สอน เรา
+festival|The [festival] is in the evening|[Фестиваль] вечером|[เทศกาล] จัด ตอน เย็น
+fuel|The car needs [fuel]|Машине нужно [топливо]|รถ ต้อง การ [เชื้อเพลิง]
+house|The [house] is big|[Дом] большой|[บ้าน] หลัง ใหญ่
+link|Send me the [link]|Пришли мне [ссылку]|ส่ง [ลิงก์] ให้ ฉัน
+mail|I check my [mail]|Я проверяю [почту]|ฉัน ตรวจ [ไปรษณีย์]
+plane|The [plane] is landing|[Самолёт] садится|[เครื่องบิน] กำลัง ลง จอด
+plenty|We have [plenty] of food|У нас [изобилие] еды|เรา มี อาหาร [ความอุดมสมบูรณ์]
+quarter|I ate a [quarter] of the cake|Я съел [четверть] торта|ฉัน กิน เค้ก [หนึ่งในสี่]
+session|The [session] is an hour|[Сессия] длится час|[เซสชัน] ใช้ เวลา หนึ่ง ชั่วโมง
+shape|The [shape] is round|[Форма] круглая|[รูปทรง] กลม
+sky|The [sky] is blue|[Небо] синее|[ท้องฟ้า] สี ฟ้า
+transfer|The [transfer] is done|[Перевод] выполнен|[การโอน] เสร็จ แล้ว
+zone|This is a quiet [zone]|Это тихая [зона]|นี่ คือ [โซน] เงียบ
+boat|The [boat] is small|[Лодка] маленькая|[เรือ] ลำ เล็ก
+climate|The [climate] is warm|[Климат] тёплый|[สภาพภูมิอากาศ] อบอุ่น
+discussion|The [discussion] is long|[Обсуждение] долгое|[การอภิปราย] ยาว
+duty|This is my [duty]|Это моя [обязанность]|นี่ คือ [หน้าที่] ของ ฉัน
+feeling|I have a good [feeling]|У меня хорошее [чувство]|ฉัน มี [ความรู้สึก] ที่ ดี
+governor|The [governor] speaks|[Губернатор] выступает|[ผู้ว่าราชการ] พูด
+path|The [path] is narrow|[Тропа] узкая|[เส้นทางเดิน] แคบ
+promise|I keep my [promise]|Я держу своё [обещание]|ฉัน รักษา [คำสัญญา]
+purchase|The [purchase] is done|[Покупка] сделана|[การซื้อ] เสร็จ แล้ว
+rain|The [rain] is heavy|[Дождь] сильный|[ฝน] ตก หนัก
+steel|The bridge is made of [steel]|Мост сделан из [стали]|สะพาน ทำ จาก [เหล็กกล้า]
+border|The [border] is close|[Граница] близко|[ชายแดน] อยู่ ใกล้
+crew|The [crew] is ready|[Экипаж] готов|[ลูกเรือ] พร้อม
+enemy|He has no [enemy]|У него нет [врага]|เขา ไม่ มี [ศัตรู]
+forest|The [forest] is dark|[Лес] тёмный|[ป่า] มืด
+intelligence|He has great [intelligence]|У него высокий [интеллект]|เขา มี [สติปัญญา] สูง
+moon|The [moon] is bright|[Луна] яркая|[ดวงจันทร์] สว่าง
+profit|The [profit] is high|[Прибыль] высокая|[กำไร] สูง
+proof|I need [proof]|Мне нужно [подтверждение]|ฉัน ต้อง การ [หลักฐาน]
+soldier|The [soldier] is brave|[Солдат] храбрый|[ทหาร] กล้า หาญ
+suit|He wears a [suit]|Он носит [костюм]|เขา ใส่ [ชุดสูท]
+appearance|His [appearance] is neat|Его [внешность] опрятная|[รูปลักษณ์] ของ เขา เรียบร้อย
+bank|I go to the [bank]|Я иду в [банк]|ฉัน ไป [ธนาคาร]
+building|The [building] is tall|[Здание] высокое|[อาคาร] สูง
+chair|Sit on the [chair]|Сядь на [стул]|นั่ง บน [เก้าอี้]
+debt|I have a [debt]|У меня [долг]|ฉัน มี [หนี้]
+honor|It is an [honor]|Это [честь]|นี่ คือ [เกียรติ]
+set|I bought a [set] of dishes|Я купил [набор] посуды|ฉัน ซื้อ [ชุด] จาน
+survey|Fill in the [survey]|Заполни [опрос]|กรอก [แบบสำรวจ]
+writer|The [writer] is famous|[Писатель] известен|[นักเขียน] มี ชื่อ เสียง
+communication|[Communication] is important|[Общение] важно|[การสื่อสาร] สำคัญ
+exercise|I do an [exercise]|Я делаю [упражнение]|ฉัน ทำ [แบบฝึกหัด]
+hero|He is a [hero]|Он [герой]|เขา เป็น [ฮีโร่]
+loan|I took a [loan]|Я взял [заём]|ฉัน ขอ [เงินกู้]
+planet|The [planet] is round|[Планета] круглая|[ดาวเคราะห์] กลม
+restaurant|The [restaurant] is full|[Ресторан] полон|[ร้านอาหาร] เต็ม
+sugar|I want [sugar]|Я хочу [сахар]|ฉัน อยาก ได้ [น้ำตาล]
+transport|Public [transport] is cheap|Общественный [транспорт] дешёвый|[การขนส่ง] สาธารณะ ราคา ถูก
+affair|It is a private [affair]|Это личное [дело]|เป็น [เรื่องราว] ส่วน ตัว
+device|The [device] is new|[Устройство] новое|[อุปกรณ์] ใหม่
+drama|I watch a [drama]|Я смотрю [драму]|ฉัน ดู [ละคร]
+entry|Write an [entry]|Напиши [пункт]|เขียน [รายการ]
+lawyer|The [lawyer] helps|[Адвокат] помогает|[ทนาย] ช่วย
+leg|My [leg] hurts|У меня болит [нога]|[ขา] ของ ฉัน เจ็บ
+mistake|I made a [mistake]|Я сделал [ошибку]|ฉัน ทำ [ความผิดพลาด]
+platform|The train is on the [platform]|Поезд на [платформе]|รถไฟ อยู่ ที่ [ชานชาลา]
+pool|The [pool] is cool|[Бассейн] прохладный|[สระว่ายน้ำ] เย็น
+relation|This has a [relation] to you|Это имеет [отношение] к тебе|เรื่อง นี้ มี [ความสัมพันธ์] กับ คุณ
+route|The [route] is short|[Маршрут] короткий|[เส้นทาง] สั้น
+schedule|What is the [schedule]?|Какое [расписание]?|[ตารางเวลา] เป็น อย่าง ไร
+shoe|My [shoe] is wet|Мой [ботинок] мокрый|[รองเท้า] ของ ฉัน เปียก
+candidate|The [candidate] is ready|[Кандидат] готов|[ผู้สมัคร] พร้อม
+concern|I have a [concern]|У меня [беспокойство]|ฉัน มี [ความกังวล]
+gun|The [gun] is dangerous|[Пистолет] опасен|[ปืน] อันตราย
+hole|There is a [hole]|Там [дыра]|มี [รู]
+holiday|Tomorrow is a [holiday]|Завтра [праздник]|พรุ่งนี้ เป็น [วันหยุด]
+lunch|[Lunch] is at noon|[Обед] в полдень|[อาหารกลางวัน] ตอน เที่ยง
+milk|I drink [milk]|Я пью [молоко]|ฉัน ดื่ม [นม]
+payment|The [payment] is done|[Платёж] выполнен|[การชำระเงิน] เสร็จ แล้ว
+sector|This [sector] is growing|Этот [сектор] растёт|[ภาค] นี้ กำลัง เติบโต
+snow|The [snow] is white|[Снег] белый|[หิมะ] สี ขาว
+storm|The [storm] is coming|Идёт [буря]|[พายุ] กำลัง มา
+studio|The [studio] is small|[Студия] маленькая|[สตูดิโอ] เล็ก
+chain|The [chain] is heavy|[Цепь] тяжёлая|[โซ่] หนัก
+chapter|Read the first [chapter]|Прочитай первую [главу]|อ่าน [บท] แรก
+confidence|I have [confidence]|У меня есть [уверенность]|ฉัน มี [ความมั่นใจ]
+identity|Show your [identity]|Покажи свою [личность]|แสดง [ตัวตน] ของ คุณ
+journey|The [journey] is long|[Путешествие] долгое|[การเดินทาง] ยาว
+kitchen|The [kitchen] is clean|[Кухня] чистая|[ครัว] สะอาด
+owner|The [owner] is here|[Владелец] здесь|[เจ้าของ] อยู่ ที่ นี่
+post|He has a good [post]|У него хорошая [должность]|เขา มี [ตำแหน่ง] ที่ ดี
+task|This [task] is easy|Эта [задача] лёгкая|[ภารกิจ] นี้ ง่าย
+argument|That is a good [argument]|Это хороший [аргумент]|นั่น เป็น [ข้อโต้แย้ง] ที่ ดี
+conflict|The [conflict] is over|[Конфликт] закончился|[ความขัดแย้ง] จบ แล้ว
+debate|The [debate] is on TV|[Дебаты] по телевизору|[การอภิปราย] อยู่ ทาง โทรทัศน์
+distribution|The [distribution] is fair|[Распределение] справедливое|[การกระจาย] ยุติธรรม
+document|Sign the [document]|Подпиши [документ]|เซ็น [เอกสาร]
+flower|The [flower] is red|[Цветок] красный|[ดอกไม้] สี แดง
+lady|The [lady] is kind|[Дама] добра|[คุณผู้หญิง] ใจดี
+phase|This is the last [phase]|Это последняя [фаза]|นี่ คือ [ระยะ] สุดท้าย
+requirement|This is a [requirement]|Это [требование]|นี่ คือ [ข้อกำหนด]
+resident|The [resident] is old|[Житель] пожилой|[ผู้อยู่อาศัย] อายุ มาก
+revenue|The [revenue] is growing|[Выручка] растёт|[รายได้] เพิ่ม ขึ้น
+talent|She has [talent]|У неё есть [талант]|เธอ มี [พรสวรรค์]
+temperature|The [temperature] is high|[Температура] высокая|[อุณหภูมิ] สูง
+troop|The [troop] is here|[Войска] здесь|[กองกำลัง] อยู่ ที่ นี่
+truck|The [truck] is big|[Грузовик] большой|[รถบรรทุก] ใหญ่
+bird|The [bird] sings|[Птица] поёт|[นก] ร้อง เพลง
+chicken|I eat [chicken]|Я ем [курицу]|ฉัน กิน [ไก่]
+context|The [context] is important|[Контекст] важен|[บริบท] สำคัญ
+meat|I eat [meat]|Я ем [мясо]|ฉัน กิน [เนื้อ]
+mode|Switch the [mode]|Смени [режим]|เปลี่ยน [โหมด]
+neck|My [neck] hurts|У меня болит [шея]|[คอ] ของ ฉัน เจ็บ
+novel|I read a [novel]|Я читаю [роман]|ฉัน อ่าน [นวนิยาย]
+shirt|The [shirt] is white|[Рубашка] белая|[เสื้อเชิ้ต] สี ขาว
+shot|I heard a [shot]|Я услышал [выстрел]|ฉัน ได้ ยิน [การยิง]
+stadium|The [stadium] is full|[Стадион] полон|[สนามกีฬา] เต็ม
+surgery|The [surgery] is tomorrow|[Хирургия] завтра|[ศัลยกรรม] พรุ่งนี้
+champion|He is a [champion]|Он [чемпион]|เขา เป็น [แชมป์]
+cream|I add [cream]|Я добавляю [крем]|ฉัน ใส่ [ครีม]
+crisis|This is a [crisis]|Это [кризис]|นี่ คือ [วิกฤต]
+editor|The [editor] is busy|[Редактор] занят|[บรรณาธิการ] ยุ่ง
+giant|The [giant] is tall|[Великан] высокий|[ยักษ์] ตัว สูง
+jail|He is in [jail]|Он в [тюрьме]|เขา อยู่ ใน [คุก]
+literature|I love [literature]|Я люблю [литературу]|ฉัน รัก [วรรณกรรม]
+selection|The [selection] is large|[Отбор] большой|[การคัดเลือก] ใหญ่
+signal|There is no [signal]|Нет [сигнала]|ไม่ มี [สัญญาณ]
+struggle|Life is a [struggle]|Жизнь — это [борьба]|ชีวิต คือ [การดิ้นรน]
+theme|The [theme] is love|[Тема] — любовь|[หัวข้อ] คือ ความ รัก
+wave|The [wave] is big|[Волна] большая|[คลื่น] ใหญ่
+breakfast|[Breakfast] is ready|[Завтрак] готов|[อาหารเช้า] พร้อม แล้ว
+combination|This is a good [combination]|Это хорошая [комбинация]|นี่ คือ [การผสม] ที่ ดี
+talk|We have a [talk]|У нас [разговор]|เรา มี [การพูดคุย]
+ticket|I buy a [ticket]|Я покупаю [билет]|ฉัน ซื้อ [ตั๋ว]
+wing|The bird has a [wing]|У птицы есть [крыло]|นก มี [ปีก]
+answer|I know the [answer]|Я знаю [ответ]|ฉัน รู้ [คำตอบ]
+cycle|The [cycle] repeats|[Цикл] повторяется|[วงจร] วน ซ้ำ
+newspaper|I read a [newspaper]|Я читаю [газету]|ฉัน อ่าน [หนังสือพิมพ์]
+reserve|We keep a [reserve]|Мы храним [резерв]|เรา เก็บ [สำรอง] ไว้
+return|The [return] is tomorrow|[Возврат] завтра|[การกลับ] คือ พรุ่งนี้
+row|Sit in the first [row]|Сядь в первый [ряд]|นั่ง [แถว] หน้า
+salt|Add [salt]|Добавь [соль]|ใส่ [เกลือ]
+switch|Press the [switch]|Нажми [переключатель]|กด [สวิตช์]
+territory|This is our [territory]|Это наши [владения]|นี่ คือ [ดินแดน] ของ เรา
+threat|There is a [threat]|Есть [угроза]|มี [ภัยคุกคาม]
+bell|The [bell] rings|[Колокольчик] звенит|[กระดิ่ง] ดัง
+danger|There is [danger]|Есть [опасность]|มี [อันตราย]
+delivery|The [delivery] is free|[Доставка] бесплатная|[การส่ง] ฟรี
+folk|The [folk] love the festival|[Народ] любит праздник|[ชาวบ้าน] รัก เทศกาล
+instance|Give me an [instance]|Дай мне [экземпляр]|ขอ [ตัวอย่าง] หนึ่ง
+match|The [match] is tonight|[Матч] сегодня вечером|[นัดแข่ง] คืน นี้
+motion|I see a [motion]|Я вижу [движение]|ฉัน เห็น [การเคลื่อนไหว]
+prize|He won a [prize]|Он выиграл [приз]|เขา ได้ [รางวัล]
+resolution|The [resolution] is passed|[Резолюция] принята|[มติ] ผ่าน แล้ว
+tool|This [tool] is useful|Это [орудие] полезно|[เครื่องมือ] นี้ มี ประโยชน์
+branch|The [branch] is long|[Ветка] длинная|[กิ่ง] ยาว
+decade|It was a good [decade]|Это было хорошее [десятилетие]|เป็น [ทศวรรษ] ที่ ดี
+definition|Read the [definition]|Прочитай [определение]|อ่าน [คำจำกัดความ]
+flag|The [flag] is red|[Флаг] красный|[ธง] สี แดง
+frame|The [frame] is gold|[Рамка] золотая|[กรอบ] สี ทอง
+guest|The [guest] is here|[Гость] пришёл|[แขก] มา แล้ว
+independence|We love [independence]|Мы любим [независимость]|เรา รัก [เอกราช]
+load|The [load] is heavy|[Нагрузка] тяжёлая|[ภาระ] หนัก
+plot|The [plot] is interesting|[Сюжет] интересный|[พล็อตเรื่อง] น่า สนใจ
+possibility|There is a [possibility]|Есть [возможность]|มี [ความเป็นไปได้]
+recovery|The [recovery] is slow|[Восстановление] идёт медленно|[การฟื้นตัว] ช้า
+rent|The [rent] is high|[Аренда] дорогая|[ค่าเช่า] แพง
+review|I read a [review]|Я читаю [обзор]|ฉัน อ่าน [บทวิจารณ์]
+sentence|Read the [sentence]|Прочитай [предложение]|อ่าน [ประโยค]
+tooth|My [tooth] hurts|У меня болит [зуб]|[ฟัน] ของ ฉัน ปวด
+tip|I leave a [tip]|Я оставляю [чаевые]|ฉัน ให้ [ทิป]
+bottle|The [bottle] is empty|[Бутылка] пуста|[ขวด] ว่าง
+category|Choose a [category]|Выбери [категорию]|เลือก [หมวดหมู่]
+chat|I open the [chat]|Я открываю [чат]|ฉัน เปิด [แชท]
+fruit|I eat [fruit]|Я ем [фрукты]|ฉัน กิน [ผลไม้]
+index|Look at the [index]|Посмотри [индекс]|ดู [ดัชนี]
+lane|Use the left [lane]|Езжай по левой [полосе]|ใช้ [เลน] ซ้าย
+mess|What a [mess]!|Какой [беспорядок]!|ช่าง [ความรก]
+opposition|The [opposition] disagrees|[Оппозиция] не согласна|[ฝ่ายค้าน] ไม่ เห็น ด้วย
+pleasure|It is a [pleasure]|Это [удовольствие]|นี่ คือ [ความเพลิดเพลิน]
+representative|The [representative] speaks|[Представитель] говорит|[ผู้แทน] พูด
+scheme|This is a simple [scheme]|Это простая [схема]|นี่ คือ [แผนการ] ง่าย ๆ
+shift|My [shift] starts at nine|Моя [смена] начинается в девять|[กะ] ของ ฉัน เริ่ม เก้า โมง
+storage|The [storage] is full|[Хранение] заполнено|[การเก็บ] เต็ม
+tank|The [tank] is big|[Танк] большой|[รถถัง] ใหญ่
+transportation|[Transportation] is cheap|[Перевозка] дешёвая|[การขนส่ง] ราคา ถูก
+yard|The [yard] is green|[Двор] зелёный|[ลาน] เขียว
+consumer|The [consumer] chooses|[Потребитель] выбирает|[ผู้บริโภค] เลือก
+creation|The [creation] takes time|[Создание] требует времени|[การสร้าง] ใช้ เวลา
+depression|[Depression] is an illness|[Депрессия] — это болезнь|[ภาวะซึมเศร้า] เป็น โรค
+employment|[Employment] is growing|[Трудоустройство] растёт|[การจ้างงาน] เพิ่ม ขึ้น
+expert|The [expert] explains|[Эксперт] объясняет|[ผู้เชี่ยวชาญ] อธิบาย
+golf|I play [golf]|Я играю в [гольф]|ฉัน เล่น [กอล์ฟ]
+importance|This has great [importance]|Это имеет большую [важность]|นี่ มี [ความสำคัญ] มาก
+pattern|The [pattern] is pretty|[Узор] красивый|[ลวดลาย] สวย
+perspective|This is a new [perspective]|Это новая [перспектива]|นี่ คือ [มุมมอง] ใหม่
+revolution|The [revolution] began|[Революция] началась|[การปฏิวัติ] เริ่ม ขึ้น
+tournament|The [tournament] is in May|[Турнир] в мае|[การแข่งขัน] อยู่ ใน เดือน พฤษภาคม
+victim|The [victim] needs help|[Жертве] нужна помощь|[เหยื่อ] ต้อง การ ความ ช่วย เหลือ
+crash|There was a [crash]|Произошла [авария]|เกิด [อุบัติเหตุ]
+depth|What is the [depth]?|Какова [глубина]?|[ความลึก] เท่า ไหร่
+error|There is an [error]|Есть [ошибка]|มี [ข้อผิดพลาด]
+existence|I believe in his [existence]|Я верю в его [существование]|ฉัน เชื่อ ใน [การดำรงอยู่] ของ เขา
+expression|This is a Thai [expression]|Это тайское [выражение]|นี่ คือ [สำนวน] ไทย
+factory|The [factory] is big|[Фабрика] большая|[โรงงาน] ใหญ่
+joy|I feel [joy]|Я чувствую [радость]|ฉัน รู้สึก [ความยินดี]
+mate|He is my [mate]|Он мой [товарищ]|เขา เป็น [สหาย] ของ ฉัน
+origin|What is its [origin]?|Каково его [происхождение]?|[ต้นกำเนิด] ของ มัน คือ อะไร
+panel|Press the [panel]|Нажми на [панель]|กด [แผง]
+personality|She has a bright [personality]|У неё яркая [личность]|เธอ มี [บุคลิกภาพ] ที่ โดด เด่น
+plate|The [plate] is clean|[Тарелка] чистая|[จาน] สะอาด
+practice|[Practice] is important|[Практика] важна|[การฝึก] สำคัญ
+relief|What a [relief]!|Какое [облегчение]!|ช่าง [ความโล่งใจ]
+resistance|The [resistance] is strong|[Сопротивление] сильное|[การต่อต้าน] รุนแรง
+rice|I eat [rice]|Я ем [рис]|ฉัน กิน [ข้าว]
+roof|The [roof] is red|[Крыша] красная|[หลังคา] สี แดง
+cable|The [cable] is long|[Кабель] длинный|[สายเคเบิล] ยาว
+client|The [client] is waiting|[Клиент] ждёт|[ลูกค้า] กำลัง รอ
+empire|The [empire] was large|[Империя] была большой|[จักรวรรดิ] ใหญ่
+expansion|The [expansion] is fast|[Расширение] быстрое|[การขยาย] เร็ว
+incident|It was a small [incident]|Это было небольшое [происшествие]|เป็น [เหตุการณ์] เล็ก ๆ
+politician|The [politician] speaks|[Политик] выступает|[นักการเมือง] พูด
+print|I need a [print]|Мне нужна [печать]|ฉัน ต้อง การ [การพิมพ์]
+sight|My [sight] is good|У меня хорошее [зрение]|[สายตา] ของ ฉัน ดี
+cake|I like [cake]|Я люблю [торт]|ฉัน ชอบ [เค้ก]
+fee|The [fee] is low|[Плата] низкая|[ค่าธรรมเนียม] ต่ำ
+hat|The [hat] is new|[Шляпа] новая|[หมวก] ใหม่
+height|What is your [height]?|Какой у тебя [рост]?|[ความสูง] ของ คุณ เท่า ไหร่
+portion|The [portion] is big|[Порция] большая|[ส่วนแบ่ง] ใหญ่
+pound|It costs one [pound]|Это стоит один [фунт]|ราคา หนึ่ง [ปอนด์]
+reform|The [reform] is needed|Нужна [реформа]|ต้อง มี [การปฏิรูป]
+retirement|[Retirement] is near|[Выход на пенсию] скоро|[การเกษียณ] ใกล้ แล้ว
+sample|Take a [sample]|Возьми [образец]|เอา [ตัวอย่าง]
+chest|My [chest] hurts|У меня болит [грудь]|[หน้าอก] ของ ฉัน เจ็บ
+introduction|Read the [introduction]|Прочитай [введение]|อ่าน [บทนำ]
+license|I have a [license]|У меня есть [лицензия]|ฉัน มี [ใบอนุญาต]
+paint|The [paint] is wet|[Краска] мокрая|[สีทา] ยัง เปียก
+pilot|The [pilot] is calm|[Пилот] спокоен|[นักบิน] ใจ เย็น
+singer|The [singer] is famous|[Певец] известен|[นักร้อง] มี ชื่อ เสียง
+steam|I see [steam]|Я вижу [пар]|ฉัน เห็น [ไอน้ำ]
+therapy|The [therapy] helps|[Терапия] помогает|[การบำบัด] ช่วย ได้
+witness|The [witness] speaks|[Свидетель] говорит|[พยาน] พูด
+cap|The [cap] is blue|[Кепка] синяя|[หมวก] สี น้ำเงิน
+childhood|I remember my [childhood]|Я помню своё [детство]|ฉัน จำ [วัยเด็ก] ของ ฉัน ได้
+comparison|The [comparison] is fair|[Сравнение] честное|[การเปรียบเทียบ] ยุติธรรม
+democracy|We value [democracy]|Мы ценим [демократию]|เรา เห็น คุณ ค่า ของ [ประชาธิปไตย]
+kind|What [kind] of music?|Какой [вид] музыки?|ดนตรี [ชนิด] ไหน
+nose|My [nose] is cold|Мой [нос] холодный|[จมูก] ของ ฉัน เย็น
+plastic|The bag is [plastic]|Сумка из [пластика]|กระเป๋า ทำ จาก [พลาสติก]
+technique|This [technique] is easy|Эта [техника] лёгкая|[เทคนิค] นี้ ง่าย
+tie|He wears a [tie]|Он носит [галстук]|เขา ผูก [เน็กไท]
+trend|This is a new [trend]|Это новый [тренд]|นี่ คือ [แนวโน้ม] ใหม่
+wealth|[Wealth] is not everything|[Богатство] — не всё|[ความมั่งคั่ง] ไม่ ใช่ ทุก อย่าง
+bread|I eat [bread]|Я ем [хлеб]|ฉัน กิน [ขนมปัง]
+egg|I eat an [egg]|Я ем [яйцо]|ฉัน กิน [ไข่]
+engineer|The [engineer] is smart|[Инженер] умён|[วิศวกร] ฉลาด
+finger|My [finger] hurts|У меня болит [палец]|[นิ้ว] ของ ฉัน เจ็บ
+neighborhood|The [neighborhood] is quiet|[Окрестность] тихая|[ละแวก] เงียบ
+permission|I need [permission]|Мне нужно [разрешение]|ฉัน ต้อง การ [การอนุญาต]
+regulation|This is a [regulation]|Это [регламент]|นี่ คือ [ระเบียบ]
+reply|I wait for a [reply]|Я жду [ответ]|ฉัน รอ [การตอบกลับ]
+scientist|The [scientist] works|[Учёный] работает|[นักวิทยาศาสตร์] ทำงาน
+shoulder|My [shoulder] hurts|У меня болит [плечо]|[ไหล่] ของ ฉัน เจ็บ
+tradition|This is a [tradition]|Это [традиция]|นี่ คือ [ประเพณี]
+wheel|The [wheel] is round|[Колесо] круглое|[ล้อ] กลม
+chocolate|I like [chocolate]|Я люблю [шоколад]|ฉัน ชอบ [ช็อกโกแลต]
+coal|The [coal] is black|[Уголь] чёрный|[ถ่านหิน] สี ดำ
+criticism|I accept [criticism]|Я принимаю [критику]|ฉัน ยอม รับ [การวิจารณ์]
+improvement|There is an [improvement]|Есть [улучшение]|มี [การปรับปรุง]
+jury|The [jury] decides|[Присяжные] решают|[คณะลูกขุน] ตัดสิน
+mark|Make a [mark]|Поставь [отметку]|ทำ [เครื่องหมาย]
+philosophy|I study [philosophy]|Я изучаю [философию]|ฉัน เรียน [ปรัชญา]
+pride|I feel [pride]|Я чувствую [гордость]|ฉัน รู้สึก [ความภาคภูมิใจ]
+settlement|The [settlement] is old|[Поселение] старое|[การตั้งถิ่นฐาน] เก่า
+speaker|The [speaker] is loud|[Спикер] говорит громко|[ผู้พูด] เสียง ดัง
+topic|The [topic] is interesting|[Тема] интересная|[เรื่อง] น่า สนใจ
+visitor|The [visitor] is here|[Посетитель] пришёл|[ผู้เยี่ยมชม] มา แล้ว
+guitar|I play the [guitar]|Я играю на [гитаре]|ฉัน เล่น [กีตาร์]
+meal|The [meal] is hot|[Приём пищи] тёплый|[มื้ออาหาร] ร้อน
+percentage|What is the [percentage]?|Каков [процент]?|[เปอร์เซ็นต์] เท่า ไหร่
+rescue|The [rescue] was quick|[Спасение] было быстрым|[การช่วยชีวิต] รวดเร็ว
+rush|I am in a [rush]|Я в [спешке]|ฉัน อยู่ ใน [ความเร่งรีบ]
+symptom|I have a [symptom]|У меня есть [симптом]|ฉัน มี [อาการ]
+trick|This is a good [trick]|Это хороший [трюк]|นี่ คือ [กลอุบาย] ที่ ดี
+bone|The [bone] is hard|[Кость] твёрдая|[กระดูก] แข็ง
+consequence|There is a [consequence]|Есть [последствие]|มี [ผลที่ตามมา]
+extent|The [extent] is large|[Масштаб] большой|[ขอบเขต] กว้าง
+fishing|I love [fishing]|Я люблю [рыбалку]|ฉัน รัก [การตกปลา]
+format|Choose a [format]|Выбери [формат]|เลือก [ฟอร์แมต]
+household|Each [household] pays|Каждое [домохозяйство] платит|[ครัวเรือน] ทุก หลัง จ่าย
+immigration|[Immigration] is at the airport|[Иммиграция] в аэропорту|[การเข้าเมือง] อยู่ ที่ สนามบิน
+lesson|The [lesson] is easy|[Урок] лёгкий|[บทเรียน] ง่าย
+limit|There is a [limit]|Есть [лимит]|มี [ขีดจำกัด]
+membership|I have a [membership]|У меня есть [членство]|ฉัน มี [สมาชิกภาพ]
+mirror|Look in the [mirror]|Посмотри в [зеркало]|ดู ใน [กระจก]
+parking|The [parking] is free|[Парковка] бесплатная|[ที่จอดรถ] ฟรี
+proposal|I have a [proposal]|У меня есть [предложение]|ฉัน มี [ข้อเสนอ]
+recognition|He wants [recognition]|Он хочет [признания]|เขา ต้อง การ [การยอมรับ]
+reputation|She has a good [reputation]|У неё хорошая [репутация]|เธอ มี [ชื่อเสียง] ดี
+tear|A [tear] fell|Упала [слеза]|[น้ำตา] ไหล
+belief|This is my [belief]|Это моя [вера]|นี่ คือ [ความเชื่อ] ของ ฉัน
+break|Take a [break]|Сделай [перерыв]|พัก [ช่วงพัก] หน่อย
+cloud|The [cloud] is white|[Облако] белое|[เมฆ] สี ขาว
+contrast|The [contrast] is strong|[Контраст] сильный|[ความต่าง] ชัดเจน
+extension|I need an [extension]|Мне нужно [продление]|ฉัน ต้อง การ [ส่วนขยาย]
+gear|The [gear] is stuck|[Шестерня] застряла|[เกียร์] ติด
+hill|The [hill] is green|[Холм] зелёный|[เนินเขา] เขียว
+hip|My [hip] hurts|У меня болит [бедро]|[สะโพก] ของ ฉัน เจ็บ
+package|The [package] is here|[Посылка] пришла|[พัสดุ] มา แล้ว
+railway|The [railway] is long|[Железная дорога] длинная|[ทางรถไฟ] ยาว
+shock|It was a [shock]|Это был [шок]|เป็น [ช็อก]
+silence|I love the [silence]|Я люблю [тишину]|ฉัน รัก [ความเงียบ]
+transition|The [transition] is smooth|[Переход] плавный|[การเปลี่ยนผ่าน] ราบรื่น
+voter|The [voter] decides|[Избиратель] решает|[ผู้มีสิทธิเลือกตั้ง] ตัดสิน
+charity|I give to [charity]|Я жертвую на [благотворительность]|ฉัน บริจาค เพื่อ [การกุศล]
+math|I like [math]|Я люблю [математику]|ฉัน ชอบ [คณิตศาสตร์]
+mind|My [mind] is calm|Мой [ум] спокоен|[จิตใจ] ของ ฉัน สงบ
+mystery|It is a [mystery]|Это [тайна]|นี่ คือ [ปริศนา]
+palace|The [palace] is beautiful|[Дворец] красивый|[พระราชวัง] สวย
+penalty|The [penalty] is small|[Штраф] небольшой|[โทษ] เบา
+pet|My [pet] is a cat|Мой [питомец] — кошка|[สัตว์เลี้ยง] ของ ฉัน คือ แมว
+protest|The [protest] is peaceful|[Протест] мирный|[การประท้วง] สงบ
+publication|The [publication] is new|[Публикация] новая|[สิ่งพิมพ์] ใหม่
+trail|I follow the [trail]|Я иду по [следу]|ฉัน เดิน ตาม [รอย]
+uncle|My [uncle] is kind|Мой [дядя] добрый|[ลุง] ของ ฉัน ใจดี
+arrival|The [arrival] is at noon|[Прибытие] в полдень|[การมาถึง] ตอน เที่ยง
+bath|I take a [bath]|Я принимаю [ванну]|ฉัน แช่ [อ่างอาบน้ำ]
+component|The [component] is broken|[Компонент] сломан|[ส่วนประกอบ] เสีย
+explanation|I need an [explanation]|Мне нужно [объяснение]|ฉัน ต้อง การ [คำอธิบาย]
+happiness|[Happiness] is simple|[Счастье] простое|[ความสุข] เรียบ ง่าย
+legend|It is an old [legend]|Это старая [легенда]|เป็น [ตำนาน] เก่า
+mood|I am in a good [mood]|У меня хорошее [настроение]|ฉัน อยู่ ใน [อารมณ์] ดี
+muscle|My [muscle] hurts|У меня болит [мускул]|[กล้ามเนื้อ] ของ ฉัน เจ็บ
+passion|He has [passion]|У него есть [страсть]|เขา มี [ความหลงใหล]
+procedure|The [procedure] is simple|[Процедура] простая|[ขั้นตอน] ง่าย
+rank|What is your [rank]?|Каков твой [ранг]?|[อันดับ] ของ คุณ คือ อะไร
+replacement|I need a [replacement]|Мне нужна [замена]|ฉัน ต้อง การ [การเปลี่ยน]
+sand|The [sand] is hot|[Песок] горячий|[ทราย] ร้อน
+saving|My [saving] is small|Мои [сбережения] небольшие|[การออม] ของ ฉัน น้อย
+shadow|I see a [shadow]|Я вижу [тень]|ฉัน เห็น [เงา]
+tape|I need [tape]|Мне нужна [лента]|ฉัน ต้อง การ [เทป]
+wage|The [wage] is low|[Заработная плата] низкая|[ค่าจ้าง] ต่ำ
+clock|The [clock] is on the table|[Часы] на столе|[นาฬิกาตั้งโต๊ะ] อยู่ บน โต๊ะ
+commitment|This is a big [commitment]|Это большое [обязательство]|นี่ คือ [พันธสัญญา] ใหญ่
+desk|The [desk] is clean|[Письменный стол] чистый|[โต๊ะเขียนหนังสือ] สะอาด
+drink|I want a [drink]|Я хочу [напиток]|ฉัน อยาก ได้ [เครื่องดื่ม]
+electricity|There is no [electricity]|Нет [электричества]|ไม่ มี [ไฟฟ้า]
+farmer|The [farmer] works|[Фермер] работает|[เกษตรกร] ทำงาน
+label|Read the [label]|Прочитай [этикетку]|อ่าน [ฉลาก]
+output|Check the [output]|Проверь [вывод]|ตรวจ [ข้อมูลออก]
+pitch|The [pitch] was fast|[Подача] была быстрой|[การขว้าง] เร็ว
+score|What is the [score]?|Какой [счёт]?|[คะแนน] เท่า ไหร่
+welfare|[Welfare] helps people|[Социальное обеспечение] помогает людям|[สวัสดิการ] ช่วย ผู้ คน
+wire|The [wire] is thin|[Проволока] тонкая|[ลวด] บาง
+center|The [center] is near|[Центр] рядом|[ศูนย์] อยู่ ใกล้
+ceremony|The [ceremony] is at noon|[Церемония] в полдень|[พิธี] ตอน เที่ยง
+cop|The [cop] is polite|[Полицейский] вежлив|[ตำรวจ] สุภาพ
+cut|I have a [cut]|У меня [порез]|ฉัน มี [บาดแผล]
+ghost|I saw a [ghost]|Я увидел [привидение]|ฉัน เห็น [ผี]
+lab|The [lab] is clean|[Лаборатория] чистая|[แล็บ] สะอาด
+prayer|The [prayer] is short|[Молитва] короткая|[การภาวนา] สั้น
+principle|This is a [principle]|Это [принцип]|นี่ คือ [หลักการ]
+soil|The [soil] is dry|[Почва] сухая|[ดิน] แห้ง
+stomach|My [stomach] hurts|У меня болит [живот]|[ท้อง] ของ ฉัน ปวด
+comfort|I like [comfort]|Я люблю [комфорт]|ฉัน ชอบ [ความสบาย]
+deck|We stand on the [deck]|Мы стоим на [палубе]|เรา ยืน บน [ดาดฟ้า]
+dust|There is [dust]|Здесь [пыль]|มี [ฝุ่น]
+illness|The [illness] is serious|[Заболевание] серьёзное|[ความเจ็บไข้] รุนแรง
+knife|The [knife] is sharp|[Нож] острый|[มีด] คม
+minority|The [minority] disagrees|[Меньшинство] не согласно|[ส่วนน้อย] ไม่ เห็น ด้วย
+priority|This is a [priority]|Это [приоритет]|นี่ คือ [ลำดับความสำคัญ]
+promotion|I got a [promotion]|Я получил [повышение]|ฉัน ได้ [การเลื่อนตำแหน่ง]
+rail|The [rail] is long|[Рельс] длинный|[ราง] ยาว
+reader|The [reader] smiles|[Читатель] улыбается|[ผู้อ่าน] ยิ้ม
+repair|The [repair] is quick|[Ремонт] быстрый|[การซ่อม] เร็ว
+root|The [root] is deep|[Корень] глубокий|[ราก] ลึก
+delay|There is a [delay]|Есть [задержка]|มี [ความล่าช้า]
+god|People pray to [God]|Люди молятся [Богу]|ผู้ คน อธิษฐาน ต่อ [พระเจ้า]
+layer|The [layer] is thin|[Слой] тонкий|[ชั้น] บาง
+nurse|The [nurse] is kind|[Медсестра] добрая|[พยาบาล] ใจดี
+ownership|The [ownership] is clear|[Собственность] ясна|[กรรมสิทธิ์] ชัดเจน
+poetry|I read [poetry]|Я читаю [поэзию]|ฉัน อ่าน [กวีนิพนธ์]
+pot|The [pot] is hot|[Горшок] горячий|[หม้อ] ร้อน
+sheet|I need a [sheet] of paper|Мне нужен [лист] бумаги|ฉัน ต้อง การ กระดาษ [แผ่น] หนึ่ง
+vacation|I am on [vacation]|Я в [отпуске]|ฉัน อยู่ ใน [วันหยุดพักผ่อน]
+disaster|It was a [disaster]|Это была [катастрофа]|เป็น [ภัยพิบัติ]
+entrance|The [entrance] is here|[Вход] здесь|[ทางเข้า] อยู่ ที่ นี่
+fitness|I like [fitness]|Я люблю [фитнес]|ฉัน ชอบ [ฟิตเนส]
+key|Where is the [key]?|Где [ключ]?|[กุญแจ] อยู่ ที่ ไหน
+mortgage|I have a [mortgage]|У меня [ипотека]|ฉัน มี [การจำนอง]
+physics|I study [physics]|Я изучаю [физику]|ฉัน เรียน [ฟิสิกส์]
+reduction|There is a [reduction]|Есть [сокращение]|มี [การลด]
+translation|I need a [translation]|Мне нужен [перевод]|ฉัน ต้อง การ [คำแปล]
+experiment|The [experiment] is simple|[Эксперимент] простой|[การทดลอง] ง่าย
+finding|This is a good [finding]|Это хорошая [находка]|นี่ คือ [การค้นพบ] ที่ ดี
+grass|The [grass] is green|[Трава] зелёная|[หญ้า] เขียว
+journalist|The [journalist] writes|[Журналист] пишет|[นักข่าว] เขียน
+mill|The [mill] is old|[Мельница] старая|[โรงสี] เก่า
+occasion|It is a special [occasion]|Это особый [повод]|เป็น [โอกาส] พิเศษ
+pace|The [pace] is fast|[Темп] быстрый|[จังหวะ] เร็ว
+passenger|The [passenger] is waiting|[Пассажир] ждёт|[ผู้โดยสาร] กำลัง รอ
+pen|I need a [pen]|Мне нужна [ручка]|ฉัน ต้อง การ [ปากกา]
+possession|This is my [possession]|Это моё [владение]|นี่ คือ [การครอบครอง] ของ ฉัน
+subject|My favourite [subject] is math|Мой любимый [предмет] — математика|[วิชา] ที่ ฉัน ชอบ คือ คณิตศาสตร์
+currency|What is the [currency]?|Какая [валюта]?|[สกุลเงิน] คือ อะไร
+emotion|I feel an [emotion]|Я чувствую [эмоцию]|ฉัน รู้สึก [อารมณ์]
+exhibition|The [exhibition] is free|[Выставка] бесплатная|[นิทรรศการ] ฟรี
+honey|I like [honey]|Я люблю [мёд]|ฉัน ชอบ [น้ำผึ้ง]
+hook|Use the [hook]|Используй [крюк]|ใช้ [ตะขอ]
+instruction|Read the [instruction]|Прочитай [инструкцию]|อ่าน [คำสั่ง]
+log|The [log] is heavy|[Бревно] тяжёлое|[ท่อนไม้] หนัก
+prisoner|The [prisoner] waits|[Заключённый] ждёт|[นักโทษ] รอ
+ratio|The [ratio] is good|[Соотношение] хорошее|[อัตราส่วน] ดี
+regret|I feel [regret]|Я чувствую [сожаление]|ฉัน รู้สึก [ความเสียใจ]
+resort|The [resort] is by the sea|[Курорт] у моря|[รีสอร์ท] อยู่ ริม ทะเล
+seed|Plant the [seed]|Посади [семя]|ปลูก [เมล็ด]
+summary|Read the [summary]|Прочитай [краткое изложение]|อ่าน [สรุป]
+survival|[Survival] is hard|[Выживание] — это трудно|[การอยู่รอด] ยาก
+tongue|Show your [tongue]|Покажи [язык]|แลบ [ลิ้น]
+coat|The [coat] is warm|[Пальто] тёплое|[เสื้อโค้ท] อุ่น
+ear|My [ear] hurts|У меня болит [ухо]|[หู] ของ ฉัน เจ็บ
+frequency|The [frequency] is high|[Частота] высокая|[ความถี่] สูง
+gene|The [gene] is rare|[Ген] редкий|[ยีน] หา ยาก
+initiative|He has [initiative]|У него есть [инициатива]|เขา มี [ความคิดริเริ่ม]
+landscape|The [landscape] is beautiful|[Пейзаж] красивый|[ภูมิทัศน์] สวย
+logic|This has no [logic]|В этом нет [логики]|นี่ ไม่ มี [ตรรกะ]
+objective|The [objective] is clear|[Цель] ясна|[วัตถุประสงค์] ชัดเจน
+privacy|I value [privacy]|Я ценю [конфиденциальность]|ฉัน เห็น คุณ ค่า [ความเป็นส่วนตัว]
+salary|My [salary] is good|У меня хорошая [зарплата]|[เงินเดือน] ของ ฉัน ดี
+script|I write a [script]|Я пишу [сценарий]|ฉัน เขียน [บท]
+tube|The [tube] is empty|[Трубка] пуста|[หลอด] ว่าง
+chemistry|I study [chemistry]|Я изучаю [химию]|ฉัน เรียน [เคมี]
+cotton|The shirt is [cotton]|Рубашка из [хлопка]|เสื้อ ทำ จาก [ฝ้าย]
+discount|There is a [discount]|Есть [скидка]|มี [ส่วนลด]
+exit|The [exit] is there|[Выход] там|[ทางออก] อยู่ ตรง นั้น
+impression|I have a good [impression]|У меня хорошее [впечатление]|ฉัน มี [ความประทับใจ] ที่ ดี
+leather|The bag is [leather]|Сумка из [кожи]|กระเป๋า ทำ จาก [หนัง]
+lip|My [lip] is dry|Моя [губа] сухая|[ริมฝีปาก] ของ ฉัน แห้ง
+luxury|This is a [luxury]|Это [роскошь]|นี่ คือ [ความหรูหรา]
+manufacturer|The [manufacturer] is famous|[Производитель] известен|[ผู้ผลิต] มี ชื่อ เสียง
+reporter|The [reporter] asks|[Репортёр] спрашивает|[ผู้สื่อข่าว] ถาม
+sequence|Follow the [sequence]|Следуй [последовательности]|ทำ ตาม [ลำดับ]
+tennis|I play [tennis]|Я играю в [теннис]|ฉัน เล่น [เทนนิส]
+theater|We go to the [theater]|Мы идём в [театр]|เรา ไป [โรงละคร]
+wish|I have a [wish]|У меня есть [желание]|ฉัน มี [ความปรารถนา]
+box|The [box] is heavy|[Коробка] тяжёлая|[กล่อง] หนัก
+flood|The [flood] is big|[Наводнение] большое|[น้ำท่วม] ใหญ่
+liberty|We want [liberty]|Мы хотим [свободы]|เรา ต้อง การ [อิสรภาพ]
+minister|The [minister] speaks|[Министр] говорит|[รัฐมนตรี] พูด
+photograph|I like this [photograph]|Мне нравится эта [фотография]|ฉัน ชอบ [ภาพถ่าย] นี้
+punishment|The [punishment] is fair|[Наказание] справедливо|[การลงโทษ] ยุติธรรม
+representation|We need [representation]|Нам нужно [представительство]|เรา ต้อง การ [ตัวแทน]
+sum|The [sum] is large|[Сумма] большая|[ผลรวม] มาก
+tail|The dog wags its [tail]|Собака виляет [хвостом]|สุนัข กระดิก [หาง]
+veteran|The [veteran] is old|[Ветеран] пожилой|[ทหารผ่านศึก] แก่
+column|Read the [column]|Прочитай [колонку]|อ่าน [คอลัมน์]
+expense|The [expense] is high|[Расход] большой|[ค่าใช้จ่าย] สูง
+genius|He is a [genius]|Он [гений]|เขา เป็น [อัจฉริยะ]
+infection|I have an [infection]|У меня [инфекция]|ฉัน มี [การติดเชื้อ]
+intention|My [intention] is good|У меня добрые [намерения]|[เจตนา] ของ ฉัน ดี
+joke|Tell a [joke]|Расскажи [шутку]|เล่า [มุกตลก]
+knee|My [knee] hurts|У меня болит [колено]|[เข่า] ของ ฉัน เจ็บ
+park|We walk in the [park]|Мы гуляем в [парке]|เรา เดิน ใน [สวนสาธารณะ]
+pregnancy|The [pregnancy] is easy|[Беременность] протекает легко|[การตั้งครรภ์] ง่าย
+reward|I get a [reward]|Я получаю [вознаграждение]|ฉัน ได้ [รางวัล]
+shore|The [shore] is near|[Берег] близко|[ฝั่ง] อยู่ ใกล้
+spot|There is a [spot]|Там [пятно]|มี [รอย]
+trap|It is a [trap]|Это [ловушка]|นี่ คือ [กับดัก]
+uniform|The [uniform] is blue|[Униформа] синяя|[เครื่องแบบ] สี น้ำเงิน
+courage|He has [courage]|У него есть [смелость]|เขา มี [ความกล้าหาญ]
+instrument|I play an [instrument]|Я играю на [инструменте]|ฉัน เล่น [เครื่องมือ] ดนตรี
+preparation|The [preparation] takes time|[Подготовка] требует времени|[การเตรียม] ใช้ เวลา
+registration|The [registration] is open|[Регистрация] открыта|[การลงทะเบียน] เปิด อยู่
+beginning|The [beginning] is easy|[Начало] лёгкое|[จุดเริ่มต้น] ง่าย
+data|The [data] is correct|[Данные] верны|[ข้อมูล] ถูก ต้อง
+father|My [father] works|Мой [отец] работает|[พ่อ] ของ ฉัน ทำงาน
+face|Wash your [face]|Умой [лицо]|ล้าง [ใบหน้า]
+queue|There is a long [queue]|Там длинная [очередь]|มี [คิว] ยาว
+series|This [series] is long|Эта [серия] длинная|[ชุด] นี้ ยาว
+daughter|My [daughter] is six|Моей [дочери] шесть|[ลูกสาว] ของ ฉัน อายุ หก ขวบ
+media|The [media] is loud|[СМИ] шумят|[สื่อ] เสียง ดัง
+square|We meet in the [square]|Мы встретимся на [площади]|เรา เจอ กัน ที่ [จัตุรัส]
+meaning|What is the [meaning]?|Каково [значение]?|[ความหมาย] คือ อะไร
+venture|The [venture] is new|[Предприятие] новое|[กิจการ] ใหม่
+east|The sun rises in the [east]|Солнце встаёт на [востоке]|ดวง อาทิตย์ ขึ้น ทาง [ทิศตะวันออก]
+commission|The [commission] is small|[Комиссия] небольшая|[ค่าคอมมิชชัน] น้อย
+department|The [department] is on the third floor|[Отдел] на третьем этаже|[แผนก] อยู่ ชั้น สาม
+professor|The [professor] is wise|[Профессор] мудр|[ศาสตราจารย์] ฉลาด
+support|I need your [support]|Мне нужна твоя [поддержка]|ฉัน ต้อง การ [การสนับสนุน] จาก คุณ
+sun|The [sun] is hot|[Солнце] горячее|[ดวงอาทิตย์] ร้อน
+west|The sun sets in the [west]|Солнце садится на [западе]|ดวง อาทิตย์ ตก ทาง [ทิศตะวันตก]
+association|The [association] helps|[Ассоциация] помогает|[สมาคม] ช่วย
+specialist|The [specialist] is here|[Специалист] здесь|[ผู้เชี่ยวชาญ] อยู่ ที่ นี่
+hall|The [hall] is big|[Зал] большой|[ห้องโถง] ใหญ่
+fortune|I had [fortune]|Мне улыбнулась [удача]|ฉัน มี [โชคลาภ]
+concert|The [concert] is tonight|[Концерт] сегодня вечером|[คอนเสิร์ต] คืน นี้
+museum|The [museum] is open|[Музей] открыт|[พิพิธภัณฑ์] เปิด อยู่
+district|This [district] is quiet|Этот [округ] тихий|[เขต] นี้ เงียบ
+middle|Stand in the [middle]|Встань в [середину]|ยืน [ตรงกลาง]
+gate|The [gate] is open|[Ворота] открыты|[ประตู] เปิด อยู่
+notion|This is a new [notion]|Это новое [понятие]|นี่ คือ [แนวคิด] ใหม่
+circle|Draw a [circle]|Нарисуй [круг]|วาด [วงกลม]
+opening|The [opening] is tomorrow|[Открытие] завтра|[การเปิด] คือ พรุ่งนี้
+temple|The [temple] is old|[Храм] старый|[วัด] เก่า
+rest|I need [rest]|Мне нужен [отдых]|ฉัน ต้อง การ [การพักผ่อน]
+half|Give me [half]|Дай мне [половину]|ขอ [ครึ่ง] หนึ่ง
+fault|It is my [fault]|Это моя [вина]|นี่ คือ [ความผิด] ของ ฉัน
+sound|I hear a [sound]|Я слышу [звук]|ฉัน ได้ ยิน [เสียง]
+reception|The [reception] is here|[Приём] здесь|[การต้อนรับ] อยู่ ที่ นี่
+fear|I feel [fear]|Я чувствую [страх]|ฉัน รู้สึก [ความกลัว]
+navy|The [navy] is strong|[Флот] сильный|[กองทัพเรือ] เข้ม แข็ง
+grandmother|My [grandmother] cooks|Моя [бабушка] готовит|[ย่า] ของ ฉัน ทำ อาหาร
+spirit|The [spirit] is free|[Дух] свободен|[วิญญาณ] เป็น อิสระ
+train|The [train] is fast|[Поезд] быстрый|[รถไฟ] เร็ว
+poet|The [poet] writes|[Поэт] пишет|[กวี] เขียน
+hearing|My [hearing] is good|У меня хороший [слух]|[การได้ยิน] ของ ฉัน ดี
+bridge|The [bridge] is long|[Мост] длинный|[สะพาน] ยาว
+past|Forget the [past]|Забудь [прошлое]|ลืม [อดีต]
+report|I write a [report]|Я пишу [отчёт]|ฉัน เขียน [รายงาน]
+explosion|I hear an [explosion]|Я слышу [взрыв]|ฉัน ได้ ยิน [การระเบิด]
+lock|The [lock] is broken|[Замок] сломан|[ล็อก] เสีย
+wound|The [wound] is small|[Рана] небольшая|[บาดแผล] เล็ก
+secret|It is a [secret]|Это [секрет]|นี่ คือ [ความลับ]
+occupation|What is your [occupation]?|Каково твоё [занятие]?|[อาชีพการงาน] ของ คุณ คือ อะไร
+spread|The [spread] is fast|[Распространение] быстрое|[การแพร่] เร็ว
+classroom|The [classroom] is big|[Кабинет] большой|[ห้องเรียน] ใหญ่
+clothes|My [clothes] are wet|Моя [одежда] мокрая|[เสื้อผ้า] ของ ฉัน เปียก
+flow|The [flow] is strong|[Поток] сильный|[กระแส] แรง
+squad|The [squad] is ready|[Отряд] готов|[หน่วย] พร้อม
+taxi|I take a [taxi]|Я беру [такси]|ฉัน เรียก [แท็กซี่]
+lump|There is a [lump]|Там [ком]|มี [ก้อน]
+observation|The [observation] is useful|[Наблюдение] полезно|[การสังเกต] มี ประโยชน์
+tourist|The [tourist] is lost|[Турист] заблудился|[นักท่องเที่ยว] หลง ทาง
+mass|The [mass] is large|[Масса] большая|[มวล] มาก
+refusal|I got a [refusal]|Я получил [отказ]|ฉัน ได้ รับ [การปฏิเสธ]
+shower|I take a [shower]|Я принимаю [душ]|ฉัน อาบ น้ำ [ฝักบัว]
+queen|The [queen] is kind|[Королева] добра|[ราชินี] ทรง ใจดี
+mechanism|The [mechanism] is simple|[Механизм] простой|[กลไก] ง่าย
+ocean|The [ocean] is deep|[Океан] глубокий|[มหาสมุทร] ลึก
+doubt|I have a [doubt]|У меня есть [сомнение]|ฉัน มี [ข้อสงสัย]
+south|Go [south]|Иди на [юг]|ไป [ทิศใต้]
+lecture|The [lecture] is long|[Лекция] долгая|[การบรรยาย] ยาว
+stamp|I need a [stamp]|Мне нужна [марка]|ฉัน ต้อง การ [แสตมป์]
+back|My [back] hurts|У меня болит [спина]|[หลัง] ของ ฉัน ปวด
+inspection|The [inspection] is tomorrow|[Проверка] завтра|[การตรวจสอบ] คือ พรุ่งนี้
+rocket|The [rocket] is fast|[Ракета] быстрая|[จรวด] เร็ว
+stake|The [stake] is high|[Ставка] высокая|[เงินเดิมพัน] สูง
+interaction|The [interaction] is good|[Взаимодействие] хорошее|[ปฏิสัมพันธ์] ดี
+lake|The [lake] is calm|[Озеро] спокойное|[ทะเลสาบ] สงบ
+probability|The [probability] is low|[Вероятность] низкая|[ความน่าจะเป็น] ต่ำ
+tale|I read a [tale]|Я читаю [сказку]|ฉัน อ่าน [นิทาน]
+terror|I felt [terror]|Я почувствовал [ужас]|ฉัน รู้สึก [ความน่ากลัว]
+reading|I love [reading]|Я люблю [чтение]|ฉัน รัก [การอ่าน]
+disk|The [disk] is full|[Диск] полон|[แผ่นดิสก์] เต็ม
+publicity|The [publicity] is good|[Реклама] хорошая|[การโฆษณา] ดี
+recommendation|I have a [recommendation]|У меня есть [рекомендация]|ฉัน มี [ข้อเสนอแนะ]
+pupil|The [pupil] listens|[Ученик] слушает|[ลูกศิษย์] ฟัง
+cross|Draw a [cross]|Нарисуй [крест]|วาด [กากบาท]
+pension|My [pension] is small|Моя [пенсия] небольшая|[เงินบำนาญ] ของ ฉัน น้อย
+progress|I see [progress]|Я вижу [прогресс]|ฉัน เห็น [ความก้าวหน้า]
+symbol|The [symbol] is simple|[Символ] простой|[สัญลักษณ์] ง่าย
+noise|I hear [noise]|Я слышу [шум]|ฉัน ได้ ยิน [เสียงรบกวน]
+crop|The [crop] is good|[Урожай] хороший|[พืชผล] ดี
+psychology|I study [psychology]|Я изучаю [психологию]|ฉัน เรียน [จิตวิทยา]
+laughter|I hear [laughter]|Я слышу [смех]|ฉัน ได้ ยิน [เสียงหัวเราะ]
+start|The [start] is at nine|[Старт] в девять|[การเริ่ม] ตอน เก้า โมง
+pile|There is a [pile] of books|Там [куча] книг|มี หนังสือ [กอง] หนึ่ง
+profession|This is a good [profession]|Это хорошая [профессия]|นี่ คือ [วิชาชีพ] ที่ ดี
+cloth|The [cloth] is soft|[Ткань] мягкая|[ผ้า] นุ่ม
+juice|I drink [juice]|Я пью [сок]|ฉัน ดื่ม [น้ำผลไม้]
+chart|Look at the [chart]|Посмотри на [график]|ดู [กราฟ]
+popularity|His [popularity] is growing|Его [популярность] растёт|[ความนิยม] ของ เขา เพิ่ม ขึ้น
+present|Live in the [present]|Живи [настоящим]|ใช้ ชีวิต ใน [ปัจจุบัน]
+silk|The scarf is [silk]|Шарф из [шёлка]|ผ้า พัน คอ ทำ จาก [ไหม]
+council|The [council] meets|[Совет] собирается|[สภา] ประชุม
+notice|I read the [notice]|Я читаю [объявление]|ฉัน อ่าน [ประกาศ]
+mouse|The [mouse] is small|[Мышь] маленькая|[หนู] ตัว เล็ก
+draft|I write a [draft]|Я пишу [черновик]|ฉัน เขียน [ร่าง]
+string|The [string] is thin|[Струна] тонкая|[สาย] บาง
+substance|The [substance] is dangerous|[Вещество] опасно|[สาร] อันตราย
+cause|What is the [cause]?|В чём [причина]?|[สาเหตุ] คือ อะไร
+peak|The [peak] is high|[Вершина] высокая|[ยอด] สูง
+quantity|The [quantity] is small|[Количество] небольшое|[ปริมาณ] น้อย
+note|I write a [note]|Я пишу [заметку]|ฉัน เขียน [โน้ต]
+relative|He is my [relative]|Он мой [родственник]|เขา เป็น [ญาติ] ของ ฉัน
+melody|The [melody] is sweet|[Мелодия] приятная|[ทำนอง] ไพเราะ
+wisdom|[Wisdom] comes with age|[Мудрость] приходит с возрастом|[ปัญญา] มา พร้อม อายุ
+vegetable|I eat a [vegetable]|Я ем [овощ]|ฉัน กิน [ผัก]
+gesture|This [gesture] is polite|Этот [жест] вежлив|[ท่าทาง] นี้ สุภาพ
+poison|The [poison] is deadly|[Яд] смертелен|[พิษ] ร้ายแรง
+register|Check the [register]|Проверь [реестр]|ตรวจ [ทะเบียน]
+concentration|I need [concentration]|Мне нужна [концентрация]|ฉัน ต้อง การ [สมาธิ]
+elephant|The [elephant] is big|[Слон] большой|[ช้าง] ตัว ใหญ่
+employer|The [employer] is fair|[Работодатель] справедлив|[นายจ้าง] ยุติธรรม
+cabinet|The [cabinet] is full|[Шкаф] полон|[ตู้] เต็ม
+pipe|The [pipe] is broken|[Труба] сломана|[ท่อ] แตก
+pig|The [pig] is fat|[Свинья] толстая|[หมู] อ้วน
+watch|My [watch] is new|Мои [часы] новые|[นาฬิกา] ของ ฉัน ใหม่
+ladder|The [ladder] is tall|[Лестница] высокая|[บันได] สูง
+grandfather|My [grandfather] is old|Мой [дедушка] старый|[ปู่] ของ ฉัน แก่
+tiger|The [tiger] is strong|[Тигр] сильный|[เสือ] แข็ง แรง
+pants|My [pants] are blue|Мои [брюки] синие|[กางเกง] ของ ฉัน สี น้ำเงิน
+cigarette|He has a [cigarette]|У него [сигарета]|เขา มี [บุหรี่]
+strip|Cut a [strip]|Отрежь [полоску]|ตัด [แถบ]
+heaven|[Heaven] is beautiful|[Рай] прекрасен|[สวรรค์] สวยงาม
+coin|I have a [coin]|У меня есть [монета]|ฉัน มี [เหรียญ]
+treasure|We found a [treasure]|Мы нашли [сокровище]|เรา พบ [สมบัติ]
+rubber|The ball is [rubber]|Мяч из [резины]|ลูกบอล ทำ จาก [ยาง]
+toilet|Where is the [toilet]?|Где [туалет]?|[ห้องน้ำ] อยู่ ที่ ไหน
+pole|The [pole] is tall|[Столб] высокий|[เสา] สูง
+scholar|The [scholar] reads|[Учёный] читает|[นักวิชาการ] อ่าน
+discipline|[Discipline] is important|[Дисциплина] важна|[วินัย] สำคัญ
+noon|We eat at [noon]|Мы едим в [полдень]|เรา กิน ตอน [เที่ยง]
+remark|I have a [remark]|У меня есть [замечание]|ฉัน มี [ข้อสังเกต]
+fat|There is too much [fat]|Здесь слишком много [жира]|มี [ไขมัน] มาก เกิน ไป
+foundation|The [foundation] helps|[Фонд] помогает|[มูลนิธิ] ช่วย
+orange|I eat an [orange]|Я ем [апельсин]|ฉัน กิน [ส้ม]
+imagination|She has [imagination]|У неё есть [воображение]|เธอ มี [จินตนาการ]
+pollution|The [pollution] is bad|[Загрязнение] сильное|[มลพิษ] แย่
+spoon|Give me a [spoon]|Дай мне [ложку]|ขอ [ช้อน] หน่อย
+cheek|My [cheek] is red|Моя [щека] красная|[แก้ม] ของ ฉัน แดง
+virtue|Patience is a [virtue]|Терпение — [добродетель]|ความ อดทน คือ [คุณธรรม]
+rose|The [rose] is red|[Роза] красная|[กุหลาบ] สี แดง
+tribe|The [tribe] lives in the forest|[Племя] живёт в лесу|[เผ่า] อาศัย อยู่ ใน ป่า
+vendor|The [vendor] sells fruit|[Торговец] продаёт фрукты|[พ่อค้า] ขาย ผลไม้
+cow|The [cow] eats grass|[Корова] ест траву|[วัว] กิน หญ้า
+nest|The bird has a [nest]|У птицы есть [гнездо]|นก มี [รัง]
+shell|I find a [shell]|Я нахожу [ракушку]|ฉัน เจอ [เปลือก]
+pack|I buy a [pack]|Я покупаю [упаковку]|ฉัน ซื้อ [ห่อ]
+web|The spider has a [web]|У паука [паутина]|แมงมุม มี [เว็บ]
+fever|I have a [fever]|У меня [жар]|ฉัน มี [ไข้]
+chemical|The [chemical] is dangerous|[Химикат] опасен|[สารเคมี] อันตราย

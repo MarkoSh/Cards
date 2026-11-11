@@ -161,9 +161,9 @@ const transcription = c => (state.target === 'en' ? c.i : state.target === 'th' 
 // [verb] in a sample sentence -> highlighted verb
 const mark = text => esc(text).replace(/\[(.+?)\]/, '<b class="text-amber-400">$1</b>');
 
-// a short sentence with the verb, like the first comment under the photo
+// a short sentence with the word, like the first comment under the photo
 function example(c) {
-  const ex = c.p === 'v' && EXAMPLES[c.e];
+  const ex = EXAMPLES[c.p === 'v' ? c.e : 'n:' + c.e];
   if (!ex) return '';
   const [en, ru, th, roman] = ex, sentence = { en, ru, th };
   return `<div class="mt-2 border-t border-zinc-800 pt-2">

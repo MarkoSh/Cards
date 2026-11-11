@@ -75,26 +75,29 @@ def build_sprite(hexcodes):
     print('sprite:', len(parts), 'icons')
 
 def build_examples(concepts, roman):
-    """tools/examples.txt -> examples.js: {verb: [en, ru, th, th romanization]}; the verb is marked with [brackets]."""
-    verbs = {c['e']: c for c in concepts if c['p'] == 'v'}
+    """examples.txt (verbs) + examples_n.txt (nouns) -> examples.js: {key: [en, ru, th, th romanization]}.
+    Key: the English word for a verb, 'n:' + the English word for a noun. The word is marked with [brackets]."""
     out = {}
-    for n, line in enumerate(open(os.path.join(HERE, 'examples.txt'), encoding='utf8'), 1):
-        if not line.strip() or line.startswith('#'):
-            continue
-        verb, en, ru, th = [x.strip() for x in line.split('|')]
-        if verb not in verbs:
-            print(f'examples.txt:{n}: unknown verb {verb}')
-            continue
-        for lang, text in (('en', en), ('ru', ru), ('th', th)):
-            if text.count('[') != 1 or text.count(']') != 1:
-                print(f'examples.txt:{n}: {verb}: mark the verb in {lang} with [ ]')
-        if verbs[verb]['t'].replace(' ', '') not in th.replace(' ', '').replace('[', '').replace(']', ''):
-            print(f'examples.txt:{n}: {verb}: the Thai sentence lacks {verbs[verb]["t"]}')
-        plain = th.replace('[', '').replace(']', '')
-        out[verb] = [en, ru, th, ' '.join(roman(w) for w in plain.split())]
+    for fname, pos, prefix in (('examples.txt', 'v', ''), ('examples_n.txt', 'n', 'n:')):
+        words = {c['e']: c for c in concepts if c['p'] == pos}
+        for n, line in enumerate(open(os.path.join(HERE, fname), encoding='utf8'), 1):
+            if not line.strip() or line.startswith('#'):
+                continue
+            word, en, ru, th = [x.strip() for x in line.split('|')]
+            where = f'{fname}:{n}: {word}'
+            if word not in words:
+                print(f'{where}: unknown word')
+                continue
+            for lang, text in (('en', en), ('ru', ru), ('th', th)):
+                if text.count('[') != 1 or text.count(']') != 1:
+                    print(f'{where}: mark the word in {lang} with [ ]')
+            if words[word]['t'].replace(' ', '') not in th.replace(' ', '').replace('[', '').replace(']', ''):
+                print(f'{where}: the Thai sentence lacks {words[word]["t"]}')
+            plain = th.replace('[', '').replace(']', '')
+            out[prefix + word] = [en, ru, th, ' '.join(roman(w) for w in plain.split())]
+        print(f'{fname}: {sum(k.startswith(prefix) if prefix else not k.startswith("n:") for k in out)} of {len(words)} {pos}')
     with open(os.path.join(ROOT, 'examples.js'), 'w', encoding='utf8') as f:
         f.write('const EXAMPLES=' + json.dumps(out, ensure_ascii=False, separators=(',', ':')) + ';\n')
-    print('examples:', len(out), 'of', len(verbs), 'verbs')
 
 def main():
     import eng_to_ipa
