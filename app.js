@@ -13,7 +13,7 @@ const STORAGE_KEY = 'cards';
 const TEXT = {
   ru: {
     title: 'Cards — слова как в инстаграме', search: 'Поиск…', empty: 'Ничего не найдено',
-    n: 'Существительные', v: 'Глаголы', all: 'Все', copy: 'Копировать', example: 'Пример', copied: 'Скопировано', translate: 'Google Переводчик',
+    n: 'Существительные', v: 'Глаголы', p: 'Местоимения', all: 'Все', copy: 'Копировать', example: 'Пример', copied: 'Скопировано', translate: 'Google Переводчик',
     share: 'Поделиться карточкой', like: 'Выучил', recall: 'Забыл? Вспомнил — нажмите ещё раз', listen: 'Послушать', known: 'выучено', recallN: 'пора вспомнить',
     description: 'До 1000 частотных существительных и глаголов английского, русского и тайского в карточках с иконками, транскрипцией и переводом.',
     credits: 'Иконки: {openmoji} (CC BY-SA 4.0). Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.',
@@ -21,7 +21,7 @@ const TEXT = {
   },
   en: {
     title: 'Cards — vocabulary in cards', search: 'Search…', empty: 'Nothing found',
-    n: 'Nouns', v: 'Verbs', all: 'All', copy: 'Copy', example: 'Example', copied: 'Copied', translate: 'Google Translate',
+    n: 'Nouns', v: 'Verbs', p: 'Pronouns', all: 'All', copy: 'Copy', example: 'Example', copied: 'Copied', translate: 'Google Translate',
     share: 'Share this card', like: 'I know it', recall: 'Forgot? Recalled it — tap again', listen: 'Listen', known: 'learned', recallN: 'to recall',
     description: 'Up to 1000 frequent nouns and verbs in English, Russian and Thai, with icons, transcriptions and translations.',
     credits: 'Icons: {openmoji} (CC BY-SA 4.0). Frequency: wordfreq (en/ru), Thai National Corpus (th). Translations curated by hand.',
@@ -29,7 +29,7 @@ const TEXT = {
   },
   th: {
     title: 'Cards — เรียนคำศัพท์ด้วยบัตรคำ', search: 'ค้นหา…', empty: 'ไม่พบคำที่ค้นหา',
-    n: 'คำนาม', v: 'คำกริยา', all: 'ทั้งหมด', copy: 'คัดลอก', example: 'ตัวอย่าง', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
+    n: 'คำนาม', v: 'คำกริยา', p: 'สรรพนาม', all: 'ทั้งหมด', copy: 'คัดลอก', example: 'ตัวอย่าง', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
     share: 'แชร์การ์ดนี้', like: 'จำได้แล้ว', recall: 'ลืมแล้ว? นึกออกแล้วกดอีกครั้ง', listen: 'ฟัง', known: 'จำได้', recallN: 'ควรทบทวน',
     description: 'คำนามและคำกริยาที่พบบ่อยสูงสุดภาษาละ 1,000 คำ ในภาษาอังกฤษ รัสเซีย และไทย พร้อมไอคอน การถอดเสียง และคำแปล',
     credits: 'ไอคอน: {openmoji} (CC BY-SA 4.0) · ความถี่คำ: wordfreq (en/ru), Thai National Corpus (th) · คำแปลคัดสรรด้วยตนเอง',
@@ -63,7 +63,7 @@ function loadState() {
   if (LANGS.includes(saved.base)) state.base = saved.base;
   if (otherLangs(state.base).includes(saved.target)) state.target = saved.target;
   else state.target = otherLangs(state.base)[0];
-  if (['n', 'v', 'a'].includes(saved.pos)) state.pos = saved.pos;
+  if (['n', 'v', 'p', 'a'].includes(saved.pos)) state.pos = saved.pos;
 }
 
 function setState(patch) {
@@ -81,7 +81,7 @@ CONCEPTS.forEach(c => { c.s = norm([c.e, c.r, c.t, c.x].join(' ')); });   // sea
 const decks = new Map();
 function deck() {
   const key = state.target + state.pos;
-  if (!decks.has(key)) decks.set(key, state.pos === 'a' ? mix(deckOf('n'), deckOf('v')) : deckOf(state.pos));
+  if (!decks.has(key)) decks.set(key, state.pos === 'a' ? [...deckOf('p'), ...mix(['n', 'v'].map(deckOf))] : deckOf(state.pos));
   return decks.get(key);
 }
 
@@ -98,12 +98,17 @@ function deckOf(pos) {
     .slice(0, DECK_SIZE);
 }
 
-// nouns and verbs shuffled together; each list keeps its own frequency order (fixed seed: the same wall every time)
-function mix(a, b) {
+// lists shuffled together (pronouns, the most frequent words, open the 'All' deck); each list keeps its own frequency order (fixed seed: the same wall every time)
+function mix(lists) {
   let seed = 7;
   const random = () => { seed = (seed + 0x6D2B79F5) | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
-  const out = [];
-  for (let i = 0, j = 0; i < a.length || j < b.length;) out.push(j >= b.length || (i < a.length && random() < (a.length - i) / (a.length - i + b.length - j)) ? a[i++] : b[j++]);
+  const at = lists.map(() => 0), out = [];
+  for (let left = lists.reduce((n, l) => n + l.length, 0); left; left--) {
+    // the next card comes from a list with probability proportional to what it has left
+    let pick = random() * left;
+    const i = lists.findIndex((l, j) => (pick -= l.length - at[j]) < 0);
+    out.push(lists[i][at[i]++]);
+  }
   return out;
 }
 
@@ -163,7 +168,7 @@ const mark = text => esc(text).replace(/\[(.+?)\]/, '<b class="text-amber-400">$
 
 // a short sentence with the word, like the first comment under the photo
 function example(c) {
-  const ex = EXAMPLES[c.p === 'v' ? c.e : 'n:' + c.e];
+  const ex = EXAMPLES[c.p === 'v' ? c.e : c.p + ':' + c.e];
   if (!ex) return '';
   const [en, ru, th, roman] = ex, sentence = { en, ru, th };
   return `<div class="mt-2 border-t border-zinc-800 pt-2">
@@ -185,7 +190,7 @@ function card(c) {
   return `<article class="post overflow-hidden border border-zinc-800 bg-zinc-900 sm:rounded-lg" data-id="${c.p}:${c.e}">
   <header class="flex items-center gap-2 px-3 py-2 text-xs text-zinc-400">
     <span class="flex size-7 items-center justify-center rounded-full bg-amber-400 text-[10px] font-bold text-zinc-950">${CODE[state.target]}</span>
-    <span class="font-semibold text-zinc-200">${c.p === 'n' ? t.n : t.v}</span>
+    <span class="font-semibold text-zinc-200">${t[c.p]}</span>
     <span class="ml-auto flex items-center gap-2">${c.k?.[state.target] ? `#${c.k[state.target]}` : ''}${frequency(c)}</span>
   </header>
   <button type="button" class="reveal media relative flex aspect-square w-full select-none items-center justify-center overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-800" aria-expanded="false" aria-label="${esc(word)}">
@@ -251,7 +256,7 @@ function paintChrome() {
   $('projects').textContent = t.projects;
   segment($('base'), LANGS.map(l => [l, CODE[l]]), state.base, langName);
   segment($('target'), otherLangs(state.base).map(l => [l, CODE[l]]), state.target, langName);
-  segment($('pos'), [['a', t.all], ['n', t.n], ['v', t.v]], state.pos);
+  segment($('pos'), [['a', t.all], ['n', t.n], ['v', t.v], ['p', t.p]], state.pos);
 }
 
 // ---- events (one listener per area; the grid is re-created on every repaint) -------------
@@ -283,7 +288,7 @@ const shareUrl = c => `${location.origin === 'null' ? 'file://' : location.origi
 
 function applyHash() {
   let m;
-  try { m = decodeURIComponent(location.hash.slice(1)).match(/^(ru|en|th)-(ru|en|th)-([nv])-(.+)$/); } catch (e) {}
+  try { m = decodeURIComponent(location.hash.slice(1)).match(/^(ru|en|th)-(ru|en|th)-([nvp])-(.+)$/); } catch (e) {}
   if (!m || m[1] === m[2] || !byId.has(m[3] + ':' + m[4])) return false;
   $('q').value = '';
   Object.assign(state, { base: m[1], target: m[2], pos: m[3] });

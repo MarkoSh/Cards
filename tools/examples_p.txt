@@ -1,0 +1,39 @@
+# pronoun|English|Russian|Thai. Mark the word with [ ]; Thai words are separated by spaces.
+I|[I] am hungry|[Я] голоден|[ผม] หิว
+I (woman)|[I] am tired|[Я] устала|[ฉัน] เหนื่อย
+you|[You] are kind|[Ты] добрый|[คุณ] ใจดี
+he|[He] is a teacher|[Он] учитель|[เขา] เป็น ครู
+she|[She] is a doctor|[Она] врач|[เธอ] เป็น หมอ
+it|Where is the letter? [It] is on the table|Где письмо? [Оно] на столе|จดหมาย อยู่ ไหน [มัน] อยู่ บน โต๊ะ
+we|[We] live here|[Мы] живём здесь|[เรา] อยู่ ที่ นี่
+they|[They] are friends|[Они] друзья|[พวกเขา] เป็น เพื่อน
+me|Call [me]|Позвони [мне]|โทร หา [ผม]
+him|I see [him]|Я вижу [его]|ฉัน เห็น [เขา]
+her|I know [her]|Я знаю [её]|ฉัน รู้จัก [เธอ]
+us|Come with [us]|Пойдём с [нами]|ไป กับ [เรา]
+them|I help [them]|Я помогаю [им]|ฉัน ช่วย [พวกเขา]
+my|This is [my] house|Это [мой] дом|นี่ คือ บ้าน [ของฉัน]
+your|Is this [your] bag?|Это [твоя] сумка?|นี่ กระเป๋า [ของคุณ] ไหม
+his|This is [his] car|Это [его] машина|นี่ คือ รถ [ของเขา]
+its|The dog wags [its] tail|Собака виляет [своим] хвостом|สุนัข กระดิก หาง [ของมัน]
+our|This is [our] room|Это [наша] комната|นี่ คือ ห้อง [ของเรา]
+their|This is [their] home|Это [их] дом|นี่ คือ บ้าน [ของพวกเขา]
+myself|I love [myself]|Я люблю [себя]|ฉัน รัก [ตัวเอง]
+this|[This] is a book|[Это] книга|[นี่] คือ หนังสือ
+that|[That] is my dog|[Тот] — мой пёс|[นั่น] คือ สุนัข ของ ฉัน
+these|[These] are apples|[Эти] яблоки|[เหล่านี้] คือ แอปเปิ้ล
+those|[Those] are birds|[Те] птицы|[เหล่านั้น] คือ นก
+who|[Who] is he?|[Кто] он?|เขา คือ [ใคร]
+what|[What] is this?|[Что] это?|นี่ คือ [อะไร]
+which|[Which] bag is yours?|[Какая] сумка твоя?|กระเป๋า [ไหน] เป็น ของ คุณ
+whose|[Whose] book is this?|[Чья] это книга?|นี่ คือ หนังสือ [ของใคร]
+everyone|[Everyone] is here|[Все] здесь|[ทุกคน] อยู่ ที่ นี่
+someone|[Someone] is at the door|[Кто-то] у двери|[บางคน] อยู่ ที่ ประตู
+nobody|[Nobody] knows|[Никто] не знает|[ไม่มีใคร] รู้
+everything|[Everything] is fine|[Всё] хорошо|[ทุกอย่าง] เรียบร้อย ดี
+something|I want [something]|Я хочу [что-то]|ฉัน อยาก ได้ [บางอย่าง]
+nothing|I have [nothing]|У меня [ничего] нет|ฉัน [ไม่มีอะไร] เลย
+each other|They love [each other]|Они любят [друг друга]|พวกเขา รัก [กัน]
+other|The [other] bag is blue|[Другая] сумка синяя|กระเป๋า ใบ [อื่น] สี น้ำเงิน
+each|[Each] child has a book|У [каждого] ребёнка есть книга|เด็ก [แต่ละ] คน มี หนังสือ
+both|[Both] are good|[Оба] хороши|[ทั้งสอง] ดี

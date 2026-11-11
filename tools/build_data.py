@@ -1,6 +1,6 @@
 """Build data.js + icons/sprite.js for Cards.
 
-Reads tools/concepts.tsv (en<TAB>ru<TAB>th<TAB>n|v), tools/freq.json and tools/icons.tsv.
+Reads tools/concepts.tsv (en<TAB>ru<TAB>th<TAB>n|v|p), tools/freq.json and tools/icons.tsv.
 Adds en IPA (eng_to_ipa), th romanization (tltk, RTGS), per-language frequency ranks and
 the icon of each concept. Black OpenMoji SVGs are cached in tools/openmoji-svg and packed
 into one recolorable sprite (icons/sprite.js).
@@ -78,7 +78,7 @@ def build_examples(concepts, roman):
     """examples.txt (verbs) + examples_n.txt (nouns) -> examples.js: {key: [en, ru, th, th romanization]}.
     Key: the English word for a verb, 'n:' + the English word for a noun. The word is marked with [brackets]."""
     out = {}
-    for fname, pos, prefix in (('examples.txt', 'v', ''), ('examples_n.txt', 'n', 'n:')):
+    for fname, pos, prefix in (('examples.txt', 'v', ''), ('examples_n.txt', 'n', 'n:'), ('examples_p.txt', 'p', 'p:')):
         words = {c['e']: c for c in concepts if c['p'] == pos}
         for n, line in enumerate(open(os.path.join(HERE, fname), encoding='utf8'), 1):
             if not line.strip() or line.startswith('#'):
@@ -104,7 +104,9 @@ def main():
     from tltk.nlp import th2roman  # royin (pythainlp) leaks Thai vowel marks into the Latin text
     roman = functools.lru_cache(None)(lambda w: th2roman(w).replace('<s/>', '').strip())   # tltk is slow, words repeat
     concepts, ranks, icons = load_concepts(), load_ranks(), load_icons()
+    pronoun_rank = 0
     for c in concepts:
+        pronoun_rank += c['p'] == 'p'
         ipa = eng_to_ipa.convert(c['e'])
         if ipa and '*' not in ipa:
             c['i'] = '/' + ipa + '/'
@@ -114,9 +116,11 @@ def main():
         k = {}
         for lang, field in (('en', 'e'), ('ru', 'r'), ('th', 't')):
             w = c[field].lower()
-            rank = ranks[lang, c['p']].get(w)
+            rank = ranks.get((lang, c['p']), {}).get(w)
             if rank:
                 k[lang] = rank
+        if c['p'] == 'p':   # pronouns: no frequency list, all very common; the authored order is the rank
+            k = {lang: pronoun_rank for lang in ('en', 'ru', 'th')}
         if k:
             c['k'] = k
     build_sprite([c['g'] for c in concepts if 'g' in c])
