@@ -202,8 +202,11 @@ const byId = new Map(CONCEPTS.map(c => [c.p + ':' + c.e, c]));
 
 function paintStats(items) {
   const known = items.filter(c => likeState(c) === 'on').length, old = items.filter(c => likeState(c) === 'old').length, t = TEXT[state.base];
-  $('stats').innerHTML = `<span class="text-red-500">${icon('heart', 'size-4 fill-current')}</span> <b>${known}</b> / ${items.length} ${t.known}${old ? ` · <span class="text-zinc-500">${old} ${t.recallN}</span>` : ''}
-    <span class="mt-2 block h-1 overflow-hidden rounded-full bg-zinc-800"><span class="block h-full bg-red-500" style="width:${known / items.length * 100}%"></span></span>`;
+  const label = `${known} / ${items.length} ${t.known}${old ? ` · ${old} ${t.recallN}` : ''}`;
+  $('stats').title = label;
+  $('stats').setAttribute('aria-label', label);
+  $('stats').innerHTML = `<span class="text-red-500">${icon('heart', 'size-4 fill-current')}</span><b>${known}</b><span class="text-zinc-500">/ ${items.length}</span>
+    <span class="h-1 w-14 overflow-hidden rounded-full bg-zinc-800"><span class="block h-full bg-red-500" style="width:${known / items.length * 100}%"></span></span>${old ? `<span class="text-zinc-500">${icon('heart', 'size-4 fill-current')}</span><span class="text-zinc-500">${old}</span>` : ''}`;
 }
 
 function paintGrid() {
