@@ -1,7 +1,7 @@
-// Cards: a gallery of the most frequent nouns and verbs in Russian, English and Thai.
-// You pick the language you know (base) and the deck you study (target); the card shows the
-// deck word and reveals the base-language translation on click.
-// Data: CONCEPTS (data.js), EXAMPLES (examples.js), SPRITE (icons/sprite.js). Both are built by tools/build_data.py.
+// Cards: your own Instagram of the most frequent nouns and verbs in Russian, English and Thai.
+// You pick the language you know (base) and the deck you study (target). A post is a photo and the deck word;
+// a tap opens the translation, transcription, example and voice. The heart means "I know it" and fades after 30 days.
+// Data: CONCEPTS (data.js), EXAMPLES (examples.js), PHOTOS (photos.js), SPRITE (icons/sprite.js); built by tools/.
 
 const LANGS = ['ru', 'en', 'th'];
 const CODE = { ru: 'RU', en: 'EN', th: 'TH' };
@@ -12,8 +12,9 @@ const STORAGE_KEY = 'cards';
 
 const TEXT = {
   ru: {
-    title: 'Cards — слова в карточках', search: 'Поиск…', empty: 'Ничего не найдено',
+    title: 'Cards — слова как в инстаграме', search: 'Поиск…', empty: 'Ничего не найдено',
     n: 'Существительные', v: 'Глаголы', copy: 'Копировать', example: 'Пример', copied: 'Скопировано', translate: 'Google Переводчик',
+    like: 'Выучил', recall: 'Забыл? Вспомнил — нажмите ещё раз', listen: 'Послушать', known: 'выучено', recallN: 'пора вспомнить',
     description: 'До 1000 частотных существительных и глаголов английского, русского и тайского в карточках с иконками, транскрипцией и переводом.',
     credits: 'Иконки: {openmoji} (CC BY-SA 4.0). Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.',
     projects: 'Другие проекты:',
@@ -21,6 +22,7 @@ const TEXT = {
   en: {
     title: 'Cards — vocabulary in cards', search: 'Search…', empty: 'Nothing found',
     n: 'Nouns', v: 'Verbs', copy: 'Copy', example: 'Example', copied: 'Copied', translate: 'Google Translate',
+    like: 'I know it', recall: 'Forgot? Recalled it — tap again', listen: 'Listen', known: 'learned', recallN: 'to recall',
     description: 'Up to 1000 frequent nouns and verbs in English, Russian and Thai, with icons, transcriptions and translations.',
     credits: 'Icons: {openmoji} (CC BY-SA 4.0). Frequency: wordfreq (en/ru), Thai National Corpus (th). Translations curated by hand.',
     projects: 'Other projects:',
@@ -28,6 +30,7 @@ const TEXT = {
   th: {
     title: 'Cards — เรียนคำศัพท์ด้วยบัตรคำ', search: 'ค้นหา…', empty: 'ไม่พบคำที่ค้นหา',
     n: 'คำนาม', v: 'คำกริยา', copy: 'คัดลอก', example: 'ตัวอย่าง', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
+    like: 'จำได้แล้ว', recall: 'ลืมแล้ว? นึกออกแล้วกดอีกครั้ง', listen: 'ฟัง', known: 'จำได้', recallN: 'ควรทบทวน',
     description: 'คำนามและคำกริยาที่พบบ่อยสูงสุดภาษาละ 1,000 คำ ในภาษาอังกฤษ รัสเซีย และไทย พร้อมไอคอน การถอดเสียง และคำแปล',
     credits: 'ไอคอน: {openmoji} (CC BY-SA 4.0) · ความถี่คำ: wordfreq (en/ru), Thai National Corpus (th) · คำแปลคัดสรรด้วยตนเอง',
     projects: 'โครงการอื่น:',
@@ -38,21 +41,15 @@ const ICON = {   // lucide, 24x24
   quote: '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8"/><path d="M8 13h5"/>',
   copy: '<rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>',
   check: '<path d="M20 6 9 17l-5-5"/>',
+  heart: '<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>',
+  volume: '<path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/>',
   translate: '<path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/>',
 };
-const icon = name => `<svg class="size-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[name]}</svg>`;
-
-// card heights vary a little so the wall does not look like a table (px must match the classes)
-const LOOKS = [
-  { height: 'h-52', px: 208, glyph: 'size-16' },
-  { height: 'h-56', px: 224, glyph: 'size-20' },
-  { height: 'h-60', px: 240, glyph: 'size-24' },
-];
+const icon = (name, size = 'size-5') => `<svg class="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[name]}</svg>`;
 
 const $ = id => document.getElementById(id);
 const esc = s => s.replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
 const norm = s => s.toLowerCase().replace(/ё/g, 'е');
-const lookOf = c => LOOKS[[...c.e].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7) % LOOKS.length];
 const otherLangs = lang => LANGS.filter(l => l !== lang);
 
 // ---- state -------------------------------------------------------------------------------
@@ -98,14 +95,44 @@ function deck() {
   return decks.get(key);
 }
 
+// ---- likes: "I know this word"; a like is red for 30 days, then fades to grey (known once, time to recall) --------
+
+const LIKE_KEY = 'cards-likes', LIKE_DAYS = 30;
+let likes = {};
+try { likes = JSON.parse(localStorage.getItem(LIKE_KEY)) || {}; } catch (e) {}
+const likeKey = c => `${state.target}:${c.p}:${c.e}`;
+const likeState = c => { const at = likes[likeKey(c)]; return !at ? '' : Date.now() - at < LIKE_DAYS * 864e5 ? 'on' : 'old'; };
+function setLike(c, on) {
+  if (on) likes[likeKey(c)] = Date.now(); else delete likes[likeKey(c)];
+  try { localStorage.setItem(LIKE_KEY, JSON.stringify(likes)); } catch (e) {}
+}
+
+// ---- voice: audio/<lang>/<fnv1a(word)>.mp3, else the browser voice -------------------------
+
+const fnv = str => { let h = 0x811c9dc5; for (const b of new TextEncoder().encode(str)) { h ^= b; h = Math.imul(h, 0x01000193) >>> 0; } return h.toString(16).padStart(8, '0'); };
+const player = new Audio();
+function speak(text, lang) {
+  player.onerror = () => {
+    if (!('speechSynthesis' in window)) return;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(Object.assign(new SpeechSynthesisUtterance(text.replace(/\[|\]/g, '')), { lang: { ru: 'ru-RU', en: 'en-US', th: 'th-TH' }[lang], rate: .9 }));
+  };
+  player.src = `audio/${lang}/${fnv(text)}.mp3`;
+  player.play().catch(() => {});
+}
+
 // ---- cards -------------------------------------------------------------------------------
 
-function glyph(c, look) {
-  if (c.g) return `<svg class="${look.glyph} text-amber-400" aria-hidden="true"><use href="#i-${c.g}"/></svg>`;
-  // abstract word, no pictogram: its first letter in a ring
+const photoOf = c => PHOTOS.has(c.p + c.e) ? `photos/${c.p}-${c.e.replace(/\W+/g, '-')}.webp` : '';
+
+// until a photo exists the post shows the old pictogram (or the first letter) on a dark square
+function media(c) {
+  const photo = photoOf(c);
+  if (photo) return `<img class="size-full object-cover" src="${photo}" alt="" loading="lazy" decoding="async">`;
+  if (c.g) return `<svg class="size-1/3 text-amber-400" aria-hidden="true"><use href="#i-${c.g}"/></svg>`;
   const word = c[FIELD[state.target]];
   const letter = (state.target === 'th' && word.match(/[ก-ฮ]/)?.[0]) || [...word][0];
-  return `<span class="flex size-20 items-center justify-center rounded-full border-2 border-amber-400/50 text-3xl text-amber-400 font-semibold font-word ${state.target === 'th' ? 'pb-1' : ''}" aria-hidden="true">${esc(letter)}</span>`;
+  return `<span class="flex size-1/3 items-center justify-center rounded-full border-2 border-amber-400/50 text-5xl font-semibold text-amber-400 font-word" aria-hidden="true">${esc(letter)}</span>`;
 }
 
 // five bars: how common the word is (rank in the frequency list of the deck language)
@@ -114,62 +141,77 @@ function frequency(c) {
   const lit = !rank ? 0 : rank <= 50 ? 5 : rank <= 200 ? 4 : rank <= 500 ? 3 : rank <= 1000 ? 2 : 1;
   const bars = [0, 1, 2, 3, 4].map(i =>
     `<span class="w-0.5 rounded-full ${i < lit ? 'bg-amber-400' : 'bg-zinc-700'}" style="height:${4 + i * 2}px"></span>`).join('');
-  return `<span class="absolute left-2 top-2 flex items-end gap-px" ${rank ? `title="#${rank}"` : ''} aria-hidden="true">${bars}</span>`;
+  return `<span class="flex items-end gap-px" ${rank ? `title="#${rank}"` : ''} aria-hidden="true">${bars}</span>`;
 }
 
-function transcription(c) {
-  return (state.target === 'en' ? c.i : state.target === 'th' ? c.x : '') || '';
-}
+const transcription = c => (state.target === 'en' ? c.i : state.target === 'th' ? c.x : '') || '';
 
 // [verb] in a sample sentence -> highlighted verb
 const mark = text => esc(text).replace(/\[(.+?)\]/, '<b class="text-amber-400">$1</b>');
 
-// a short sentence with the verb: the deck language first, then its transcription (Thai) and the translation
+// a short sentence with the verb, like the first comment under the photo
 function example(c) {
   const ex = c.p === 'v' && EXAMPLES[c.e];
   if (!ex) return '';
   const [en, ru, th, roman] = ex, sentence = { en, ru, th };
-  return `<button type="button" class="ex absolute inset-0 flex flex-col items-center justify-center bg-zinc-900 px-4 pb-4 pt-10 text-center" tabindex="-1">
-    <span class="font-word font-semibold leading-snug ${state.target === 'th' ? 'text-xl' : 'text-lg'}">${mark(sentence[state.target])}</span>
-    ${state.target === 'th' ? `<span class="mt-1 text-xs text-zinc-500">${esc(roman)}</span>` : ''}
-    <span class="mt-3 w-full border-t border-zinc-800 pt-3 text-sm text-zinc-400">${mark(sentence[state.base])}</span>
-  </button>`;
+  return `<div class="mt-2 border-t border-zinc-800 pt-2">
+    <p class="flex items-start gap-2"><b class="shrink-0 text-zinc-500">${CODE[state.target].toLowerCase()}</b><span class="font-word">${mark(sentence[state.target])}</span>
+      <button type="button" class="speak-ex ml-auto shrink-0 text-zinc-500 hover:text-amber-400" data-text="${esc(sentence[state.target])}" aria-label="${TEXT[state.base].listen}">${icon('volume')}</button></p>
+    ${state.target === 'th' ? `<p class="pl-6 text-xs text-zinc-500">${esc(roman)}</p>` : ''}
+    <p class="mt-1 flex gap-2 text-zinc-400"><b class="shrink-0 text-zinc-600">${CODE[state.base].toLowerCase()}</b><span>${mark(sentence[state.base])}</span></p>
+  </div>`;
+}
+
+function heart(c) {
+  const st = likeState(c), t = TEXT[state.base];
+  return `<button type="button" class="like action ${st ? 'like-' + st : ''}" aria-pressed="${st === 'on'}" title="${st === 'old' ? t.recall : t.like}" aria-label="${t.like}">${icon('heart', 'size-6')}</button>`;
 }
 
 function card(c) {
-  const t = TEXT[state.base], look = lookOf(c), word = c[FIELD[state.target]];
+  const t = TEXT[state.base], word = c[FIELD[state.target]], tr = transcription(c);
   const url = `https://translate.google.com/?sl=${state.target}&tl=${state.base}&text=${encodeURIComponent(word)}&op=translate`;
-  return `<article class="card ${look.height} relative bg-zinc-900">
-  <button type="button" class="reveal absolute inset-0 flex select-none flex-col items-center justify-center p-4 text-center" aria-expanded="false">
-    ${glyph(c, look)}
-    <span class="font-word mt-2 block font-semibold leading-snug ${state.target === 'th' ? 'text-xl' : 'text-lg'}">${esc(word)}</span>
-    <span class="mt-0.5 block h-4 text-xs text-zinc-500">${esc(transcription(c))}</span>
-    <span class="translation mt-2 block h-10 w-full border-t border-zinc-800 pt-2 text-sm text-zinc-400" aria-hidden="true">${esc(c[FIELD[state.base]])}</span>
+  return `<article class="post overflow-hidden border border-zinc-800 bg-zinc-900 sm:rounded-2xl" data-id="${c.p}:${c.e}">
+  <header class="flex items-center gap-2 px-3 py-2 text-xs text-zinc-400">
+    <span class="flex size-7 items-center justify-center rounded-full bg-amber-400 text-[10px] font-bold text-zinc-950">${CODE[state.target]}</span>
+    <span class="font-semibold text-zinc-200">${c.p === 'n' ? t.n : t.v}</span>
+    <span class="ml-auto flex items-center gap-2">${c.k?.[state.target] ? `#${c.k[state.target]}` : ''}${frequency(c)}</span>
+  </header>
+  <button type="button" class="reveal media relative flex aspect-square w-full select-none items-center justify-center overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-800" aria-expanded="false" aria-label="${esc(word)}">
+    ${media(c)}
+    <span class="burst pointer-events-none absolute inset-0 flex items-center justify-center text-red-500">${icon('heart', 'size-24 fill-current')}</span>
   </button>
-  ${example(c)}
-  ${frequency(c)}
-  <a class="corner right-9" href="${url}" target="_blank" rel="noopener" title="${t.translate}" aria-label="${t.translate}">${icon('translate')}</a>
-  ${EXAMPLES[c.e] && c.p === 'v' ? `<button type="button" class="corner toggle-example right-16" title="${t.example}" aria-label="${t.example}" aria-expanded="false">${icon('quote')}</button>` : ''}
-  <button type="button" class="corner copy right-1.5" data-word="${esc(word)}" title="${t.copy}" aria-label="${t.copy}">${icon('copy')}</button>
+  <div class="flex items-center gap-3 px-3 pt-2.5">
+    ${heart(c)}
+    <button type="button" class="speak action" data-text="${esc(word)}" title="${t.listen}" aria-label="${t.listen}">${icon('volume', 'size-6')}</button>
+    <a class="action" href="${url}" target="_blank" rel="noopener" title="${t.translate}" aria-label="${t.translate}">${icon('translate', 'size-6')}</a>
+    <button type="button" class="copy action ml-auto" data-word="${esc(word)}" title="${t.copy}" aria-label="${t.copy}">${icon('copy', 'size-6')}</button>
+  </div>
+  <div class="px-3 pb-3 pt-1.5">
+    <button type="button" class="reveal caption block w-full text-left" aria-expanded="false">
+      <span class="font-word ${state.target === 'th' ? 'text-2xl' : 'text-xl'} font-semibold leading-snug">${esc(word)}</span>
+      ${tr ? `<span class="ml-2 text-sm text-zinc-500">${esc(tr)}</span>` : ''}
+    </button>
+    <div class="more"><div class="overflow-hidden text-sm"><p class="mt-1 text-base text-zinc-300">${esc(c[FIELD[state.base]])}</p>${example(c)}</div></div>
+  </div>
 </article>`;
 }
 
-// ---- grid: columns filled in reading order (every card goes to the shortest column) ------
+// ---- feed: one column like Instagram on a phone, three on a big screen ---------------------
 
-const BREAKPOINTS = [[1900, 6], [1440, 5], [1024, 4], [640, 3]].map(([w, n]) => [matchMedia(`(min-width:${w}px)`), n]);
-const columnCount = () => BREAKPOINTS.find(([mq]) => mq.matches)?.[1] ?? 2;
+const byId = new Map(CONCEPTS.map(c => [c.p + ':' + c.e, c]));
+
+function paintStats(items) {
+  const known = items.filter(c => likeState(c) === 'on').length, old = items.filter(c => likeState(c) === 'old').length, t = TEXT[state.base];
+  $('stats').innerHTML = `<span class="text-red-500">${icon('heart', 'size-4 fill-current')}</span> <b>${known}</b> / ${items.length} ${t.known}${old ? ` · <span class="text-zinc-500">${old} ${t.recallN}</span>` : ''}
+    <span class="mt-2 block h-1 overflow-hidden rounded-full bg-zinc-800"><span class="block h-full bg-red-500" style="width:${known / items.length * 100}%"></span></span>`;
+}
 
 function paintGrid() {
   const q = norm($('q').value.trim());
   const items = deck().filter(c => !q || c.s.includes(q));
-  const cols = Array.from({ length: columnCount() }, () => ({ height: 0, html: '' }));
-  for (const c of items) {
-    const col = cols.reduce((a, b) => b.height < a.height ? b : a);
-    col.html += card(c);
-    col.height += lookOf(c).px + 1;
-  }
-  $('grid').innerHTML = cols.map(col => `<div class="flex min-w-0 flex-1 flex-col gap-px">${col.html}</div>`).join('');
+  $('grid').innerHTML = items.map(card).join('');
   $('empty').classList.toggle('hidden', items.length > 0);
+  paintStats(deck());
 }
 
 // ---- page chrome: switches, texts --------------------------------------------------------
@@ -211,34 +253,50 @@ function copyText(text) {
 }
 
 $('grid').addEventListener('click', e => {
+  const post = e.target.closest('.post');
+  if (!post) return;
+  const c = byId.get(post.dataset.id), lang = state.target;
   const copy = e.target.closest('.copy');
   if (copy) {
     copyText(copy.dataset.word).then(() => {
       const label = copy.title;
-      copy.innerHTML = icon('check');
+      copy.innerHTML = icon('check', 'size-6');
       copy.dataset.done = '';
       setLabel(copy, TEXT[state.base].copied);
       setTimeout(() => {
-        copy.innerHTML = icon('copy');
+        copy.innerHTML = icon('copy', 'size-6');
         delete copy.dataset.done;
         setLabel(copy, label);
       }, 1000);
     }).catch(() => {});
-    return;
-  }
-  const toggle = e.target.closest('.toggle-example, .ex');
-  if (toggle) {
-    const cardEl = toggle.closest('.card'), shown = cardEl.classList.toggle('show-ex');
-    cardEl.querySelector('.toggle-example').setAttribute('aria-expanded', shown);
-    return;
-  }
-  const reveal = e.target.closest('.reveal');
-  if (reveal) {
-    const open = reveal.parentElement.classList.toggle('open');
-    reveal.setAttribute('aria-expanded', open);
-    reveal.querySelector('.translation').setAttribute('aria-hidden', !open);
+  } else if (e.target.closest('.speak, .speak-ex')) {
+    const b = e.target.closest('.speak, .speak-ex');
+    speak(b.dataset.text, lang);
+  } else if (e.target.closest('.like')) {
+    setLike(c, likeState(c) !== 'on');
+    paintLike(post, c);
+  } else if (e.target.closest('.reveal')) {
+    const open = post.classList.toggle('open');
+    post.querySelectorAll('.reveal').forEach(b => b.setAttribute('aria-expanded', open));
   }
 });
+
+// double tap on the photo likes it (never un-likes), with the heart burst
+$('grid').addEventListener('dblclick', e => {
+  const media = e.target.closest('.media');
+  if (!media) return;
+  const post = media.closest('.post'), c = byId.get(post.dataset.id);
+  setLike(c, true);
+  paintLike(post, c);
+  media.classList.remove('burst-on');
+  void media.offsetWidth;
+  media.classList.add('burst-on');
+});
+
+function paintLike(post, c) {
+  post.querySelector('.like').outerHTML = heart(c);
+  paintStats(deck());
+}
 
 $('base').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setState({ base: b.dataset.value }); });
 $('target').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setState({ target: b.dataset.value }); });
@@ -249,11 +307,6 @@ $('q').addEventListener('input', () => {
   cancelAnimationFrame(searchFrame);
   searchFrame = requestAnimationFrame(paintGrid);
 });
-
-let columns = columnCount();
-for (const [mq] of BREAKPOINTS) {
-  mq.addEventListener('change', () => { if (columnCount() !== columns) { columns = columnCount(); paintGrid(); } });
-}
 
 // ---- start -------------------------------------------------------------------------------
 

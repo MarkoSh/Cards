@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Cards — слова в карточках</title>
-<meta name="description" content="До 1000 частотных существительных и глаголов английского, русского и тайского в карточках с иконками, транскрипцией и переводом.">
+<title>Cards — слова как в инстаграме</title>
+<meta name="description" content="До 1000 частотных существительных и глаголов английского, русского и тайского в карточках как в инстаграме: фото, транскрипция, перевод, озвучка.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -31,7 +31,8 @@
   </div>
 </header>
 
-<main id="grid" class="flex items-start gap-px p-px"></main>
+<p id="stats" class="mx-auto max-w-md px-3 pt-3 text-sm text-zinc-300 lg:max-w-6xl"></p>
+<main id="grid" class="mx-auto grid max-w-md items-start gap-3 py-3 sm:gap-4 sm:px-3 md:max-w-3xl md:grid-cols-2 lg:max-w-6xl lg:grid-cols-3"></main>
 <p id="empty" class="hidden py-20 text-center text-zinc-500" role="status"></p>
 
 <footer class="mt-4 space-y-2 border-t border-zinc-800 px-3 py-6 text-xs text-zinc-500">
@@ -49,6 +50,7 @@
 <div id="sprite" hidden></div>
 <script src="data.js"></script>
 <script src="examples.js"></script>
+<script src="photos.js"></script>
 <script src="icons/sprite.js"></script>
 <script src="app.js"></script>
 </body>

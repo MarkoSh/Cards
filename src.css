@@ -16,21 +16,24 @@
   .seg button { @apply cursor-pointer rounded-lg px-3 py-1 text-zinc-400 hover:text-zinc-100; }
   .seg button[aria-pressed="true"] { @apply bg-amber-400 font-semibold text-zinc-950; }
 
-  /* round icon button in the card corner */
-  .corner { @apply absolute top-1.5 flex size-6 cursor-pointer items-center justify-center rounded-full border border-zinc-700 text-zinc-500 hover:border-amber-400 hover:text-amber-400; }
-  .corner[data-done] { @apply border-amber-400 text-amber-400; }
+  /* heart, voice, translate, copy under the photo */
+  .action { @apply flex cursor-pointer items-center text-zinc-300 hover:text-amber-400; }
+  .action[data-done] { @apply text-amber-400; }
+  .like-on { @apply text-red-500; }
+  .like-on svg { fill: currentColor; }
+  .like-old { @apply text-zinc-500; }
+  .like-old svg { fill: currentColor; }
 }
 
-/* the card is a stretched button (reveal the translation) with the corner controls above it */
-.card { content-visibility: auto; outline: 1px solid transparent; outline-offset: -1px; transition: outline-color .1s ease-in-out; }
-.card.open { outline-color: var(--color-amber-400); }
-.card .translation { opacity: 0; transition: opacity .1s ease-in-out; }
-.card.open .translation { opacity: 1; }
-.card .reveal:focus-visible { outline-offset: -4px; }
+.post { content-visibility: auto; contain-intrinsic-size: auto 560px; }
+.post .more { display: grid; grid-template-rows: 0fr; opacity: 0; transition: grid-template-rows .1s ease-in-out, opacity .1s ease-in-out; }
+.post.open .more { grid-template-rows: 1fr; opacity: 1; }
+.post.open { border-color: var(--color-amber-400); }
+.post .caption:focus-visible { outline-offset: 2px; }
 
-/* the sample sentence of a verb covers the card, the corner buttons stay above it */
-.card .ex { opacity: 0; visibility: hidden; transition: opacity .1s ease-in-out, visibility .1s; }
-.card.show-ex .ex { opacity: 1; visibility: visible; }
-.card .toggle-example[aria-expanded="true"] { border-color: var(--color-amber-400); color: var(--color-amber-400); }
+/* the heart that pops up on a double tap */
+.burst { opacity: 0; transform: scale(.6); }
+.burst-on .burst { animation: pop .7s ease-out; }
+@keyframes pop { 20% { opacity: 1; transform: scale(1.1); } 70% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(1); } }
 
-@media (prefers-reduced-motion: reduce) { .card, .card .translation, .card .ex { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .post .more, .burst-on .burst { transition: none; animation: none; } }
