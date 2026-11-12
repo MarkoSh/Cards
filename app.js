@@ -495,4 +495,4 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') document.que
 
 loadState();
 if (!applyHash()) { paintChrome(); paintGrid(); }
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').then(() => navigator.serviceWorker.ready).then(r => r.active?.postMessage({ type: 'sync', full: false })).catch(() => {});   // refresh saved files that changed (replaced photos)
