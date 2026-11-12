@@ -171,7 +171,10 @@ function keyboard(c) {
   const wide = w => Math.max(1.4, w.length * 0.62 * f + 0.8);                       // a key is as long as its word needs
   const maxW = Math.max(...words.map(wide));
   const u = 86 / (maxW + 2.3);                                                       // key size in cqw
-  const blank = n => '<i class="kb-key"></i>'.repeat(n);
+  let seed = [...c.e].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7);       // the same card always gets the same letters
+  const rnd = () => (seed = (seed * 1664525 + 1013904223) >>> 0) / 2 ** 32;
+  const KEYS = 'QWERTYUIOPASDFGHJKLZXCVBNM1234567890-=[];\',./@#$%&*+?<>';
+  const blank = n => Array.from({ length: n }, () => `<i class="kb-key kb-idle">${esc(KEYS[Math.floor(rnd() * KEYS.length)])}</i>`).join('');
   const long = w => `<i class="kb-key kb-long" style="width:calc(var(--u) * ${wide(w).toFixed(2)});font-size:calc(var(--u) * ${f.toFixed(2)})">${w.map((ch, i) =>
     `<b style="color:${RAMP[Math.round(i / Math.max(w.length - 1, 1) * 4)]}">${esc(ch)}</b>`).join('')}</i>`;
   const fill = Math.ceil(maxW) + 2;
