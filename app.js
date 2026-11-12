@@ -166,14 +166,15 @@ const glyphs = w => (typeof Intl.Segmenter === 'function' ? [...new Intl.Segment
 const RAMP = ['#3fb8d8', '#8ed3e6', '#ffffff', '#f08a9a', '#e4405a'];   // cyan -> white -> red, like the lit key in the reference photo
 
 function keyboard(c) {
-  const rows = LANGS.map(l => glyphs(c[FIELD[l]]));
-  const cols = Math.max(...rows.map(r => r.length));
-  const u = Math.min(15, 84 / (cols + 2));                                   // key size in cqw
-  const key = (ch, i, n) => ch === ' ' ? `<i class="kb-gap"></i>` :
-    `<i class="kb-key"${ch ? ` style="color:${RAMP[Math.round(i / Math.max(n - 1, 1) * 4)]}"` : ''}>${esc(ch)}</i>`;
-  const row = (r, blank) => `<span class="kb-row">${blank ? '<i class="kb-key"></i>'.repeat(cols + 2) : '<i class="kb-key"></i>' + [...r, ...Array(cols - r.length).fill('')].map((ch, i) => key(ch, i, r.length)).join('') + '<i class="kb-key"></i>'}</span>`;
-  const board = [[], [], ...rows, [], []].map((r, i) => row(r, i < 2 || i > 4)).join('');
-  return `<span class="kb" style="--u:${u.toFixed(2)}cqw"><span class="kb-board">${board}</span></span>`;
+  const L = 6;                                                          // the long key is L keys wide
+  const words = LANGS.map(l => glyphs(c[FIELD[l]]));
+  const u = 86 / (L + 2.3);                                             // key size in cqw
+  const fit = Math.min(0.78, (L * 0.9) / (0.62 * Math.max(...words.map(w => w.length))));   // letters shrink only when the longest word needs it
+  const blank = n => '<i class="kb-key"></i>'.repeat(n);
+  const long = w => `<i class="kb-key kb-long" style="width:calc(var(--u) * ${L} + var(--u) * 0.14 * ${L - 1});font-size:calc(var(--u) * ${fit.toFixed(2)})">${w.map((ch, i) =>
+    `<b style="color:${RAMP[Math.round(i / Math.max(w.length - 1, 1) * 4)]}">${esc(ch)}</b>`).join('')}</i>`;
+  const rows = [blank(L + 2), blank(L + 2), ...words.map(w => blank(1) + long(w) + blank(1)), blank(L + 2), blank(L + 2)];
+  return `<span class="kb" style="--u:${u.toFixed(2)}cqw"><span class="kb-board">${rows.map(r => `<span class="kb-row">${r}</span>`).join('')}</span></span>`;
 }
 
 // until a photo exists the post shows the old pictogram (or the first letter) on a dark square
