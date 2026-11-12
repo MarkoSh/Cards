@@ -149,6 +149,18 @@ function credit(c) {
   return p ? `<a class="credit" href="${esc(p[1])}" target="_blank" rel="noopener" title="${esc(p[0])} · ${esc(p[2])}">${icon('camera', 'size-3')}<span class="truncate">${esc(p[0])} · ${esc(p[2])}</span></a>` : '';
 }
 
+// two cards with the same translation (create / make = создавать) get the English (Russian for en) word in grey, so they are not mistaken for a repeat
+const sameWord = new Map();
+const hint = c => {
+  const f = FIELD[state.base], k = c.p + c[f];
+  if (!sameWord.has(state.base)) {
+    const m = new Map();
+    for (const x of CONCEPTS) m.set(x.p + x[f], (m.get(x.p + x[f]) || 0) + 1);
+    sameWord.set(state.base, m);
+  }
+  return sameWord.get(state.base).get(k) > 1 ? ` <span class="text-sm text-zinc-500">(${esc(c[FIELD[state.base === 'en' ? 'ru' : 'en']])})</span>` : '';
+};
+
 // a pronoun is a tilted piece of keyboard: one row of keys per language (ru, en, th), left-aligned, a key per letter
 const glyphs = w => (typeof Intl.Segmenter === 'function' ? [...new Intl.Segmenter('th', { granularity: 'grapheme' }).segment(w)].map(x => x.segment) : [...w]);
 const RAMP = ['#3fb8d8', '#8ed3e6', '#ffffff', '#f08a9a', '#e4405a'];   // cyan -> white -> red, like the lit key in the reference photo
@@ -236,7 +248,7 @@ function card(c) {
       <span class="font-word ${state.target === 'th' ? 'text-2xl' : 'text-xl'} font-semibold leading-snug">${esc(word)}</span>
       ${tr ? `<span class="ml-2 text-sm text-zinc-500">${esc(tr)}</span>` : ''}
     </button>
-    <div class="more"><div class="overflow-hidden text-sm"><p class="mt-1 text-base text-zinc-300">${esc(c[FIELD[state.base]])}</p>${example(c)}</div></div>
+    <div class="more"><div class="overflow-hidden text-sm"><p class="mt-1 text-base text-zinc-300">${esc(c[FIELD[state.base]])}${hint(c)}</p>${example(c)}</div></div>
   </div>
 </article>`;
 }
