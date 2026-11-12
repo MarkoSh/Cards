@@ -1,7 +1,7 @@
 // Cards: your own Instagram of the most frequent nouns and verbs in Russian, English and Thai.
 // You pick the language you know (base) and the deck you study (target). A post is a photo and the deck word;
 // a tap opens the translation, transcription, example and voice. The heart means "I know it" and fades after 30 days.
-// Data: CONCEPTS (data.js), EXAMPLES (examples.js), PHOTOS (photos.js), SPRITE (icons/sprite.js); built by tools/.
+// Data: CONCEPTS (data.js), EXAMPLES (examples.js), PHOTOS (photos.js); built by tools/.
 
 const LANGS = ['ru', 'en', 'th'];
 const CODE = { ru: 'RU', en: 'EN', th: 'TH' };
@@ -14,25 +14,25 @@ const TEXT = {
   ru: {
     title: 'Cards — слова как в инстаграме', search: 'Поиск…', empty: 'Ничего не найдено',
     n: 'Существительные', v: 'Глаголы', p: 'Местоимения', c: 'Цвета', all: 'Все', copy: 'Копировать', example: 'Пример', copied: 'Скопировано', translate: 'Google Переводчик',
-    noneYet: 'Пока ничего не выучено: ставьте сердечки.', share: 'Поделиться карточкой', like: 'Выучил', recall: 'Забыл? Вспомнил — нажмите ещё раз', listen: 'Послушать', known: 'выучено', recallN: 'пора вспомнить',
+    offSave: 'Сохранить раздел для офлайна (≈ {mb} МБ)', offBusy: 'Сохраняю: {p}% · нажмите, чтобы остановить', offDone: 'Раздел сохранён: работает без интернета', offSaver: 'Включена экономия трафика: сохранение отключено', noneYet: 'Пока ничего не выучено: ставьте сердечки.', share: 'Поделиться карточкой', like: 'Выучил', recall: 'Забыл? Вспомнил — нажмите ещё раз', listen: 'Послушать', known: 'выучено', recallN: 'пора вспомнить',
     description: 'До 1000 частотных существительных и глаголов английского, русского и тайского в карточках с иконками, транскрипцией и переводом.',
-    credits: 'Фото: {pixabay}, Wikimedia Commons. Иконки: {openmoji} (CC BY-SA 4.0). Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.',
+    credits: 'Фото: {pixabay}, Wikimedia Commons. Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.',
     projects: 'Другие проекты:',
   },
   en: {
     title: 'Cards — vocabulary in cards', search: 'Search…', empty: 'Nothing found',
     n: 'Nouns', v: 'Verbs', p: 'Pronouns', c: 'Colors', all: 'All', copy: 'Copy', example: 'Example', copied: 'Copied', translate: 'Google Translate',
-    noneYet: 'Nothing learned yet: tap the hearts.', share: 'Share this card', like: 'I know it', recall: 'Forgot? Recalled it — tap again', listen: 'Listen', known: 'learned', recallN: 'to recall',
+    offSave: 'Save this section for offline (≈ {mb} MB)', offBusy: 'Saving: {p}% · tap to stop', offDone: 'Section saved: works without internet', offSaver: 'Data saver is on: saving is disabled', noneYet: 'Nothing learned yet: tap the hearts.', share: 'Share this card', like: 'I know it', recall: 'Forgot? Recalled it — tap again', listen: 'Listen', known: 'learned', recallN: 'to recall',
     description: 'Up to 1000 frequent nouns and verbs in English, Russian and Thai, with icons, transcriptions and translations.',
-    credits: 'Photos: {pixabay}, Wikimedia Commons. Icons: {openmoji} (CC BY-SA 4.0). Frequency: wordfreq (en/ru), Thai National Corpus (th). Translations curated by hand.',
+    credits: 'Photos: {pixabay}, Wikimedia Commons. Frequency: wordfreq (en/ru), Thai National Corpus (th). Translations curated by hand.',
     projects: 'Other projects:',
   },
   th: {
     title: 'Cards — เรียนคำศัพท์ด้วยบัตรคำ', search: 'ค้นหา…', empty: 'ไม่พบคำที่ค้นหา',
     n: 'คำนาม', v: 'คำกริยา', p: 'สรรพนาม', c: 'สี', all: 'ทั้งหมด', copy: 'คัดลอก', example: 'ตัวอย่าง', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
-    noneYet: 'ยังไม่มีคำที่จำได้ กดหัวใจได้เลย', share: 'แชร์การ์ดนี้', like: 'จำได้แล้ว', recall: 'ลืมแล้ว? นึกออกแล้วกดอีกครั้ง', listen: 'ฟัง', known: 'จำได้', recallN: 'ควรทบทวน',
+    offSave: 'บันทึกหมวดนี้ไว้ใช้ออฟไลน์ (≈ {mb} MB)', offBusy: 'กำลังบันทึก: {p}% · แตะเพื่อหยุด', offDone: 'บันทึกหมวดนี้แล้ว ใช้ได้โดยไม่ต้องมีอินเทอร์เน็ต', offSaver: 'เปิดโหมดประหยัดข้อมูลอยู่ จึงปิดการบันทึก', noneYet: 'ยังไม่มีคำที่จำได้ กดหัวใจได้เลย', share: 'แชร์การ์ดนี้', like: 'จำได้แล้ว', recall: 'ลืมแล้ว? นึกออกแล้วกดอีกครั้ง', listen: 'ฟัง', known: 'จำได้', recallN: 'ควรทบทวน',
     description: 'คำนามและคำกริยาที่พบบ่อยสูงสุดภาษาละ 1,000 คำ ในภาษาอังกฤษ รัสเซีย และไทย พร้อมไอคอน การถอดเสียง และคำแปล',
-    credits: 'ภาพถ่าย: {pixabay}, Wikimedia Commons · ไอคอน: {openmoji} (CC BY-SA 4.0) · ความถี่คำ: wordfreq (en/ru), Thai National Corpus (th) · คำแปลคัดสรรด้วยตนเอง',
+    credits: 'ภาพถ่าย: {pixabay}, Wikimedia Commons · ความถี่คำ: wordfreq (en/ru), Thai National Corpus (th) · คำแปลคัดสรรด้วยตนเอง',
     projects: 'โครงการอื่น:',
   },
 };
@@ -189,7 +189,6 @@ function media(c) {
   const photo = photoOf(c);
   if (photo) return `<img class="size-full object-cover" src="${photo}" alt="" loading="lazy" decoding="async">`;
   if (c.p === 'n' || c.p === 'v') return keyboard(c);   // no photo for the word: the same keyboard as the pronouns
-  if (c.g) return `<svg class="size-1/3 text-amber-400" aria-hidden="true"><use href="#i-${c.g}"/></svg>`;
   const word = c[FIELD[state.target]];
   const letter = (state.target === 'th' && word.match(/[ก-ฮ]/)?.[0]) || [...word][0];
   return `<span class="flex size-1/3 items-center justify-center rounded-full border-2 border-amber-400/50 text-5xl font-semibold text-amber-400 font-word" aria-hidden="true">${esc(letter)}</span>`;
@@ -293,6 +292,7 @@ function paintGrid() {
   $('empty').classList.toggle('hidden', items.length > 0);
   paintStats(deck());
   paintLearned();
+  paintOffline();
 }
 
 // ---- page chrome: switches, texts --------------------------------------------------------
@@ -312,7 +312,7 @@ function paintChrome() {
   $('q').placeholder = t.search;
   $('q').setAttribute('aria-label', t.search);
   $('empty').textContent = t.empty;
-  $('credits').innerHTML = t.credits.replace('{pixabay}', '<a class="underline" href="https://pixabay.com" target="_blank" rel="noopener">Pixabay</a>').replace('{openmoji}', '<a class="underline" href="https://openmoji.org" target="_blank" rel="noopener">OpenMoji</a>');
+  $('credits').innerHTML = t.credits.replace('{pixabay}', '<a class="underline" href="https://pixabay.com" target="_blank" rel="noopener">Pixabay</a>');
   $('projects').textContent = t.projects;
   segment($('base'), LANGS.map(l => [l, CODE[l]]), state.base, langName);
   segment($('target'), otherLangs(state.base).map(l => [l, CODE[l]]), state.target, langName);
@@ -420,10 +420,52 @@ $('q').addEventListener('input', () => {
 
 // ---- start -------------------------------------------------------------------------------
 
-$('sprite').innerHTML = SPRITE;
-loadState();
-if (!applyHash()) { paintChrome(); paintGrid(); }
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+
+// offline, opt-in: the page itself costs ~0.3 MB; photos (~77 KB each) are kept as they are viewed. This button also saves
+// every photo of the open section, 3 at a time, skipping what is already saved; nothing is downloaded without a tap
+const OFFLINE = 'fast-offline';   // the cache sw.js reads from (cache first)
+let saving = null;
+const saveBytes = 77e3;
+async function offlineTodo() {
+  const cache = await caches.open(OFFLINE), todo = [];
+  for (const c of deck()) {
+    const u = photoOf(c) && new URL(photoOf(c), location.href).href;
+    if (u && !(await cache.match(u))) todo.push(u);
+  }
+  return todo;
+}
+async function paintOffline() {
+  const t = TEXT[state.base], b = $('offBtn'), saver = navigator.connection?.saveData;
+  if (saving) return;
+  let todo = [];
+  try { todo = await offlineTodo(); } catch (e) { b.hidden = true; return; }
+  b.hidden = !todo.length && !b.dataset.done;
+  b.disabled = !!saver;
+  b.textContent = saver ? t.offSaver : todo.length ? t.offSave.replace('{mb}', Math.max(1, Math.round(todo.length * saveBytes / 1e6))) : t.offDone;
+  if (!todo.length) b.dataset.done = '1'; else delete b.dataset.done;
+}
+async function saveOffline() {
+  const t = TEXT[state.base], b = $('offBtn');
+  if (saving) { saving.stop = true; return; }
+  const job = saving = { stop: false };
+  navigator.storage?.persist?.();
+  const cache = await caches.open(OFFLINE), todo = await offlineTodo();
+  const queue = todo.slice();
+  let done = 0;
+  const step = () => { b.textContent = t.offBusy.replace('{p}', Math.floor(done / todo.length * 100)); };
+  step();
+  await Promise.all(Array.from({ length: 3 }, async () => {
+    while (!job.stop && queue.length) {
+      const u = queue.shift();
+      try { const r = await fetch(u); if (r.ok) await cache.put(u, r); } catch (e) { job.stop = e instanceof TypeError; }
+      done++; step();
+    }
+  }));
+  saving = null;
+  if (!job.stop) b.dataset.done = '1';   // keep "saved" on screen until the section changes
+  paintOffline();
+}
+$('offBtn').addEventListener('click', saveOffline);
 
 // the heart balloon: hover on a mouse (CSS), tap on a phone; closes on any outside tap or Escape
 $('stats').addEventListener('click', () => {
@@ -440,3 +482,9 @@ $('learned').addEventListener('click', e => {
 });
 document.addEventListener('click', e => { if (!e.target.closest('.stats-wrap')) document.querySelector('.stats-wrap').removeAttribute('data-open'); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelector('.stats-wrap').removeAttribute('data-open'); });
+
+// ---- start ----------------------------------------------------------------------------------
+
+loadState();
+if (!applyHash()) { paintChrome(); paintGrid(); }
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});

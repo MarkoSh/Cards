@@ -1,4 +1,4 @@
-"""Build data.js + icons/sprite.js for Cards.
+"""Build data.js (+ examples.js) for Cards. (The OpenMoji pictogram sprite is gone: photos and the keyboard card replaced it.)
 
 Reads tools/concepts.tsv (en<TAB>ru<TAB>th<TAB>n|v|p|c), tools/freq.json and tools/icons.tsv.
 Adds en IPA (eng_to_ipa), th romanization (tltk, RTGS), per-language frequency ranks and
@@ -127,7 +127,6 @@ def main():
             k = {lang: order[c['p']] for lang in ('en', 'ru', 'th')}
         if k:
             c['k'] = k
-    build_sprite([c['g'] for c in concepts if 'g' in c])
     with open(os.path.join(ROOT, 'data.js'), 'w', encoding='utf8') as f:
         f.write('const CONCEPTS=' + json.dumps(concepts, ensure_ascii=False, separators=(',', ':')) + ';\n')
     print('concepts:', len(concepts))

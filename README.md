@@ -9,7 +9,7 @@
 
 Колода идёт от частого к редкому. Синонимы с одним переводом сливаются в одну карточку, поэтому в части колод меньше тысячи.
 
-Статический сайт: `index.html`, `app.js`, `app.css`, `data.js`, `examples.js`, `photos.js`, `icons/sprite.js`.
+Статический сайт: `index.html`, `app.js`, `app.css`, `data.js`, `examples.js`, `photos.js`.
 Открывается и по `file://`, офлайн-кэш общий с семейством *Fast (`sw.js`). Лайки хранятся в localStorage браузера.
 
 ## Файлы
@@ -21,7 +21,6 @@ src.css → app.css   стили: Tailwind 4 (npm run css), компоненты
 data.js             CONCEPTS: слова, транскрипция, частотные ранги, иконка (собирается)
 examples.js         EXAMPLES: фраза-пример каждого слова на en, ru, th + транскрипция th (собирается; ключ — слово, у существительных «n:слово»)
 photos.js           PHOTOS: понятия, у которых есть фото (пока пусто)
-icons/sprite.js     SPRITE: символы OpenMoji одним файлом (собирается)
 tools/
   concepts.tsv      авторская трёхъязычная таблица: en, ru, th, n|v; правится руками
   icons.tsv         иконка каждого понятия: en, pos, флаг, hex OpenMoji, имя; правится руками
@@ -30,7 +29,7 @@ tools/
   examples_p.txt    то же для местоимений
   examples_c.txt    то же для цветов; colors.tsv — заливка каждого цвета
   dump_freq.py      частотные списки → freq.json
-  build_data.py     concepts + icons + examples + freq → data.js, examples.js, sprite.js (~4 минуты: tltk медленный)
+  build_data.py     concepts + examples + freq → data.js, examples.js (~4 минуты: tltk медленный)
 ```
 
 ## Сборка
@@ -42,7 +41,7 @@ tools/
   --with https://github.com/explosion/spacy-models/releases/download/ru_core_news_sm-3.8.0/ru_core_news_sm-3.8.0-py3-none-any.whl \
   --with pythainlp tools/dump_freq.py
 
-# data.js + examples.js + icons/sprite.js (транскрипция: IPA для английского, RTGS без тонов для тайского)
+# data.js + examples.js (транскрипция: IPA для английского, RTGS без тонов для тайского)
 ~/.venv/bin/uv run --with tltk --with 'numpy<2' --with 'pandas<2.3' --with requests --with nltk \
   --with python-crfsuite --with scikit-learn --with eng-to-ipa python -W ignore tools/build_data.py
 
@@ -63,3 +62,9 @@ python3 ../ThaiFast/tools/offline.py .
 - **Пример** — строка в `tools/examples.txt` (глаголы) или `tools/examples_n.txt` (существительные): `слово|English|Русский|ไทย`. Во всех трёх фразах слово в `[ ]`,
   фразы переводят друг друга, тайские слова разделены пробелами (это видно на карточке). Сборка предупредит,
   если в тайской фразе нет тайского слова из `concepts.tsv`.
+
+## Офлайн
+
+Страница и скрипты (~0,3 МБ) кэшируются сервис-воркером автоматически; фото (~77 КБ каждое, всего ~190 МБ) сохраняются по мере просмотра.
+Кнопка в подвале «Сохранить раздел для офлайна» докачивает фото открытого раздела (3 параллельно, только то, чего ещё нет) —
+только по нажатию, при включённой экономии трафика отключена.
