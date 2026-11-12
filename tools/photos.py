@@ -34,10 +34,9 @@ def slug(word):
     return re.sub(r'\W+', '-', word)
 
 def words():
-    """(pos, word) of every noun and verb that has an example sentence, i.e. every word of the decks."""
-    data = open(os.path.join(ROOT, 'examples.js'), encoding='utf8').read()
-    ex = json.loads(data[data.index('=') + 1:].rstrip().rstrip(';'))
-    return [('n', k[2:]) if k.startswith('n:') else ('v', k) for k in ex if not k.startswith(('p:', 'c:'))]
+    """(pos, word) of every noun and verb of the decks (data.js)."""
+    data = open(os.path.join(ROOT, 'data.js'), encoding='utf8').read()
+    return [(c['p'], c['e']) for c in json.loads(data[data.index('=') + 1:].rstrip().rstrip(';')) if c['p'] in ('n', 'v')]
 
 def overrides():
     out = {}
@@ -199,6 +198,33 @@ def dedupe():
     save_picks(p)
     print('moved', moved)
 
+def recover():
+    """Words left without a photo (the one-photo-per-word rule used up their 8 candidates): search again with 30 results,
+    take the first photo that carries the word itself as a tag and is not used by another word. The rest get no photo."""
+    p, skip = picks(), {'n-politician', 'v-abuse', 'v-define', 'v-disagree', 'v-imply'}
+    used = set(BAN)
+    for k, n in p.items():
+        if n:
+            used.add(json.load(open(cand_path(*k.split('-', 1))))[n - 1]['id'])
+    todo = [(pos, w) for pos, w in words() if not p.get(f'{pos}-{w}') and f'{pos}-{w}' not in skip
+            and not os.path.exists(os.path.join(PHOTOS, f'{pos}-{slug(w)}.webp'))]
+    over, got = overrides(), 0
+    for i, (pos, w) in enumerate(todo, 1):
+        url = 'https://pixabay.com/api/?' + urllib.parse.urlencode({
+            'key': key(), 'q': over.get((pos, w), w), 'image_type': 'photo', 'safesearch': 'true', 'per_page': 30,
+            'min_width': 1000, 'min_height': 1000})
+        hits = [{k: h.get(k) for k in ('id', 'pageURL', 'user', 'user_id', 'previewURL', 'tags', 'largeImageURL')} for h in json.loads(get(url))['hits']]
+        time.sleep(PAUSE)
+        pick = next((j for j, h in enumerate(hits, 1) if h['id'] not in used and w.lower() in [t.strip().lower() for t in h['tags'].split(',')]), 0)
+        json.dump(hits, open(cand_path(pos, w), 'w'), ensure_ascii=False)
+        p[f'{pos}-{w}'] = pick
+        if pick:
+            used.add(hits[pick - 1]['id']); got += 1
+        if i % 25 == 0:
+            save_picks(p); print(i, len(todo), got, flush=True)
+    save_picks(p)
+    print('recover done', len(todo), got)
+
 def grade(im):
     """One look for every photo: a touch of contrast and warmth, slightly lifted colour."""
     im = ImageEnhance.Contrast(im).enhance(1.06)
@@ -261,6 +287,8 @@ if __name__ == '__main__':
         review(int(args[0]) if args else 1)
     elif cmd == 'q':
         requery(args)
+    elif cmd == 'recover':
+        recover()
     elif cmd == 'dedupe':
         dedupe()
     elif cmd == 'alts':

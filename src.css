@@ -52,3 +52,11 @@
   .kb-long { @apply font-normal whitespace-pre; letter-spacing: 0.04em; }
   .kb-long b { @apply font-normal; }
 }
+
+@layer components {
+  .pop { @apply invisible absolute left-0 top-full z-30 mt-2 max-h-72 w-72 max-w-[90vw] overflow-y-auto rounded-xl border border-zinc-800 bg-zinc-900 opacity-0 shadow-2xl shadow-black/60 transition-opacity; }
+  .stats-wrap[data-open] .pop { @apply visible opacity-100; }
+  @media (hover: hover) { .stats-wrap:hover .pop { @apply visible opacity-100; } }
+  .pop::before { content: ''; @apply absolute -top-2 left-0 h-2 w-full; }
+  .learned-row { @apply flex w-full cursor-pointer items-center gap-2 px-3 py-1.5 text-left text-sm hover:bg-zinc-800; }
+}

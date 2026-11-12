@@ -14,7 +14,7 @@ const TEXT = {
   ru: {
     title: 'Cards — слова как в инстаграме', search: 'Поиск…', empty: 'Ничего не найдено',
     n: 'Существительные', v: 'Глаголы', p: 'Местоимения', c: 'Цвета', all: 'Все', copy: 'Копировать', example: 'Пример', copied: 'Скопировано', translate: 'Google Переводчик',
-    share: 'Поделиться карточкой', like: 'Выучил', recall: 'Забыл? Вспомнил — нажмите ещё раз', listen: 'Послушать', known: 'выучено', recallN: 'пора вспомнить',
+    noneYet: 'Пока ничего не выучено: ставьте сердечки.', share: 'Поделиться карточкой', like: 'Выучил', recall: 'Забыл? Вспомнил — нажмите ещё раз', listen: 'Послушать', known: 'выучено', recallN: 'пора вспомнить',
     description: 'До 1000 частотных существительных и глаголов английского, русского и тайского в карточках с иконками, транскрипцией и переводом.',
     credits: 'Фото: {pixabay}, Wikimedia Commons. Иконки: {openmoji} (CC BY-SA 4.0). Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.',
     projects: 'Другие проекты:',
@@ -22,7 +22,7 @@ const TEXT = {
   en: {
     title: 'Cards — vocabulary in cards', search: 'Search…', empty: 'Nothing found',
     n: 'Nouns', v: 'Verbs', p: 'Pronouns', c: 'Colors', all: 'All', copy: 'Copy', example: 'Example', copied: 'Copied', translate: 'Google Translate',
-    share: 'Share this card', like: 'I know it', recall: 'Forgot? Recalled it — tap again', listen: 'Listen', known: 'learned', recallN: 'to recall',
+    noneYet: 'Nothing learned yet: tap the hearts.', share: 'Share this card', like: 'I know it', recall: 'Forgot? Recalled it — tap again', listen: 'Listen', known: 'learned', recallN: 'to recall',
     description: 'Up to 1000 frequent nouns and verbs in English, Russian and Thai, with icons, transcriptions and translations.',
     credits: 'Photos: {pixabay}, Wikimedia Commons. Icons: {openmoji} (CC BY-SA 4.0). Frequency: wordfreq (en/ru), Thai National Corpus (th). Translations curated by hand.',
     projects: 'Other projects:',
@@ -30,7 +30,7 @@ const TEXT = {
   th: {
     title: 'Cards — เรียนคำศัพท์ด้วยบัตรคำ', search: 'ค้นหา…', empty: 'ไม่พบคำที่ค้นหา',
     n: 'คำนาม', v: 'คำกริยา', p: 'สรรพนาม', c: 'สี', all: 'ทั้งหมด', copy: 'คัดลอก', example: 'ตัวอย่าง', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
-    share: 'แชร์การ์ดนี้', like: 'จำได้แล้ว', recall: 'ลืมแล้ว? นึกออกแล้วกดอีกครั้ง', listen: 'ฟัง', known: 'จำได้', recallN: 'ควรทบทวน',
+    noneYet: 'ยังไม่มีคำที่จำได้ กดหัวใจได้เลย', share: 'แชร์การ์ดนี้', like: 'จำได้แล้ว', recall: 'ลืมแล้ว? นึกออกแล้วกดอีกครั้ง', listen: 'ฟัง', known: 'จำได้', recallN: 'ควรทบทวน',
     description: 'คำนามและคำกริยาที่พบบ่อยสูงสุดภาษาละ 1,000 คำ ในภาษาอังกฤษ รัสเซีย และไทย พร้อมไอคอน การถอดเสียง และคำแปล',
     credits: 'ภาพถ่าย: {pixabay}, Wikimedia Commons · ไอคอน: {openmoji} (CC BY-SA 4.0) · ความถี่คำ: wordfreq (en/ru), Thai National Corpus (th) · คำแปลคัดสรรด้วยตนเอง',
     projects: 'โครงการอื่น:',
@@ -266,10 +266,23 @@ const byId = new Map(CONCEPTS.map(c => [c.p + ':' + c.e, c]));
 function paintStats(items) {
   const known = items.filter(c => likeState(c) === 'on').length, old = items.filter(c => likeState(c) === 'old').length, t = TEXT[state.base];
   const label = `${known} / ${items.length} ${t.known}${old ? ` · ${old} ${t.recallN}` : ''}`;
-  $('stats').title = label;
   $('stats').setAttribute('aria-label', label);
   $('stats').innerHTML = `<span class="text-red-500">${icon('heart', 'size-4 fill-current')}</span><b>${known}</b><span class="text-zinc-500">/ ${items.length}</span>
     <span class="h-1 w-14 overflow-hidden rounded-full bg-zinc-800"><span class="block h-full bg-red-500" style="width:${known / items.length * 100}%"></span></span>${old ? `<span class="text-zinc-500">${icon('heart', 'size-4 fill-current')}</span><span class="text-zinc-500">${old}</span>` : ''}`;
+}
+
+// the balloon over the heart: every word learned for the current target language, newest first; a tap on a word goes to its card
+function paintLearned() {
+  const t = TEXT[state.base], rows = [];
+  for (const c of CONCEPTS) {
+    const at = likes[`${state.target}:${c.p}:${c.e}`];
+    if (at) rows.push([at, c]);
+  }
+  rows.sort((a, b) => b[0] - a[0]);
+  $('learned').innerHTML = rows.length ? rows.map(([at, c]) => {
+    const old = Date.now() - at >= LIKE_DAYS * 864e5;
+    return `<button type="button" class="learned-row" data-go="${esc(c.p + ':' + c.e)}"><span class="${old ? 'text-zinc-500' : 'text-red-500'}">${icon('heart', 'size-3.5 fill-current')}</span><span class="font-word font-semibold">${esc(c[FIELD[state.target]])}</span><span class="truncate text-zinc-500">${esc(c[FIELD[state.base]])}</span></button>`;
+  }).join('') : `<p class="p-3 text-sm text-zinc-500">${t.noneYet}</p>`;
 }
 
 function paintGrid() {
@@ -278,6 +291,7 @@ function paintGrid() {
   $('grid').innerHTML = items.map(card).join('');
   $('empty').classList.toggle('hidden', items.length > 0);
   paintStats(deck());
+  paintLearned();
 }
 
 // ---- page chrome: switches, texts --------------------------------------------------------
@@ -389,6 +403,7 @@ $('grid').addEventListener('dblclick', e => {
 function paintLike(post, c) {
   post.querySelector('.like').outerHTML = heart(c);
   paintStats(deck());
+  paintLearned();
 }
 
 $('base').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setState({ base: b.dataset.value }); });
@@ -408,3 +423,19 @@ $('sprite').innerHTML = SPRITE;
 loadState();
 if (!applyHash()) { paintChrome(); paintGrid(); }
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+
+// the heart balloon: hover on a mouse (CSS), tap on a phone; closes on any outside tap or Escape
+$('stats').addEventListener('click', () => {
+  const wrap = document.querySelector('.stats-wrap'), open = wrap.toggleAttribute('data-open');
+  $('stats').setAttribute('aria-expanded', open);
+});
+$('learned').addEventListener('click', e => {
+  const b = e.target.closest('[data-go]');
+  if (!b) return;
+  const [p, en] = [b.dataset.go.split(':')[0], b.dataset.go.slice(2)];
+  location.hash = `${state.base}-${state.target}-${p}-${encodeURIComponent(en)}`;
+  applyHash();
+  document.querySelector('.stats-wrap').removeAttribute('data-open');
+});
+document.addEventListener('click', e => { if (!e.target.closest('.stats-wrap')) document.querySelector('.stats-wrap').removeAttribute('data-open'); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') document.querySelector('.stats-wrap').removeAttribute('data-open'); });

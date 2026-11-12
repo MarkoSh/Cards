@@ -24,7 +24,10 @@
       <svg class="size-4 shrink-0 text-zinc-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
       <div id="target" class="seg" role="group"></div>
     </div>
-    <p id="stats" class="flex items-center gap-1.5 whitespace-nowrap text-sm text-zinc-300"></p>
+    <div class="stats-wrap relative">
+      <button id="stats" type="button" class="flex cursor-pointer items-center gap-1.5 whitespace-nowrap text-sm text-zinc-300" aria-expanded="false"></button>
+      <div id="learned" class="pop" role="dialog"></div>
+    </div>
     <div class="flex w-full flex-wrap items-center gap-2 sm:ml-auto sm:w-auto sm:flex-nowrap">
       <div id="pos" class="seg hidden sm:flex" role="group"></div>
       <select id="posSel" class="rounded-xl border border-zinc-800 bg-zinc-900 px-3 py-1.5 text-sm font-semibold text-amber-400 outline-none focus:border-amber-400 sm:hidden"></select>
