@@ -60,3 +60,11 @@
   .pop::before { content: ''; @apply absolute -top-2 left-0 h-2 w-full; }
   .learned-row { @apply flex w-full cursor-pointer items-center gap-2 px-3 py-1.5 text-left text-sm hover:bg-zinc-800; }
 }
+
+/* dark, thin scrollbars everywhere (page and the learned-words balloon) */
+html { color-scheme: dark; scrollbar-width: thin; scrollbar-color: #3f3f46 transparent; }
+* { scrollbar-width: thin; scrollbar-color: #3f3f46 transparent; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 9999px; border: 2px solid transparent; background-clip: content-box; }
+::-webkit-scrollbar-thumb:hover { background: #fbbf24; background-clip: content-box; }
