@@ -418,6 +418,14 @@ $('q').addEventListener('input', () => {
   searchFrame = requestAnimationFrame(paintGrid);
 });
 
+// the logo scrolls to the top (and keeps the page, language and section as they are)
+document.querySelector('header a').addEventListener('click', e => {
+  e.preventDefault();
+  scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+  if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+  document.querySelectorAll('.post.shared').forEach(p => p.classList.remove('shared'));
+});
+
 // ---- start -------------------------------------------------------------------------------
 
 
