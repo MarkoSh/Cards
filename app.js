@@ -149,14 +149,25 @@ function credit(c) {
   return p ? `<a class="credit" href="${esc(p[1])}" target="_blank" rel="noopener" title="${esc(p[0])} · ${esc(p[2])}">${icon('camera', 'size-3')}<span class="truncate">${esc(p[0])} · ${esc(p[2])}</span></a>` : '';
 }
 
+// a pronoun is a tilted piece of keyboard: one row of keys per language (ru, en, th), left-aligned, a key per letter
+const glyphs = w => (typeof Intl.Segmenter === 'function' ? [...new Intl.Segmenter('th', { granularity: 'grapheme' }).segment(w)].map(x => x.segment) : [...w]);
+const RAMP = ['#3fb8d8', '#8ed3e6', '#ffffff', '#f08a9a', '#e4405a'];   // cyan -> white -> red, like the lit key in the reference photo
+
+function keyboard(c) {
+  const rows = LANGS.map(l => glyphs(c[FIELD[l]]));
+  const cols = Math.max(...rows.map(r => r.length));
+  const u = Math.min(15, 84 / (cols + 2));                                   // key size in cqw
+  const key = (ch, i, n) => ch === ' ' ? `<i class="kb-gap"></i>` :
+    `<i class="kb-key"${ch ? ` style="color:${RAMP[Math.round(i / Math.max(n - 1, 1) * 4)]}"` : ''}>${esc(ch)}</i>`;
+  const row = (r, blank) => `<span class="kb-row">${blank ? '<i class="kb-key"></i>'.repeat(cols + 2) : '<i class="kb-key"></i>' + [...r, ...Array(cols - r.length).fill('')].map((ch, i) => key(ch, i, r.length)).join('') + '<i class="kb-key"></i>'}</span>`;
+  const board = [[], [], ...rows, [], []].map((r, i) => row(r, i < 2 || i > 4)).join('');
+  return `<span class="kb" style="--u:${u.toFixed(2)}cqw"><span class="kb-board">${board}</span></span>`;
+}
+
 // until a photo exists the post shows the old pictogram (or the first letter) on a dark square
 function media(c) {
   if (c.h) return `<span class="relative size-full" style="background:${c.h}"><span class="absolute right-2 top-2 rounded-full bg-black/40 px-2 py-0.5 font-mono text-[11px] text-zinc-200">${c.h}</span></span>`;   // a colour: the card is filled with it
-  if (c.p === 'p') {   // a pronoun: no photo, just the word in all three languages on a pale card (the caption says it in the site language)
-    const lines = LANGS.map(l => c[FIELD[l]]);
-    const fs = Math.min(12, 80 / (Math.max(...lines.map(w => [...w].length)) * 0.62));
-    return `<span class="flex size-full items-center justify-center bg-stone-100 text-zinc-950" style="container-type:size"><span class="font-word font-semibold leading-tight" style="font-size:${fs.toFixed(1)}cqw">${lines.map(w => `<span class="block text-left">${esc(w)}</span>`).join('')}</span></span>`;
-  }
+  if (c.p === 'p') return keyboard(c);
   const photo = photoOf(c);
   if (photo) return `<img class="size-full object-cover" src="${photo}" alt="" loading="lazy" decoding="async">`;
   if (c.g) return `<svg class="size-1/3 text-amber-400" aria-hidden="true"><use href="#i-${c.g}"/></svg>`;
