@@ -188,6 +188,7 @@ function media(c) {
   if (c.p === 'p') return keyboard(c);
   const photo = photoOf(c);
   if (photo) return `<img class="size-full object-cover" src="${photo}" alt="" loading="lazy" decoding="async">`;
+  if (c.p === 'n' || c.p === 'v') return keyboard(c);   // no photo for the word: the same keyboard as the pronouns
   if (c.g) return `<svg class="size-1/3 text-amber-400" aria-hidden="true"><use href="#i-${c.g}"/></svg>`;
   const word = c[FIELD[state.target]];
   const letter = (state.target === 'th' && word.match(/[ก-ฮ]/)?.[0]) || [...word][0];
