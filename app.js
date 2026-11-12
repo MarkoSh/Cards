@@ -152,6 +152,11 @@ function credit(c) {
 // until a photo exists the post shows the old pictogram (or the first letter) on a dark square
 function media(c) {
   if (c.h) return `<span class="relative size-full" style="background:${c.h}"><span class="absolute right-2 top-2 rounded-full bg-black/40 px-2 py-0.5 font-mono text-[11px] text-zinc-200">${c.h}</span></span>`;   // a colour: the card is filled with it
+  if (c.p === 'p') {   // a pronoun: no photo, just the word in all three languages on a pale card (the caption says it in the site language)
+    const lines = LANGS.map(l => c[FIELD[l]]);
+    const fs = Math.min(12, 80 / (Math.max(...lines.map(w => [...w].length)) * 0.62));
+    return `<span class="flex size-full items-center justify-center bg-stone-100 text-zinc-950" style="container-type:size"><span class="font-word font-semibold leading-tight" style="font-size:${fs.toFixed(1)}cqw">${lines.map(w => `<span class="block text-left">${esc(w)}</span>`).join('')}</span></span>`;
+  }
   const photo = photoOf(c);
   if (photo) return `<img class="size-full object-cover" src="${photo}" alt="" loading="lazy" decoding="async">`;
   if (c.g) return `<svg class="size-1/3 text-amber-400" aria-hidden="true"><use href="#i-${c.g}"/></svg>`;
