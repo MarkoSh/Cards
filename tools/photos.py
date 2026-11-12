@@ -53,11 +53,11 @@ def get(url):
         try:
             return urllib.request.urlopen(req, timeout=40).read()
         except urllib.error.HTTPError as e:
-            if e.code == 429:
-                time.sleep(65)
+            if e.code == 429 or e.code >= 500:
+                time.sleep(65 if e.code == 429 else 20)
             else:
                 raise
-    raise RuntimeError('rate limited')
+    raise RuntimeError('rate limited or server down')
 
 def picks():
     return json.load(open(PICKS)) if os.path.exists(PICKS) else {}
@@ -163,6 +163,42 @@ def alts(ws):
     im.save(path)
     print(path)
 
+def requery(args):
+    """word='query' ...: replace the candidates of a noun/verb with the results of another query (drops its photo)."""
+    for a in args:
+        word, query = a.split('=', 1)
+        pos, word = word.split(':') if ':' in word else ('n', word)     # default: the noun
+        os.remove(cand_path(pos, word)) if os.path.exists(cand_path(pos, word)) else None
+        out = os.path.join(PHOTOS, f'{pos}-{slug(word)}.webp')
+        os.remove(out) if os.path.exists(out) else None
+        search(pos, word, query)
+        p = picks(); p[f'{pos}-{word}'] = 1; save_picks(p)
+
+BAN = {3790033}      # never use (job-interview handshake: the user found it very bad for "employer")
+
+def dedupe():
+    """One photo, one word: when several words picked the same Pixabay photo, the word that ranks it best keeps it,
+    the others move to their next free candidate (or lose the photo). Drops the files of changed words."""
+    p = picks()
+    hit = lambda k, n: json.load(open(cand_path(*k.split('-', 1))))[n - 1]['id']
+    keys = sorted((k for k, n in p.items() if n), key=lambda k: (p[k], len(k), k))
+    used, moved = set(BAN), 0
+    for k in keys:
+        pos, word = k.split('-', 1)
+        hits = json.load(open(cand_path(pos, word)))
+        n = p[k]
+        free = [i for i in range(1, len(hits) + 1) if hits[i - 1]['id'] not in used]
+        if hits[n - 1]['id'] in used:
+            n = free[0] if free else 0
+            p[k] = n
+            moved += 1
+            out = os.path.join(PHOTOS, f'{pos}-{slug(word)}.webp')
+            os.remove(out) if os.path.exists(out) else None
+        if n:
+            used.add(hits[n - 1]['id'])
+    save_picks(p)
+    print('moved', moved)
+
 def grade(im):
     """One look for every photo: a touch of contrast and warmth, slightly lifted colour."""
     im = ImageEnhance.Contrast(im).enhance(1.06)
@@ -223,6 +259,10 @@ if __name__ == '__main__':
         scan()
     elif cmd == 'review':
         review(int(args[0]) if args else 1)
+    elif cmd == 'q':
+        requery(args)
+    elif cmd == 'dedupe':
+        dedupe()
     elif cmd == 'alts':
         alts(set(args))
     elif cmd == 'set':
