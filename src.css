@@ -68,3 +68,24 @@ html { color-scheme: dark; scrollbar-width: thin; scrollbar-color: #3f3f46 trans
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 9999px; border: 2px solid transparent; background-clip: content-box; }
 ::-webkit-scrollbar-thumb:hover { background: #fbbf24; background-clip: content-box; }
+
+@layer components {
+  .kb-grid { @apply grid; grid-template-columns: repeat(6, var(--u)); grid-auto-rows: var(--u); gap: calc(var(--u) * 0.14); transform: rotate(-8deg); }
+  .kb-big { @apply relative; width: auto; height: auto; border-radius: calc(var(--u) * 0.24); }
+  .kb-glyph { @apply font-normal; line-height: 1.5; padding: 0 0.05em; background: linear-gradient(135deg, #3fb8d8 5%, #fff 50%, #e4405a 95%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .kb-sub { position: absolute; right: calc(var(--u) * 0.18); bottom: calc(var(--u) * 0.1); font-size: calc(var(--u) * 0.34); color: #7d8b97; }
+  .slides { @apply flex snap-x snap-mandatory overflow-x-auto; overscroll-behavior-x: contain; }
+  .slide { @apply shrink-0 basis-full snap-center; }
+  .nav { @apply absolute top-1/2 hidden size-9 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full bg-black/55 text-white backdrop-blur hover:bg-black/75; }
+  .nav.prev { @apply left-2; } .nav.next { @apply right-2; }
+  @media (hover: hover) and (pointer: fine) {
+    .carousel:hover .nav { @apply flex; }
+    .carousel[data-i="0"] .prev, .carousel[data-i="1"] .next { @apply hidden; }
+  }
+  .dots { @apply pointer-events-none absolute bottom-2 left-1/2 flex -translate-x-1/2 gap-1.5; }
+  .dots i { @apply size-1.5 rounded-full bg-white/40; }
+  .carousel[data-i="0"] .dots i:nth-child(1), .carousel[data-i="1"] .dots i:nth-child(2) { @apply bg-white; }
+}
+
+.slides { scrollbar-width: none; }   /* outside the layer: the global scrollbar rule is unlayered */
+.slides::-webkit-scrollbar { display: none; }

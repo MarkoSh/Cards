@@ -115,8 +115,6 @@ def main():
         if ipa and '*' not in ipa:
             c['i'] = '/' + ipa + '/'
         c['x'] = ' '.join(roman(w) for w in c['t'].split())
-        if icons[c['e'], c['p']]:
-            c['g'] = icons[c['e'], c['p']]
         k = {}
         for lang, field in (('en', 'e'), ('ru', 'r'), ('th', 't')):
             w = c[field].lower()
@@ -127,6 +125,8 @@ def main():
             k = {lang: order[c['p']] for lang in ('en', 'ru', 'th')}
         if k:
             c['k'] = k
+    import sections
+    concepts += sections.records(lambda w: ('/' + eng_to_ipa.convert(w) + '/') if '*' not in eng_to_ipa.convert(w) else '')   # digits and the alphabet
     with open(os.path.join(ROOT, 'data.js'), 'w', encoding='utf8') as f:
         f.write('const CONCEPTS=' + json.dumps(concepts, ensure_ascii=False, separators=(',', ':')) + ';\n')
     print('concepts:', len(concepts))

@@ -13,7 +13,7 @@ const STORAGE_KEY = 'cards';
 const TEXT = {
   ru: {
     title: 'Cards — слова как в инстаграме', search: 'Поиск…', empty: 'Ничего не найдено',
-    n: 'Существительные', v: 'Глаголы', p: 'Местоимения', c: 'Цвета', all: 'Все', copy: 'Копировать', example: 'Пример', copied: 'Скопировано', translate: 'Google Переводчик',
+    n: 'Существительные', v: 'Глаголы', p: 'Местоимения', c: 'Цвета', d: 'Цифры', l: 'Алфавит', all: 'Все', copy: 'Копировать', example: 'Пример', copied: 'Скопировано', translate: 'Google Переводчик',
     offSave: 'Сохранить раздел для офлайна (≈ {mb} МБ)', offBusy: 'Сохраняю: {p}% · нажмите, чтобы остановить', offDone: 'Раздел сохранён: работает без интернета', offSaver: 'Включена экономия трафика: сохранение отключено', noneYet: 'Пока ничего не выучено: ставьте сердечки.', share: 'Поделиться карточкой', like: 'Выучил', recall: 'Забыл? Вспомнил — нажмите ещё раз', listen: 'Послушать', known: 'выучено', recallN: 'пора вспомнить',
     description: 'До 1000 частотных существительных и глаголов английского, русского и тайского в карточках с иконками, транскрипцией и переводом.',
     credits: 'Фото: {pixabay}, Wikimedia Commons. Частотность: wordfreq (en/ru), Thai National Corpus (th). Переводы подобраны вручную.',
@@ -21,7 +21,7 @@ const TEXT = {
   },
   en: {
     title: 'Cards — vocabulary in cards', search: 'Search…', empty: 'Nothing found',
-    n: 'Nouns', v: 'Verbs', p: 'Pronouns', c: 'Colors', all: 'All', copy: 'Copy', example: 'Example', copied: 'Copied', translate: 'Google Translate',
+    n: 'Nouns', v: 'Verbs', p: 'Pronouns', c: 'Colors', d: 'Digits', l: 'Alphabet', all: 'All', copy: 'Copy', example: 'Example', copied: 'Copied', translate: 'Google Translate',
     offSave: 'Save this section for offline (≈ {mb} MB)', offBusy: 'Saving: {p}% · tap to stop', offDone: 'Section saved: works without internet', offSaver: 'Data saver is on: saving is disabled', noneYet: 'Nothing learned yet: tap the hearts.', share: 'Share this card', like: 'I know it', recall: 'Forgot? Recalled it — tap again', listen: 'Listen', known: 'learned', recallN: 'to recall',
     description: 'Up to 1000 frequent nouns and verbs in English, Russian and Thai, with icons, transcriptions and translations.',
     credits: 'Photos: {pixabay}, Wikimedia Commons. Frequency: wordfreq (en/ru), Thai National Corpus (th). Translations curated by hand.',
@@ -29,7 +29,7 @@ const TEXT = {
   },
   th: {
     title: 'Cards — เรียนคำศัพท์ด้วยบัตรคำ', search: 'ค้นหา…', empty: 'ไม่พบคำที่ค้นหา',
-    n: 'คำนาม', v: 'คำกริยา', p: 'สรรพนาม', c: 'สี', all: 'ทั้งหมด', copy: 'คัดลอก', example: 'ตัวอย่าง', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
+    n: 'คำนาม', v: 'คำกริยา', p: 'สรรพนาม', c: 'สี', d: 'ตัวเลข', l: 'ตัวอักษร', all: 'ทั้งหมด', copy: 'คัดลอก', example: 'ตัวอย่าง', copied: 'คัดลอกแล้ว', translate: 'Google แปลภาษา',
     offSave: 'บันทึกหมวดนี้ไว้ใช้ออฟไลน์ (≈ {mb} MB)', offBusy: 'กำลังบันทึก: {p}% · แตะเพื่อหยุด', offDone: 'บันทึกหมวดนี้แล้ว ใช้ได้โดยไม่ต้องมีอินเทอร์เน็ต', offSaver: 'เปิดโหมดประหยัดข้อมูลอยู่ จึงปิดการบันทึก', noneYet: 'ยังไม่มีคำที่จำได้ กดหัวใจได้เลย', share: 'แชร์การ์ดนี้', like: 'จำได้แล้ว', recall: 'ลืมแล้ว? นึกออกแล้วกดอีกครั้ง', listen: 'ฟัง', known: 'จำได้', recallN: 'ควรทบทวน',
     description: 'คำนามและคำกริยาที่พบบ่อยสูงสุดภาษาละ 1,000 คำ ในภาษาอังกฤษ รัสเซีย และไทย พร้อมไอคอน การถอดเสียง และคำแปล',
     credits: 'ภาพถ่าย: {pixabay}, Wikimedia Commons · ความถี่คำ: wordfreq (en/ru), Thai National Corpus (th) · คำแปลคัดสรรด้วยตนเอง',
@@ -38,6 +38,8 @@ const TEXT = {
 };
 
 const ICON = {   // lucide, 24x24
+  'chevron-left': '<path d="m15 18-6-6 6-6"/>',
+  'chevron-right': '<path d="m9 18 6-6-6-6"/>',
   quote: '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8"/><path d="M8 13h5"/>',
   share: '<path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/>',
   camera: '<path d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"/><circle cx="12" cy="13" r="3"/>',
@@ -64,12 +66,14 @@ function loadState() {
   if (LANGS.includes(saved.base)) state.base = saved.base;
   if (otherLangs(state.base).includes(saved.target)) state.target = saved.target;
   else state.target = otherLangs(state.base)[0];
-  if (['n', 'v', 'p', 'c', 'a'].includes(saved.pos)) state.pos = saved.pos;
+  if (['n', 'v', 'p', 'c', 'd', 'l', 'a'].includes(saved.pos)) state.pos = saved.pos;
+  if (state.pos === 'l' && state.target !== 'th') state.pos = 'a';   // the alphabet is Thai only
 }
 
 function setState(patch) {
   Object.assign(state, patch);
   if (state.target === state.base) state.target = otherLangs(state.base)[0];
+  if (state.pos === 'l' && state.target !== 'th') state.pos = 'a';
   try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
   paintChrome();
   paintGrid();
@@ -77,7 +81,7 @@ function setState(patch) {
 
 // ---- deck: most frequent first, then the authored order --------------------------------
 
-CONCEPTS.forEach(c => { c.s = norm([c.e, c.r, c.t, c.x].join(' ')); });   // search text
+CONCEPTS.forEach(c => { c.s = norm([c.e, c.r, c.t, c.x, c.n, c.l].join(' ')); });   // search text
 
 const decks = new Map();
 function deck() {
@@ -165,16 +169,31 @@ const hint = c => {
 const glyphs = w => (typeof Intl.Segmenter === 'function' ? [...new Intl.Segmenter('th', { granularity: 'grapheme' }).segment(w)].map(x => x.segment) : [...w]);
 const RAMP = ['#3fb8d8', '#8ed3e6', '#ffffff', '#f08a9a', '#e4405a'];   // cyan -> white -> red, like the lit key in the reference photo
 
+const KEYS = 'QWERTYUIOPASDFGHJKLZXCVBNM1234567890-=[];\',./@#$%&*+?<>';
+// n grey keys with random letters, digits and symbols; the same card always gets the same ones
+function idle(c) {
+  let seed = [...c.p + c.e].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7);
+  const rnd = () => (seed = (seed * 1664525 + 1013904223) >>> 0) / 2 ** 32;
+  return n => Array.from({ length: n }, () => `<i class="kb-key kb-idle">${esc(KEYS[Math.floor(rnd() * KEYS.length)])}</i>`).join('');
+}
+
+// first slide of a digit / consonant: the same keyboard, and the key that matters is four keys big
+const toThai = s => s.replace(/\d/g, d => '๐๑๒๓๔๕๖๗๘๙'[d]);
+function bigKey(c) {
+  const th = state.target === 'th', glyph = c.p === 'l' ? c.l : th ? toThai(c.n) : c.n;
+  const size = Math.min(1.7, 3.2 / [...glyph].length);                          // in keys; a long number shrinks
+  const N = 6, blank = idle(c);
+  const sub = c.p === 'd' && th ? `<small class="kb-sub">${esc(c.n)}</small>` : '';
+  return `<span class="kb" style="--u:14.3cqw"><span class="kb-grid">${blank(N * N - 4)}<i class="kb-key kb-big" style="grid-area:3/3/5/5;font-size:calc(var(--u) * ${size.toFixed(2)})"><b class="kb-glyph">${esc(glyph)}</b>${sub}</i></span></span>`;
+}
+
 function keyboard(c) {
   const words = LANGS.map(l => glyphs(c[FIELD[l]]));
   const f = Math.min(0.78, 5.4 / (0.62 * Math.max(...words.map(w => w.length))));      // letter size in keys, the same on every row
   const wide = w => Math.max(1.4, w.length * 0.62 * f + 0.8);                       // a key is as long as its word needs
   const maxW = Math.max(...words.map(wide));
   const u = 86 / (maxW + 2.3);                                                       // key size in cqw
-  let seed = [...c.e].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7);       // the same card always gets the same letters
-  const rnd = () => (seed = (seed * 1664525 + 1013904223) >>> 0) / 2 ** 32;
-  const KEYS = 'QWERTYUIOPASDFGHJKLZXCVBNM1234567890-=[];\',./@#$%&*+?<>';
-  const blank = n => Array.from({ length: n }, () => `<i class="kb-key kb-idle">${esc(KEYS[Math.floor(rnd() * KEYS.length)])}</i>`).join('');
+  const blank = idle(c);
   const long = w => `<i class="kb-key kb-long" style="width:calc(var(--u) * ${wide(w).toFixed(2)});font-size:calc(var(--u) * ${f.toFixed(2)})">${w.map((ch, i) =>
     `<b style="color:${RAMP[Math.round(i / Math.max(w.length - 1, 1) * 4)]}">${esc(ch)}</b>`).join('')}</i>`;
   const fill = Math.ceil(maxW) + 2;
@@ -196,6 +215,7 @@ function media(c) {
 
 // five bars: how common the word is (rank in the frequency list of the deck language)
 function frequency(c) {
+  if (c.p === 'd' || c.p === 'l') return '';
   const rank = c.k?.[state.target];
   const lit = !rank ? 0 : rank <= 50 ? 5 : rank <= 200 ? 4 : rank <= 500 ? 3 : rank <= 1000 ? 2 : 1;
   const bars = [0, 1, 2, 3, 4].map(i =>
@@ -226,8 +246,23 @@ function heart(c) {
   return `<button type="button" class="like action ${st ? 'like-' + st : ''}" aria-pressed="${st === 'on'}" title="${st === 'old' ? t.recall : t.like}" aria-label="${t.like}">${icon('heart', 'size-6')}</button>`;
 }
 
+const burst = `<span class="burst pointer-events-none absolute inset-0 flex items-center justify-center text-red-500">${icon('heart', 'size-24 fill-current')}</span>`;
+
+// Instagram's second picture: swipe on a phone (scroll-snap), arrows with a mouse. 1st: the key, 2nd: the word on long keys
+function carousel(c, word) {
+  const slide = (inner, label) => `<div class="slide reveal media relative aspect-square select-none overflow-hidden" role="button" aria-expanded="false" aria-label="${esc(label)}">${inner}${burst}</div>`;
+  return `<div class="carousel relative" data-i="0">
+  <div class="slides">${slide(bigKey(c), word)}${slide(keyboard(c), c[FIELD[state.target]])}</div>
+  <button type="button" class="nav prev" aria-label="←">${icon('chevron-left', 'size-5')}</button>
+  <button type="button" class="nav next" aria-label="→">${icon('chevron-right', 'size-5')}</button>
+  <span class="dots" aria-hidden="true"><i></i><i></i></span>
+</div>`;
+}
+
 function card(c) {
-  const t = TEXT[state.base], word = c[FIELD[state.target]], tr = transcription(c);
+  const t = TEXT[state.base], letter = c.p === 'l', word = letter ? c.l : c[FIELD[state.target]], tr = transcription(c);
+  const say = letter ? `${c.l} ${c.t}` : word;                              // a consonant is read with its word: ก ไก่
+  const meaning = letter ? `${c.t} — ${c[FIELD[state.base]]}` : c[FIELD[state.base]] + hint(c);
   const url = `https://translate.google.com/?sl=${state.target}&tl=${state.base}&text=${encodeURIComponent(word)}&op=translate`;
   return `<article class="post overflow-hidden border border-zinc-800 bg-zinc-900 sm:rounded-lg" data-id="${c.p}:${c.e}">
   <header class="flex items-center gap-2 px-3 py-2 text-xs text-zinc-400">
@@ -235,16 +270,16 @@ function card(c) {
     <span class="font-semibold text-zinc-200">${t[c.p]}</span>
     <span class="ml-auto flex items-center gap-2">${c.k?.[state.target] ? `#${c.k[state.target]}` : ''}${frequency(c)}</span>
   </header>
-  <div class="relative">
+  ${c.p === 'd' || c.p === 'l' ? carousel(c, word) : `<div class="relative">
   <button type="button" class="reveal media relative flex aspect-square w-full select-none items-center justify-center overflow-hidden bg-gradient-to-br from-zinc-900 to-zinc-800" aria-expanded="false" aria-label="${esc(word)}">
     ${media(c)}
-    <span class="burst pointer-events-none absolute inset-0 flex items-center justify-center text-red-500">${icon('heart', 'size-24 fill-current')}</span>
+    ${burst}
   </button>
   ${credit(c)}
-  </div>
+  </div>`}
   <div class="flex items-center gap-3 px-3 pt-2.5">
     ${heart(c)}
-    <button type="button" class="speak action" data-text="${esc(word)}" title="${t.listen}" aria-label="${t.listen}">${icon('volume', 'size-6')}</button>
+    <button type="button" class="speak action" data-text="${esc(say)}" title="${t.listen}" aria-label="${t.listen}">${icon('volume', 'size-6')}</button>
     <a class="action" href="${url}" target="_blank" rel="noopener" title="${t.translate}" aria-label="${t.translate}">${icon('translate', 'size-6')}</a>
     <button type="button" class="share action" title="${t.share}" aria-label="${t.share}">${icon('share', 'size-6')}</button>
     <button type="button" class="copy action ml-auto" data-word="${esc(word)}" title="${t.copy}" aria-label="${t.copy}">${icon('copy', 'size-6')}</button>
@@ -254,7 +289,7 @@ function card(c) {
       <span class="font-word ${state.target === 'th' ? 'text-2xl' : 'text-xl'} font-semibold leading-snug">${esc(word)}</span>
       ${tr ? `<span class="ml-2 text-sm text-zinc-500">${esc(tr)}</span>` : ''}
     </button>
-    <div class="more"><div class="overflow-hidden text-sm"><p class="mt-1 text-base text-zinc-300">${esc(c[FIELD[state.base]])}${hint(c)}</p>${example(c)}</div></div>
+    <div class="more"><div class="overflow-hidden text-sm"><p class="mt-1 text-base text-zinc-300">${esc(meaning)}</p>${example(c)}</div></div>
   </div>
 </article>`;
 }
@@ -316,7 +351,7 @@ function paintChrome() {
   $('projects').textContent = t.projects;
   segment($('base'), LANGS.map(l => [l, CODE[l]]), state.base, langName);
   segment($('target'), otherLangs(state.base).map(l => [l, CODE[l]]), state.target, langName);
-  const kinds = [['a', t.all], ['n', t.n], ['v', t.v], ['p', t.p], ['c', t.c]];
+  const kinds = [['a', t.all], ['n', t.n], ['v', t.v], ['p', t.p], ['c', t.c], ['d', t.d], ...(state.target === 'th' ? [['l', t.l]] : [])];
   segment($('pos'), kinds, state.pos);
   $('posSel').innerHTML = kinds.map(([v, x]) => `<option value="${v}"${v === state.pos ? ' selected' : ''}>${x}</option>`).join('');
 }
@@ -350,8 +385,8 @@ const shareUrl = c => `${location.origin === 'null' ? 'file://' : location.origi
 
 function applyHash() {
   let m;
-  try { m = decodeURIComponent(location.hash.slice(1)).match(/^(ru|en|th)-(ru|en|th)-([nvpc])-(.+)$/); } catch (e) {}
-  if (!m || m[1] === m[2] || !byId.has(m[3] + ':' + m[4])) return false;
+  try { m = decodeURIComponent(location.hash.slice(1)).match(/^(ru|en|th)-(ru|en|th)-([nvpcdl])-(.+)$/); } catch (e) {}
+  if (!m || m[1] === m[2] || !byId.has(m[3] + ':' + m[4]) || (m[3] === 'l' && m[2] !== 'th')) return false;
   $('q').value = '';
   Object.assign(state, { base: m[1], target: m[2], pos: m[3] });
   paintChrome();
@@ -380,6 +415,9 @@ $('grid').addEventListener('click', e => {
   } else if (e.target.closest('.speak, .speak-ex')) {
     const b = e.target.closest('.speak, .speak-ex');
     speak(b.dataset.text, lang);
+  } else if (e.target.closest('.nav')) {
+    const box = e.target.closest('.carousel').querySelector('.slides');
+    box.scrollBy({ left: (e.target.closest('.next') ? 1 : -1) * box.clientWidth, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
   } else if (e.target.closest('.like')) {
     setLike(c, likeState(c) !== 'on');
     paintLike(post, c);
@@ -388,6 +426,12 @@ $('grid').addEventListener('click', e => {
     post.querySelectorAll('.reveal').forEach(b => b.setAttribute('aria-expanded', open));
   }
 });
+
+// the dots and arrows follow the swipe (scroll does not bubble: capture)
+$('grid').addEventListener('scroll', e => {
+  const box = e.target, wrap = box.closest?.('.carousel');
+  if (wrap) wrap.dataset.i = Math.round(box.scrollLeft / box.clientWidth);
+}, true);
 
 // double tap on the photo likes it (never un-likes), with the heart burst
 $('grid').addEventListener('dblclick', e => {
