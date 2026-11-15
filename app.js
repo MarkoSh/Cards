@@ -181,8 +181,8 @@ function idle(c) {
 const toThai = s => s.replace(/\d/g, d => '๐๑๒๓๔๕๖๗๘๙'[d]);
 function bigKey(c) {
   const th = state.target === 'th', glyph = c.p === 'l' ? c.l : th ? toThai(c.n) : c.n, len = [...glyph].length;
-  const w = len <= 2 ? 2 : len <= 4 ? 3 : 4;                                     // the key is 2, 3 or 4 keys wide (2 high)
-  const size = Math.min(1.7, (w * 0.86) / (len * 0.6));                         // glyph size in keys, so that it always fits
+  const w = len <= 1 ? 2 : len <= 4 ? 3 : 4;                                     // the key is 2, 3 or 4 keys wide (2 high)
+  const size = Math.min(1.7, (w * 0.84) / (len * 0.72));                         // glyph size in keys, so that it always fits
   const from = Math.floor((6 - w) / 2) + 1, blank = idle(c);
   const sub = c.p === 'd' && th ? `<small class="kb-sub">${esc(c.n)}</small>` : '';
   return `<span class="kb" style="--u:14.3cqw"><span class="kb-grid">${blank(36 - 2 * w)}<i class="kb-key kb-big" style="grid-area:3/${from}/5/${from + w};font-size:calc(var(--u) * ${size.toFixed(2)})"><b class="kb-glyph">${esc(glyph)}</b>${sub}</i></span></span>`;
