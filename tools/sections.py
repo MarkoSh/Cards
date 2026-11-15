@@ -43,7 +43,9 @@ BIG = [  # n, en, ru, th, roman, note_ru, note_en
     (1000000, 'million', 'миллион', 'หนึ่งล้าน', 'nueng lan', 'ล้าน = 1 000 000', 'ล้าน = 1,000,000'),
 ]
 
-LETTERS = [  # letter, Thai word, en, ru, letter name
+SOUNDS = {'ก': ('k', 'k'), 'ข': ('kh', 'k'), 'ฃ': ('kh', 'k'), 'ค': ('kh', 'k'), 'ฅ': ('kh', 'k'), 'ฆ': ('kh', 'k'), 'ง': ('ng', 'ng'), 'จ': ('ch', 't'), 'ฉ': ('ch', '—'), 'ช': ('ch', 't'), 'ซ': ('s', 't'), 'ฌ': ('ch', '—'), 'ญ': ('y', 'n'), 'ฎ': ('d', 't'), 'ฏ': ('t', 't'), 'ฐ': ('th', 't'), 'ฑ': ('th', 't'), 'ฒ': ('th', 't'), 'ณ': ('n', 'n'), 'ด': ('d', 't'), 'ต': ('t', 't'), 'ถ': ('th', 't'), 'ท': ('th', 't'), 'ธ': ('th', 't'), 'น': ('n', 'n'), 'บ': ('b', 'p'), 'ป': ('p', 'p'), 'ผ': ('ph', '—'), 'ฝ': ('f', '—'), 'พ': ('ph', 'p'), 'ฟ': ('f', 'p'), 'ภ': ('ph', 'p'), 'ม': ('m', 'm'), 'ย': ('y', 'i'), 'ร': ('r', 'n'), 'ล': ('l', 'n'), 'ว': ('w', 'o'), 'ศ': ('s', 't'), 'ษ': ('s', 't'), 'ส': ('s', 't'), 'ห': ('h', '—'), 'ฬ': ('l', 'n'), 'อ': ('(o)', '—'), 'ฮ': ('h', '—')}   # letter -> (sound at the start of a syllable, sound at the end; — = cannot end a syllable)
+
+LETTERS = [  # letter, Thai word, en, ru, school name (ko kai)
     ('ก', 'ไก่', 'chicken', 'курица', 'ko kai'), ('ข', 'ไข่', 'egg', 'яйцо', 'kho khai'), ('ฃ', 'ขวด', 'bottle', 'бутылка', 'kho khuat'),
     ('ค', 'ควาย', 'buffalo', 'буйвол', 'kho khwai'), ('ฅ', 'คน', 'person', 'человек', 'kho khon'), ('ฆ', 'ระฆัง', 'bell', 'колокол', 'kho rakhang'),
     ('ง', 'งู', 'snake', 'змея', 'ngo ngu'), ('จ', 'จาน', 'plate', 'тарелка', 'cho chan'), ('ฉ', 'ฉิ่ง', 'cymbals', 'тарелки (цимбалы)', 'cho ching'),
@@ -75,5 +77,8 @@ def records(ipa=lambda w: ''):
         e, r, t, x, nr, ne = number(n)
         out.append(rec(n, e, r, t, x, nr, ne, ipa))
     out += [rec(n, e, r, t, x, nr, ne, ipa) for n, e, r, t, x, nr, ne in BIG]
-    out += [{'e': e, 'r': r, 't': t, 'p': 'l', 'l': l, 'x': x} for l, t, e, r, x in LETTERS]
+    for l, t, e, r, w in LETTERS:
+        a, b = SOUNDS[l]
+        out.append({'e': e, 'r': r, 't': t, 'p': 'l', 'l': l, 'x': a, 'w': w,
+                    'o': {'ru': f'В начале слога: {a} · в конце слога: {b}', 'en': f'Start of a syllable: {a} · end of a syllable: {b}'}})
     return out

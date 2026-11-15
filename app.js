@@ -81,7 +81,7 @@ function setState(patch) {
 
 // ---- deck: most frequent first, then the authored order --------------------------------
 
-CONCEPTS.forEach(c => { c.s = norm([c.e, c.r, c.t, c.x, c.n, c.l].join(' ')); });   // search text
+CONCEPTS.forEach(c => { c.s = norm([c.e, c.r, c.t, c.x, c.w, c.n, c.l].join(' ')); });   // search text
 
 const decks = new Map();
 function deck() {
@@ -262,7 +262,7 @@ function carousel(c, word) {
 function card(c) {
   const t = TEXT[state.base], letter = c.p === 'l', word = letter ? c.l : c[FIELD[state.target]], tr = transcription(c);
   const say = letter ? `${c.l} ${c.t}` : word;                              // a consonant is read with its word: ก ไก่
-  const meaning = letter ? `${c.t} — ${c[FIELD[state.base]]}` : c[FIELD[state.base]] + hint(c);
+  const meaning = letter ? `${c.l} ${c.t} · ${c.w} — ${c[FIELD[state.base]]}` : c[FIELD[state.base]] + hint(c);   // school link: ก ไก่ · ko kai — chicken
   const url = `https://translate.google.com/?sl=${state.target}&tl=${state.base}&text=${encodeURIComponent(word)}&op=translate`;
   return `<article class="post overflow-hidden border border-zinc-800 bg-zinc-900 sm:rounded-lg" data-id="${c.p}:${c.e}">
   <header class="flex items-center gap-2 px-3 py-2 text-xs text-zinc-400">
