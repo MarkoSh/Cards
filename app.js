@@ -289,7 +289,7 @@ function card(c) {
       <span class="font-word ${state.target === 'th' ? 'text-2xl' : 'text-xl'} font-semibold leading-snug">${esc(word)}</span>
       ${tr ? `<span class="ml-2 text-sm text-zinc-500">${esc(tr)}</span>` : ''}
     </button>
-    <div class="more"><div class="overflow-hidden text-sm"><p class="mt-1 text-base text-zinc-300">${esc(meaning)}</p>${example(c)}</div></div>
+    <div class="more"><div class="overflow-hidden text-sm"><p class="mt-1 text-base text-zinc-300">${esc(meaning)}</p>${c.o ? `<p class="mt-1 text-sm text-amber-400/90">${esc(c.o[state.base] || c.o.en)}</p>` : ''}${example(c)}</div></div>
   </div>
 </article>`;
 }

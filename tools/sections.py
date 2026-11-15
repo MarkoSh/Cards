@@ -3,14 +3,44 @@
 d: n = the number as written; e/r/t = the word in English/Russian/Thai; x = Thai romanization.
 l: l = the consonant; e/r/t = its textbook word (ก ไก่); x = the letter's name (ko kai). Only shown for the Thai deck."""
 
-DIGITS = [  # n, en, ru, th, roman
-    ('0', 'zero', 'ноль', 'ศูนย์', 'sun'), ('1', 'one', 'один', 'หนึ่ง', 'nueng'), ('2', 'two', 'два', 'สอง', 'song'),
-    ('3', 'three', 'три', 'สาม', 'sam'), ('4', 'four', 'четыре', 'สี่', 'si'), ('5', 'five', 'пять', 'ห้า', 'ha'),
-    ('6', 'six', 'шесть', 'หก', 'hok'), ('7', 'seven', 'семь', 'เจ็ด', 'chet'), ('8', 'eight', 'восемь', 'แปด', 'paet'),
-    ('9', 'nine', 'девять', 'เก้า', 'kao'), ('10', 'ten', 'десять', 'สิบ', 'sip'), ('20', 'twenty', 'двадцать', 'ยี่สิบ', 'yi sip'),
-    ('100', 'hundred', 'сто', 'ร้อย', 'roi'), ('1000', 'thousand', 'тысяча', 'พัน', 'phan'),
-    ('10000', 'ten thousand', 'десять тысяч', 'หมื่น', 'muen'), ('100000', 'hundred thousand', 'сто тысяч', 'แสน', 'saen'),
-    ('1000000', 'million', 'миллион', 'ล้าน', 'lan'),
+EN1 = 'zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen'.split()
+EN10 = 'x x twenty thirty forty fifty sixty seventy eighty ninety'.split()
+RU1 = 'ноль один два три четыре пять шесть семь восемь девять десять одиннадцать двенадцать тринадцать четырнадцать пятнадцать шестнадцать семнадцать восемнадцать девятнадцать'.split()
+RU10 = 'x x двадцать тридцать сорок пятьдесят шестьдесят семьдесят восемьдесят девяносто'.split()
+TH1 = 'ศูนย์ หนึ่ง สอง สาม สี่ ห้า หก เจ็ด แปด เก้า'.split()
+RO1 = 'sun nueng song sam si ha hok chet paet kao'.split()
+
+def number(n):
+    """(en, ru, th, roman, note_ru, note_en) of 0..99. Thai: 10 is สิบ (no หนึ่ง), 20 is ยี่สิบ (not สองสิบ), a final 1 after tens is เอ็ด (not หนึ่ง)."""
+    if n < 10:
+        return EN1[n], RU1[n], TH1[n], RO1[n], '', ''
+    t, u = divmod(n, 10)
+    en = EN1[n] if n < 20 else EN10[t] + (f'-{EN1[u]}' if u else '')
+    ru = RU1[n] if n < 20 else RU10[t] + (f' {RU1[u]}' if u else '')
+    th, ro, notes = ('สิบ', 'sip') if t == 1 else (('ยี่สิบ', 'yi sip') if t == 2 else (TH1[t] + 'สิบ', RO1[t] + ' sip')), '', []
+    th, ro = (th[0], th[1]) if isinstance(th, tuple) else (th, ro)
+    if t == 1 and u == 0:
+        notes.append(('десять — просто สิบ, без «один» (не หนึ่งสิบ)', 'ten is just สิบ, no "one" in front (not หนึ่งสิบ)'))
+    if t == 2 and u == 0:
+        notes.append(('двадцать — ยี่สิบ: вместо สอง стоит ยี่ (не สองสิบ)', 'twenty is ยี่สิบ: ยี่ instead of สอง (not สองสิบ)'))
+    if u:
+        th += 'เอ็ด' if u == 1 else TH1[u]; ro += ' et' if u == 1 else ' ' + RO1[u]
+        if u == 1:
+            notes.append(('в конце «один» читается เอ็ด, а не หนึ่ง', 'a final "one" is เอ็ด, not หนึ่ง'))
+        if t == 2:
+            notes.append(('двадцать — ยี่สิบ, не สองสิบ', 'twenty is ยี่สิบ, not สองสิบ'))
+        if t == 1:
+            notes.append(('десять — просто สิบ, без «один»', 'ten is just สิบ, no "one" in front'))
+    return en, ru, th, ro, '. '.join(x[0] for x in notes), '. '.join(x[1] for x in notes)
+
+BIG = [  # n, en, ru, th, roman, note_ru, note_en
+    (100, 'one hundred', 'сто', 'หนึ่งร้อย', 'nueng roi', 'можно сказать и просто ร้อย; 101 — หนึ่งร้อยเอ็ด', 'plain ร้อย works too; 101 is หนึ่งร้อยเอ็ด'),
+    (200, 'two hundred', 'двести', 'สองร้อย', 'song roi', 'здесь «два» — обычное สอง (ยี่ только перед สิบ)', 'here "two" is the plain สอง (ยี่ only comes before สิบ)'),
+    (1000, 'one thousand', 'тысяча', 'หนึ่งพัน', 'nueng phan', 'можно просто พัน; 1001 — หนึ่งพันเอ็ด', 'plain พัน works too; 1001 is หนึ่งพันเอ็ด'),
+    (2000, 'two thousand', 'две тысячи', 'สองพัน', 'song phan', 'สอง, не ยี่', 'สอง, not ยี่'),
+    (10000, 'ten thousand', 'десять тысяч', 'หนึ่งหมื่น', 'nueng muen', 'отдельное слово หมื่น = 10 000', 'a word of its own: หมื่น = 10,000'),
+    (100000, 'hundred thousand', 'сто тысяч', 'หนึ่งแสน', 'nueng saen', 'отдельное слово แสน = 100 000', 'a word of its own: แสน = 100,000'),
+    (1000000, 'million', 'миллион', 'หนึ่งล้าน', 'nueng lan', 'ล้าน = 1 000 000', 'ล้าน = 1,000,000'),
 ]
 
 LETTERS = [  # letter, Thai word, en, ru, letter name
@@ -31,7 +61,19 @@ LETTERS = [  # letter, Thai word, en, ru, letter name
     ('อ', 'อ่าง', 'basin', 'таз', 'o ang'), ('ฮ', 'นกฮูก', 'owl', 'сова', 'ho nokhuk'),
 ]
 
+def rec(n, e, r, t, x, nr, ne, ipa):
+    c = {'e': e, 'r': r, 't': t, 'p': 'd', 'n': str(n), 'x': x}
+    if nr:
+        c['o'] = {'ru': nr, 'en': ne}
+    if ipa(e):
+        c['i'] = ipa(e)
+    return c
+
 def records(ipa=lambda w: ''):
-    out = [{'e': e, 'r': r, 't': t, 'p': 'd', 'n': n, 'x': x, **({'i': ipa(e)} if ipa(e) else {})} for n, e, r, t, x in DIGITS]
+    out = []
+    for n in range(100):
+        e, r, t, x, nr, ne = number(n)
+        out.append(rec(n, e, r, t, x, nr, ne, ipa))
+    out += [rec(n, e, r, t, x, nr, ne, ipa) for n, e, r, t, x, nr, ne in BIG]
     out += [{'e': e, 'r': r, 't': t, 'p': 'l', 'l': l, 'x': x} for l, t, e, r, x in LETTERS]
     return out
