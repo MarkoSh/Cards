@@ -263,7 +263,7 @@ function carousel(c, word) {
 function card(c) {
   const t = TEXT[state.base], letter = c.p === 'l', word = letter ? c.l : c[FIELD[state.target]], tr = transcription(c);
   const say = letter ? `${c.l} ${c.t}` : word;                              // a consonant is read with its word: ก ไก่
-  const meaning = letter ? `${c.l} ${c.t} · ${c.w} — ${c[FIELD[state.base]]}` : c[FIELD[state.base]] + hint(c);   // school link: ก ไก่ · ko kai — chicken
+  const meaning = letter ? esc(`${c.l} ${c.t} · ${c.w} — ${c[FIELD[state.base]]}`) : esc(c[FIELD[state.base]]) + hint(c);   // html (hint is markup)   // school link: ก ไก่ · ko kai — chicken
   const url = `https://translate.google.com/?sl=${state.target}&tl=${state.base}&text=${encodeURIComponent(word)}&op=translate`;
   return `<article class="post overflow-hidden border border-zinc-800 bg-zinc-900 sm:rounded-lg" data-id="${c.p}:${c.e}">
   <header class="flex items-center gap-2 px-3 py-2 text-xs text-zinc-400">
@@ -290,7 +290,7 @@ function card(c) {
       <span class="font-word ${state.target === 'th' ? 'text-2xl' : 'text-xl'} font-semibold leading-snug">${esc(word)}</span>
       ${tr ? `<span class="ml-2 text-sm text-zinc-500">${esc(tr)}</span>` : ''}
     </button>
-    <div class="more"><div class="overflow-hidden text-sm"><p class="mt-1 text-base text-zinc-300">${esc(meaning)}</p>${c.o ? `<p class="mt-1 text-sm text-amber-400/90">${esc(c.o[state.base] || c.o.en)}</p>` : ''}${example(c)}</div></div>
+    <div class="more"><div class="overflow-hidden text-sm"><p class="mt-1 text-base text-zinc-300">${meaning}</p>${c.o ? `<p class="mt-1 text-sm text-amber-400/90">${esc(c.o[state.base] || c.o.en)}</p>` : ''}${example(c)}</div></div>
   </div>
 </article>`;
 }
